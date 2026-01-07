@@ -8,49 +8,49 @@
       "key": "metric",
       "name": {
         "en": "Metric",
-        "sv": "Metric"
+        "sv": "Metrisk"
       }
     },
     {
       "key": "us_wet",
       "name": {
         "en": "U.S. Wet Volume",
-        "sv": "U.S. Wet Volume"
+        "sv": "U.S. våt volym"
       }
     },
     {
       "key": "us_dry",
       "name": {
         "en": "U.S. Dry Volume",
-        "sv": "U.S. Dry Volume"
+        "sv": "U.S. torr volym"
       }
     },
     {
       "key": "british",
       "name": {
         "en": "British Wet / Dry Volume",
-        "sv": "British Wet / Dry Volume"
+        "sv": "Brittisk våt / torr volym"
       }
     },
     {
       "key": "japanese",
       "name": {
         "en": "Japanese",
-        "sv": "Japanese"
+        "sv": "Japansk"
       }
     },
     {
       "key": "cooking_se",
       "name": {
         "en": "Cooking (Sweden)",
-        "sv": "Cooking (Sweden)"
+        "sv": "Matmått (Svenska)"
       }
     },
     {
       "key": "cooking_us",
       "name": {
         "en": "Cooking (U.S.)",
-        "sv": "Cooking (U.S.)"
+        "sv": "Matmått (U.S.)"
       }
     }
   ],
@@ -60,9 +60,9 @@
       "type": "metric",
       "name": {
         "en": "cubic kilometer",
-        "sv": "cubic kilometer"
+        "sv": "kubikkilometer"
       },
-      "abbr": "km3",
+      "abbr": "km³",
       "transform": {
         "kind": "linear",
         "factor": 1000000000.0
@@ -73,9 +73,9 @@
       "type": "metric",
       "name": {
         "en": "cubic meter",
-        "sv": "cubic meter"
+        "sv": "kubikmeter"
       },
-      "abbr": "m3",
+      "abbr": "m³",
       "transform": {
         "kind": "linear",
         "factor": 1.0
@@ -86,7 +86,7 @@
       "type": "metric",
       "name": {
         "en": "hectoliter",
-        "sv": "hectoliter"
+        "sv": "hektoliter"
       },
       "abbr": "hl",
       "transform": {
@@ -112,9 +112,9 @@
       "type": "metric",
       "name": {
         "en": "cubic decimeter",
-        "sv": "cubic decimeter"
+        "sv": "kubikdecimeter"
       },
-      "abbr": "dm3",
+      "abbr": "dm³",
       "transform": {
         "kind": "linear",
         "factor": 0.001
@@ -164,9 +164,9 @@
       "type": "metric",
       "name": {
         "en": "cubic centimeter",
-        "sv": "cubic centimeter"
+        "sv": "kubikcentimeter"
       },
-      "abbr": "cm3",
+      "abbr": "cm³",
       "transform": {
         "kind": "linear",
         "factor": 1e-06
@@ -190,9 +190,9 @@
       "type": "metric",
       "name": {
         "en": "cubic millimeter",
-        "sv": "cubic millimeter"
+        "sv": "kubikmillimeter"
       },
-      "abbr": "mm3",
+      "abbr": "mm³",
       "transform": {
         "kind": "linear",
         "factor": 1e-09
@@ -203,9 +203,9 @@
       "type": "metric",
       "name": {
         "en": "microliter",
-        "sv": "microliter"
+        "sv": "mikroliter"
       },
-      "abbr": "ul",
+      "abbr": "µl",
       "transform": {
         "kind": "linear",
         "factor": 1e-09
@@ -231,7 +231,7 @@
         "en": "cubic yard",
         "sv": "cubic yard"
       },
-      "abbr": "yd3",
+      "abbr": "yd³",
       "transform": {
         "kind": "linear",
         "factor": 0.7645548999999777
@@ -257,7 +257,7 @@
         "en": "cubic foot",
         "sv": "cubic foot"
       },
-      "abbr": "ft3",
+      "abbr": "ft³",
       "transform": {
         "kind": "linear",
         "factor": 0.02831684999999981
@@ -335,7 +335,7 @@
         "en": "cubic inch",
         "sv": "cubic inch"
       },
-      "abbr": "in3",
+      "abbr": "in³",
       "transform": {
         "kind": "linear",
         "factor": 1.638706000000008e-05
@@ -606,7 +606,7 @@
       "type": "cooking_se",
       "name": {
         "en": "tablespoon",
-        "sv": "tablespoon"
+        "sv": "matsked"
       },
       "abbr": "msk",
       "transform": {
@@ -619,7 +619,7 @@
       "type": "cooking_se",
       "name": {
         "en": "teaspoon",
-        "sv": "teaspoon"
+        "sv": "tesked"
       },
       "abbr": "tsk",
       "transform": {
@@ -632,7 +632,7 @@
       "type": "cooking_se",
       "name": {
         "en": "spice measure",
-        "sv": "spice measure"
+        "sv": "kryddmått"
       },
       "abbr": "krm",
       "transform": {

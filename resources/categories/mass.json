@@ -8,7 +8,7 @@
       "key": "metric",
       "name": {
         "en": "Metric",
-        "sv": "Metric"
+        "sv": "Metrisk"
       }
     },
     {
@@ -22,7 +22,7 @@
       "key": "swedish",
       "name": {
         "en": "Old Swedish",
-        "sv": "Old Swedish"
+        "sv": "Gammal Svensk"
       }
     },
     {
@@ -36,14 +36,14 @@
       "key": "japanese",
       "name": {
         "en": "Japanese",
-        "sv": "Japanese"
+        "sv": "Japansk"
       }
     },
     {
       "key": "chinese",
       "name": {
         "en": "Chinese",
-        "sv": "Chinese"
+        "sv": "Kinesisk"
       }
     }
   ],
@@ -53,7 +53,7 @@
       "type": "metric",
       "name": {
         "en": "tonne",
-        "sv": "tonne"
+        "sv": "ton"
       },
       "abbr": "t",
       "transform": {
@@ -118,7 +118,7 @@
       "type": "metric",
       "name": {
         "en": "carat",
-        "sv": "carat"
+        "sv": "karat"
       },
       "abbr": "ct",
       "transform": {
@@ -157,9 +157,9 @@
       "type": "metric",
       "name": {
         "en": "microgram",
-        "sv": "microgram"
+        "sv": "mikrogram"
       },
-      "abbr": "ug",
+      "abbr": "µg",
       "transform": {
         "kind": "linear",
         "factor": 1e-09
@@ -326,9 +326,9 @@
       "type": "swedish",
       "name": {
         "en": "skalpund",
-        "sv": "skalpund"
+        "sv": "skålpund"
       },
-      "abbr": "skalpund",
+      "abbr": "skålpund",
       "transform": {
         "kind": "linear",
         "factor": 0.4249999999999979
@@ -417,7 +417,7 @@
       "type": "troy",
       "name": {
         "en": "carat (troy)",
-        "sv": "carat (troy)"
+        "sv": "carat"
       },
       "abbr": "ct t",
       "transform": {
@@ -430,7 +430,7 @@
       "type": "troy",
       "name": {
         "en": "grain (troy)",
-        "sv": "grain (troy)"
+        "sv": "grain"
       },
       "abbr": "gr t",
       "transform": {

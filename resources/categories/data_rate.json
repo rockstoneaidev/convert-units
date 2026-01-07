@@ -15,7 +15,7 @@
       "key": "binary",
       "name": {
         "en": "Binary Prefix",
-        "sv": "Binary Prefix"
+        "sv": "Binär prefix"
       }
     }
   ],
@@ -25,7 +25,7 @@
       "type": "decimal",
       "name": {
         "en": "gigabyte per second",
-        "sv": "gigabyte per second"
+        "sv": "gigabyte per sekund"
       },
       "abbr": "GB/s",
       "transform": {
@@ -38,7 +38,7 @@
       "type": "decimal",
       "name": {
         "en": "gigabit per second",
-        "sv": "gigabit per second"
+        "sv": "gigabit per sekund"
       },
       "abbr": "Gbit/s",
       "transform": {
@@ -51,7 +51,7 @@
       "type": "decimal",
       "name": {
         "en": "megabyte per second",
-        "sv": "megabyte per second"
+        "sv": "megabyte per sekund"
       },
       "abbr": "MB/s",
       "transform": {
@@ -64,7 +64,7 @@
       "type": "decimal",
       "name": {
         "en": "megabit per second",
-        "sv": "megabit per second"
+        "sv": "megabit per sekund"
       },
       "abbr": "Mbit/s",
       "transform": {
@@ -77,7 +77,7 @@
       "type": "decimal",
       "name": {
         "en": "kilobyte per second",
-        "sv": "kilobyte per second"
+        "sv": "kilobyte per sekund"
       },
       "abbr": "kB/s",
       "transform": {
@@ -90,7 +90,7 @@
       "type": "decimal",
       "name": {
         "en": "kilobit per second",
-        "sv": "kilobit per second"
+        "sv": "kilobit per sekund"
       },
       "abbr": "kbit/s",
       "transform": {
@@ -103,7 +103,7 @@
       "type": "decimal",
       "name": {
         "en": "byte per second",
-        "sv": "byte per second"
+        "sv": "byte per sekund"
       },
       "abbr": "B/s",
       "transform": {
@@ -116,7 +116,7 @@
       "type": "decimal",
       "name": {
         "en": "bit per second",
-        "sv": "bit per second"
+        "sv": "bit per sekund"
       },
       "abbr": "bps",
       "transform": {
@@ -129,7 +129,7 @@
       "type": "binary",
       "name": {
         "en": "gibibit per second",
-        "sv": "gibibit per second"
+        "sv": "gibibit per sekund"
       },
       "abbr": "Gibit/s",
       "transform": {
@@ -142,7 +142,7 @@
       "type": "binary",
       "name": {
         "en": "mebibit per second",
-        "sv": "mebibit per second"
+        "sv": "mebibit per sekund"
       },
       "abbr": "Mibit/s",
       "transform": {
@@ -155,7 +155,7 @@
       "type": "binary",
       "name": {
         "en": "kibibit per second",
-        "sv": "kibibit per second"
+        "sv": "kibibit per sekund"
       },
       "abbr": "Kibit/s",
       "transform": {

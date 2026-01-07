@@ -8,7 +8,7 @@
       "key": "metric",
       "name": {
         "en": "Metric",
-        "sv": "Metric"
+        "sv": "Metrisk"
       }
     },
     {
@@ -22,21 +22,21 @@
       "key": "mercury",
       "name": {
         "en": "Mercury",
-        "sv": "Mercury"
+        "sv": "Kvicksilver"
       }
     },
     {
       "key": "water",
       "name": {
         "en": "Water",
-        "sv": "Water"
+        "sv": "Vatten"
       }
     },
     {
       "key": "atmosphere",
       "name": {
         "en": "Atmosphere",
-        "sv": "Atmosphere"
+        "sv": "Atmosfär"
       }
     }
   ],
@@ -72,9 +72,9 @@
       "type": "metric",
       "name": {
         "en": "kilogram per square centimeter",
-        "sv": "kilogram per square centimeter"
+        "sv": "kilogram per kvadratcentimeter"
       },
-      "abbr": "kg/cm2",
+      "abbr": "kg/cm²",
       "transform": {
         "kind": "linear",
         "factor": 98066.50000000272
@@ -98,7 +98,7 @@
       "type": "metric",
       "name": {
         "en": "hectopascal",
-        "sv": "hectopascal"
+        "sv": "hektopascal"
       },
       "abbr": "hPa",
       "transform": {
@@ -124,9 +124,9 @@
       "type": "metric",
       "name": {
         "en": "kilogram per square meter",
-        "sv": "kilogram per square meter"
+        "sv": "kilogram per kvadratmeter"
       },
-      "abbr": "kg/m2",
+      "abbr": "kg/m²",
       "transform": {
         "kind": "linear",
         "factor": 9.806650000000271
@@ -150,7 +150,7 @@
       "type": "avoirdupois",
       "name": {
         "en": "kilopound per square inch",
-        "sv": "kilopound per square inch"
+        "sv": "kilopound per kvadrattum"
       },
       "abbr": "ksi",
       "transform": {
@@ -163,7 +163,7 @@
       "type": "avoirdupois",
       "name": {
         "en": "pound per square inch",
-        "sv": "pound per square inch"
+        "sv": "pound per kvadrattum"
       },
       "abbr": "psi",
       "transform": {
@@ -176,7 +176,7 @@
       "type": "avoirdupois",
       "name": {
         "en": "pound per square foot",
-        "sv": "pound per square foot"
+        "sv": "pound per kvadratfot"
       },
       "abbr": "psf",
       "transform": {
@@ -189,7 +189,7 @@
       "type": "mercury",
       "name": {
         "en": "meter of mercury",
-        "sv": "meter of mercury"
+        "sv": "meter kvicksilver"
       },
       "abbr": "mHg",
       "transform": {
@@ -202,7 +202,7 @@
       "type": "mercury",
       "name": {
         "en": "inch of mercury",
-        "sv": "inch of mercury"
+        "sv": "tum kvicksilver"
       },
       "abbr": "inHg",
       "transform": {
@@ -215,7 +215,7 @@
       "type": "mercury",
       "name": {
         "en": "centimeter of mercury",
-        "sv": "centimeter of mercury"
+        "sv": "centimeter kvicksilver"
       },
       "abbr": "cmHg",
       "transform": {
@@ -228,7 +228,7 @@
       "type": "mercury",
       "name": {
         "en": "millimeter of mercury",
-        "sv": "millimeter of mercury"
+        "sv": "millimeter kvicksilver"
       },
       "abbr": "mmHg",
       "transform": {
@@ -241,9 +241,9 @@
       "type": "water",
       "name": {
         "en": "meter of water",
-        "sv": "meter of water"
+        "sv": "meter vatten"
       },
-      "abbr": "mH2O",
+      "abbr": "mH₂O",
       "transform": {
         "kind": "linear",
         "factor": 9806.378999999635
@@ -254,9 +254,9 @@
       "type": "water",
       "name": {
         "en": "inch of water",
-        "sv": "inch of water"
+        "sv": "tum vatten"
       },
-      "abbr": "inH2O",
+      "abbr": "inH₂O",
       "transform": {
         "kind": "linear",
         "factor": 249.0819999999994
@@ -267,9 +267,9 @@
       "type": "water",
       "name": {
         "en": "centimeter of water",
-        "sv": "centimeter of water"
+        "sv": "centimeter vatten"
       },
-      "abbr": "cmH2O",
+      "abbr": "cmH₂O",
       "transform": {
         "kind": "linear",
         "factor": 98.06378999999635
@@ -280,7 +280,7 @@
       "type": "atmosphere",
       "name": {
         "en": "standard atmosphere",
-        "sv": "standard atmosphere"
+        "sv": "fysik atmosfär"
       },
       "abbr": "atm",
       "transform": {
@@ -293,7 +293,7 @@
       "type": "atmosphere",
       "name": {
         "en": "technical atmosphere",
-        "sv": "technical atmosphere"
+        "sv": "teknisk atmosfär"
       },
       "abbr": "at",
       "transform": {

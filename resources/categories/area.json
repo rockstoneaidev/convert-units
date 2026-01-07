@@ -8,28 +8,28 @@
       "key": "metric",
       "name": {
         "en": "Metric",
-        "sv": "Metric"
+        "sv": "Metrisk"
       }
     },
     {
       "key": "swedish",
       "name": {
         "en": "Old Swedish",
-        "sv": "Old Swedish"
+        "sv": "Gammal Svensk"
       }
     },
     {
       "key": "imperial",
       "name": {
         "en": "British / American",
-        "sv": "British / American"
+        "sv": "Brittisk / Amerikansk"
       }
     },
     {
       "key": "japanese",
       "name": {
         "en": "Japanese",
-        "sv": "Japanese"
+        "sv": "Japansk"
       }
     }
   ],
@@ -39,9 +39,9 @@
       "type": "metric",
       "name": {
         "en": "square kilometer",
-        "sv": "square kilometer"
+        "sv": "kvadratkilometer"
       },
-      "abbr": "km2",
+      "abbr": "km²",
       "transform": {
         "kind": "linear",
         "factor": 1000000.0
@@ -52,9 +52,9 @@
       "type": "metric",
       "name": {
         "en": "square hectometer",
-        "sv": "square hectometer"
+        "sv": "kvadrathektometer"
       },
-      "abbr": "hm2",
+      "abbr": "hm²",
       "transform": {
         "kind": "linear",
         "factor": 10000.0
@@ -65,7 +65,7 @@
       "type": "metric",
       "name": {
         "en": "hectare",
-        "sv": "hectare"
+        "sv": "hektar"
       },
       "abbr": "ha",
       "transform": {
@@ -78,9 +78,9 @@
       "type": "metric",
       "name": {
         "en": "square dekameter",
-        "sv": "square dekameter"
+        "sv": "kvadratdekameter"
       },
-      "abbr": "dam2",
+      "abbr": "dam²",
       "transform": {
         "kind": "linear",
         "factor": 100.0
@@ -91,9 +91,9 @@
       "type": "metric",
       "name": {
         "en": "square meter",
-        "sv": "square meter"
+        "sv": "kvadratmeter"
       },
-      "abbr": "m2",
+      "abbr": "m²",
       "transform": {
         "kind": "linear",
         "factor": 1.0
@@ -104,9 +104,9 @@
       "type": "metric",
       "name": {
         "en": "square decimeter",
-        "sv": "square decimeter"
+        "sv": "kvadratdecimeter"
       },
-      "abbr": "dm2",
+      "abbr": "dm²",
       "transform": {
         "kind": "linear",
         "factor": 0.01
@@ -117,9 +117,9 @@
       "type": "metric",
       "name": {
         "en": "square millimeter",
-        "sv": "square millimeter"
+        "sv": "kvadratmillimeter"
       },
-      "abbr": "mm2",
+      "abbr": "mm²",
       "transform": {
         "kind": "linear",
         "factor": 1e-06
@@ -130,9 +130,9 @@
       "type": "metric",
       "name": {
         "en": "square micrometer",
-        "sv": "square micrometer"
+        "sv": "kvadratmikrometer"
       },
-      "abbr": "um2",
+      "abbr": "µm²",
       "transform": {
         "kind": "linear",
         "factor": 1e-12
@@ -143,9 +143,9 @@
       "type": "metric",
       "name": {
         "en": "square nanometer",
-        "sv": "square nanometer"
+        "sv": "kvadratnanometer"
       },
-      "abbr": "nm2",
+      "abbr": "nm²",
       "transform": {
         "kind": "linear",
         "factor": 1e-18
@@ -169,9 +169,9 @@
       "type": "swedish",
       "name": {
         "en": "skappland",
-        "sv": "skappland"
+        "sv": "skäppland"
       },
-      "abbr": "skappland",
+      "abbr": "skäppland",
       "transform": {
         "kind": "linear",
         "factor": 822.9999999999845
@@ -195,9 +195,9 @@
       "type": "imperial",
       "name": {
         "en": "square mile",
-        "sv": "square mile"
+        "sv": "square mil"
       },
-      "abbr": "mi2",
+      "abbr": "mi²",
       "transform": {
         "kind": "linear",
         "factor": 2589988.0000000144
@@ -249,7 +249,7 @@
         "en": "square rod",
         "sv": "square rod"
       },
-      "abbr": "rod2",
+      "abbr": "rod²",
       "transform": {
         "kind": "linear",
         "factor": 25.292850000000133
@@ -275,7 +275,7 @@
         "en": "square yard",
         "sv": "square yard"
       },
-      "abbr": "yd2",
+      "abbr": "yd²",
       "transform": {
         "kind": "linear",
         "factor": 0.8361274636189232
@@ -288,7 +288,7 @@
         "en": "square foot",
         "sv": "square foot"
       },
-      "abbr": "ft2",
+      "abbr": "ft²",
       "transform": {
         "kind": "linear",
         "factor": 0.0929030399999976
@@ -301,7 +301,7 @@
         "en": "square inch",
         "sv": "square inch"
       },
-      "abbr": "in2",
+      "abbr": "in²",
       "transform": {
         "kind": "linear",
         "factor": 0.00064516

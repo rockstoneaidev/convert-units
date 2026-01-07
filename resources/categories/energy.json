@@ -8,21 +8,21 @@
       "key": "metric",
       "name": {
         "en": "Metric",
-        "sv": "Metric"
+        "sv": "Metrisk"
       }
     },
     {
       "key": "imperial",
       "name": {
         "en": "British / American",
-        "sv": "British / American"
+        "sv": "Brittisk / Amerikansk"
       }
     },
     {
       "key": "common",
       "name": {
         "en": "Common Units",
-        "sv": "Common Units"
+        "sv": "Vanliga enheter"
       }
     }
   ],
@@ -32,7 +32,7 @@
       "type": "metric",
       "name": {
         "en": "terawatt hour",
-        "sv": "terawatt hour"
+        "sv": "terawattimme"
       },
       "abbr": "TWh",
       "transform": {
@@ -45,7 +45,7 @@
       "type": "metric",
       "name": {
         "en": "gigawatt hour",
-        "sv": "gigawatt hour"
+        "sv": "gigawattimme"
       },
       "abbr": "GWh",
       "transform": {
@@ -58,7 +58,7 @@
       "type": "metric",
       "name": {
         "en": "megawatt hour",
-        "sv": "megawatt hour"
+        "sv": "megawattimme"
       },
       "abbr": "MWh",
       "transform": {
@@ -71,7 +71,7 @@
       "type": "metric",
       "name": {
         "en": "kilowatt hour",
-        "sv": "kilowatt hour"
+        "sv": "kilowattimme"
       },
       "abbr": "kWh",
       "transform": {
@@ -110,7 +110,7 @@
       "type": "metric",
       "name": {
         "en": "watt second",
-        "sv": "watt second"
+        "sv": "wattsekund"
       },
       "abbr": "Ws",
       "transform": {
@@ -136,7 +136,7 @@
       "type": "metric",
       "name": {
         "en": "electronvolt",
-        "sv": "electronvolt"
+        "sv": "elektronvolt"
       },
       "abbr": "eV",
       "transform": {
@@ -175,7 +175,7 @@
       "type": "imperial",
       "name": {
         "en": "british thermal unit",
-        "sv": "british thermal unit"
+        "sv": "brittisk termisk enhet"
       },
       "abbr": "BTU",
       "transform": {
@@ -188,9 +188,9 @@
       "type": "imperial",
       "name": {
         "en": "foot-pound",
-        "sv": "foot-pound"
+        "sv": "fotpund"
       },
-      "abbr": "ft*lb",
+      "abbr": "ft×lb",
       "transform": {
         "kind": "linear",
         "factor": 1.3557810000000057
@@ -201,7 +201,7 @@
       "type": "common",
       "name": {
         "en": "kilocalorie",
-        "sv": "kilocalorie"
+        "sv": "kilokalori"
       },
       "abbr": "kcal",
       "transform": {
@@ -214,7 +214,7 @@
       "type": "common",
       "name": {
         "en": "calorie",
-        "sv": "calorie"
+        "sv": "kalori"
       },
       "abbr": "cal",
       "transform": {

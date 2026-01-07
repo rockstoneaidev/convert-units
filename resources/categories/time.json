@@ -8,21 +8,21 @@
       "key": "metric",
       "name": {
         "en": "Metric",
-        "sv": "Metric"
+        "sv": "Metrisk"
       }
     },
     {
       "key": "common",
       "name": {
         "en": "Common Units",
-        "sv": "Common Units"
+        "sv": "Vanliga enheter"
       }
     },
     {
       "key": "astronomical",
       "name": {
         "en": "Astronomical",
-        "sv": "Astronomical"
+        "sv": "Astronomisk"
       }
     }
   ],
@@ -32,7 +32,7 @@
       "type": "metric",
       "name": {
         "en": "scientific year",
-        "sv": "scientific year"
+        "sv": "vetenskapligt år"
       },
       "abbr": "a",
       "transform": {
@@ -45,7 +45,7 @@
       "type": "metric",
       "name": {
         "en": "second",
-        "sv": "second"
+        "sv": "sekund"
       },
       "abbr": "s",
       "transform": {
@@ -58,7 +58,7 @@
       "type": "metric",
       "name": {
         "en": "millisecond",
-        "sv": "millisecond"
+        "sv": "millisekund"
       },
       "abbr": "ms",
       "transform": {
@@ -71,9 +71,9 @@
       "type": "metric",
       "name": {
         "en": "microsecond",
-        "sv": "microsecond"
+        "sv": "mikrosekund"
       },
-      "abbr": "us",
+      "abbr": "µs",
       "transform": {
         "kind": "linear",
         "factor": 1e-06
@@ -84,7 +84,7 @@
       "type": "metric",
       "name": {
         "en": "nanosecond",
-        "sv": "nanosecond"
+        "sv": "nanosekund"
       },
       "abbr": "ns",
       "transform": {
@@ -97,7 +97,7 @@
       "type": "common",
       "name": {
         "en": "julian year",
-        "sv": "julian year"
+        "sv": "julianskt år"
       },
       "abbr": "a",
       "transform": {
@@ -110,7 +110,7 @@
       "type": "common",
       "name": {
         "en": "gregorian year",
-        "sv": "gregorian year"
+        "sv": "gregorianskt år"
       },
       "abbr": "a",
       "transform": {
@@ -123,7 +123,7 @@
       "type": "common",
       "name": {
         "en": "month (30 days)",
-        "sv": "month (30 days)"
+        "sv": "månad (30 dagar)"
       },
       "abbr": "mo",
       "transform": {
@@ -136,7 +136,7 @@
       "type": "common",
       "name": {
         "en": "week",
-        "sv": "week"
+        "sv": "vecka"
       },
       "abbr": "wk",
       "transform": {
@@ -149,7 +149,7 @@
       "type": "common",
       "name": {
         "en": "day",
-        "sv": "day"
+        "sv": "dag"
       },
       "abbr": "d",
       "transform": {
@@ -162,7 +162,7 @@
       "type": "common",
       "name": {
         "en": "hour",
-        "sv": "hour"
+        "sv": "timme"
       },
       "abbr": "h",
       "transform": {
@@ -175,7 +175,7 @@
       "type": "common",
       "name": {
         "en": "minute",
-        "sv": "minute"
+        "sv": "minut"
       },
       "abbr": "min",
       "transform": {
@@ -188,7 +188,7 @@
       "type": "astronomical",
       "name": {
         "en": "anomalistic year",
-        "sv": "anomalistic year"
+        "sv": "anomalistiskt år"
       },
       "abbr": "a",
       "transform": {
@@ -201,7 +201,7 @@
       "type": "astronomical",
       "name": {
         "en": "sidereal year",
-        "sv": "sidereal year"
+        "sv": "sideriskt år"
       },
       "abbr": "a",
       "transform": {
@@ -214,7 +214,7 @@
       "type": "astronomical",
       "name": {
         "en": "stellar year",
-        "sv": "stellar year"
+        "sv": "stjärnår"
       },
       "abbr": "a",
       "transform": {
@@ -227,7 +227,7 @@
       "type": "astronomical",
       "name": {
         "en": "tropical year",
-        "sv": "tropical year"
+        "sv": "tropiskt år"
       },
       "abbr": "a",
       "transform": {

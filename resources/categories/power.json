@@ -8,21 +8,21 @@
       "key": "metric",
       "name": {
         "en": "Metric",
-        "sv": "Metric"
+        "sv": "Metrisk"
       }
     },
     {
       "key": "imperial",
       "name": {
         "en": "British / American",
-        "sv": "British / American"
+        "sv": "Brittisk / Amerikansk"
       }
     },
     {
       "key": "common",
       "name": {
         "en": "Common Units",
-        "sv": "Common Units"
+        "sv": "Vanliga enheter"
       }
     }
   ],
@@ -84,7 +84,7 @@
       "type": "metric",
       "name": {
         "en": "metric horsepower",
-        "sv": "metric horsepower"
+        "sv": "hästkraft"
       },
       "abbr": "hk",
       "transform": {
@@ -123,9 +123,9 @@
       "type": "metric",
       "name": {
         "en": "microwatt",
-        "sv": "microwatt"
+        "sv": "mikrowatt"
       },
-      "abbr": "uW",
+      "abbr": "µW",
       "transform": {
         "kind": "linear",
         "factor": 1e-06
@@ -149,7 +149,7 @@
       "type": "imperial",
       "name": {
         "en": "british thermal unit per second",
-        "sv": "british thermal unit per second"
+        "sv": "brittisk termisk enhet per sekund"
       },
       "abbr": "BTU/s",
       "transform": {
@@ -162,7 +162,7 @@
       "type": "imperial",
       "name": {
         "en": "horsepower",
-        "sv": "horsepower"
+        "sv": "hästkraft"
       },
       "abbr": "hp",
       "transform": {
@@ -175,7 +175,7 @@
       "type": "imperial",
       "name": {
         "en": "british thermal unit per minute",
-        "sv": "british thermal unit per minute"
+        "sv": "brittisk termisk enhet per minut"
       },
       "abbr": "BTU/min",
       "transform": {
@@ -188,9 +188,9 @@
       "type": "imperial",
       "name": {
         "en": "foot pound-force per second",
-        "sv": "foot pound-force per second"
+        "sv": "fotpundkraft per sekund"
       },
-      "abbr": "ft*lbf/s",
+      "abbr": "ft×lbf/s",
       "transform": {
         "kind": "linear",
         "factor": 1.3558179999999918
@@ -201,7 +201,7 @@
       "type": "imperial",
       "name": {
         "en": "british thermal unit per hour",
-        "sv": "british thermal unit per hour"
+        "sv": "brittisk termisk enhet per timme"
       },
       "abbr": "BTU/h",
       "transform": {
@@ -214,7 +214,7 @@
       "type": "common",
       "name": {
         "en": "kilocalorie per hour",
-        "sv": "kilocalorie per hour"
+        "sv": "kilokalori per timme"
       },
       "abbr": "kcal/h",
       "transform": {
@@ -227,7 +227,7 @@
       "type": "common",
       "name": {
         "en": "calorie per hour",
-        "sv": "calorie per hour"
+        "sv": "kalori per timme"
       },
       "abbr": "cal/h",
       "transform": {

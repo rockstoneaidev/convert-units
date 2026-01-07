@@ -8,14 +8,14 @@
       "key": "bit",
       "name": {
         "en": "Bit-based units",
-        "sv": "Bit-based units"
+        "sv": "Bitbaserade enheter"
       }
     },
     {
       "key": "byte",
       "name": {
         "en": "Byte-based units",
-        "sv": "Byte-based units"
+        "sv": "Bytebaserade enheter"
       }
     }
   ],
