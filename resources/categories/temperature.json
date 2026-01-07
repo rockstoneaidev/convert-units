@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "key": "temperature",
+  "family": "physics",
+  "base_unit": "kelvin",
+  "types": [
+    {
+      "key": "metric",
+      "name": {"sv": "Metrisk", "en": "Metric"}
+    },
+    {
+      "key": "imperial",
+      "name": {"sv": "Anglosaxisk", "en": "Imperial"}
+    }
+  ],
+  "units": [
+    {
+      "key": "kelvin",
+      "type": "metric",
+      "name": {"sv": "Kelvin", "en": "Kelvin"},
+      "abbr": "K",
+      "transform": {"kind": "affine", "factor": 1, "offset": 0}
+    },
+    {
+      "key": "celsius",
+      "type": "metric",
+      "name": {"sv": "Celsius", "en": "Celsius"},
+      "abbr": "C",
+      "transform": {"kind": "affine", "factor": 1, "offset": 273.15}
+    },
+    {
+      "key": "fahrenheit",
+      "type": "imperial",
+      "name": {"sv": "Fahrenheit", "en": "Fahrenheit"},
+      "abbr": "F",
+      "transform": {"kind": "affine", "factor": 0.5555555555555556, "offset": 255.3722222222222}
+    },
+    {
+      "key": "rankine",
+      "type": "imperial",
+      "name": {"sv": "Rankine", "en": "Rankine"},
+      "abbr": "R",
+      "transform": {"kind": "affine", "factor": 0.5555555555555556, "offset": 0}
+    }
+  ]
+}

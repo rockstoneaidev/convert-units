@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "key": "fuel_consumption",
+  "family": "transport",
+  "base_unit": "liter_per_kilometer",
+  "types": [
+    {
+      "key": "metric",
+      "name": {"sv": "Metrisk", "en": "Metric"}
+    },
+    {
+      "key": "imperial",
+      "name": {"sv": "Anglosaxisk", "en": "Imperial"}
+    }
+  ],
+  "units": [
+    {
+      "key": "liter_per_kilometer",
+      "type": "metric",
+      "name": {"sv": "Liter per kilometer", "en": "Liters per kilometer"},
+      "abbr": "L/km",
+      "transform": {"kind": "linear", "factor": 1}
+    },
+    {
+      "key": "liter_per_100km",
+      "type": "metric",
+      "name": {"sv": "Liter per 100 kilometer", "en": "Liters per 100 kilometers"},
+      "abbr": "L/100km",
+      "transform": {"kind": "linear", "factor": 0.01}
+    },
+    {
+      "key": "kilometer_per_liter",
+      "type": "metric",
+      "name": {"sv": "Kilometer per liter", "en": "Kilometers per liter"},
+      "abbr": "km/L",
+      "transform": {"kind": "reciprocal_factor", "factor": 1}
+    },
+    {
+      "key": "miles_per_gallon_us",
+      "type": "imperial",
+      "name": {"sv": "Miles per gallon (US)", "en": "Miles per gallon (US)"},
+      "abbr": "mpg (US)",
+      "transform": {"kind": "reciprocal_factor", "factor": 2.3521458333333333}
+    },
+    {
+      "key": "miles_per_gallon_uk",
+      "type": "imperial",
+      "name": {"sv": "Miles per gallon (UK)", "en": "Miles per gallon (UK)"},
+      "abbr": "mpg (UK)",
+      "transform": {"kind": "reciprocal_factor", "factor": 2.824809363864494}
+    }
+  ]
+}

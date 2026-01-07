@@ -1,9 +1,12 @@
 {
   "schema_version": 1,
   "categories": [
-    {"key": "length", "family": "physics"}
+    {"key": "length", "family": "physics"},
+    {"key": "temperature", "family": "physics"},
+    {"key": "fuel_consumption", "family": "transport"}
   ],
   "families": [
-    {"key": "physics", "name": {"sv": "Fysik", "en": "Physics"}}
+    {"key": "physics", "name": {"sv": "Fysik", "en": "Physics"}},
+    {"key": "transport", "name": {"sv": "Transport", "en": "Transport"}}
   ]
 }
