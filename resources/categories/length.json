@@ -6,69 +6,763 @@
   "types": [
     {
       "key": "metric",
-      "name": {"sv": "Metrisk", "en": "Metric"}
+      "name": {
+        "en": "Metric",
+        "sv": "Metrisk"
+      }
+    },
+    {
+      "key": "swedish",
+      "name": {
+        "en": "Old Swedish",
+        "sv": "Gammal Svensk"
+      }
     },
     {
       "key": "imperial",
-      "name": {"sv": "Anglosaxisk", "en": "Imperial"}
+      "name": {
+        "en": "British / American",
+        "sv": "Brittisk / Amerikansk"
+      }
+    },
+    {
+      "key": "nautical",
+      "name": {
+        "en": "Nautical",
+        "sv": "Nautisk"
+      }
+    },
+    {
+      "key": "greek",
+      "name": {
+        "en": "Ancient Greek",
+        "sv": "Gammal Grekisk"
+      }
+    },
+    {
+      "key": "japanese",
+      "name": {
+        "en": "Japanese",
+        "sv": "Japansk"
+      }
+    },
+    {
+      "key": "biblical",
+      "name": {
+        "en": "Biblical",
+        "sv": "Biblisk"
+      }
+    },
+    {
+      "key": "astronomical",
+      "name": {
+        "en": "Astronomical",
+        "sv": "Astronomisk"
+      }
     }
   ],
   "units": [
     {
-      "key": "meter",
-      "type": "metric",
-      "name": {"sv": "Meter", "en": "Meter"},
-      "abbr": "m",
-      "transform": {"kind": "linear", "factor": 1}
-    },
-    {
       "key": "kilometer",
       "type": "metric",
-      "name": {"sv": "Kilometer", "en": "Kilometer"},
+      "name": {
+        "en": "kilometer",
+        "sv": "kilometer"
+      },
       "abbr": "km",
-      "transform": {"kind": "linear", "factor": 1000}
+      "transform": {
+        "kind": "linear",
+        "factor": 1000.0
+      }
+    },
+    {
+      "key": "meter",
+      "type": "metric",
+      "name": {
+        "en": "meter",
+        "sv": "meter"
+      },
+      "abbr": "m",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.0
+      }
+    },
+    {
+      "key": "decimeter",
+      "type": "metric",
+      "name": {
+        "en": "decimeter",
+        "sv": "decimeter"
+      },
+      "abbr": "dm",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.1
+      }
     },
     {
       "key": "centimeter",
       "type": "metric",
-      "name": {"sv": "Centimeter", "en": "Centimeter"},
+      "name": {
+        "en": "centimeter",
+        "sv": "centimeter"
+      },
       "abbr": "cm",
-      "transform": {"kind": "linear", "factor": 0.01}
+      "transform": {
+        "kind": "linear",
+        "factor": 0.01
+      }
     },
     {
       "key": "millimeter",
       "type": "metric",
-      "name": {"sv": "Millimeter", "en": "Millimeter"},
+      "name": {
+        "en": "millimeter",
+        "sv": "millimeter"
+      },
       "abbr": "mm",
-      "transform": {"kind": "linear", "factor": 0.001}
+      "transform": {
+        "kind": "linear",
+        "factor": 0.001
+      }
     },
     {
-      "key": "inch",
-      "type": "imperial",
-      "name": {"sv": "Tum", "en": "Inch"},
-      "abbr": "in",
-      "transform": {"kind": "linear", "factor": 0.0254}
+      "key": "micrometer",
+      "type": "metric",
+      "name": {
+        "en": "micrometer",
+        "sv": "mikrometer"
+      },
+      "abbr": "µm",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-06
+      }
     },
     {
-      "key": "foot",
-      "type": "imperial",
-      "name": {"sv": "Fot", "en": "Foot"},
-      "abbr": "ft",
-      "transform": {"kind": "linear", "factor": 0.3048}
+      "key": "nanometer",
+      "type": "metric",
+      "name": {
+        "en": "nanometer",
+        "sv": "nanometer"
+      },
+      "abbr": "nm",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-09
+      }
     },
     {
-      "key": "yard",
+      "key": "angstrom",
+      "type": "metric",
+      "name": {
+        "en": "angstrom",
+        "sv": "ångström"
+      },
+      "abbr": "Å",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-10
+      }
+    },
+    {
+      "key": "swedish_mil",
+      "type": "swedish",
+      "name": {
+        "en": "mil",
+        "sv": "mil"
+      },
+      "abbr": "mil",
+      "transform": {
+        "kind": "linear",
+        "factor": 10000.0
+      }
+    },
+    {
+      "key": "fjaerdingsvaeg",
+      "type": "swedish",
+      "name": {
+        "en": "fjardingsvag",
+        "sv": "fjärdingsväg"
+      },
+      "abbr": "fjärdingsväg",
+      "transform": {
+        "kind": "linear",
+        "factor": 2671.999999999986
+      }
+    },
+    {
+      "key": "famn",
+      "type": "swedish",
+      "name": {
+        "en": "famn",
+        "sv": "famn"
+      },
+      "abbr": "famn",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.779999999999996
+      }
+    },
+    {
+      "key": "steg",
+      "type": "swedish",
+      "name": {
+        "en": "steg",
+        "sv": "steg"
+      },
+      "abbr": "steg",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.900000000000009
+      }
+    },
+    {
+      "key": "aln",
+      "type": "swedish",
+      "name": {
+        "en": "aln",
+        "sv": "aln"
+      },
+      "abbr": "aln",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.5938020000000115
+      }
+    },
+    {
+      "key": "swedish_fot",
+      "type": "swedish",
+      "name": {
+        "en": "foot",
+        "sv": "fot"
+      },
+      "abbr": "fot",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.296900999999997
+      }
+    },
+    {
+      "key": "verktum",
+      "type": "swedish",
+      "name": {
+        "en": "verktum",
+        "sv": "verktum"
+      },
+      "abbr": "verktum",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.024741750000000114
+      }
+    },
+    {
+      "key": "tum",
+      "type": "swedish",
+      "name": {
+        "en": "inch",
+        "sv": "tum"
+      },
+      "abbr": "tum",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.02474000000000011
+      }
+    },
+    {
+      "key": "verklinje",
+      "type": "swedish",
+      "name": {
+        "en": "verkline",
+        "sv": "verklin je"
+      },
+      "abbr": "verklin je",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0020618124999999925
+      }
+    },
+    {
+      "key": "skrupel",
+      "type": "swedish",
+      "name": {
+        "en": "skrupel",
+        "sv": "skrupel"
+      },
+      "abbr": "skrupel",
+      "transform": {
+        "kind": "linear",
+        "factor": 2.969166000000019e-05
+      }
+    },
+    {
+      "key": "league",
       "type": "imperial",
-      "name": {"sv": "Yard", "en": "Yard"},
-      "abbr": "yd",
-      "transform": {"kind": "linear", "factor": 0.9144}
+      "name": {
+        "en": "league",
+        "sv": "league"
+      },
+      "abbr": "league",
+      "transform": {
+        "kind": "linear",
+        "factor": 4828.031999999953
+      }
     },
     {
       "key": "mile",
       "type": "imperial",
-      "name": {"sv": "Engelsk mil", "en": "Mile"},
+      "name": {
+        "en": "mile",
+        "sv": "mile"
+      },
       "abbr": "mi",
-      "transform": {"kind": "linear", "factor": 1609.344}
+      "transform": {
+        "kind": "linear",
+        "factor": 1609.3439999067707
+      }
+    },
+    {
+      "key": "furlong",
+      "type": "imperial",
+      "name": {
+        "en": "furlong",
+        "sv": "furlong"
+      },
+      "abbr": "furlong",
+      "transform": {
+        "kind": "linear",
+        "factor": 201.16799999999887
+      }
+    },
+    {
+      "key": "chain",
+      "type": "imperial",
+      "name": {
+        "en": "chain",
+        "sv": "chain"
+      },
+      "abbr": "chain",
+      "transform": {
+        "kind": "linear",
+        "factor": 20.116799999999884
+      }
+    },
+    {
+      "key": "rod",
+      "type": "imperial",
+      "name": {
+        "en": "rod",
+        "sv": "rod"
+      },
+      "abbr": "rd",
+      "transform": {
+        "kind": "linear",
+        "factor": 5.02919999999992
+      }
+    },
+    {
+      "key": "yard",
+      "type": "imperial",
+      "name": {
+        "en": "yard",
+        "sv": "yard"
+      },
+      "abbr": "yd",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.9144000000000065
+      }
+    },
+    {
+      "key": "foot",
+      "type": "imperial",
+      "name": {
+        "en": "foot",
+        "sv": "foot"
+      },
+      "abbr": "ft",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.3048000000000022
+      }
+    },
+    {
+      "key": "link",
+      "type": "imperial",
+      "name": {
+        "en": "link",
+        "sv": "link"
+      },
+      "abbr": "link",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.20116799999999885
+      }
+    },
+    {
+      "key": "hand",
+      "type": "imperial",
+      "name": {
+        "en": "hand",
+        "sv": "hand"
+      },
+      "abbr": "hand",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.10159999999999969
+      }
+    },
+    {
+      "key": "inch",
+      "type": "imperial",
+      "name": {
+        "en": "inch",
+        "sv": "inch"
+      },
+      "abbr": "in",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.02540000000000031
+      }
+    },
+    {
+      "key": "line",
+      "type": "imperial",
+      "name": {
+        "en": "line",
+        "sv": "line"
+      },
+      "abbr": "line",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.002116667000000012
+      }
+    },
+    {
+      "key": "distance_minute",
+      "type": "nautical",
+      "name": {
+        "en": "distance minute",
+        "sv": "distansminut"
+      },
+      "abbr": "distansminut",
+      "transform": {
+        "kind": "linear",
+        "factor": 1852.000000000012
+      }
+    },
+    {
+      "key": "nautical_mile",
+      "type": "nautical",
+      "name": {
+        "en": "nautical mile",
+        "sv": "sjomil"
+      },
+      "abbr": "sjömil",
+      "transform": {
+        "kind": "linear",
+        "factor": 1852.000000000012
+      }
+    },
+    {
+      "key": "nautical_mile_alt",
+      "type": "nautical",
+      "name": {
+        "en": "nautical mile",
+        "sv": "nautisk mil"
+      },
+      "abbr": "nautisk mil",
+      "transform": {
+        "kind": "linear",
+        "factor": 1852.000000000012
+      }
+    },
+    {
+      "key": "cable_length",
+      "type": "nautical",
+      "name": {
+        "en": "cable length",
+        "sv": "kabellängd"
+      },
+      "abbr": "kabellängd",
+      "transform": {
+        "kind": "linear",
+        "factor": 185.2000000000012
+      }
+    },
+    {
+      "key": "orgium_thousand",
+      "type": "greek",
+      "name": {
+        "en": "thousand of orgium",
+        "sv": "thousand of orgium"
+      },
+      "abbr": "orgium (1000)",
+      "transform": {
+        "kind": "linear",
+        "factor": 1850.999999999985
+      }
+    },
+    {
+      "key": "greek_mile",
+      "type": "greek",
+      "name": {
+        "en": "mile",
+        "sv": "mile"
+      },
+      "abbr": "mile",
+      "transform": {
+        "kind": "linear",
+        "factor": 1388.250000000008
+      }
+    },
+    {
+      "key": "stadium_olympic",
+      "type": "greek",
+      "name": {
+        "en": "stadium olympic",
+        "sv": "stadium olympic"
+      },
+      "abbr": "stadium",
+      "transform": {
+        "kind": "linear",
+        "factor": 192.26999999999856
+      }
+    },
+    {
+      "key": "stadium_ptolemy",
+      "type": "greek",
+      "name": {
+        "en": "stadium ptolemy",
+        "sv": "stadium ptolemey"
+      },
+      "abbr": "stadium",
+      "transform": {
+        "kind": "linear",
+        "factor": 185.0000000000002
+      }
+    },
+    {
+      "key": "stadium_attic",
+      "type": "greek",
+      "name": {
+        "en": "stadium attic",
+        "sv": "stadium attic"
+      },
+      "abbr": "stadium",
+      "transform": {
+        "kind": "linear",
+        "factor": 184.98000000000025
+      }
+    },
+    {
+      "key": "ri",
+      "type": "japanese",
+      "name": {
+        "en": "ri",
+        "sv": "ri"
+      },
+      "abbr": "ri",
+      "transform": {
+        "kind": "linear",
+        "factor": 3927.3000000000347
+      }
+    },
+    {
+      "key": "kairi",
+      "type": "japanese",
+      "name": {
+        "en": "kairi",
+        "sv": "kairi"
+      },
+      "abbr": "kairi",
+      "transform": {
+        "kind": "linear",
+        "factor": 1852.000000000012
+      }
+    },
+    {
+      "key": "cho",
+      "type": "japanese",
+      "name": {
+        "en": "cho",
+        "sv": "cho"
+      },
+      "abbr": "cho",
+      "transform": {
+        "kind": "linear",
+        "factor": 109.09169999999943
+      }
+    },
+    {
+      "key": "jyo",
+      "type": "japanese",
+      "name": {
+        "en": "jyo",
+        "sv": "jyo"
+      },
+      "abbr": "jyo",
+      "transform": {
+        "kind": "linear",
+        "factor": 3.030324000000022
+      }
+    },
+    {
+      "key": "ken",
+      "type": "japanese",
+      "name": {
+        "en": "ken",
+        "sv": "ken"
+      },
+      "abbr": "ken",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.8181939999999979
+      }
+    },
+    {
+      "key": "shyaku",
+      "type": "japanese",
+      "name": {
+        "en": "shyaku",
+        "sv": "shyaku"
+      },
+      "abbr": "shyaku",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.3030324000000022
+      }
+    },
+    {
+      "key": "sun",
+      "type": "japanese",
+      "name": {
+        "en": "sun",
+        "sv": "sun"
+      },
+      "abbr": "sun",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.03030324000000022
+      }
+    },
+    {
+      "key": "mon",
+      "type": "japanese",
+      "name": {
+        "en": "mon",
+        "sv": "mon"
+      },
+      "abbr": "mon",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.02399999999999981
+      }
+    },
+    {
+      "key": "cubit",
+      "type": "biblical",
+      "name": {
+        "en": "cubit",
+        "sv": "cubit"
+      },
+      "abbr": "cubit",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.45720000000000327
+      }
+    },
+    {
+      "key": "span",
+      "type": "biblical",
+      "name": {
+        "en": "span",
+        "sv": "span"
+      },
+      "abbr": "span",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.22860000000000164
+      }
+    },
+    {
+      "key": "handbreadth",
+      "type": "biblical",
+      "name": {
+        "en": "handbreadth",
+        "sv": "handbreadth"
+      },
+      "abbr": "handbreadth",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.07620000000000286
+      }
+    },
+    {
+      "key": "parsec",
+      "type": "astronomical",
+      "name": {
+        "en": "parsec",
+        "sv": "parsek"
+      },
+      "abbr": "pc",
+      "transform": {
+        "kind": "linear",
+        "factor": 3.085678000000037e+16
+      }
+    },
+    {
+      "key": "light_year",
+      "type": "astronomical",
+      "name": {
+        "en": "light-year",
+        "sv": "ljusår"
+      },
+      "abbr": "ly",
+      "transform": {
+        "kind": "linear",
+        "factor": 9460527999999938.0
+      }
+    },
+    {
+      "key": "astronomical_unit",
+      "type": "astronomical",
+      "name": {
+        "en": "astronomical unit",
+        "sv": "astronomisk enhet"
+      },
+      "abbr": "AE",
+      "transform": {
+        "kind": "linear",
+        "factor": 149597900000.001
+      }
+    },
+    {
+      "key": "light_minute",
+      "type": "astronomical",
+      "name": {
+        "en": "light-minute",
+        "sv": "ljusminut"
+      },
+      "abbr": "lm",
+      "transform": {
+        "kind": "linear",
+        "factor": 17987547479.999893
+      }
+    },
+    {
+      "key": "light_second",
+      "type": "astronomical",
+      "name": {
+        "en": "light-second",
+        "sv": "ljussekund"
+      },
+      "abbr": "ls",
+      "transform": {
+        "kind": "linear",
+        "factor": 299792458.00000185
+      }
     }
   ]
 }
