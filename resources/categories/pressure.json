@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "key": "pressure",
+  "family": "physics",
+  "base_unit": "pascal",
+  "types": [
+    {
+      "key": "metric",
+      "name": {
+        "en": "Metric",
+        "sv": "Metric"
+      }
+    },
+    {
+      "key": "avoirdupois",
+      "name": {
+        "en": "Avoirdupois (U.S.)",
+        "sv": "Avoirdupois (U.S.)"
+      }
+    },
+    {
+      "key": "mercury",
+      "name": {
+        "en": "Mercury",
+        "sv": "Mercury"
+      }
+    },
+    {
+      "key": "water",
+      "name": {
+        "en": "Water",
+        "sv": "Water"
+      }
+    },
+    {
+      "key": "atmosphere",
+      "name": {
+        "en": "Atmosphere",
+        "sv": "Atmosphere"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "megapascal",
+      "type": "metric",
+      "name": {
+        "en": "megapascal",
+        "sv": "megapascal"
+      },
+      "abbr": "MPa",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000000.0
+      }
+    },
+    {
+      "key": "bar",
+      "type": "metric",
+      "name": {
+        "en": "bar",
+        "sv": "bar"
+      },
+      "abbr": "bar",
+      "transform": {
+        "kind": "linear",
+        "factor": 100000.0
+      }
+    },
+    {
+      "key": "kilogram_per_square_centimeter",
+      "type": "metric",
+      "name": {
+        "en": "kilogram per square centimeter",
+        "sv": "kilogram per square centimeter"
+      },
+      "abbr": "kg/cm2",
+      "transform": {
+        "kind": "linear",
+        "factor": 98066.50000000272
+      }
+    },
+    {
+      "key": "kilopascal",
+      "type": "metric",
+      "name": {
+        "en": "kilopascal",
+        "sv": "kilopascal"
+      },
+      "abbr": "kPa",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000.0
+      }
+    },
+    {
+      "key": "hectopascal",
+      "type": "metric",
+      "name": {
+        "en": "hectopascal",
+        "sv": "hectopascal"
+      },
+      "abbr": "hPa",
+      "transform": {
+        "kind": "linear",
+        "factor": 100.0
+      }
+    },
+    {
+      "key": "millibar",
+      "type": "metric",
+      "name": {
+        "en": "millibar",
+        "sv": "millibar"
+      },
+      "abbr": "mbar",
+      "transform": {
+        "kind": "linear",
+        "factor": 100.0
+      }
+    },
+    {
+      "key": "kilogram_per_square_meter",
+      "type": "metric",
+      "name": {
+        "en": "kilogram per square meter",
+        "sv": "kilogram per square meter"
+      },
+      "abbr": "kg/m2",
+      "transform": {
+        "kind": "linear",
+        "factor": 9.806650000000271
+      }
+    },
+    {
+      "key": "pascal",
+      "type": "metric",
+      "name": {
+        "en": "pascal",
+        "sv": "pascal"
+      },
+      "abbr": "Pa",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.0
+      }
+    },
+    {
+      "key": "kilopound_per_square_inch",
+      "type": "avoirdupois",
+      "name": {
+        "en": "kilopound per square inch",
+        "sv": "kilopound per square inch"
+      },
+      "abbr": "ksi",
+      "transform": {
+        "kind": "linear",
+        "factor": 6894757.000000148
+      }
+    },
+    {
+      "key": "pound_per_square_inch",
+      "type": "avoirdupois",
+      "name": {
+        "en": "pound per square inch",
+        "sv": "pound per square inch"
+      },
+      "abbr": "psi",
+      "transform": {
+        "kind": "linear",
+        "factor": 6894.757000000148
+      }
+    },
+    {
+      "key": "pound_per_square_foot",
+      "type": "avoirdupois",
+      "name": {
+        "en": "pound per square foot",
+        "sv": "pound per square foot"
+      },
+      "abbr": "psf",
+      "transform": {
+        "kind": "linear",
+        "factor": 47.880260000000554
+      }
+    },
+    {
+      "key": "meter_of_mercury",
+      "type": "mercury",
+      "name": {
+        "en": "meter of mercury",
+        "sv": "meter of mercury"
+      },
+      "abbr": "mHg",
+      "transform": {
+        "kind": "linear",
+        "factor": 133322.00000000012
+      }
+    },
+    {
+      "key": "inch_of_mercury",
+      "type": "mercury",
+      "name": {
+        "en": "inch of mercury",
+        "sv": "inch of mercury"
+      },
+      "abbr": "inHg",
+      "transform": {
+        "kind": "linear",
+        "factor": 3386.378999999964
+      }
+    },
+    {
+      "key": "centimeter_of_mercury",
+      "type": "mercury",
+      "name": {
+        "en": "centimeter of mercury",
+        "sv": "centimeter of mercury"
+      },
+      "abbr": "cmHg",
+      "transform": {
+        "kind": "linear",
+        "factor": 1333.2200000000012
+      }
+    },
+    {
+      "key": "millimeter_of_mercury",
+      "type": "mercury",
+      "name": {
+        "en": "millimeter of mercury",
+        "sv": "millimeter of mercury"
+      },
+      "abbr": "mmHg",
+      "transform": {
+        "kind": "linear",
+        "factor": 133.32200000000012
+      }
+    },
+    {
+      "key": "meter_of_water",
+      "type": "water",
+      "name": {
+        "en": "meter of water",
+        "sv": "meter of water"
+      },
+      "abbr": "mH2O",
+      "transform": {
+        "kind": "linear",
+        "factor": 9806.378999999635
+      }
+    },
+    {
+      "key": "inch_of_water",
+      "type": "water",
+      "name": {
+        "en": "inch of water",
+        "sv": "inch of water"
+      },
+      "abbr": "inH2O",
+      "transform": {
+        "kind": "linear",
+        "factor": 249.0819999999994
+      }
+    },
+    {
+      "key": "centimeter_of_water",
+      "type": "water",
+      "name": {
+        "en": "centimeter of water",
+        "sv": "centimeter of water"
+      },
+      "abbr": "cmH2O",
+      "transform": {
+        "kind": "linear",
+        "factor": 98.06378999999635
+      }
+    },
+    {
+      "key": "standard_atmosphere",
+      "type": "atmosphere",
+      "name": {
+        "en": "standard atmosphere",
+        "sv": "standard atmosphere"
+      },
+      "abbr": "atm",
+      "transform": {
+        "kind": "linear",
+        "factor": 101325.00000000029
+      }
+    },
+    {
+      "key": "technical_atmosphere",
+      "type": "atmosphere",
+      "name": {
+        "en": "technical atmosphere",
+        "sv": "technical atmosphere"
+      },
+      "abbr": "at",
+      "transform": {
+        "kind": "linear",
+        "factor": 98066.50000000272
+      }
+    }
+  ]
+}

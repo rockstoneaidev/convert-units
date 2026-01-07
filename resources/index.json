@@ -1,12 +1,72 @@
 {
   "schema_version": 1,
   "categories": [
-    {"key": "length", "family": "physics"},
-    {"key": "temperature", "family": "physics"},
-    {"key": "fuel_consumption", "family": "transport"}
+    {
+      "key": "length",
+      "family": "physics"
+    },
+    {
+      "key": "temperature",
+      "family": "physics"
+    },
+    {
+      "key": "fuel_consumption",
+      "family": "transport"
+    },
+    {
+      "key": "data_rate",
+      "family": "data"
+    },
+    {
+      "key": "power",
+      "family": "physics"
+    },
+    {
+      "key": "energy",
+      "family": "physics"
+    },
+    {
+      "key": "speed",
+      "family": "physics"
+    },
+    {
+      "key": "time",
+      "family": "physics"
+    },
+    {
+      "key": "pressure",
+      "family": "physics"
+    },
+    {
+      "key": "mass",
+      "family": "physics"
+    },
+    {
+      "key": "volume",
+      "family": "physics"
+    }
   ],
   "families": [
-    {"key": "physics", "name": {"sv": "Fysik", "en": "Physics"}},
-    {"key": "transport", "name": {"sv": "Transport", "en": "Transport"}}
+    {
+      "key": "physics",
+      "name": {
+        "sv": "Fysik",
+        "en": "Physics"
+      }
+    },
+    {
+      "key": "transport",
+      "name": {
+        "sv": "Transport",
+        "en": "Transport"
+      }
+    },
+    {
+      "key": "data",
+      "name": {
+        "en": "Data",
+        "sv": "Data"
+      }
+    }
   ]
 }

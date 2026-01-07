@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "key": "data_rate",
+  "family": "data",
+  "base_unit": "bit_per_second",
+  "types": [
+    {
+      "key": "decimal",
+      "name": {
+        "en": "Decimal (SI)",
+        "sv": "Decimal (SI)"
+      }
+    },
+    {
+      "key": "binary",
+      "name": {
+        "en": "Binary Prefix",
+        "sv": "Binary Prefix"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "gigabyte_per_second",
+      "type": "decimal",
+      "name": {
+        "en": "gigabyte per second",
+        "sv": "gigabyte per second"
+      },
+      "abbr": "GB/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 8000000000.0
+      }
+    },
+    {
+      "key": "gigabit_per_second",
+      "type": "decimal",
+      "name": {
+        "en": "gigabit per second",
+        "sv": "gigabit per second"
+      },
+      "abbr": "Gbit/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000000000.0
+      }
+    },
+    {
+      "key": "megabyte_per_second",
+      "type": "decimal",
+      "name": {
+        "en": "megabyte per second",
+        "sv": "megabyte per second"
+      },
+      "abbr": "MB/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 8000000.0
+      }
+    },
+    {
+      "key": "megabit_per_second",
+      "type": "decimal",
+      "name": {
+        "en": "megabit per second",
+        "sv": "megabit per second"
+      },
+      "abbr": "Mbit/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000000.0
+      }
+    },
+    {
+      "key": "kilobyte_per_second",
+      "type": "decimal",
+      "name": {
+        "en": "kilobyte per second",
+        "sv": "kilobyte per second"
+      },
+      "abbr": "kB/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 8000.0
+      }
+    },
+    {
+      "key": "kilobit_per_second",
+      "type": "decimal",
+      "name": {
+        "en": "kilobit per second",
+        "sv": "kilobit per second"
+      },
+      "abbr": "kbit/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000.0
+      }
+    },
+    {
+      "key": "byte_per_second",
+      "type": "decimal",
+      "name": {
+        "en": "byte per second",
+        "sv": "byte per second"
+      },
+      "abbr": "B/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 8.0
+      }
+    },
+    {
+      "key": "bit_per_second",
+      "type": "decimal",
+      "name": {
+        "en": "bit per second",
+        "sv": "bit per second"
+      },
+      "abbr": "bps",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.0
+      }
+    },
+    {
+      "key": "gibibit_per_second",
+      "type": "binary",
+      "name": {
+        "en": "gibibit per second",
+        "sv": "gibibit per second"
+      },
+      "abbr": "Gibit/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 1073741823.9999983
+      }
+    },
+    {
+      "key": "mebibit_per_second",
+      "type": "binary",
+      "name": {
+        "en": "mebibit per second",
+        "sv": "mebibit per second"
+      },
+      "abbr": "Mibit/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 1048576.0
+      }
+    },
+    {
+      "key": "kibibit_per_second",
+      "type": "binary",
+      "name": {
+        "en": "kibibit per second",
+        "sv": "kibibit per second"
+      },
+      "abbr": "Kibit/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 1024.0
+      }
+    }
+  ]
+}

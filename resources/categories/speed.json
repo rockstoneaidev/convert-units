@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "key": "speed",
+  "family": "physics",
+  "base_unit": "meter_per_second",
+  "types": [
+    {
+      "key": "metric",
+      "name": {
+        "en": "Metric",
+        "sv": "Metric"
+      }
+    },
+    {
+      "key": "imperial",
+      "name": {
+        "en": "British / American",
+        "sv": "British / American"
+      }
+    },
+    {
+      "key": "nautical",
+      "name": {
+        "en": "Nautical",
+        "sv": "Nautical"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "kilometer_per_second",
+      "type": "metric",
+      "name": {
+        "en": "kilometer per second",
+        "sv": "kilometer per second"
+      },
+      "abbr": "km/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000.0
+      }
+    },
+    {
+      "key": "meter_per_second",
+      "type": "metric",
+      "name": {
+        "en": "meter per second",
+        "sv": "meter per second"
+      },
+      "abbr": "m/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.0
+      }
+    },
+    {
+      "key": "kilometer_per_hour",
+      "type": "metric",
+      "name": {
+        "en": "kilometer per hour",
+        "sv": "kilometer per hour"
+      },
+      "abbr": "km/h",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.2777777778
+      }
+    },
+    {
+      "key": "mile_per_second",
+      "type": "imperial",
+      "name": {
+        "en": "mile per second",
+        "sv": "mile per second"
+      },
+      "abbr": "mi/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 1609.3439999067707
+      }
+    },
+    {
+      "key": "mile_per_hour",
+      "type": "imperial",
+      "name": {
+        "en": "mile per hour",
+        "sv": "mile per hour"
+      },
+      "abbr": "mph",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.44704000000000044
+      }
+    },
+    {
+      "key": "foot_per_second",
+      "type": "imperial",
+      "name": {
+        "en": "foot per second",
+        "sv": "foot per second"
+      },
+      "abbr": "ft/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.3048000000000022
+      }
+    },
+    {
+      "key": "knot",
+      "type": "nautical",
+      "name": {
+        "en": "knot",
+        "sv": "knot"
+      },
+      "abbr": "kn",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.5144444000000129
+      }
+    },
+    {
+      "key": "nautical_mile_per_hour",
+      "type": "nautical",
+      "name": {
+        "en": "nautical mile per hour",
+        "sv": "nautical mile per hour"
+      },
+      "abbr": "nmi/h",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.5144444000000129
+      }
+    }
+  ]
+}

@@ -1,0 +1,683 @@
+{
+  "schema_version": 1,
+  "key": "volume",
+  "family": "physics",
+  "base_unit": "cubic_meter",
+  "types": [
+    {
+      "key": "metric",
+      "name": {
+        "en": "Metric",
+        "sv": "Metric"
+      }
+    },
+    {
+      "key": "us_wet",
+      "name": {
+        "en": "U.S. Wet Volume",
+        "sv": "U.S. Wet Volume"
+      }
+    },
+    {
+      "key": "us_dry",
+      "name": {
+        "en": "U.S. Dry Volume",
+        "sv": "U.S. Dry Volume"
+      }
+    },
+    {
+      "key": "british",
+      "name": {
+        "en": "British Wet / Dry Volume",
+        "sv": "British Wet / Dry Volume"
+      }
+    },
+    {
+      "key": "japanese",
+      "name": {
+        "en": "Japanese",
+        "sv": "Japanese"
+      }
+    },
+    {
+      "key": "cooking_se",
+      "name": {
+        "en": "Cooking (Sweden)",
+        "sv": "Cooking (Sweden)"
+      }
+    },
+    {
+      "key": "cooking_us",
+      "name": {
+        "en": "Cooking (U.S.)",
+        "sv": "Cooking (U.S.)"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "cubic_kilometer",
+      "type": "metric",
+      "name": {
+        "en": "cubic kilometer",
+        "sv": "cubic kilometer"
+      },
+      "abbr": "km3",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000000000.0
+      }
+    },
+    {
+      "key": "cubic_meter",
+      "type": "metric",
+      "name": {
+        "en": "cubic meter",
+        "sv": "cubic meter"
+      },
+      "abbr": "m3",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.0
+      }
+    },
+    {
+      "key": "hectoliter",
+      "type": "metric",
+      "name": {
+        "en": "hectoliter",
+        "sv": "hectoliter"
+      },
+      "abbr": "hl",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.1
+      }
+    },
+    {
+      "key": "dekaliter",
+      "type": "metric",
+      "name": {
+        "en": "dekaliter",
+        "sv": "dekaliter"
+      },
+      "abbr": "dal",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.01
+      }
+    },
+    {
+      "key": "cubic_decimeter",
+      "type": "metric",
+      "name": {
+        "en": "cubic decimeter",
+        "sv": "cubic decimeter"
+      },
+      "abbr": "dm3",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.001
+      }
+    },
+    {
+      "key": "liter",
+      "type": "metric",
+      "name": {
+        "en": "liter",
+        "sv": "liter"
+      },
+      "abbr": "l",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.001
+      }
+    },
+    {
+      "key": "deciliter",
+      "type": "metric",
+      "name": {
+        "en": "deciliter",
+        "sv": "deciliter"
+      },
+      "abbr": "dl",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0001
+      }
+    },
+    {
+      "key": "centiliter",
+      "type": "metric",
+      "name": {
+        "en": "centiliter",
+        "sv": "centiliter"
+      },
+      "abbr": "cl",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-05
+      }
+    },
+    {
+      "key": "cubic_centimeter",
+      "type": "metric",
+      "name": {
+        "en": "cubic centimeter",
+        "sv": "cubic centimeter"
+      },
+      "abbr": "cm3",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-06
+      }
+    },
+    {
+      "key": "milliliter",
+      "type": "metric",
+      "name": {
+        "en": "milliliter",
+        "sv": "milliliter"
+      },
+      "abbr": "ml",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-06
+      }
+    },
+    {
+      "key": "cubic_millimeter",
+      "type": "metric",
+      "name": {
+        "en": "cubic millimeter",
+        "sv": "cubic millimeter"
+      },
+      "abbr": "mm3",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-09
+      }
+    },
+    {
+      "key": "microliter",
+      "type": "metric",
+      "name": {
+        "en": "microliter",
+        "sv": "microliter"
+      },
+      "abbr": "ul",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-09
+      }
+    },
+    {
+      "key": "acre_foot",
+      "type": "us_wet",
+      "name": {
+        "en": "acre foot",
+        "sv": "acre foot"
+      },
+      "abbr": "acre-ft",
+      "transform": {
+        "kind": "linear",
+        "factor": 1233.4819999999977
+      }
+    },
+    {
+      "key": "cubic_yard",
+      "type": "us_wet",
+      "name": {
+        "en": "cubic yard",
+        "sv": "cubic yard"
+      },
+      "abbr": "yd3",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.7645548999999777
+      }
+    },
+    {
+      "key": "barrel_us_wet",
+      "type": "us_wet",
+      "name": {
+        "en": "barrel",
+        "sv": "barrel"
+      },
+      "abbr": "bbl",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.15898729999999925
+      }
+    },
+    {
+      "key": "cubic_foot",
+      "type": "us_wet",
+      "name": {
+        "en": "cubic foot",
+        "sv": "cubic foot"
+      },
+      "abbr": "ft3",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.02831684999999981
+      }
+    },
+    {
+      "key": "gallon_us_wet",
+      "type": "us_wet",
+      "name": {
+        "en": "gallon",
+        "sv": "gallon"
+      },
+      "abbr": "gal",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0037854120000000665
+      }
+    },
+    {
+      "key": "quart_us_wet",
+      "type": "us_wet",
+      "name": {
+        "en": "quart",
+        "sv": "quart"
+      },
+      "abbr": "qt",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0009463530000000346
+      }
+    },
+    {
+      "key": "pint_us_wet",
+      "type": "us_wet",
+      "name": {
+        "en": "pint",
+        "sv": "pint"
+      },
+      "abbr": "pt",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0004731764999999949
+      }
+    },
+    {
+      "key": "gill_us_wet",
+      "type": "us_wet",
+      "name": {
+        "en": "gill",
+        "sv": "gill"
+      },
+      "abbr": "gi",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.00011829410000000052
+      }
+    },
+    {
+      "key": "fluid_ounce_us",
+      "type": "us_wet",
+      "name": {
+        "en": "fluid ounce",
+        "sv": "fluid ounce"
+      },
+      "abbr": "fl oz",
+      "transform": {
+        "kind": "linear",
+        "factor": 2.9573529999999735e-05
+      }
+    },
+    {
+      "key": "cubic_inch",
+      "type": "us_wet",
+      "name": {
+        "en": "cubic inch",
+        "sv": "cubic inch"
+      },
+      "abbr": "in3",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.638706000000008e-05
+      }
+    },
+    {
+      "key": "fluid_dram",
+      "type": "us_wet",
+      "name": {
+        "en": "fluid dram",
+        "sv": "fluid dram"
+      },
+      "abbr": "fl dr",
+      "transform": {
+        "kind": "linear",
+        "factor": 3.6966909999999505e-06
+      }
+    },
+    {
+      "key": "minim",
+      "type": "us_wet",
+      "name": {
+        "en": "minim",
+        "sv": "minim"
+      },
+      "abbr": "minim",
+      "transform": {
+        "kind": "linear",
+        "factor": 6.161151999999868e-08
+      }
+    },
+    {
+      "key": "barrel_us_dry",
+      "type": "us_dry",
+      "name": {
+        "en": "barrel",
+        "sv": "barrel"
+      },
+      "abbr": "bbl (dry)",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.11562710000000047
+      }
+    },
+    {
+      "key": "bushel_us",
+      "type": "us_dry",
+      "name": {
+        "en": "bushel",
+        "sv": "bushel"
+      },
+      "abbr": "bu",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.03523907000000022
+      }
+    },
+    {
+      "key": "peck_us",
+      "type": "us_dry",
+      "name": {
+        "en": "peck",
+        "sv": "peck"
+      },
+      "abbr": "pk",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.008809768000000048
+      }
+    },
+    {
+      "key": "gallon_us_dry",
+      "type": "us_dry",
+      "name": {
+        "en": "gallon",
+        "sv": "gallon"
+      },
+      "abbr": "gal (dry)",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.004404884000000024
+      }
+    },
+    {
+      "key": "quart_us_dry",
+      "type": "us_dry",
+      "name": {
+        "en": "quart",
+        "sv": "quart"
+      },
+      "abbr": "qt (dry)",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.001101221000000006
+      }
+    },
+    {
+      "key": "pint_us_dry",
+      "type": "us_dry",
+      "name": {
+        "en": "pint",
+        "sv": "pint"
+      },
+      "abbr": "pt (dry)",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.000550610500000003
+      }
+    },
+    {
+      "key": "gill_us_dry",
+      "type": "us_dry",
+      "name": {
+        "en": "gill",
+        "sv": "gill"
+      },
+      "abbr": "gi (dry)",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.00013765259999999946
+      }
+    },
+    {
+      "key": "barrel_british",
+      "type": "british",
+      "name": {
+        "en": "barrel",
+        "sv": "barrel"
+      },
+      "abbr": "bbl (uk)",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.16364999999999966
+      }
+    },
+    {
+      "key": "bushel_british",
+      "type": "british",
+      "name": {
+        "en": "bushel",
+        "sv": "bushel"
+      },
+      "abbr": "bu (uk)",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.036368790000000074
+      }
+    },
+    {
+      "key": "peck_british",
+      "type": "british",
+      "name": {
+        "en": "peck",
+        "sv": "peck"
+      },
+      "abbr": "pk (uk)",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.009092199000000061
+      }
+    },
+    {
+      "key": "gallon_british",
+      "type": "british",
+      "name": {
+        "en": "gallon",
+        "sv": "gallon"
+      },
+      "abbr": "gal (uk)",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0045460989999999615
+      }
+    },
+    {
+      "key": "quart_british",
+      "type": "british",
+      "name": {
+        "en": "quart",
+        "sv": "quart"
+      },
+      "abbr": "qt (uk)",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0011365250000000009
+      }
+    },
+    {
+      "key": "pint_british",
+      "type": "british",
+      "name": {
+        "en": "pint",
+        "sv": "pint"
+      },
+      "abbr": "pt (uk)",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0005682624000000008
+      }
+    },
+    {
+      "key": "fluid_ounce_british",
+      "type": "british",
+      "name": {
+        "en": "fluid ounce",
+        "sv": "fluid ounce"
+      },
+      "abbr": "fl oz (uk)",
+      "transform": {
+        "kind": "linear",
+        "factor": 2.8413120000000043e-05
+      }
+    },
+    {
+      "key": "koku",
+      "type": "japanese",
+      "name": {
+        "en": "koku",
+        "sv": "koku"
+      },
+      "abbr": "koku",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.18038990000000035
+      }
+    },
+    {
+      "key": "to",
+      "type": "japanese",
+      "name": {
+        "en": "to",
+        "sv": "to"
+      },
+      "abbr": "to",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.018038990000000036
+      }
+    },
+    {
+      "key": "sho",
+      "type": "japanese",
+      "name": {
+        "en": "sho",
+        "sv": "sho"
+      },
+      "abbr": "sho",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0018038990000000036
+      }
+    },
+    {
+      "key": "go",
+      "type": "japanese",
+      "name": {
+        "en": "go",
+        "sv": "go"
+      },
+      "abbr": "go",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.00018038990000000034
+      }
+    },
+    {
+      "key": "tablespoon_se",
+      "type": "cooking_se",
+      "name": {
+        "en": "tablespoon",
+        "sv": "tablespoon"
+      },
+      "abbr": "msk",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.4999999999999926e-05
+      }
+    },
+    {
+      "key": "teaspoon_se",
+      "type": "cooking_se",
+      "name": {
+        "en": "teaspoon",
+        "sv": "teaspoon"
+      },
+      "abbr": "tsk",
+      "transform": {
+        "kind": "linear",
+        "factor": 5e-06
+      }
+    },
+    {
+      "key": "spice_measure",
+      "type": "cooking_se",
+      "name": {
+        "en": "spice measure",
+        "sv": "spice measure"
+      },
+      "abbr": "krm",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-06
+      }
+    },
+    {
+      "key": "cup",
+      "type": "cooking_us",
+      "name": {
+        "en": "cup",
+        "sv": "cup"
+      },
+      "abbr": "cup",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.00023658820000000105
+      }
+    },
+    {
+      "key": "tablespoon_us",
+      "type": "cooking_us",
+      "name": {
+        "en": "tablespoon",
+        "sv": "tablespoon"
+      },
+      "abbr": "tbsp",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.4786770000000039e-05
+      }
+    },
+    {
+      "key": "teaspoon_us",
+      "type": "cooking_us",
+      "name": {
+        "en": "teaspoon",
+        "sv": "teaspoon"
+      },
+      "abbr": "tsp",
+      "transform": {
+        "kind": "linear",
+        "factor": 4.92892199999995e-06
+      }
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "energy",
+  "family": "physics",
+  "base_unit": "joule",
+  "types": [
+    {
+      "key": "metric",
+      "name": {
+        "en": "Metric",
+        "sv": "Metric"
+      }
+    },
+    {
+      "key": "imperial",
+      "name": {
+        "en": "British / American",
+        "sv": "British / American"
+      }
+    },
+    {
+      "key": "common",
+      "name": {
+        "en": "Common Units",
+        "sv": "Common Units"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "terawatt_hour",
+      "type": "metric",
+      "name": {
+        "en": "terawatt hour",
+        "sv": "terawatt hour"
+      },
+      "abbr": "TWh",
+      "transform": {
+        "kind": "linear",
+        "factor": 3599999999999971.0
+      }
+    },
+    {
+      "key": "gigawatt_hour",
+      "type": "metric",
+      "name": {
+        "en": "gigawatt hour",
+        "sv": "gigawatt hour"
+      },
+      "abbr": "GWh",
+      "transform": {
+        "kind": "linear",
+        "factor": 3599999999999.971
+      }
+    },
+    {
+      "key": "megawatt_hour",
+      "type": "metric",
+      "name": {
+        "en": "megawatt hour",
+        "sv": "megawatt hour"
+      },
+      "abbr": "MWh",
+      "transform": {
+        "kind": "linear",
+        "factor": 3599999999.9999714
+      }
+    },
+    {
+      "key": "kilowatt_hour",
+      "type": "metric",
+      "name": {
+        "en": "kilowatt hour",
+        "sv": "kilowatt hour"
+      },
+      "abbr": "kWh",
+      "transform": {
+        "kind": "linear",
+        "factor": 3599999.999999971
+      }
+    },
+    {
+      "key": "megajoule",
+      "type": "metric",
+      "name": {
+        "en": "megajoule",
+        "sv": "megajoule"
+      },
+      "abbr": "MJ",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000000.0
+      }
+    },
+    {
+      "key": "kilojoule",
+      "type": "metric",
+      "name": {
+        "en": "kilojoule",
+        "sv": "kilojoule"
+      },
+      "abbr": "kJ",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000.0
+      }
+    },
+    {
+      "key": "watt_second",
+      "type": "metric",
+      "name": {
+        "en": "watt second",
+        "sv": "watt second"
+      },
+      "abbr": "Ws",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.0
+      }
+    },
+    {
+      "key": "joule",
+      "type": "metric",
+      "name": {
+        "en": "joule",
+        "sv": "joule"
+      },
+      "abbr": "J",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.0
+      }
+    },
+    {
+      "key": "electronvolt",
+      "type": "metric",
+      "name": {
+        "en": "electronvolt",
+        "sv": "electronvolt"
+      },
+      "abbr": "eV",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.6021773300000072e-19
+      }
+    },
+    {
+      "key": "quad",
+      "type": "imperial",
+      "name": {
+        "en": "quad",
+        "sv": "quad"
+      },
+      "abbr": "quad",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.0550600000000012e+18
+      }
+    },
+    {
+      "key": "therm",
+      "type": "imperial",
+      "name": {
+        "en": "therm",
+        "sv": "therm"
+      },
+      "abbr": "therm",
+      "transform": {
+        "kind": "linear",
+        "factor": 105506000.00000012
+      }
+    },
+    {
+      "key": "btu",
+      "type": "imperial",
+      "name": {
+        "en": "british thermal unit",
+        "sv": "british thermal unit"
+      },
+      "abbr": "BTU",
+      "transform": {
+        "kind": "linear",
+        "factor": 1055.0558526199968
+      }
+    },
+    {
+      "key": "foot_pound",
+      "type": "imperial",
+      "name": {
+        "en": "foot-pound",
+        "sv": "foot-pound"
+      },
+      "abbr": "ft*lb",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.3557810000000057
+      }
+    },
+    {
+      "key": "kilocalorie",
+      "type": "common",
+      "name": {
+        "en": "kilocalorie",
+        "sv": "kilocalorie"
+      },
+      "abbr": "kcal",
+      "transform": {
+        "kind": "linear",
+        "factor": 4186.799999999929
+      }
+    },
+    {
+      "key": "calorie",
+      "type": "common",
+      "name": {
+        "en": "calorie",
+        "sv": "calorie"
+      },
+      "abbr": "cal",
+      "transform": {
+        "kind": "linear",
+        "factor": 4.186799999999929
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "key": "time",
+  "family": "physics",
+  "base_unit": "second",
+  "types": [
+    {
+      "key": "metric",
+      "name": {
+        "en": "Metric",
+        "sv": "Metric"
+      }
+    },
+    {
+      "key": "common",
+      "name": {
+        "en": "Common Units",
+        "sv": "Common Units"
+      }
+    },
+    {
+      "key": "astronomical",
+      "name": {
+        "en": "Astronomical",
+        "sv": "Astronomical"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "scientific_year",
+      "type": "metric",
+      "name": {
+        "en": "scientific year",
+        "sv": "scientific year"
+      },
+      "abbr": "a",
+      "transform": {
+        "kind": "linear",
+        "factor": 31557599.99999995
+      }
+    },
+    {
+      "key": "second",
+      "type": "metric",
+      "name": {
+        "en": "second",
+        "sv": "second"
+      },
+      "abbr": "s",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.0
+      }
+    },
+    {
+      "key": "millisecond",
+      "type": "metric",
+      "name": {
+        "en": "millisecond",
+        "sv": "millisecond"
+      },
+      "abbr": "ms",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.001
+      }
+    },
+    {
+      "key": "microsecond",
+      "type": "metric",
+      "name": {
+        "en": "microsecond",
+        "sv": "microsecond"
+      },
+      "abbr": "us",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-06
+      }
+    },
+    {
+      "key": "nanosecond",
+      "type": "metric",
+      "name": {
+        "en": "nanosecond",
+        "sv": "nanosecond"
+      },
+      "abbr": "ns",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-09
+      }
+    },
+    {
+      "key": "julian_year",
+      "type": "common",
+      "name": {
+        "en": "julian year",
+        "sv": "julian year"
+      },
+      "abbr": "a",
+      "transform": {
+        "kind": "linear",
+        "factor": 31557599.99999995
+      }
+    },
+    {
+      "key": "gregorian_year",
+      "type": "common",
+      "name": {
+        "en": "gregorian year",
+        "sv": "gregorian year"
+      },
+      "abbr": "a",
+      "transform": {
+        "kind": "linear",
+        "factor": 31556952.00000043
+      }
+    },
+    {
+      "key": "month_30_days",
+      "type": "common",
+      "name": {
+        "en": "month (30 days)",
+        "sv": "month (30 days)"
+      },
+      "abbr": "mo",
+      "transform": {
+        "kind": "linear",
+        "factor": 2592000.0000000168
+      }
+    },
+    {
+      "key": "week",
+      "type": "common",
+      "name": {
+        "en": "week",
+        "sv": "week"
+      },
+      "abbr": "wk",
+      "transform": {
+        "kind": "linear",
+        "factor": 604799.999999983
+      }
+    },
+    {
+      "key": "day",
+      "type": "common",
+      "name": {
+        "en": "day",
+        "sv": "day"
+      },
+      "abbr": "d",
+      "transform": {
+        "kind": "linear",
+        "factor": 86400.00000000055
+      }
+    },
+    {
+      "key": "hour",
+      "type": "common",
+      "name": {
+        "en": "hour",
+        "sv": "hour"
+      },
+      "abbr": "h",
+      "transform": {
+        "kind": "linear",
+        "factor": 3599.9999999999714
+      }
+    },
+    {
+      "key": "minute",
+      "type": "common",
+      "name": {
+        "en": "minute",
+        "sv": "minute"
+      },
+      "abbr": "min",
+      "transform": {
+        "kind": "linear",
+        "factor": 59.9999999999988
+      }
+    },
+    {
+      "key": "anomalistic_year",
+      "type": "astronomical",
+      "name": {
+        "en": "anomalistic year",
+        "sv": "anomalistic year"
+      },
+      "abbr": "a",
+      "transform": {
+        "kind": "linear",
+        "factor": 31558429.43999982
+      }
+    },
+    {
+      "key": "sidereal_year",
+      "type": "astronomical",
+      "name": {
+        "en": "sidereal year",
+        "sv": "sidereal year"
+      },
+      "abbr": "a",
+      "transform": {
+        "kind": "linear",
+        "factor": 31558149.76760674
+      }
+    },
+    {
+      "key": "stellar_year",
+      "type": "astronomical",
+      "name": {
+        "en": "stellar year",
+        "sv": "stellar year"
+      },
+      "abbr": "a",
+      "transform": {
+        "kind": "linear",
+        "factor": 31558149.76760674
+      }
+    },
+    {
+      "key": "tropical_year",
+      "type": "astronomical",
+      "name": {
+        "en": "tropical year",
+        "sv": "tropical year"
+      },
+      "abbr": "a",
+      "transform": {
+        "kind": "linear",
+        "factor": 31558032.006778415
+      }
+    }
+  ]
+}

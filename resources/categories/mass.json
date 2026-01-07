@@ -1,0 +1,546 @@
+{
+  "schema_version": 1,
+  "key": "mass",
+  "family": "physics",
+  "base_unit": "kilogram",
+  "types": [
+    {
+      "key": "metric",
+      "name": {
+        "en": "Metric",
+        "sv": "Metric"
+      }
+    },
+    {
+      "key": "avoirdupois",
+      "name": {
+        "en": "Avoirdupois (U.S.)",
+        "sv": "Avoirdupois (U.S.)"
+      }
+    },
+    {
+      "key": "swedish",
+      "name": {
+        "en": "Old Swedish",
+        "sv": "Old Swedish"
+      }
+    },
+    {
+      "key": "troy",
+      "name": {
+        "en": "Troy",
+        "sv": "Troy"
+      }
+    },
+    {
+      "key": "japanese",
+      "name": {
+        "en": "Japanese",
+        "sv": "Japanese"
+      }
+    },
+    {
+      "key": "chinese",
+      "name": {
+        "en": "Chinese",
+        "sv": "Chinese"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "tonne",
+      "type": "metric",
+      "name": {
+        "en": "tonne",
+        "sv": "tonne"
+      },
+      "abbr": "t",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000.0
+      }
+    },
+    {
+      "key": "kilonewton",
+      "type": "metric",
+      "name": {
+        "en": "kilonewton",
+        "sv": "kilonewton"
+      },
+      "abbr": "kN",
+      "transform": {
+        "kind": "linear",
+        "factor": 101.97160000000049
+      }
+    },
+    {
+      "key": "centner",
+      "type": "metric",
+      "name": {
+        "en": "centner",
+        "sv": "centner"
+      },
+      "abbr": "centner",
+      "transform": {
+        "kind": "linear",
+        "factor": 100.0
+      }
+    },
+    {
+      "key": "kilogram",
+      "type": "metric",
+      "name": {
+        "en": "kilogram",
+        "sv": "kilogram"
+      },
+      "abbr": "kg",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.0
+      }
+    },
+    {
+      "key": "gram",
+      "type": "metric",
+      "name": {
+        "en": "gram",
+        "sv": "gram"
+      },
+      "abbr": "g",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.001
+      }
+    },
+    {
+      "key": "carat_metric",
+      "type": "metric",
+      "name": {
+        "en": "carat",
+        "sv": "carat"
+      },
+      "abbr": "ct",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0002
+      }
+    },
+    {
+      "key": "centigram",
+      "type": "metric",
+      "name": {
+        "en": "centigram",
+        "sv": "centigram"
+      },
+      "abbr": "cg",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-05
+      }
+    },
+    {
+      "key": "milligram",
+      "type": "metric",
+      "name": {
+        "en": "milligram",
+        "sv": "milligram"
+      },
+      "abbr": "mg",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-06
+      }
+    },
+    {
+      "key": "microgram",
+      "type": "metric",
+      "name": {
+        "en": "microgram",
+        "sv": "microgram"
+      },
+      "abbr": "ug",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-09
+      }
+    },
+    {
+      "key": "nanogram",
+      "type": "metric",
+      "name": {
+        "en": "nanogram",
+        "sv": "nanogram"
+      },
+      "abbr": "ng",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-12
+      }
+    },
+    {
+      "key": "long_ton",
+      "type": "avoirdupois",
+      "name": {
+        "en": "long ton",
+        "sv": "long ton"
+      },
+      "abbr": "long ton",
+      "transform": {
+        "kind": "linear",
+        "factor": 1016.0469088000007
+      }
+    },
+    {
+      "key": "short_ton",
+      "type": "avoirdupois",
+      "name": {
+        "en": "short ton",
+        "sv": "short ton"
+      },
+      "abbr": "short ton",
+      "transform": {
+        "kind": "linear",
+        "factor": 907.1846999999992
+      }
+    },
+    {
+      "key": "long_hundredweight",
+      "type": "avoirdupois",
+      "name": {
+        "en": "long hundredweight",
+        "sv": "long hundredweight"
+      },
+      "abbr": "cwt (long)",
+      "transform": {
+        "kind": "linear",
+        "factor": 50.802349999999976
+      }
+    },
+    {
+      "key": "short_hundredweight",
+      "type": "avoirdupois",
+      "name": {
+        "en": "short hundredweight",
+        "sv": "short hundredweight"
+      },
+      "abbr": "cwt (short)",
+      "transform": {
+        "kind": "linear",
+        "factor": 45.35923999999914
+      }
+    },
+    {
+      "key": "stone",
+      "type": "avoirdupois",
+      "name": {
+        "en": "stone",
+        "sv": "stone"
+      },
+      "abbr": "st",
+      "transform": {
+        "kind": "linear",
+        "factor": 6.3502932000001815
+      }
+    },
+    {
+      "key": "pound",
+      "type": "avoirdupois",
+      "name": {
+        "en": "pound",
+        "sv": "pound"
+      },
+      "abbr": "lb",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.453592369999995
+      }
+    },
+    {
+      "key": "ounce",
+      "type": "avoirdupois",
+      "name": {
+        "en": "ounce",
+        "sv": "ounce"
+      },
+      "abbr": "oz",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.02834951999999965
+      }
+    },
+    {
+      "key": "dram",
+      "type": "avoirdupois",
+      "name": {
+        "en": "dram",
+        "sv": "dram"
+      },
+      "abbr": "dr",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0017718450000000095
+      }
+    },
+    {
+      "key": "grain_avoirdupois",
+      "type": "avoirdupois",
+      "name": {
+        "en": "grain",
+        "sv": "grain"
+      },
+      "abbr": "gr",
+      "transform": {
+        "kind": "linear",
+        "factor": 6.479891000000181e-05
+      }
+    },
+    {
+      "key": "skeppspund",
+      "type": "swedish",
+      "name": {
+        "en": "skeppspund",
+        "sv": "skeppspund"
+      },
+      "abbr": "skeppspund",
+      "transform": {
+        "kind": "linear",
+        "factor": 169.99999999999915
+      }
+    },
+    {
+      "key": "lispund",
+      "type": "swedish",
+      "name": {
+        "en": "lispund",
+        "sv": "lispund"
+      },
+      "abbr": "lispund",
+      "transform": {
+        "kind": "linear",
+        "factor": 8.501999999999967
+      }
+    },
+    {
+      "key": "skalpund",
+      "type": "swedish",
+      "name": {
+        "en": "skalpund",
+        "sv": "skalpund"
+      },
+      "abbr": "skalpund",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.4249999999999979
+      }
+    },
+    {
+      "key": "mark",
+      "type": "swedish",
+      "name": {
+        "en": "mark",
+        "sv": "mark"
+      },
+      "abbr": "mark",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.21249999999999894
+      }
+    },
+    {
+      "key": "uns",
+      "type": "swedish",
+      "name": {
+        "en": "uns",
+        "sv": "uns"
+      },
+      "abbr": "uns",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.02790000000000003
+      }
+    },
+    {
+      "key": "lod",
+      "type": "swedish",
+      "name": {
+        "en": "lod",
+        "sv": "lod"
+      },
+      "abbr": "lod",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.013300000000000005
+      }
+    },
+    {
+      "key": "pound_troy",
+      "type": "troy",
+      "name": {
+        "en": "pound (troy)",
+        "sv": "pound (troy)"
+      },
+      "abbr": "lb t",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.3732417215999998
+      }
+    },
+    {
+      "key": "ounce_troy",
+      "type": "troy",
+      "name": {
+        "en": "ounce (troy)",
+        "sv": "ounce (troy)"
+      },
+      "abbr": "oz t",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.03110347679999998
+      }
+    },
+    {
+      "key": "pennyweight",
+      "type": "troy",
+      "name": {
+        "en": "pennyweight",
+        "sv": "pennyweight"
+      },
+      "abbr": "dwt",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.001555173839999999
+      }
+    },
+    {
+      "key": "carat_troy",
+      "type": "troy",
+      "name": {
+        "en": "carat (troy)",
+        "sv": "carat (troy)"
+      },
+      "abbr": "ct t",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0002050000000000002
+      }
+    },
+    {
+      "key": "grain_troy",
+      "type": "troy",
+      "name": {
+        "en": "grain (troy)",
+        "sv": "grain (troy)"
+      },
+      "abbr": "gr t",
+      "transform": {
+        "kind": "linear",
+        "factor": 6.479891000000181e-05
+      }
+    },
+    {
+      "key": "mite",
+      "type": "troy",
+      "name": {
+        "en": "mite",
+        "sv": "mite"
+      },
+      "abbr": "mite",
+      "transform": {
+        "kind": "linear",
+        "factor": 3.2399459999999904e-06
+      }
+    },
+    {
+      "key": "doite",
+      "type": "troy",
+      "name": {
+        "en": "doite",
+        "sv": "doite"
+      },
+      "abbr": "doite",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.3499765464888266e-06
+      }
+    },
+    {
+      "key": "koku",
+      "type": "japanese",
+      "name": {
+        "en": "koku",
+        "sv": "koku"
+      },
+      "abbr": "koku",
+      "transform": {
+        "kind": "linear",
+        "factor": 180.3899707135078
+      }
+    },
+    {
+      "key": "kann",
+      "type": "japanese",
+      "name": {
+        "en": "kann",
+        "sv": "kann"
+      },
+      "abbr": "kann",
+      "transform": {
+        "kind": "linear",
+        "factor": 3.749999999999953
+      }
+    },
+    {
+      "key": "kinn",
+      "type": "japanese",
+      "name": {
+        "en": "kinn",
+        "sv": "kinn"
+      },
+      "abbr": "kinn",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.599999999999988
+      }
+    },
+    {
+      "key": "monme",
+      "type": "japanese",
+      "name": {
+        "en": "monme",
+        "sv": "monme"
+      },
+      "abbr": "monme",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.003749999999999953
+      }
+    },
+    {
+      "key": "tael",
+      "type": "chinese",
+      "name": {
+        "en": "tael",
+        "sv": "tael"
+      },
+      "abbr": "tael",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.03778300000000059
+      }
+    },
+    {
+      "key": "kuping",
+      "type": "chinese",
+      "name": {
+        "en": "ku ping",
+        "sv": "ku ping"
+      },
+      "abbr": "ku ping",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.037312559999999884
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "key": "power",
+  "family": "physics",
+  "base_unit": "watt",
+  "types": [
+    {
+      "key": "metric",
+      "name": {
+        "en": "Metric",
+        "sv": "Metric"
+      }
+    },
+    {
+      "key": "imperial",
+      "name": {
+        "en": "British / American",
+        "sv": "British / American"
+      }
+    },
+    {
+      "key": "common",
+      "name": {
+        "en": "Common Units",
+        "sv": "Common Units"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "terawatt",
+      "type": "metric",
+      "name": {
+        "en": "terawatt",
+        "sv": "terawatt"
+      },
+      "abbr": "TW",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000000000000.0
+      }
+    },
+    {
+      "key": "gigawatt",
+      "type": "metric",
+      "name": {
+        "en": "gigawatt",
+        "sv": "gigawatt"
+      },
+      "abbr": "GW",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000000000.0
+      }
+    },
+    {
+      "key": "megawatt",
+      "type": "metric",
+      "name": {
+        "en": "megawatt",
+        "sv": "megawatt"
+      },
+      "abbr": "MW",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000000.0
+      }
+    },
+    {
+      "key": "kilowatt",
+      "type": "metric",
+      "name": {
+        "en": "kilowatt",
+        "sv": "kilowatt"
+      },
+      "abbr": "kW",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000.0
+      }
+    },
+    {
+      "key": "metric_horsepower",
+      "type": "metric",
+      "name": {
+        "en": "metric horsepower",
+        "sv": "metric horsepower"
+      },
+      "abbr": "hk",
+      "transform": {
+        "kind": "linear",
+        "factor": 735.4987500000024
+      }
+    },
+    {
+      "key": "watt",
+      "type": "metric",
+      "name": {
+        "en": "watt",
+        "sv": "watt"
+      },
+      "abbr": "W",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.0
+      }
+    },
+    {
+      "key": "milliwatt",
+      "type": "metric",
+      "name": {
+        "en": "milliwatt",
+        "sv": "milliwatt"
+      },
+      "abbr": "mW",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.001
+      }
+    },
+    {
+      "key": "microwatt",
+      "type": "metric",
+      "name": {
+        "en": "microwatt",
+        "sv": "microwatt"
+      },
+      "abbr": "uW",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-06
+      }
+    },
+    {
+      "key": "nanowatt",
+      "type": "metric",
+      "name": {
+        "en": "nanowatt",
+        "sv": "nanowatt"
+      },
+      "abbr": "nW",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-09
+      }
+    },
+    {
+      "key": "btu_per_second",
+      "type": "imperial",
+      "name": {
+        "en": "british thermal unit per second",
+        "sv": "british thermal unit per second"
+      },
+      "abbr": "BTU/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 1055.060000000001
+      }
+    },
+    {
+      "key": "horsepower",
+      "type": "imperial",
+      "name": {
+        "en": "horsepower",
+        "sv": "horsepower"
+      },
+      "abbr": "hp",
+      "transform": {
+        "kind": "linear",
+        "factor": 745.6998715822857
+      }
+    },
+    {
+      "key": "btu_per_minute",
+      "type": "imperial",
+      "name": {
+        "en": "british thermal unit per minute",
+        "sv": "british thermal unit per minute"
+      },
+      "abbr": "BTU/min",
+      "transform": {
+        "kind": "linear",
+        "factor": 17.584330000000087
+      }
+    },
+    {
+      "key": "foot_pound_force_per_second",
+      "type": "imperial",
+      "name": {
+        "en": "foot pound-force per second",
+        "sv": "foot pound-force per second"
+      },
+      "abbr": "ft*lbf/s",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.3558179999999918
+      }
+    },
+    {
+      "key": "btu_per_hour",
+      "type": "imperial",
+      "name": {
+        "en": "british thermal unit per hour",
+        "sv": "british thermal unit per hour"
+      },
+      "abbr": "BTU/h",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.29307219999999945
+      }
+    },
+    {
+      "key": "kilocalorie_per_hour",
+      "type": "common",
+      "name": {
+        "en": "kilocalorie per hour",
+        "sv": "kilocalorie per hour"
+      },
+      "abbr": "kcal/h",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.1622222199999948
+      }
+    },
+    {
+      "key": "calorie_per_hour",
+      "type": "common",
+      "name": {
+        "en": "calorie per hour",
+        "sv": "calorie per hour"
+      },
+      "abbr": "cal/h",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0011622222199999946
+      }
+    }
+  ]
+}
