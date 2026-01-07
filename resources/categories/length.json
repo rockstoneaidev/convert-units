@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "key": "length",
+  "family": "physics",
+  "base_unit": "meter",
+  "types": [
+    {
+      "key": "metric",
+      "name": {"sv": "Metrisk", "en": "Metric"}
+    },
+    {
+      "key": "imperial",
+      "name": {"sv": "Anglosaxisk", "en": "Imperial"}
+    }
+  ],
+  "units": [
+    {
+      "key": "meter",
+      "type": "metric",
+      "name": {"sv": "Meter", "en": "Meter"},
+      "abbr": "m",
+      "transform": {"kind": "linear", "factor": 1}
+    },
+    {
+      "key": "kilometer",
+      "type": "metric",
+      "name": {"sv": "Kilometer", "en": "Kilometer"},
+      "abbr": "km",
+      "transform": {"kind": "linear", "factor": 1000}
+    },
+    {
+      "key": "centimeter",
+      "type": "metric",
+      "name": {"sv": "Centimeter", "en": "Centimeter"},
+      "abbr": "cm",
+      "transform": {"kind": "linear", "factor": 0.01}
+    },
+    {
+      "key": "millimeter",
+      "type": "metric",
+      "name": {"sv": "Millimeter", "en": "Millimeter"},
+      "abbr": "mm",
+      "transform": {"kind": "linear", "factor": 0.001}
+    },
+    {
+      "key": "inch",
+      "type": "imperial",
+      "name": {"sv": "Tum", "en": "Inch"},
+      "abbr": "in",
+      "transform": {"kind": "linear", "factor": 0.0254}
+    },
+    {
+      "key": "foot",
+      "type": "imperial",
+      "name": {"sv": "Fot", "en": "Foot"},
+      "abbr": "ft",
+      "transform": {"kind": "linear", "factor": 0.3048}
+    },
+    {
+      "key": "yard",
+      "type": "imperial",
+      "name": {"sv": "Yard", "en": "Yard"},
+      "abbr": "yd",
+      "transform": {"kind": "linear", "factor": 0.9144}
+    },
+    {
+      "key": "mile",
+      "type": "imperial",
+      "name": {"sv": "Engelsk mil", "en": "Mile"},
+      "abbr": "mi",
+      "transform": {"kind": "linear", "factor": 1609.344}
+    }
+  ]
+}
