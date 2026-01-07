@@ -82,6 +82,18 @@ final class Formatter
             return $value;
         }
 
-        return preg_replace('/e([+-])(\\d)$/', 'e$10$2', $value) ?? $value;
+        return preg_replace_callback(
+            '/e([+-]?)(\\d+)$/',
+            static function (array $matches): string {
+                $sign = $matches[1] === '' ? '+' : $matches[1];
+                $exp = $matches[2];
+                if (strlen($exp) === 1) {
+                    $exp = '0' . $exp;
+                }
+
+                return 'e' . $sign . $exp;
+            },
+            $value
+        ) ?? $value;
     }
 }
