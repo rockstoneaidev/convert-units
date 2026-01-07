@@ -1,0 +1,18 @@
+# Composer
+/vendor/
+
+# PHPUnit
+.phpunit.result.cache
+/coverage/
+
+# Env files
+.env
+.env.*
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
