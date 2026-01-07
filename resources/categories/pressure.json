@@ -155,7 +155,7 @@
       "abbr": "ksi",
       "transform": {
         "kind": "linear",
-        "factor": 6894757.000000148
+        "factor": 6894757.0
       }
     },
     {
@@ -194,7 +194,7 @@
       "abbr": "mHg",
       "transform": {
         "kind": "linear",
-        "factor": 133322.00000000012
+        "factor": 133322.0
       }
     },
     {
@@ -285,7 +285,7 @@
       "abbr": "atm",
       "transform": {
         "kind": "linear",
-        "factor": 101325.00000000029
+        "factor": 101325.0
       }
     },
     {

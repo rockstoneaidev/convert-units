@@ -189,7 +189,7 @@
       "abbr": "fjärdingsväg",
       "transform": {
         "kind": "linear",
-        "factor": 2671.999999999986
+        "factor": 2672.0
       }
     },
     {
@@ -319,7 +319,7 @@
       "abbr": "mi",
       "transform": {
         "kind": "linear",
-        "factor": 1609.3439999067707
+        "factor": 1609.344
       }
     },
     {
@@ -371,7 +371,7 @@
       "abbr": "yd",
       "transform": {
         "kind": "linear",
-        "factor": 0.9144000000000065
+        "factor": 0.9144
       }
     },
     {
@@ -384,7 +384,7 @@
       "abbr": "ft",
       "transform": {
         "kind": "linear",
-        "factor": 0.3048000000000022
+        "factor": 0.3048
       }
     },
     {
@@ -410,7 +410,7 @@
       "abbr": "hand",
       "transform": {
         "kind": "linear",
-        "factor": 0.10159999999999969
+        "factor": 0.1016
       }
     },
     {
@@ -423,7 +423,7 @@
       "abbr": "in",
       "transform": {
         "kind": "linear",
-        "factor": 0.02540000000000031
+        "factor": 0.0254
       }
     },
     {
@@ -449,7 +449,7 @@
       "abbr": "distansminut",
       "transform": {
         "kind": "linear",
-        "factor": 1852.000000000012
+        "factor": 1852.0
       }
     },
     {
@@ -462,7 +462,7 @@
       "abbr": "sjömil",
       "transform": {
         "kind": "linear",
-        "factor": 1852.000000000012
+        "factor": 1852.0
       }
     },
     {
@@ -475,7 +475,7 @@
       "abbr": "nautisk mil",
       "transform": {
         "kind": "linear",
-        "factor": 1852.000000000012
+        "factor": 1852.0
       }
     },
     {
@@ -488,7 +488,7 @@
       "abbr": "kabellängd",
       "transform": {
         "kind": "linear",
-        "factor": 185.2000000000012
+        "factor": 185.2
       }
     },
     {
@@ -501,7 +501,7 @@
       "abbr": "orgium (1000)",
       "transform": {
         "kind": "linear",
-        "factor": 1850.999999999985
+        "factor": 1851.0
       }
     },
     {
@@ -540,7 +540,7 @@
       "abbr": "stadium",
       "transform": {
         "kind": "linear",
-        "factor": 185.0000000000002
+        "factor": 185.0
       }
     },
     {
@@ -579,7 +579,7 @@
       "abbr": "kairi",
       "transform": {
         "kind": "linear",
-        "factor": 1852.000000000012
+        "factor": 1852.0
       }
     },
     {
@@ -735,7 +735,7 @@
       "abbr": "AE",
       "transform": {
         "kind": "linear",
-        "factor": 149597900000.001
+        "factor": 149597900000.0
       }
     },
     {
@@ -748,7 +748,7 @@
       "abbr": "lm",
       "transform": {
         "kind": "linear",
-        "factor": 17987547479.999893
+        "factor": 17987547480.0
       }
     },
     {
@@ -761,7 +761,7 @@
       "abbr": "ls",
       "transform": {
         "kind": "linear",
-        "factor": 299792458.00000185
+        "factor": 299792458.0
       }
     }
   ]

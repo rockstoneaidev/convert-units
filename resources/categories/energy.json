@@ -50,7 +50,7 @@
       "abbr": "GWh",
       "transform": {
         "kind": "linear",
-        "factor": 3599999999999.971
+        "factor": 3600000000000.0
       }
     },
     {
@@ -63,7 +63,7 @@
       "abbr": "MWh",
       "transform": {
         "kind": "linear",
-        "factor": 3599999999.9999714
+        "factor": 3600000000.0
       }
     },
     {
@@ -76,7 +76,7 @@
       "abbr": "kWh",
       "transform": {
         "kind": "linear",
-        "factor": 3599999.999999971
+        "factor": 3600000.0
       }
     },
     {
@@ -167,7 +167,7 @@
       "abbr": "therm",
       "transform": {
         "kind": "linear",
-        "factor": 105506000.00000012
+        "factor": 105506000.0
       }
     },
     {

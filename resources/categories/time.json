@@ -37,7 +37,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31557599.99999995
+        "factor": 31557600.0
       }
     },
     {
@@ -102,7 +102,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31557599.99999995
+        "factor": 31557600.0
       }
     },
     {
@@ -115,7 +115,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31556952.00000043
+        "factor": 31556952.0
       }
     },
     {
@@ -128,7 +128,7 @@
       "abbr": "mo",
       "transform": {
         "kind": "linear",
-        "factor": 2592000.0000000168
+        "factor": 2592000
       }
     },
     {
@@ -141,7 +141,7 @@
       "abbr": "wk",
       "transform": {
         "kind": "linear",
-        "factor": 604799.999999983
+        "factor": 604800
       }
     },
     {
@@ -154,7 +154,7 @@
       "abbr": "d",
       "transform": {
         "kind": "linear",
-        "factor": 86400.00000000055
+        "factor": 86400
       }
     },
     {
@@ -167,7 +167,7 @@
       "abbr": "h",
       "transform": {
         "kind": "linear",
-        "factor": 3599.9999999999714
+        "factor": 3600
       }
     },
     {
@@ -180,7 +180,7 @@
       "abbr": "min",
       "transform": {
         "kind": "linear",
-        "factor": 59.9999999999988
+        "factor": 60
       }
     },
     {

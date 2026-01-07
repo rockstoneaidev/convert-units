@@ -30,7 +30,7 @@
       "abbr": "bit",
       "transform": {
         "kind": "linear",
-        "factor": 1.0
+        "factor": 1
       }
     },
     {
@@ -43,7 +43,7 @@
       "abbr": "kbit",
       "transform": {
         "kind": "linear",
-        "factor": 1024.0
+        "factor": 1024
       }
     },
     {
@@ -56,7 +56,7 @@
       "abbr": "Mbit",
       "transform": {
         "kind": "linear",
-        "factor": 1048576.0
+        "factor": 1048576
       }
     },
     {
@@ -69,7 +69,7 @@
       "abbr": "Gbit",
       "transform": {
         "kind": "linear",
-        "factor": 1073741823.9999983
+        "factor": 1073741824
       }
     },
     {
@@ -82,7 +82,7 @@
       "abbr": "Tbit",
       "transform": {
         "kind": "linear",
-        "factor": 1099511627775.9979
+        "factor": 1099511627776
       }
     },
     {
@@ -95,7 +95,7 @@
       "abbr": "Pbit",
       "transform": {
         "kind": "linear",
-        "factor": 1125899906842618.0
+        "factor": 1125899906842624
       }
     },
     {
@@ -108,7 +108,7 @@
       "abbr": "Ebit",
       "transform": {
         "kind": "linear",
-        "factor": 1.1529215046068516e+18
+        "factor": 1152921504606846976
       }
     },
     {
@@ -121,7 +121,7 @@
       "abbr": "B",
       "transform": {
         "kind": "linear",
-        "factor": 8.0
+        "factor": 8
       }
     },
     {
@@ -134,7 +134,7 @@
       "abbr": "KB",
       "transform": {
         "kind": "linear",
-        "factor": 8192.0
+        "factor": 8192
       }
     },
     {
@@ -147,7 +147,7 @@
       "abbr": "MB",
       "transform": {
         "kind": "linear",
-        "factor": 8388608.000000088
+        "factor": 8388608
       }
     },
     {
@@ -160,7 +160,7 @@
       "abbr": "GB",
       "transform": {
         "kind": "linear",
-        "factor": 8589935000.000296
+        "factor": 8589934592
       }
     },
     {
@@ -173,7 +173,7 @@
       "abbr": "TB",
       "transform": {
         "kind": "linear",
-        "factor": 8796092999999.822
+        "factor": 8796093022208
       }
     },
     {
@@ -186,7 +186,7 @@
       "abbr": "PB",
       "transform": {
         "kind": "linear",
-        "factor": 9007199000000072.0
+        "factor": 9007199254740992
       }
     },
     {
@@ -199,7 +199,7 @@
       "abbr": "EB",
       "transform": {
         "kind": "linear",
-        "factor": 9.223371999999682e+18
+        "factor": 9223372036854775808
       }
     }
   ]

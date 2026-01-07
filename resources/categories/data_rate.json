@@ -134,7 +134,7 @@
       "abbr": "Gibit/s",
       "transform": {
         "kind": "linear",
-        "factor": 1073741823.9999983
+        "factor": 1073741824
       }
     },
     {

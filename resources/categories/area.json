@@ -174,7 +174,7 @@
       "abbr": "skäppland",
       "transform": {
         "kind": "linear",
-        "factor": 822.9999999999845
+        "factor": 823.0
       }
     },
     {
@@ -187,7 +187,7 @@
       "abbr": "township",
       "transform": {
         "kind": "linear",
-        "factor": 93239569.99999566
+        "factor": 93239570.0
       }
     },
     {
@@ -200,7 +200,7 @@
       "abbr": "mi²",
       "transform": {
         "kind": "linear",
-        "factor": 2589988.0000000144
+        "factor": 2589988.0
       }
     },
     {
