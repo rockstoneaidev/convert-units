@@ -275,9 +275,9 @@
       "type": "swedish",
       "name": {
         "en": "verkline",
-        "sv": "verklin je"
+        "sv": "verklinje"
       },
-      "abbr": "verklin je",
+      "abbr": "verklinje",
       "transform": {
         "kind": "linear",
         "factor": 0.0020618124999999925
