@@ -19,7 +19,7 @@ final class ConversionEngineTest extends TestCase
 
         $this->assertFloatEquals(1.0, $result['meter']);
         $this->assertFloatEquals(100.0, $result['centimeter']);
-        $this->assertFloatEquals(3.28084, $result['foot']);
+        $this->assertFloatEquals(3.280839895013123, $result['foot']);
     }
 
     public function testConvertsTemperatureAffine(): void
@@ -57,8 +57,8 @@ final class ConversionEngineTest extends TestCase
         return new ConversionEngine($repo);
     }
 
-    private function assertFloatEquals(float $expected, float $actual, float $delta = 1.0E-9): void
+    private function assertFloatEquals(float $expected, float $actual, float $delta = 1.0E-12): void
     {
-        self::assertEquals($expected, $actual, '', $delta);
+        self::assertEqualsWithDelta($expected, $actual, $delta);
     }
 }

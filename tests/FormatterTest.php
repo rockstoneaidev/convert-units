@@ -26,7 +26,7 @@ final class FormatterTest extends TestCase
         $opts->significantFigures = 4;
 
         self::assertSame('1.230', $formatter->format(1.23, $opts));
-        self::assertSame('1230', $formatter->format(1234.0, $opts));
+        self::assertSame('1234', $formatter->format(1234.0, $opts));
     }
 
     public function testFormatsWithCommaSeparator(): void

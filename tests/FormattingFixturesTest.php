@@ -29,7 +29,7 @@ final class FormattingFixturesTest extends TestCase
     /** @return array<int, array<string, mixed>> */
     private function loadFixtures(): array
     {
-        $path = dirname(__DIR__) . '/fixtures/formatting.json';
+        $path = __DIR__ . '/fixtures/formatting.json';
         $raw = file_get_contents($path);
         if ($raw === false) {
             self::fail('Failed to read formatting fixtures.');

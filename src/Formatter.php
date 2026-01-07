@@ -25,6 +25,7 @@ final class Formatter
 
         if ($opts->scientificNotation) {
             $formatted = sprintf('%.' . ($sig - 1) . 'e', $rounded);
+            $formatted = $this->normalizeExponent($formatted);
             return $this->applyDecimalSeparator($formatted, $opts->decimalSeparator);
         }
 
@@ -73,5 +74,14 @@ final class Formatter
         }
 
         return $value;
+    }
+
+    private function normalizeExponent(string $value): string
+    {
+        if (!str_contains($value, 'e')) {
+            return $value;
+        }
+
+        return preg_replace('/e([+-])(\\d)$/', 'e$10$2', $value) ?? $value;
     }
 }
