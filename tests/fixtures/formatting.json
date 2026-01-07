@@ -1,0 +1,27 @@
+[
+  {
+    "value": 0,
+    "options": {"sig": 3, "sci": false, "sep": "."},
+    "expected": "0"
+  },
+  {
+    "value": 1.23,
+    "options": {"sig": 4, "sci": false, "sep": "."},
+    "expected": "1.230"
+  },
+  {
+    "value": 12345,
+    "options": {"sig": 3, "sci": true, "sep": "."},
+    "expected": "1.23e+04"
+  },
+  {
+    "value": 12.34,
+    "options": {"sig": 3, "sci": false, "sep": ","},
+    "expected": "12,3"
+  },
+  {
+    "value": 0.012345,
+    "options": {"sig": 2, "sci": false, "sep": "."},
+    "expected": "0.012"
+  }
+]
