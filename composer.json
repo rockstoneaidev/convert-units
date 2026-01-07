@@ -1,0 +1,22 @@
+{
+  "name": "konvertera/engine",
+  "description": "Konvertera conversion engine (data-driven unit conversions).",
+  "type": "library",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Konvertera\\Engine\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Konvertera\\Engine\\Tests\\": "tests/"
+    }
+  }
+}
