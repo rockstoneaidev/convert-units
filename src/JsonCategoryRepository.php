@@ -78,8 +78,10 @@ final class JsonCategoryRepository implements CategoryRepositoryInterface
     /** @param array<string, mixed> $data */
     private function mapCategory(array $data): Category
     {
+        $this->validateCategory($data);
         $units = [];
         foreach (($data['units'] ?? []) as $unit) {
+            $this->validateUnit($unit);
             $transformData = $unit['transform'] ?? [];
             $transform = new Transform(
                 (string) ($transformData['kind'] ?? ''),
@@ -105,5 +107,83 @@ final class JsonCategoryRepository implements CategoryRepositoryInterface
             isset($data['family']) ? (string) $data['family'] : null,
             isset($data['types']) ? (array) $data['types'] : null
         );
+    }
+
+    /** @param array<string, mixed> $data */
+    private function validateCategory(array $data): void
+    {
+        if (($data['schema_version'] ?? null) !== 1) {
+            throw new \RuntimeException('Unsupported schema_version.');
+        }
+
+        if (!isset($data['key']) || !is_string($data['key'])) {
+            throw new \RuntimeException('Category key missing or invalid.');
+        }
+
+        if (!isset($data['base_unit']) || !is_string($data['base_unit'])) {
+            throw new \RuntimeException('Category base_unit missing or invalid.');
+        }
+
+        if (!isset($data['units']) || !is_array($data['units']) || count($data['units']) === 0) {
+            throw new \RuntimeException('Category units missing or empty.');
+        }
+
+        $hasBaseUnit = false;
+        foreach ($data['units'] as $unit) {
+            if (is_array($unit) && ($unit['key'] ?? null) === $data['base_unit']) {
+                $hasBaseUnit = true;
+                break;
+            }
+        }
+
+        if (!$hasBaseUnit) {
+            throw new \RuntimeException('Category base_unit is not listed in units.');
+        }
+    }
+
+    /** @param array<string, mixed> $unit */
+    private function validateUnit(array $unit): void
+    {
+        if (!isset($unit['key']) || !is_string($unit['key'])) {
+            throw new \RuntimeException('Unit key missing or invalid.');
+        }
+
+        if (!isset($unit['name']) || !is_array($unit['name']) || $unit['name'] === []) {
+            throw new \RuntimeException('Unit name missing or invalid.');
+        }
+
+        if (!array_key_exists('abbr', $unit) || !is_string($unit['abbr'])) {
+            throw new \RuntimeException('Unit abbr missing or invalid.');
+        }
+
+        if (!isset($unit['transform']) || !is_array($unit['transform'])) {
+            throw new \RuntimeException('Unit transform missing or invalid.');
+        }
+
+        $kind = $unit['transform']['kind'] ?? null;
+        if (!in_array($kind, ['linear', 'affine', 'reciprocal_factor', 'custom'], true)) {
+            throw new \RuntimeException('Unit transform kind invalid.');
+        }
+
+        if ($kind === 'linear' || $kind === 'reciprocal_factor') {
+            if (!isset($unit['transform']['factor']) || !is_numeric($unit['transform']['factor'])) {
+                throw new \RuntimeException('Unit transform factor missing or invalid.');
+            }
+        }
+
+        if ($kind === 'affine') {
+            if (!isset($unit['transform']['factor']) || !is_numeric($unit['transform']['factor'])) {
+                throw new \RuntimeException('Unit transform factor missing or invalid.');
+            }
+            if (!isset($unit['transform']['offset']) || !is_numeric($unit['transform']['offset'])) {
+                throw new \RuntimeException('Unit transform offset missing or invalid.');
+            }
+        }
+
+        if ($kind === 'custom') {
+            if (!isset($unit['transform']['custom_key']) || !is_string($unit['transform']['custom_key'])) {
+                throw new \RuntimeException('Unit transform custom_key missing or invalid.');
+            }
+        }
     }
 }
