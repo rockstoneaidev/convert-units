@@ -9,8 +9,12 @@
       "name": {"sv": "Metrisk", "en": "Metric"}
     },
     {
-      "key": "imperial",
-      "name": {"sv": "Anglosaxisk", "en": "Imperial"}
+      "key": "us",
+      "name": {"sv": "U.S.", "en": "U.S."}
+    },
+    {
+      "key": "british",
+      "name": {"sv": "Brittisk", "en": "British"}
     }
   ],
   "units": [
@@ -22,10 +26,17 @@
       "transform": {"kind": "linear", "factor": 1}
     },
     {
+      "key": "liter_per_10km",
+      "type": "metric",
+      "name": {"sv": "Liter per mil", "en": "Liters per 10 kilometers"},
+      "abbr": "L/10 km",
+      "transform": {"kind": "linear", "factor": 0.1}
+    },
+    {
       "key": "liter_per_100km",
       "type": "metric",
       "name": {"sv": "Liter per 100 kilometer", "en": "Liters per 100 kilometers"},
-      "abbr": "L/100km",
+      "abbr": "L/100 km",
       "transform": {"kind": "linear", "factor": 0.01}
     },
     {
@@ -37,17 +48,31 @@
     },
     {
       "key": "miles_per_gallon_us",
-      "type": "imperial",
+      "type": "us",
       "name": {"sv": "Miles per gallon (US)", "en": "Miles per gallon (US)"},
       "abbr": "mpg (US)",
       "transform": {"kind": "reciprocal_factor", "factor": 2.3521458333333333}
     },
     {
+      "key": "gallons_per_100_miles_us",
+      "type": "us",
+      "name": {"sv": "Gallons per 100 miles", "en": "Gallons per 100 miles"},
+      "abbr": "gal/100 mi (US)",
+      "transform": {"kind": "linear", "factor": 0.023521458333333333}
+    },
+    {
       "key": "miles_per_gallon_uk",
-      "type": "imperial",
+      "type": "british",
       "name": {"sv": "Miles per gallon (UK)", "en": "Miles per gallon (UK)"},
       "abbr": "mpg (UK)",
       "transform": {"kind": "reciprocal_factor", "factor": 2.824809363864494}
+    },
+    {
+      "key": "gallons_per_100_miles_uk",
+      "type": "british",
+      "name": {"sv": "Gallons per 100 miles", "en": "Gallons per 100 miles"},
+      "abbr": "gal/100 mi (UK)",
+      "transform": {"kind": "linear", "factor": 0.02824809363864494}
     }
   ]
 }
