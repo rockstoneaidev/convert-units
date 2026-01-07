@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "key": "area",
+  "family": "physics",
+  "base_unit": "square_meter",
+  "types": [
+    {
+      "key": "metric",
+      "name": {
+        "en": "Metric",
+        "sv": "Metric"
+      }
+    },
+    {
+      "key": "swedish",
+      "name": {
+        "en": "Old Swedish",
+        "sv": "Old Swedish"
+      }
+    },
+    {
+      "key": "imperial",
+      "name": {
+        "en": "British / American",
+        "sv": "British / American"
+      }
+    },
+    {
+      "key": "japanese",
+      "name": {
+        "en": "Japanese",
+        "sv": "Japanese"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "square_kilometer",
+      "type": "metric",
+      "name": {
+        "en": "square kilometer",
+        "sv": "square kilometer"
+      },
+      "abbr": "km2",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000000.0
+      }
+    },
+    {
+      "key": "square_hectometer",
+      "type": "metric",
+      "name": {
+        "en": "square hectometer",
+        "sv": "square hectometer"
+      },
+      "abbr": "hm2",
+      "transform": {
+        "kind": "linear",
+        "factor": 10000.0
+      }
+    },
+    {
+      "key": "hectare",
+      "type": "metric",
+      "name": {
+        "en": "hectare",
+        "sv": "hectare"
+      },
+      "abbr": "ha",
+      "transform": {
+        "kind": "linear",
+        "factor": 10000.0
+      }
+    },
+    {
+      "key": "square_dekameter",
+      "type": "metric",
+      "name": {
+        "en": "square dekameter",
+        "sv": "square dekameter"
+      },
+      "abbr": "dam2",
+      "transform": {
+        "kind": "linear",
+        "factor": 100.0
+      }
+    },
+    {
+      "key": "square_meter",
+      "type": "metric",
+      "name": {
+        "en": "square meter",
+        "sv": "square meter"
+      },
+      "abbr": "m2",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.0
+      }
+    },
+    {
+      "key": "square_decimeter",
+      "type": "metric",
+      "name": {
+        "en": "square decimeter",
+        "sv": "square decimeter"
+      },
+      "abbr": "dm2",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.01
+      }
+    },
+    {
+      "key": "square_millimeter",
+      "type": "metric",
+      "name": {
+        "en": "square millimeter",
+        "sv": "square millimeter"
+      },
+      "abbr": "mm2",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-06
+      }
+    },
+    {
+      "key": "square_micrometer",
+      "type": "metric",
+      "name": {
+        "en": "square micrometer",
+        "sv": "square micrometer"
+      },
+      "abbr": "um2",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-12
+      }
+    },
+    {
+      "key": "square_nanometer",
+      "type": "metric",
+      "name": {
+        "en": "square nanometer",
+        "sv": "square nanometer"
+      },
+      "abbr": "nm2",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-18
+      }
+    },
+    {
+      "key": "tunnland",
+      "type": "swedish",
+      "name": {
+        "en": "tunnland",
+        "sv": "tunnland"
+      },
+      "abbr": "tunnland",
+      "transform": {
+        "kind": "linear",
+        "factor": 4936.60000000006
+      }
+    },
+    {
+      "key": "skappland",
+      "type": "swedish",
+      "name": {
+        "en": "skappland",
+        "sv": "skappland"
+      },
+      "abbr": "skappland",
+      "transform": {
+        "kind": "linear",
+        "factor": 822.9999999999845
+      }
+    },
+    {
+      "key": "township",
+      "type": "imperial",
+      "name": {
+        "en": "township",
+        "sv": "township"
+      },
+      "abbr": "township",
+      "transform": {
+        "kind": "linear",
+        "factor": 93239569.99999566
+      }
+    },
+    {
+      "key": "square_mile",
+      "type": "imperial",
+      "name": {
+        "en": "square mile",
+        "sv": "square mile"
+      },
+      "abbr": "mi2",
+      "transform": {
+        "kind": "linear",
+        "factor": 2589988.0000000144
+      }
+    },
+    {
+      "key": "homestead",
+      "type": "imperial",
+      "name": {
+        "en": "homestead",
+        "sv": "homestead"
+      },
+      "abbr": "homestead",
+      "transform": {
+        "kind": "linear",
+        "factor": 647497.000139229
+      }
+    },
+    {
+      "key": "acre",
+      "type": "imperial",
+      "name": {
+        "en": "acre",
+        "sv": "acre"
+      },
+      "abbr": "acre",
+      "transform": {
+        "kind": "linear",
+        "factor": 4046.8560000000625
+      }
+    },
+    {
+      "key": "rood",
+      "type": "imperial",
+      "name": {
+        "en": "rood",
+        "sv": "rood"
+      },
+      "abbr": "rood",
+      "transform": {
+        "kind": "linear",
+        "factor": 1011.7139999999952
+      }
+    },
+    {
+      "key": "square_rod",
+      "type": "imperial",
+      "name": {
+        "en": "square rod",
+        "sv": "square rod"
+      },
+      "abbr": "rod2",
+      "transform": {
+        "kind": "linear",
+        "factor": 25.292850000000133
+      }
+    },
+    {
+      "key": "square",
+      "type": "imperial",
+      "name": {
+        "en": "square",
+        "sv": "square"
+      },
+      "abbr": "square",
+      "transform": {
+        "kind": "linear",
+        "factor": 9.290303999999761
+      }
+    },
+    {
+      "key": "square_yard",
+      "type": "imperial",
+      "name": {
+        "en": "square yard",
+        "sv": "square yard"
+      },
+      "abbr": "yd2",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.8361274636189232
+      }
+    },
+    {
+      "key": "square_foot",
+      "type": "imperial",
+      "name": {
+        "en": "square foot",
+        "sv": "square foot"
+      },
+      "abbr": "ft2",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0929030399999976
+      }
+    },
+    {
+      "key": "square_inch",
+      "type": "imperial",
+      "name": {
+        "en": "square inch",
+        "sv": "square inch"
+      },
+      "abbr": "in2",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.00064516
+      }
+    },
+    {
+      "key": "cho",
+      "type": "japanese",
+      "name": {
+        "en": "cho",
+        "sv": "cho"
+      },
+      "abbr": "cho",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.009917351652897236
+      }
+    },
+    {
+      "key": "tann",
+      "type": "japanese",
+      "name": {
+        "en": "tann",
+        "sv": "tann"
+      },
+      "abbr": "tann",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.000991735500000034
+      }
+    },
+    {
+      "key": "se",
+      "type": "japanese",
+      "name": {
+        "en": "se",
+        "sv": "se"
+      },
+      "abbr": "se",
+      "transform": {
+        "kind": "linear",
+        "factor": 9.917355000000342e-05
+      }
+    },
+    {
+      "key": "tsubo",
+      "type": "japanese",
+      "name": {
+        "en": "tsubo",
+        "sv": "tsubo"
+      },
+      "abbr": "tsubo",
+      "transform": {
+        "kind": "linear",
+        "factor": 3.3057850000000046e-06
+      }
+    }
+  ]
+}

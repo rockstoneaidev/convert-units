@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "key": "data_storage",
+  "family": "data",
+  "base_unit": "bit",
+  "types": [
+    {
+      "key": "bit",
+      "name": {
+        "en": "Bit-based units",
+        "sv": "Bit-based units"
+      }
+    },
+    {
+      "key": "byte",
+      "name": {
+        "en": "Byte-based units",
+        "sv": "Byte-based units"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "bit",
+      "type": "bit",
+      "name": {
+        "en": "bit",
+        "sv": "bit"
+      },
+      "abbr": "bit",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.0
+      }
+    },
+    {
+      "key": "kilobit",
+      "type": "bit",
+      "name": {
+        "en": "kilobit",
+        "sv": "kilobit"
+      },
+      "abbr": "kbit",
+      "transform": {
+        "kind": "linear",
+        "factor": 1024.0
+      }
+    },
+    {
+      "key": "megabit",
+      "type": "bit",
+      "name": {
+        "en": "megabit",
+        "sv": "megabit"
+      },
+      "abbr": "Mbit",
+      "transform": {
+        "kind": "linear",
+        "factor": 1048576.0
+      }
+    },
+    {
+      "key": "gigabit",
+      "type": "bit",
+      "name": {
+        "en": "gigabit",
+        "sv": "gigabit"
+      },
+      "abbr": "Gbit",
+      "transform": {
+        "kind": "linear",
+        "factor": 1073741823.9999983
+      }
+    },
+    {
+      "key": "terabit",
+      "type": "bit",
+      "name": {
+        "en": "terabit",
+        "sv": "terabit"
+      },
+      "abbr": "Tbit",
+      "transform": {
+        "kind": "linear",
+        "factor": 1099511627775.9979
+      }
+    },
+    {
+      "key": "petabit",
+      "type": "bit",
+      "name": {
+        "en": "petabit",
+        "sv": "petabit"
+      },
+      "abbr": "Pbit",
+      "transform": {
+        "kind": "linear",
+        "factor": 1125899906842618.0
+      }
+    },
+    {
+      "key": "exabit",
+      "type": "bit",
+      "name": {
+        "en": "exabit",
+        "sv": "exabit"
+      },
+      "abbr": "Ebit",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.1529215046068516e+18
+      }
+    },
+    {
+      "key": "byte",
+      "type": "byte",
+      "name": {
+        "en": "byte",
+        "sv": "byte"
+      },
+      "abbr": "B",
+      "transform": {
+        "kind": "linear",
+        "factor": 8.0
+      }
+    },
+    {
+      "key": "kilobyte",
+      "type": "byte",
+      "name": {
+        "en": "kilobyte",
+        "sv": "kilobyte"
+      },
+      "abbr": "KB",
+      "transform": {
+        "kind": "linear",
+        "factor": 8192.0
+      }
+    },
+    {
+      "key": "megabyte",
+      "type": "byte",
+      "name": {
+        "en": "megabyte",
+        "sv": "megabyte"
+      },
+      "abbr": "MB",
+      "transform": {
+        "kind": "linear",
+        "factor": 8388608.000000088
+      }
+    },
+    {
+      "key": "gigabyte",
+      "type": "byte",
+      "name": {
+        "en": "gigabyte",
+        "sv": "gigabyte"
+      },
+      "abbr": "GB",
+      "transform": {
+        "kind": "linear",
+        "factor": 8589935000.000296
+      }
+    },
+    {
+      "key": "terabyte",
+      "type": "byte",
+      "name": {
+        "en": "terabyte",
+        "sv": "terabyte"
+      },
+      "abbr": "TB",
+      "transform": {
+        "kind": "linear",
+        "factor": 8796092999999.822
+      }
+    },
+    {
+      "key": "petabyte",
+      "type": "byte",
+      "name": {
+        "en": "petabyte",
+        "sv": "petabyte"
+      },
+      "abbr": "PB",
+      "transform": {
+        "kind": "linear",
+        "factor": 9007199000000072.0
+      }
+    },
+    {
+      "key": "exabyte",
+      "type": "byte",
+      "name": {
+        "en": "exabyte",
+        "sv": "exabyte"
+      },
+      "abbr": "EB",
+      "transform": {
+        "kind": "linear",
+        "factor": 9.223371999999682e+18
+      }
+    }
+  ]
+}

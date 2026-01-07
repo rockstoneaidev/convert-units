@@ -44,6 +44,14 @@
     {
       "key": "volume",
       "family": "physics"
+    },
+    {
+      "key": "data_storage",
+      "family": "data"
+    },
+    {
+      "key": "area",
+      "family": "physics"
     }
   ],
   "families": [
