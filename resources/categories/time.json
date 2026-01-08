@@ -51,6 +51,17 @@
       "transform": {
         "kind": "linear",
         "factor": 1.0
+      },
+      "definition": {
+        "summary": {
+          "en": "The SI base unit of time. Defined by atomic transitions.",
+          "sv": "SI-grundenheten för tid. Definieras av atomära övergångar."
+        },
+        "body": {
+          "en": "The second (symbol: s) is the base unit of time in the International System of Units (SI). Since 1967, it has been defined by the fixed numerical value of the cesium frequency, the unperturbed ground-state hyperfine transition frequency of the cesium-133 atom.",
+          "sv": "Sekunden (s) är grundenheten för tid i SI-systemet. Sedan 1967 definieras den genom att fixera det numeriska värdet av cesiumfrekvensen, det vill säga svängningarna hos strålningen vid övergången mellan de två hyperfinstrukturnivåerna i grundtillståndet hos atomen cesium-133."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
       }
     },
     {
@@ -103,6 +114,17 @@
       "transform": {
         "kind": "linear",
         "factor": 31557600
+      },
+      "definition": {
+        "summary": {
+          "en": "Exactly 365.25 days. Used in astronomy.",
+          "sv": "Exakt 365,25 dagar. Används inom astronomi."
+        },
+        "body": {
+          "en": "A Julian year (symbol: a) is a unit of measurement of time defined as exactly 365.25 days of 86,400 SI seconds each. It is the standard unit used by astronomers to define the light-year.",
+          "sv": "Ett julianskt år är en tidsenhet som definieras som exakt 365,25 dygn (à 86 400 sekunder). Det är den standardenhet som astronomer använder för att bland annat definiera ett ljusår."
+        },
+        "source": "https://www.iau.org/public/themes/measuring/"
       }
     },
     {
@@ -116,6 +138,17 @@
       "transform": {
         "kind": "linear",
         "factor": 31556952
+      },
+      "definition": {
+        "summary": {
+          "en": "Standard calendar year, 365.2425 days.",
+          "sv": "Standardåret i vår kalender, 365,2425 dagar."
+        },
+        "body": {
+          "en": "The Gregorian year is the average length of the year in the Gregorian calendar. It is exactly 365.2425 days, accounting for leap year rules where years divisible by 100 are not leap years unless they are also divisible by 400.",
+          "sv": "Det gregorianska året är medellängden på ett år i den gregorianska kalendern (vår nuvarande kalender). Det motsvarar 365,2425 dygn, vilket tar hänsyn till skottårsregeln att jämna århundraden inte är skottår om de inte är delbara med 400."
+        },
+        "source": null
       }
     },
     {
@@ -155,6 +188,17 @@
       "transform": {
         "kind": "linear",
         "factor": 86400
+      },
+      "definition": {
+        "summary": {
+          "en": "Exactly 86,400 seconds.",
+          "sv": "Exakt 86 400 sekunder."
+        },
+        "body": {
+          "en": "A day is a unit of time defined as exactly 86,400 seconds. It is accepted for use with the SI, although the actual rotation of the Earth can vary slightly (monitored via leap seconds).",
+          "sv": "Ett dygn (dag) är en tidsenhet som definieras som exakt 86 400 sekunder. Det är en enhet som är godkänd att användas tillsammans med SI-systemet."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
       }
     },
     {
@@ -168,6 +212,17 @@
       "transform": {
         "kind": "linear",
         "factor": 3600
+      },
+      "definition": {
+        "summary": {
+          "en": "60 minutes or 3,600 seconds.",
+          "sv": "60 minuter eller 3 600 sekunder."
+        },
+        "body": {
+          "en": "The hour (symbol: h) is a unit of time equal to 60 minutes, or 3,600 seconds. It is a non-SI unit accepted for use with the SI units.",
+          "sv": "En timme (h) är en tidsenhet som motsvarar 60 minuter eller 3 600 sekunder. Enheten är godkänd för användning tillsammans med SI-systemet."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
       }
     },
     {
@@ -181,6 +236,17 @@
       "transform": {
         "kind": "linear",
         "factor": 60
+      },
+      "definition": {
+        "summary": {
+          "en": "60 seconds.",
+          "sv": "60 sekunder."
+        },
+        "body": {
+          "en": "The minute is a unit of time equal to 60 seconds. It is a non-SI unit accepted for use with the SI units.",
+          "sv": "En minut är en tidsenhet som motsvarar 60 sekunder. Enheten är godkänd för användning tillsammans med SI-systemet."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
       }
     },
     {
