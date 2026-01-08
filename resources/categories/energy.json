@@ -87,7 +87,7 @@
           "en": "The kilowatt-hour (kWh) is a unit of energy equal to 3.6 megajoules. It is commonly used as a billing unit for energy delivered to consumers by electric utilities.",
           "sv": "Kilowattimme (kWh) är en energienhet som motsvarar den energi som utvecklas av effekten en kilowatt under en timme. Det är standardenheten för mätning av elektrisk energi i hushåll."
         },
-        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
+        "source": "https://www.bipm.org/en/publications/si-brochure"
       }
     },
     {
@@ -174,7 +174,7 @@
           "en": "The electronvolt (eV) is a unit of energy equal to approximately 1.6×10^-19 joules. It is the amount of kinetic energy gained by a single electron accelerating from rest through an electric potential difference of one volt.",
           "sv": "Elektronvolt (eV) är en energienhet som används inom atom- och partikelfysik. Det är den rörelseenergi som en elektron får när den accelereras av spänningen 1 volt i vakuum."
         },
-        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
+        "source": "https://www.bipm.org/en/publications/si-brochure"
       }
     },
     {
@@ -224,7 +224,7 @@
           "en": "The British thermal unit (BTU) is a unit of heat; it is defined as the amount of heat required to raise the temperature of one pound of water by one degree Fahrenheit. It is commonly used in heating and air conditioning (HVAC).",
           "sv": "British thermal unit (BTU) är en energienhet som definieras som den värme som krävs för att höja temperaturen på ett pund vatten med en grad Fahrenheit. Enheten är vanlig inom kyla och värme (t.ex. för att ange effekten på en AC)."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {

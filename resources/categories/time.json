@@ -124,7 +124,7 @@
           "en": "A Julian year (symbol: a) is a unit of measurement of time defined as exactly 365.25 days of 86,400 SI seconds each. It is the standard unit used by astronomers to define the light-year.",
           "sv": "Ett julianskt år är en tidsenhet som definieras som exakt 365,25 dygn (à 86 400 sekunder). Det är den standardenhet som astronomer använder för att bland annat definiera ett ljusår."
         },
-        "source": "https://www.iau.org/public/themes/measuring/"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {
@@ -198,7 +198,7 @@
           "en": "A day is a unit of time defined as exactly 86,400 seconds. It is accepted for use with the SI, although the actual rotation of the Earth can vary slightly (monitored via leap seconds).",
           "sv": "Ett dygn (dag) är en tidsenhet som definieras som exakt 86 400 sekunder. Det är en enhet som är godkänd att användas tillsammans med SI-systemet."
         },
-        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
+        "source": "https://www.bipm.org/en/publications/si-brochure"
       }
     },
     {
@@ -222,7 +222,7 @@
           "en": "The hour (symbol: h) is a unit of time equal to 60 minutes, or 3,600 seconds. It is a non-SI unit accepted for use with the SI units.",
           "sv": "En timme (h) är en tidsenhet som motsvarar 60 minuter eller 3 600 sekunder. Enheten är godkänd för användning tillsammans med SI-systemet."
         },
-        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
+        "source": "https://www.bipm.org/en/publications/si-brochure"
       }
     },
     {
@@ -246,7 +246,7 @@
           "en": "The minute is a unit of time equal to 60 seconds. It is a non-SI unit accepted for use with the SI units.",
           "sv": "En minut är en tidsenhet som motsvarar 60 sekunder. Enheten är godkänd för användning tillsammans med SI-systemet."
         },
-        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
+        "source": "https://www.bipm.org/en/publications/si-brochure"
       }
     },
     {

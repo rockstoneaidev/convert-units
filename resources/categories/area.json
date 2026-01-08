@@ -92,7 +92,7 @@
           "en": "The hectare (ha) is a non-SI metric unit of area equal to a square with 100-meter sides (10,000 m²). It is primarily used in the measurement of land.",
           "sv": "Hektar (ha) är en ytenhet som motsvarar 10 000 kvadratmeter (ett område på 100 × 100 meter). Enheten används främst för att ange storleken på landområden, skog och åkermark."
         },
-        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
+        "source": "https://www.bipm.org/en/publications/si-brochure"
       }
     },
     {
@@ -281,7 +281,7 @@
           "en": "The acre is a unit of land area used in the imperial and US customary systems. It is traditionally defined as the area of one chain by one furlong (66 by 660 feet). One acre is approximately 4,047 square meters.",
           "sv": "Acre är en äldre ytenhet som fortfarande används i stor utsträckning i USA och Storbritannien för att mäta land. En acre motsvarar ca 4 047 kvadratmeter (eller ungefär 0,4 hektar)."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {

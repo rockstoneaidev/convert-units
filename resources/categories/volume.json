@@ -152,7 +152,7 @@
           "en": "The liter is a metric unit of volume equal to one cubic decimeter (dm³), 1000 cubic centimeters (cm³), or 1/1000 cubic meter. It is accepted for use with the SI.",
           "sv": "Liter är en metrisk volymenhet som motsvarar en kubikdecimeter (dm³). Det går 1000 liter på en kubikmeter."
         },
-        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
+        "source": "https://www.bipm.org/en/publications/si-brochure"
       }
     },
     {
@@ -280,7 +280,7 @@
           "en": "A standard oil barrel (bbl) is defined as 42 US gallons, which is approximately 159 liters. There are other definitions for dry barrels and beer barrels.",
           "sv": "Ett standardfat för olja (barrel) definieras som 42 US gallons, vilket motsvarar ungefär 159 liter. Det finns andra definitioner för 'dry barrels' och ölfat."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {
@@ -317,7 +317,7 @@
           "en": "The US liquid gallon is legally defined as 231 cubic inches, which is exactly 3.785411784 liters. It is distinct from the Imperial (UK) gallon.",
           "sv": "US liquid gallon definieras som exakt 231 kubiktum, vilket motsvarar ca 3,785 liter. Detta är mindre än den brittiska (Imperial) gallonen."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {
@@ -562,7 +562,7 @@
           "en": "The Imperial (UK) gallon is defined as exactly 4.54609 liters. It is about 20% larger than the US liquid gallon.",
           "sv": "Imperial (Brittisk) gallon definieras som exakt 4,54609 liter. Den är därmed cirka 20% större än en amerikansk gallon."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {

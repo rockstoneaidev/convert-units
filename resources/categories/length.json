@@ -808,7 +808,7 @@
           "en": "The parsec is a unit of length used to measure the large distances to astronomical objects outside the Solar System. It is defined as the distance at which one astronomical unit subtends an angle of one arcsecond. It is approximately equal to 3.26 light-years.",
           "sv": "Parsek (pc) är en längdenhet som används inom astronomi för att ange stora avstånd till objekt utanför solsystemet. En parsek definieras som avståndet där en astronomisk enhet (avståndet jorden-solen) upptar vinkeln en bågsekund. Det motsvarar ca 3,26 ljusår."
         },
-        "source": "https://www.iau.org/public/themes/measuring/"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {
@@ -832,7 +832,7 @@
           "en": "A light-year is a large unit of length used to express astronomical distances. It is defined as the distance that light travels in a vacuum in one Julian year (365.25 days). It is equivalent to approximately 9.46 trillion kilometers.",
           "sv": "Ett ljusår är en längdenhet som används inom astronomi. Det definieras som den sträcka ljuset färdas i vakuum under ett julianskt år (365,25 dagar). Det motsvarar ungefär 9 460 miljarder kilometer."
         },
-        "source": "https://www.iau.org/public/themes/measuring/"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {
@@ -856,7 +856,7 @@
           "en": "The astronomical unit (symbol: au) is a unit of length, roughly the distance from Earth to the Sun. However, that distance varies as Earth orbits the Sun. The au is defined as exactly 149 597 870 700 meters.",
           "sv": "En astronomisk enhet (au) motsvarar ungefär avståndet mellan jorden och solen. Enheten definieras exakt som 149 597 870 700 meter."
         },
-        "source": "https://www.iau.org/public/themes/measuring/"
+        "source": "https://www.bipm.org/en/publications/si-brochure"
       }
     },
     {

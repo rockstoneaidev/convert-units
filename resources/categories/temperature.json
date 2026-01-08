@@ -65,7 +65,7 @@
           "en": "The degree Fahrenheit (°F) is a unit of temperature on the Fahrenheit scale. Water freezes at 32 °F and boils at 212 °F at standard pressure. It is the official temperature scale in the United States.",
           "sv": "Grad Fahrenheit (°F) är en enhet på Fahrenheit-skalan. På denna skala fryser vatten vid 32 °F och kokar vid 212 °F. Skalan är officiell standard i USA, men har ersatts av Celsius i de flesta andra länder."
         },
-        "source": "https://www.nist.gov/pml/weights-and-measures/si-units-temperature"
+        "source": "https://www.nist.gov/pml/owm/si-units-temperature"
       }
     },
     {

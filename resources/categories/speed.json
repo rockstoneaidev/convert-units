@@ -122,7 +122,7 @@
           "en": "The mile per hour (mph) is a unit of speed expressing the number of statute miles covered in one hour. It is the standard unit for speed limits in the United States and the United Kingdom.",
           "sv": "Mile per hour (mph) är en hastighetsenhet som anger antalet engelska mil per timme. Det är standardenheten för hastighetsbegränsningar i USA och Storbritannien."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {
@@ -159,7 +159,7 @@
           "en": "The knot (kn) is a unit of speed equal to one nautical mile per hour, exactly 1.852 km/h. It is used in meteorology, and in maritime and air navigation.",
           "sv": "Knop är en hastighetsenhet som används inom sjöfart och flyg. En knop motsvarar en nautisk mil (1852 meter) per timme."
         },
-        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
+        "source": "https://www.bipm.org/en/publications/si-brochure"
       }
     },
     {

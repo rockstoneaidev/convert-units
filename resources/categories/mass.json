@@ -69,7 +69,7 @@
           "en": "The tonne (also known as the metric ton) is a non-SI unit of mass accepted for use with the SI. It is equal to 1000 kilograms. It is distinct from the 'long ton' (UK) and 'short ton' (US).",
           "sv": "Ton (metriskt ton) är en massenhet som används tillsammans med SI-systemet. Det motsvarar 1000 kilogram. Enheten skiljer sig från både 'long ton' (Storbritannien) och 'short ton' (USA)."
         },
-        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
+        "source": "https://www.bipm.org/en/publications/si-brochure"
       }
     },
     {
@@ -167,7 +167,7 @@
           "en": "The metric carat is a unit of mass used for measuring gemstones and pearls. Since 1907, it has been internationally standardized as exactly 200 milligrams.",
           "sv": "Metrisk karat är en massenhet som används för att väga ädelstenar och pärlor. Sedan 1907 är enheten internationellt standardiserad till exakt 200 milligram."
         },
-        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
+        "source": "https://www.bipm.org/en/publications/si-brochure"
       }
     },
     {
@@ -243,7 +243,7 @@
           "en": "The long ton (imperial ton) is a British unit of mass equal to 2,240 pounds (1,016 kg). It is heavier than both the metric tonne and the US short ton.",
           "sv": "Long ton (även kallad imperial ton) är en brittisk massenhet som motsvarar 2 240 pund (ca 1 016 kg). Den är tyngre än både det metriska tonnet och det amerikanska 'short ton'."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {
@@ -267,7 +267,7 @@
           "en": "The short ton is a unit of mass common in the United States. It is equal to 2,000 pounds (approx. 907 kg).",
           "sv": "Short ton är en massenhet som är vanlig i USA. Den motsvarar 2 000 pund (ca 907 kg) och är därmed lättare än ett metriskt ton."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {
@@ -330,7 +330,7 @@
           "en": "The pound (avoirdupois) is a unit of mass used in the imperial and US customary systems. Since 1959, the international pound has been defined as exactly 0.453 592 37 kilograms.",
           "sv": "Pound (skålpund) är en massenhet som används i det brittiska och amerikanska måttsystemet. Sedan 1959 är det internationella pundet definierat som exakt 0,453 592 37 kilogram."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {

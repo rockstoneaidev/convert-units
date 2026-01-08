@@ -75,7 +75,7 @@
           "en": "The bar is a metric unit of pressure, but not part of the International System of Units (SI). It is defined as exactly 100,000 Pa (100 kPa). It is slightly less than the current average atmospheric pressure on Earth at sea level.",
           "sv": "Bar är en enhet för tryck som motsvarar exakt 100 000 pascal (100 kPa). Det ligger mycket nära det normala lufttrycket vid havsytan (1 atmosfär ≈ 1,013 bar)."
         },
-        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
+        "source": "https://www.bipm.org/en/publications/si-brochure"
       }
     },
     {
@@ -212,7 +212,7 @@
           "en": "Pounds per square inch (PSI) is a unit of pressure resulting from a force of one pound-force applied to an area of one square inch. It is widely used in the US and UK, particularly for tire pressure.",
           "sv": "PSI (Pounds per Square Inch) är en tryckenhet som är vanlig i USA och Storbritannien. Den anger trycket i pund per kvadrattum. I Sverige ser vi den ofta när vi pumpar däck."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {
@@ -340,7 +340,7 @@
           "en": "The standard atmosphere (atm) is a unit of pressure defined as exactly 101,325 Pa. It approximates the average atmospheric pressure on Earth at sea level.",
           "sv": "Fysikalisk atmosfär (atm) är en tryckenhet som definieras som exakt 101 325 Pascal. Det är tänkt att motsvara medellufttrycket vid havsytan."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
     },
     {
