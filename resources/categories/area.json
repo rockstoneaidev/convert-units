@@ -45,6 +45,17 @@
       "transform": {
         "kind": "linear",
         "factor": 1000000.0
+      },
+      "definition": {
+        "summary": {
+          "en": "1,000,000 square meters. Used for large geographical areas.",
+          "sv": "1 000 000 kvadratmeter. Används för stora geografiska ytor."
+        },
+        "body": {
+          "en": "The square kilometer (km²) is a metric unit of area equal to a square with sides of one kilometer. It corresponds to one million square meters.",
+          "sv": "Kvadratkilometer (km²) är en ytenhet som motsvarar en kvadrat med en kilometers sida. Det är lika med en miljon kvadratmeter."
+        },
+        "source": null
       }
     },
     {
@@ -71,6 +82,17 @@
       "transform": {
         "kind": "linear",
         "factor": 10000.0
+      },
+      "definition": {
+        "summary": {
+          "en": "10,000 square meters. Common for land measurement.",
+          "sv": "10 000 kvadratmeter. Vanligt för landareal."
+        },
+        "body": {
+          "en": "The hectare (ha) is a non-SI metric unit of area equal to a square with 100-meter sides (10,000 m²). It is primarily used in the measurement of land.",
+          "sv": "Hektar (ha) är en ytenhet som motsvarar 10 000 kvadratmeter (ett område på 100 × 100 meter). Enheten används främst för att ange storleken på landområden, skog och åkermark."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
       }
     },
     {
@@ -97,6 +119,17 @@
       "transform": {
         "kind": "linear",
         "factor": 1.0
+      },
+      "definition": {
+        "summary": {
+          "en": "The SI derived unit of area.",
+          "sv": "SI-härledd enhet för area."
+        },
+        "body": {
+          "en": "The square meter (m²) is the SI derived unit of area. It is defined as the area of a square with sides of one meter.",
+          "sv": "Kvadratmeter (m²) är den härledda SI-enheten för area. Den definieras som ytan av en kvadrat med en meters sida."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
       }
     },
     {
@@ -161,7 +194,7 @@
       "abbr": "tunnland",
       "transform": {
         "kind": "linear",
-        "factor": 4936.60000000006
+        "factor": 4936.6
       }
     },
     {
@@ -200,7 +233,18 @@
       "abbr": "mi²",
       "transform": {
         "kind": "linear",
-        "factor": 2589988.0
+        "factor": 2589988.110336
+      },
+      "definition": {
+        "summary": {
+          "en": "640 acres. Standard unit for large areas in US/UK.",
+          "sv": "640 acres. Standard för stora ytor i USA/UK."
+        },
+        "body": {
+          "en": "The square mile is an imperial and US customary unit of area equal to 640 acres or 2.59 square kilometers.",
+          "sv": "Square mile (kvadrat-mile) är en ytenhet som motsvarar 640 acres eller drygt 2,58 kvadratkilometer."
+        },
+        "source": null
       }
     },
     {
@@ -213,7 +257,7 @@
       "abbr": "homestead",
       "transform": {
         "kind": "linear",
-        "factor": 647497.000139229
+        "factor": 647497.0
       }
     },
     {
@@ -226,7 +270,18 @@
       "abbr": "acre",
       "transform": {
         "kind": "linear",
-        "factor": 4046.8560000000625
+        "factor": 4046.8564224
+      },
+      "definition": {
+        "summary": {
+          "en": "Traditional unit of land area, approx 0.4 hectares.",
+          "sv": "Traditionell enhet för landareal, ca 0,4 hektar."
+        },
+        "body": {
+          "en": "The acre is a unit of land area used in the imperial and US customary systems. It is traditionally defined as the area of one chain by one furlong (66 by 660 feet). One acre is approximately 4,047 square meters.",
+          "sv": "Acre är en äldre ytenhet som fortfarande används i stor utsträckning i USA och Storbritannien för att mäta land. En acre motsvarar ca 4 047 kvadratmeter (eller ungefär 0,4 hektar)."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
       }
     },
     {
@@ -239,7 +294,7 @@
       "abbr": "rood",
       "transform": {
         "kind": "linear",
-        "factor": 1011.7139999999952
+        "factor": 1011.7141056
       }
     },
     {
@@ -252,7 +307,7 @@
       "abbr": "rod²",
       "transform": {
         "kind": "linear",
-        "factor": 25.292850000000133
+        "factor": 25.29285264
       }
     },
     {
@@ -265,7 +320,7 @@
       "abbr": "square",
       "transform": {
         "kind": "linear",
-        "factor": 9.290303999999761
+        "factor": 9.290304
       }
     },
     {
@@ -278,7 +333,7 @@
       "abbr": "yd²",
       "transform": {
         "kind": "linear",
-        "factor": 0.8361274636189232
+        "factor": 0.83612736
       }
     },
     {
@@ -291,7 +346,18 @@
       "abbr": "ft²",
       "transform": {
         "kind": "linear",
-        "factor": 0.0929030399999976
+        "factor": 0.09290304
+      },
+      "definition": {
+        "summary": {
+          "en": "144 square inches. Common for real estate.",
+          "sv": "144 kvadrattum. Vanligt inom fastigheter."
+        },
+        "body": {
+          "en": "The square foot is an imperial unit of area widely used in the United States and UK for real estate and floor plans.",
+          "sv": "Square foot (kvadratfot) är en ytenhet som används flitigt i USA och Storbritannien, särskilt för att ange storleken på lägenheter och hus."
+        },
+        "source": null
       }
     },
     {
@@ -317,7 +383,7 @@
       "abbr": "cho",
       "transform": {
         "kind": "linear",
-        "factor": 0.009917351652897236
+        "factor": 9917.36
       }
     },
     {
@@ -330,7 +396,7 @@
       "abbr": "tann",
       "transform": {
         "kind": "linear",
-        "factor": 0.000991735500000034
+        "factor": 991.736
       }
     },
     {
@@ -343,7 +409,7 @@
       "abbr": "se",
       "transform": {
         "kind": "linear",
-        "factor": 9.917355000000342e-05
+        "factor": 99.1736
       }
     },
     {
@@ -356,7 +422,7 @@
       "abbr": "tsubo",
       "transform": {
         "kind": "linear",
-        "factor": 3.3057850000000046e-06
+        "factor": 3.305785
       }
     }
   ]

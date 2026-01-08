@@ -89,7 +89,18 @@
       "abbr": "hk",
       "transform": {
         "kind": "linear",
-        "factor": 735.4987500000024
+        "factor": 735.49875
+      },
+      "definition": {
+        "summary": {
+          "en": "Unit of power, approx 735.5 watts.",
+          "sv": "Effektenhet, ca 735,5 watt."
+        },
+        "body": {
+          "en": "The metric horsepower (PS, hk, ch) is defined as the power to lift a mass of 75 kg by 1 meter in 1 second. It is approximately 735.5 watts. It differs slightly from the imperial mechanical horsepower.",
+          "sv": "Metrisk hästkraft (hk) definieras som effekten som krävs för att lyfta 75 kg en meter uppåt på en sekund. Det motsvarar ca 735,5 watt. Observera att detta skiljer sig något från den engelska hästkraften (hp)."
+        },
+        "source": null
       }
     },
     {
@@ -103,6 +114,17 @@
       "transform": {
         "kind": "linear",
         "factor": 1.0
+      },
+      "definition": {
+        "summary": {
+          "en": "SI derived unit of power. 1 joule per second.",
+          "sv": "SI-härledd enhet för effekt. 1 joule per sekund."
+        },
+        "body": {
+          "en": "The watt (W) is the unit of power in the International System of Units (SI). It is defined as a derived unit of 1 joule per second. It is used to quantify the rate of energy transfer.",
+          "sv": "Watt (W) är SI-enheten för effekt. En watt definieras som en joule per sekund. Enheten är uppkallad efter den skotske uppfinnaren James Watt."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
       }
     },
     {
@@ -154,7 +176,7 @@
       "abbr": "BTU/s",
       "transform": {
         "kind": "linear",
-        "factor": 1055.060000000001
+        "factor": 1055.05585262
       }
     },
     {
@@ -167,7 +189,18 @@
       "abbr": "hp",
       "transform": {
         "kind": "linear",
-        "factor": 745.6998715822857
+        "factor": 745.69987158
+      },
+      "definition": {
+        "summary": {
+          "en": "Imperial unit of power, approx 745.7 watts.",
+          "sv": "Anglosaxisk effektenhet, ca 745,7 watt."
+        },
+        "body": {
+          "en": "Mechanical horsepower (hp), also known as imperial horsepower, is defined as approximately 745.7 watts. It is based on lifting 550 pounds by 1 foot in 1 second.",
+          "sv": "Mekanisk hästkraft (hp), även kallad imperial horsepower, är den definition som används i USA och Storbritannien. Den motsvarar ca 745,7 watt, vilket är något mer än den metriska hästkraften."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
       }
     },
     {
@@ -180,7 +213,7 @@
       "abbr": "BTU/min",
       "transform": {
         "kind": "linear",
-        "factor": 17.584330000000087
+        "factor": 17.584264
       }
     },
     {
@@ -193,7 +226,7 @@
       "abbr": "ft×lbf/s",
       "transform": {
         "kind": "linear",
-        "factor": 1.3558179999999918
+        "factor": 1.355817948
       }
     },
     {
@@ -206,7 +239,7 @@
       "abbr": "BTU/h",
       "transform": {
         "kind": "linear",
-        "factor": 0.29307219999999945
+        "factor": 0.29307107
       }
     },
     {
@@ -219,7 +252,7 @@
       "abbr": "kcal/h",
       "transform": {
         "kind": "linear",
-        "factor": 1.1622222199999948
+        "factor": 1.16222222
       }
     },
     {
@@ -232,7 +265,7 @@
       "abbr": "cal/h",
       "transform": {
         "kind": "linear",
-        "factor": 0.0011622222199999946
+        "factor": 0.00116222222
       }
     }
   ]

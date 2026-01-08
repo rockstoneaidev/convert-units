@@ -51,6 +51,17 @@
       "transform": {
         "kind": "linear",
         "factor": 1.0
+      },
+      "definition": {
+        "summary": {
+          "en": "SI derived unit of speed.",
+          "sv": "SI-härledd enhet för hastighet."
+        },
+        "body": {
+          "en": "The meter per second (m/s) is the SI derived unit of speed and velocity. It is defined by the distance in meters divided by the time in seconds.",
+          "sv": "Meter per sekund (m/s) är SI-enheten för hastighet. Den anger hur många meter ett objekt färdas på en sekund."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
       }
     },
     {
@@ -64,6 +75,17 @@
       "transform": {
         "kind": "linear",
         "factor": 0.2777777778
+      },
+      "definition": {
+        "summary": {
+          "en": "Standard unit for speed limits worldwide.",
+          "sv": "Standardmåttet för hastighetsbegränsningar."
+        },
+        "body": {
+          "en": "The kilometer per hour (km/h) is a unit of speed, expressing the number of kilometers travelled in one hour. It is the most common unit for speed limits on road signs worldwide.",
+          "sv": "Kilometer per timme (km/h) är den vanligaste enheten för att mäta hastighet i trafiken och på hastighetsskyltar i större delen av världen."
+        },
+        "source": null
       }
     },
     {
@@ -76,7 +98,7 @@
       "abbr": "mi/s",
       "transform": {
         "kind": "linear",
-        "factor": 1609.3439999067707
+        "factor": 1609.344
       }
     },
     {
@@ -89,7 +111,18 @@
       "abbr": "mph",
       "transform": {
         "kind": "linear",
-        "factor": 0.44704000000000044
+        "factor": 0.44704
+      },
+      "definition": {
+        "summary": {
+          "en": "Standard speed unit in US/UK.",
+          "sv": "Standardmåttet för hastighet i USA/UK."
+        },
+        "body": {
+          "en": "The mile per hour (mph) is a unit of speed expressing the number of statute miles covered in one hour. It is the standard unit for speed limits in the United States and the United Kingdom.",
+          "sv": "Mile per hour (mph) är en hastighetsenhet som anger antalet engelska mil per timme. Det är standardenheten för hastighetsbegränsningar i USA och Storbritannien."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
       }
     },
     {
@@ -102,7 +135,7 @@
       "abbr": "ft/s",
       "transform": {
         "kind": "linear",
-        "factor": 0.3048000000000022
+        "factor": 0.3048
       }
     },
     {
@@ -115,7 +148,18 @@
       "abbr": "kn",
       "transform": {
         "kind": "linear",
-        "factor": 0.5144444000000129
+        "factor": 0.514444444
+      },
+      "definition": {
+        "summary": {
+          "en": "One nautical mile per hour. Used in aviation/marine.",
+          "sv": "En nautisk mil per timme. Används till sjöss/flyg."
+        },
+        "body": {
+          "en": "The knot (kn) is a unit of speed equal to one nautical mile per hour, exactly 1.852 km/h. It is used in meteorology, and in maritime and air navigation.",
+          "sv": "Knop är en hastighetsenhet som används inom sjöfart och flyg. En knop motsvarar en nautisk mil (1852 meter) per timme."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
       }
     },
     {
@@ -128,7 +172,7 @@
       "abbr": "nmi/h",
       "transform": {
         "kind": "linear",
-        "factor": 0.5144444000000129
+        "factor": 0.514444444
       }
     }
   ]

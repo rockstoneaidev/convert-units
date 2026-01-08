@@ -65,6 +65,17 @@
       "transform": {
         "kind": "linear",
         "factor": 100000.0
+      },
+      "definition": {
+        "summary": {
+          "en": "Metric unit, 100,000 pascals.",
+          "sv": "Metrisk enhet, 100 000 pascal."
+        },
+        "body": {
+          "en": "The bar is a metric unit of pressure, but not part of the International System of Units (SI). It is defined as exactly 100,000 Pa (100 kPa). It is slightly less than the current average atmospheric pressure on Earth at sea level.",
+          "sv": "Bar är en enhet för tryck som motsvarar exakt 100 000 pascal (100 kPa). Det ligger mycket nära det normala lufttrycket vid havsytan (1 atmosfär ≈ 1,013 bar)."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/accepted-units"
       }
     },
     {
@@ -104,6 +115,17 @@
       "transform": {
         "kind": "linear",
         "factor": 100.0
+      },
+      "definition": {
+        "summary": {
+          "en": "Equivalent to millibar. Used in meteorology.",
+          "sv": "Motsvarar millibar. Används inom meteorologi."
+        },
+        "body": {
+          "en": "The hectopascal (hPa) is equal to 100 pascals or 1 millibar. It is the international standard unit for measuring atmospheric pressure in meteorology.",
+          "sv": "Hektopascal (hPa) är en tryckenhet som motsvarar 100 pascal. Inom meteorologi har den ersatt den äldre enheten millibar (mbar), men värdet är exakt detsamma (1 hPa = 1 mbar)."
+        },
+        "source": null
       }
     },
     {
@@ -143,6 +165,17 @@
       "transform": {
         "kind": "linear",
         "factor": 1.0
+      },
+      "definition": {
+        "summary": {
+          "en": "The SI derived unit of pressure.",
+          "sv": "SI-härledd enhet för tryck."
+        },
+        "body": {
+          "en": "The pascal (Pa) is the SI derived unit of pressure used to quantify internal pressure, stress, Young's modulus, and ultimate tensile strength. It is defined as one newton per square meter.",
+          "sv": "Pascal (Pa) är SI-enheten för tryck. En pascal definieras som trycket av en kraft på en newton fördelad över en yta på en kvadratmeter. Enheten är uppkallad efter Blaise Pascal."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
       }
     },
     {
@@ -169,6 +202,17 @@
       "transform": {
         "kind": "linear",
         "factor": 6894.757293168361
+      },
+      "definition": {
+        "summary": {
+          "en": "Imperial/US unit. Common for tire pressure.",
+          "sv": "Anglosaxisk enhet. Vanlig för däcktryck."
+        },
+        "body": {
+          "en": "Pounds per square inch (PSI) is a unit of pressure resulting from a force of one pound-force applied to an area of one square inch. It is widely used in the US and UK, particularly for tire pressure.",
+          "sv": "PSI (Pounds per Square Inch) är en tryckenhet som är vanlig i USA och Storbritannien. Den anger trycket i pund per kvadrattum. I Sverige ser vi den ofta när vi pumpar däck."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
       }
     },
     {
@@ -286,6 +330,17 @@
       "transform": {
         "kind": "linear",
         "factor": 101325.0
+      },
+      "definition": {
+        "summary": {
+          "en": "Standard pressure at sea level.",
+          "sv": "Standardtrycket vid havsytan."
+        },
+        "body": {
+          "en": "The standard atmosphere (atm) is a unit of pressure defined as exactly 101,325 Pa. It approximates the average atmospheric pressure on Earth at sea level.",
+          "sv": "Fysikalisk atmosfär (atm) är en tryckenhet som definieras som exakt 101 325 Pascal. Det är tänkt att motsvara medellufttrycket vid havsytan."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
       }
     },
     {
