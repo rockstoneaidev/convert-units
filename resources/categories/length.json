@@ -73,6 +73,17 @@
       "transform": {
         "kind": "linear",
         "factor": 1000.0
+      },
+      "definition": {
+        "summary": {
+          "en": "1000 meters. The standard unit for geographical distances.",
+          "sv": "1000 meter. Standardmåttet för geografiska avstånd."
+        },
+        "body": {
+          "en": "The kilometer is a unit of length in the metric system, equal to one thousand meters. It is the primary unit used for expressing distances between geographical places on land in most of the world.",
+          "sv": "Kilometer är en längdenhet i det metriska systemet som motsvarar tusen meter. Det är den primära enheten för att ange avstånd mellan geografiska platser på land i större delen av världen."
+        },
+        "source": null
       }
     },
     {
@@ -86,6 +97,17 @@
       "transform": {
         "kind": "linear",
         "factor": 1.0
+      },
+      "definition": {
+        "summary": {
+          "en": "The SI base unit of length. Defined by the speed of light.",
+          "sv": "SI-grundenheten för längd. Definieras av ljusets hastighet."
+        },
+        "body": {
+          "en": "The meter is the base unit of length in the International System of Units (SI). Originally defined in 1793 as one ten-millionth of the distance from the equator to the North Pole, it has been defined since 1983 as the distance light travels in a vacuum in 1/299 792 458 of a second.",
+          "sv": "Metern är grundenheten för längd i SI-systemet. Den definierades ursprungligen 1793 som en tiomiljondel av avståndet från ekvatorn till nordpolen. Sedan 1983 definieras den exakt som den sträcka ljuset färdas i vakuum under tidsintervallet 1/299 792 458 av en sekund."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
       }
     },
     {
@@ -177,6 +199,17 @@
       "transform": {
         "kind": "linear",
         "factor": 10000.0
+      },
+      "definition": {
+        "summary": {
+          "en": "A Scandinavian unit equal to 10 kilometers.",
+          "sv": "En skandinavisk enhet som motsvarar 10 kilometer."
+        },
+        "body": {
+          "en": "The 'mil' is a unit of length common in Sweden and Norway. Historically it varied by region, but since 1889 it has been standardized as exactly 10 kilometers. It should not be confused with the English 'mile'.",
+          "sv": "Milen är en längdenhet som är vanlig i Sverige och Norge. Historiskt sett varierade längden beroende på landsdel, men sedan 1889 är en svensk mil standardiserad till exakt 10 kilometer (10 000 meter)."
+        },
+        "source": null
       }
     },
     {
@@ -189,7 +222,7 @@
       "abbr": "fjärdingsväg",
       "transform": {
         "kind": "linear",
-        "factor": 2672.0
+        "factor": 2672
       }
     },
     {
@@ -202,7 +235,7 @@
       "abbr": "famn",
       "transform": {
         "kind": "linear",
-        "factor": 1.779999999999996
+        "factor": 1.78
       }
     },
     {
@@ -215,7 +248,7 @@
       "abbr": "steg",
       "transform": {
         "kind": "linear",
-        "factor": 0.900000000000009
+        "factor": 0.9
       }
     },
     {
@@ -228,7 +261,7 @@
       "abbr": "aln",
       "transform": {
         "kind": "linear",
-        "factor": 0.5938020000000115
+        "factor": 0.593802
       }
     },
     {
@@ -241,7 +274,7 @@
       "abbr": "fot",
       "transform": {
         "kind": "linear",
-        "factor": 0.296900999999997
+        "factor": 0.296901
       }
     },
     {
@@ -254,7 +287,7 @@
       "abbr": "verktum",
       "transform": {
         "kind": "linear",
-        "factor": 0.024741750000000114
+        "factor": 0.02474175
       }
     },
     {
@@ -267,7 +300,7 @@
       "abbr": "tum",
       "transform": {
         "kind": "linear",
-        "factor": 0.02474000000000011
+        "factor": 0.02474
       }
     },
     {
@@ -280,7 +313,7 @@
       "abbr": "verklinje",
       "transform": {
         "kind": "linear",
-        "factor": 0.0020618124999999925
+        "factor": 0.0020618125
       }
     },
     {
@@ -293,7 +326,7 @@
       "abbr": "skrupel",
       "transform": {
         "kind": "linear",
-        "factor": 2.969166000000019e-05
+        "factor": 0.00002969166
       }
     },
     {
@@ -306,7 +339,7 @@
       "abbr": "league",
       "transform": {
         "kind": "linear",
-        "factor": 4828.031999999953
+        "factor": 4828.032
       }
     },
     {
@@ -320,6 +353,17 @@
       "transform": {
         "kind": "linear",
         "factor": 1609.344
+      },
+      "definition": {
+        "summary": {
+          "en": "Imperial unit equal to 1,760 yards or exactly 1,609.344 meters.",
+          "sv": "Anglosaxisk enhet som motsvarar exakt 1 609,344 meter."
+        },
+        "body": {
+          "en": "The mile is an English unit of length equal to 5,280 feet, or 1,760 yards. It was standardized as exactly 1,609.344 meters by the International Yard and Pound Agreement of 1959.",
+          "sv": "Mile (engelsk mil) är en längdenhet som är vanlig i USA och Storbritannien. Den motsvarar 5 280 fot eller 1 760 yards. År 1959 standardiserades den internationellt till exakt 1 609,344 meter."
+        },
+        "source": "https://www.nist.gov/pml/owm/si-units-length"
       }
     },
     {
@@ -332,7 +376,7 @@
       "abbr": "furlong",
       "transform": {
         "kind": "linear",
-        "factor": 201.16799999999887
+        "factor": 201.168
       }
     },
     {
@@ -345,7 +389,7 @@
       "abbr": "chain",
       "transform": {
         "kind": "linear",
-        "factor": 20.116799999999884
+        "factor": 20.1168
       }
     },
     {
@@ -358,7 +402,7 @@
       "abbr": "rd",
       "transform": {
         "kind": "linear",
-        "factor": 5.02919999999992
+        "factor": 5.0292
       }
     },
     {
@@ -372,6 +416,17 @@
       "transform": {
         "kind": "linear",
         "factor": 0.9144
+      },
+      "definition": {
+        "summary": {
+          "en": "Imperial unit equal to 3 feet or exactly 0.9144 meters.",
+          "sv": "Anglosaxisk enhet som motsvarar 3 fot eller exakt 0,9144 meter."
+        },
+        "body": {
+          "en": "The yard is a unit of length in both the British imperial and US customary systems of measurement. It comprises 3 feet or 36 inches. Since 1959, it is strictly defined as exactly 0.9144 meters.",
+          "sv": "Yard är en längdenhet i både det brittiska och amerikanska måttsystemet. En yard motsvarar 3 fot eller 36 tum. Sedan 1959 är den definierad som exakt 0,9144 meter."
+        },
+        "source": "https://www.nist.gov/pml/owm/si-units-length"
       }
     },
     {
@@ -385,6 +440,17 @@
       "transform": {
         "kind": "linear",
         "factor": 0.3048
+      },
+      "definition": {
+        "summary": {
+          "en": "Imperial unit equal to 12 inches or exactly 0.3048 meters.",
+          "sv": "Anglosaxisk enhet som motsvarar 12 tum eller exakt 0,3048 meter."
+        },
+        "body": {
+          "en": "The foot is a unit of length in the British imperial and United States customary systems of measurement. It is equal to 12 inches. Since 1959, the international foot is defined as exactly 0.3048 meters.",
+          "sv": "Fot (foot) är en längdenhet som används främst i USA och Storbritannien. En fot delas in i 12 tum (inches). Sedan 1959 är den internationella foten definierad som exakt 0,3048 meter."
+        },
+        "source": "https://www.nist.gov/pml/owm/si-units-length"
       }
     },
     {
@@ -397,7 +463,7 @@
       "abbr": "link",
       "transform": {
         "kind": "linear",
-        "factor": 0.20116799999999885
+        "factor": 0.201168
       }
     },
     {
@@ -424,6 +490,17 @@
       "transform": {
         "kind": "linear",
         "factor": 0.0254
+      },
+      "definition": {
+        "summary": {
+          "en": "Imperial unit equal to 1/12 of a foot or exactly 25.4 mm.",
+          "sv": "Anglosaxisk enhet som motsvarar 1/12 fot eller exakt 25,4 mm."
+        },
+        "body": {
+          "en": "The inch is a unit of length in the British imperial and the United States customary systems of measurement. It is equal to 1/36 yard or 1/12 of a foot. Since 1959, the inch has been defined as exactly 25.4 mm.",
+          "sv": "Tum (inch) är en längdenhet som används i det brittiska och amerikanska måttsystemet. Den motsvarar 1/12 fot. Sedan 1959 definieras en tum som exakt 25,4 millimeter."
+        },
+        "source": "https://www.nist.gov/pml/owm/si-units-length"
       }
     },
     {
@@ -436,7 +513,7 @@
       "abbr": "line",
       "transform": {
         "kind": "linear",
-        "factor": 0.002116667000000012
+        "factor": 0.002116667
       }
     },
     {
@@ -449,7 +526,7 @@
       "abbr": "distansminut",
       "transform": {
         "kind": "linear",
-        "factor": 1852.0
+        "factor": 1852
       }
     },
     {
@@ -462,7 +539,18 @@
       "abbr": "sjömil",
       "transform": {
         "kind": "linear",
-        "factor": 1852.0
+        "factor": 1852
+      },
+      "definition": {
+        "summary": {
+          "en": "Unit used in navigation, exactly 1852 meters.",
+          "sv": "Enhet för navigation, exakt 1852 meter."
+        },
+        "body": {
+          "en": "The nautical mile is a unit of length used in air, marine, and space navigation, and for the definition of territorial waters. Historically defined as one minute of latitude, it is now internationally defined as exactly 1852 meters.",
+          "sv": "En nautisk mil (sjömil) är en längdenhet som används inom sjöfart, flyg och navigation. Den definierades ursprungligen som en distansminut (1/60 grad) längs en meridian, men är numera standardiserad till exakt 1852 meter."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
       }
     },
     {
@@ -475,7 +563,7 @@
       "abbr": "nautisk mil",
       "transform": {
         "kind": "linear",
-        "factor": 1852.0
+        "factor": 1852
       }
     },
     {
@@ -501,7 +589,7 @@
       "abbr": "orgium (1000)",
       "transform": {
         "kind": "linear",
-        "factor": 1851.0
+        "factor": 1851
       }
     },
     {
@@ -514,7 +602,7 @@
       "abbr": "mile",
       "transform": {
         "kind": "linear",
-        "factor": 1388.250000000008
+        "factor": 1388.25
       }
     },
     {
@@ -527,7 +615,7 @@
       "abbr": "stadium",
       "transform": {
         "kind": "linear",
-        "factor": 192.26999999999856
+        "factor": 192.27
       }
     },
     {
@@ -540,7 +628,7 @@
       "abbr": "stadium",
       "transform": {
         "kind": "linear",
-        "factor": 185.0
+        "factor": 185
       }
     },
     {
@@ -553,7 +641,7 @@
       "abbr": "stadium",
       "transform": {
         "kind": "linear",
-        "factor": 184.98000000000025
+        "factor": 184.98
       }
     },
     {
@@ -566,7 +654,7 @@
       "abbr": "ri",
       "transform": {
         "kind": "linear",
-        "factor": 3927.3000000000347
+        "factor": 3927.3
       }
     },
     {
@@ -579,7 +667,7 @@
       "abbr": "kairi",
       "transform": {
         "kind": "linear",
-        "factor": 1852.0
+        "factor": 1852
       }
     },
     {
@@ -592,7 +680,7 @@
       "abbr": "cho",
       "transform": {
         "kind": "linear",
-        "factor": 109.09169999999943
+        "factor": 109.0917
       }
     },
     {
@@ -605,7 +693,7 @@
       "abbr": "jyo",
       "transform": {
         "kind": "linear",
-        "factor": 3.030324000000022
+        "factor": 3.030324
       }
     },
     {
@@ -618,7 +706,7 @@
       "abbr": "ken",
       "transform": {
         "kind": "linear",
-        "factor": 1.8181939999999979
+        "factor": 1.818194
       }
     },
     {
@@ -631,7 +719,7 @@
       "abbr": "shyaku",
       "transform": {
         "kind": "linear",
-        "factor": 0.3030324000000022
+        "factor": 0.3030324
       }
     },
     {
@@ -644,7 +732,7 @@
       "abbr": "sun",
       "transform": {
         "kind": "linear",
-        "factor": 0.03030324000000022
+        "factor": 0.03030324
       }
     },
     {
@@ -657,7 +745,7 @@
       "abbr": "mon",
       "transform": {
         "kind": "linear",
-        "factor": 0.02399999999999981
+        "factor": 0.024
       }
     },
     {
@@ -670,7 +758,7 @@
       "abbr": "cubit",
       "transform": {
         "kind": "linear",
-        "factor": 0.45720000000000327
+        "factor": 0.4572
       }
     },
     {
@@ -683,7 +771,7 @@
       "abbr": "span",
       "transform": {
         "kind": "linear",
-        "factor": 0.22860000000000164
+        "factor": 0.2286
       }
     },
     {
@@ -696,7 +784,7 @@
       "abbr": "handbreadth",
       "transform": {
         "kind": "linear",
-        "factor": 0.07620000000000286
+        "factor": 0.0762
       }
     },
     {
@@ -709,7 +797,18 @@
       "abbr": "pc",
       "transform": {
         "kind": "linear",
-        "factor": 3.085678000000037e+16
+        "factor": 30856775814913700
+      },
+      "definition": {
+        "summary": {
+          "en": "Astronomical unit approx 3.26 light-years.",
+          "sv": "Astronomisk enhet, ca 3,26 ljusår."
+        },
+        "body": {
+          "en": "The parsec is a unit of length used to measure the large distances to astronomical objects outside the Solar System. It is defined as the distance at which one astronomical unit subtends an angle of one arcsecond. It is approximately equal to 3.26 light-years.",
+          "sv": "Parsek (pc) är en längdenhet som används inom astronomi för att ange stora avstånd till objekt utanför solsystemet. En parsek definieras som avståndet där en astronomisk enhet (avståndet jorden-solen) upptar vinkeln en bågsekund. Det motsvarar ca 3,26 ljusår."
+        },
+        "source": "https://www.iau.org/public/themes/measuring/"
       }
     },
     {
@@ -722,7 +821,18 @@
       "abbr": "ly",
       "transform": {
         "kind": "linear",
-        "factor": 9460527999999938.0
+        "factor": 9460730472580800
+      },
+      "definition": {
+        "summary": {
+          "en": "The distance light travels in one Julian year.",
+          "sv": "Sträckan ljuset färdas på ett julianskt år."
+        },
+        "body": {
+          "en": "A light-year is a large unit of length used to express astronomical distances. It is defined as the distance that light travels in a vacuum in one Julian year (365.25 days). It is equivalent to approximately 9.46 trillion kilometers.",
+          "sv": "Ett ljusår är en längdenhet som används inom astronomi. Det definieras som den sträcka ljuset färdas i vakuum under ett julianskt år (365,25 dagar). Det motsvarar ungefär 9 460 miljarder kilometer."
+        },
+        "source": "https://www.iau.org/public/themes/measuring/"
       }
     },
     {
@@ -735,7 +845,18 @@
       "abbr": "AE",
       "transform": {
         "kind": "linear",
-        "factor": 149597900000.0
+        "factor": 149597870700
+      },
+      "definition": {
+        "summary": {
+          "en": "Average distance from Earth to Sun.",
+          "sv": "Medelavståndet mellan jorden och solen."
+        },
+        "body": {
+          "en": "The astronomical unit (symbol: au) is a unit of length, roughly the distance from Earth to the Sun. However, that distance varies as Earth orbits the Sun. The au is defined as exactly 149 597 870 700 meters.",
+          "sv": "En astronomisk enhet (au) motsvarar ungefär avståndet mellan jorden och solen. Enheten definieras exakt som 149 597 870 700 meter."
+        },
+        "source": "https://www.iau.org/public/themes/measuring/"
       }
     },
     {
@@ -748,7 +869,7 @@
       "abbr": "lm",
       "transform": {
         "kind": "linear",
-        "factor": 17987547480.0
+        "factor": 17987547480
       }
     },
     {
@@ -761,7 +882,7 @@
       "abbr": "ls",
       "transform": {
         "kind": "linear",
-        "factor": 299792458.0
+        "factor": 299792458
       }
     }
   ]

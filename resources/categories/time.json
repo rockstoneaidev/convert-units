@@ -37,7 +37,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31557600.0
+        "factor": 31557600
       }
     },
     {
@@ -102,7 +102,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31557600.0
+        "factor": 31557600
       }
     },
     {
@@ -115,7 +115,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31556952.0
+        "factor": 31556952
       }
     },
     {
@@ -193,7 +193,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31558429.43999982
+        "factor": 31558429.44
       }
     },
     {
@@ -206,7 +206,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31558149.76760674
+        "factor": 31558149.7676
       }
     },
     {
@@ -219,7 +219,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31558149.76760674
+        "factor": 31558149.7676
       }
     },
     {

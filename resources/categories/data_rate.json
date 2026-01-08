@@ -57,6 +57,17 @@
       "transform": {
         "kind": "linear",
         "factor": 8000000.0
+      },
+      "definition": {
+        "summary": {
+          "en": "A unit of data transfer speed equal to 8 megabits per second.",
+          "sv": "En enhet för datahastighet som motsvarar 8 megabit per sekund."
+        },
+        "body": {
+          "en": "Megabytes per second (MB/s) is often used to measure file transfer speeds or disk I/O. It is important to distinguish this from Mbps (megabits per second), which is 8 times slower.",
+          "sv": "Megabyte per sekund (MB/s) används ofta för att mäta hastigheten på filöverföringar eller hårddiskar. Det är viktigt att skilja denna från Mbps (megabit per sekund), som är 8 gånger långsammare."
+        },
+        "source": null
       }
     },
     {
@@ -70,6 +81,17 @@
       "transform": {
         "kind": "linear",
         "factor": 1000000.0
+      },
+      "definition": {
+        "summary": {
+          "en": "Standard unit for internet connection speeds.",
+          "sv": "Standardmåttet för internethastigheter."
+        },
+        "body": {
+          "en": "Megabits per second (Mbps or Mbit/s) is the standard unit for measuring bandwidth and internet connection speeds. One megabit per second corresponds to transferring one million bits every second.",
+          "sv": "Megabit per sekund (Mbit/s) är standardenheten för att mäta bandbredd och internethastighet. En megabit per sekund innebär att en miljon bitar överförs varje sekund."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
       }
     },
     {
@@ -109,6 +131,17 @@
       "transform": {
         "kind": "linear",
         "factor": 8.0
+      },
+      "definition": {
+        "summary": {
+          "en": "8 bits per second.",
+          "sv": "8 bitar per sekund."
+        },
+        "body": {
+          "en": "One byte per second (B/s) is a rate equal to eight bits per second. It is commonly used in low-level data transfer contexts.",
+          "sv": "En byte per sekund (B/s) motsvarar åtta bitar per sekund. Enheten används ofta i sammanhang som rör grundläggande dataöverföring."
+        },
+        "source": null
       }
     },
     {
@@ -122,6 +155,17 @@
       "transform": {
         "kind": "linear",
         "factor": 1.0
+      },
+      "definition": {
+        "summary": {
+          "en": "The base unit of data rate. Formally bit/s.",
+          "sv": "Basenheten för datahastighet. Formellt bit/s."
+        },
+        "body": {
+          "en": "Bit per second (bps) is the primary unit of data transfer rate. While 'bps' is common in informal contexts, 'bit/s' is the formal abbreviation. It should not be confused with B/s (byte per second), where 1 B/s = 8 bps. It is also distinct from 'baud', which refers to symbol rate.",
+          "sv": "Bitar per sekund (bit/s eller bps) är den grundläggande enheten för datahastighet. I informella sammanhang används ofta bps eller b/s, men den formella förkortningen är bit/s. Det är viktigt att inte blanda ihop b/s med B/s (byte per sekund), då 1 B/s = 8 bit/s. Enheten blandas ibland även ihop med 'baud', som istället avser moduleringshastigheten."
+        },
+        "source": "https://physics.nist.gov/cuu/Units/binary.html"
       }
     },
     {
@@ -134,7 +178,18 @@
       "abbr": "Gibit/s",
       "transform": {
         "kind": "linear",
-        "factor": 1073741824
+        "factor": 1073741824.0
+      },
+      "definition": {
+        "summary": {
+          "en": "Binary data rate unit (2^30 bits per second).",
+          "sv": "Binär enhet för datahastighet (2^30 bitar per sekund)."
+        },
+        "body": {
+          "en": "Gibibit per second (Gibit/s) is a binary unit of data rate defined by the IEC. Unlike the decimal gigabit (10^9 bits), the gibibit is exactly 2^30 bits (1,073,741,824 bits).",
+          "sv": "Gibibit per sekund (Gibit/s) är en binär enhet för datahastighet definierad av IEC. Till skillnad från den decimala gigabiten (10^9 bitar) motsvarar en gibibit exakt 2^30 bitar (1 073 741 824 bitar)."
+        },
+        "source": "https://physics.nist.gov/cuu/Units/binary.html"
       }
     },
     {

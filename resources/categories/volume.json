@@ -221,7 +221,7 @@
       "abbr": "acre-ft",
       "transform": {
         "kind": "linear",
-        "factor": 1233.4819999999977
+        "factor": 1233.48183754752
       }
     },
     {
@@ -234,7 +234,7 @@
       "abbr": "yd³",
       "transform": {
         "kind": "linear",
-        "factor": 0.7645548999999777
+        "factor": 0.764554857984
       }
     },
     {
@@ -247,7 +247,7 @@
       "abbr": "bbl",
       "transform": {
         "kind": "linear",
-        "factor": 0.15898729999999925
+        "factor": 0.158987294928
       }
     },
     {
@@ -260,7 +260,7 @@
       "abbr": "ft³",
       "transform": {
         "kind": "linear",
-        "factor": 0.02831684999999981
+        "factor": 0.028316846592
       }
     },
     {
@@ -273,7 +273,7 @@
       "abbr": "gal",
       "transform": {
         "kind": "linear",
-        "factor": 0.0037854120000000665
+        "factor": 0.003785411784
       }
     },
     {
@@ -286,7 +286,7 @@
       "abbr": "qt",
       "transform": {
         "kind": "linear",
-        "factor": 0.0009463530000000346
+        "factor": 0.000946352946
       }
     },
     {
@@ -299,7 +299,7 @@
       "abbr": "pt",
       "transform": {
         "kind": "linear",
-        "factor": 0.0004731764999999949
+        "factor": 0.000473176473
       }
     },
     {
@@ -312,7 +312,7 @@
       "abbr": "gi",
       "transform": {
         "kind": "linear",
-        "factor": 0.00011829410000000052
+        "factor": 0.00011829411825
       }
     },
     {
@@ -325,7 +325,7 @@
       "abbr": "fl oz",
       "transform": {
         "kind": "linear",
-        "factor": 2.9573529999999735e-05
+        "factor": 2.95735295625e-05
       }
     },
     {
@@ -338,7 +338,7 @@
       "abbr": "in³",
       "transform": {
         "kind": "linear",
-        "factor": 1.638706000000008e-05
+        "factor": 1.6387064e-05
       }
     },
     {
@@ -351,7 +351,7 @@
       "abbr": "fl dr",
       "transform": {
         "kind": "linear",
-        "factor": 3.6966909999999505e-06
+        "factor": 3.6966911953125e-06
       }
     },
     {
@@ -364,7 +364,7 @@
       "abbr": "minim",
       "transform": {
         "kind": "linear",
-        "factor": 6.161151999999868e-08
+        "factor": 6.1611519921875e-08
       }
     },
     {
@@ -377,7 +377,7 @@
       "abbr": "bbl (dry)",
       "transform": {
         "kind": "linear",
-        "factor": 0.11562710000000047
+        "factor": 0.115627123584
       }
     },
     {
@@ -390,7 +390,7 @@
       "abbr": "bu",
       "transform": {
         "kind": "linear",
-        "factor": 0.03523907000000022
+        "factor": 0.03523907016688
       }
     },
     {
@@ -403,7 +403,7 @@
       "abbr": "pk",
       "transform": {
         "kind": "linear",
-        "factor": 0.008809768000000048
+        "factor": 0.00880976754172
       }
     },
     {
@@ -416,7 +416,7 @@
       "abbr": "gal (dry)",
       "transform": {
         "kind": "linear",
-        "factor": 0.004404884000000024
+        "factor": 0.00440488377086
       }
     },
     {
@@ -429,7 +429,7 @@
       "abbr": "qt (dry)",
       "transform": {
         "kind": "linear",
-        "factor": 0.001101221000000006
+        "factor": 0.001101220942715
       }
     },
     {
@@ -442,7 +442,7 @@
       "abbr": "pt (dry)",
       "transform": {
         "kind": "linear",
-        "factor": 0.000550610500000003
+        "factor": 0.0005506104713575
       }
     },
     {
@@ -455,7 +455,7 @@
       "abbr": "gi (dry)",
       "transform": {
         "kind": "linear",
-        "factor": 0.00013765259999999946
+        "factor": 0.000137652617839375
       }
     },
     {
@@ -468,7 +468,7 @@
       "abbr": "bbl (uk)",
       "transform": {
         "kind": "linear",
-        "factor": 0.16364999999999966
+        "factor": 0.16365924
       }
     },
     {
@@ -481,7 +481,7 @@
       "abbr": "bu (uk)",
       "transform": {
         "kind": "linear",
-        "factor": 0.036368790000000074
+        "factor": 0.03636872
       }
     },
     {
@@ -494,7 +494,7 @@
       "abbr": "pk (uk)",
       "transform": {
         "kind": "linear",
-        "factor": 0.009092199000000061
+        "factor": 0.00909218
       }
     },
     {
@@ -520,7 +520,7 @@
       "abbr": "qt (uk)",
       "transform": {
         "kind": "linear",
-        "factor": 0.0011365250000000009
+        "factor": 0.0011365225
       }
     },
     {
@@ -533,7 +533,7 @@
       "abbr": "pt (uk)",
       "transform": {
         "kind": "linear",
-        "factor": 0.0005682624000000008
+        "factor": 0.00056826125
       }
     },
     {
@@ -546,7 +546,7 @@
       "abbr": "fl oz (uk)",
       "transform": {
         "kind": "linear",
-        "factor": 2.8413120000000043e-05
+        "factor": 2.84130625e-05
       }
     },
     {
@@ -559,7 +559,7 @@
       "abbr": "koku",
       "transform": {
         "kind": "linear",
-        "factor": 0.18038990000000035
+        "factor": 0.180390683696
       }
     },
     {
@@ -572,7 +572,7 @@
       "abbr": "to",
       "transform": {
         "kind": "linear",
-        "factor": 0.018038990000000036
+        "factor": 0.0180390683696
       }
     },
     {
@@ -585,7 +585,7 @@
       "abbr": "sho",
       "transform": {
         "kind": "linear",
-        "factor": 0.0018038990000000036
+        "factor": 0.00180390683696
       }
     },
     {
@@ -598,7 +598,7 @@
       "abbr": "go",
       "transform": {
         "kind": "linear",
-        "factor": 0.00018038990000000034
+        "factor": 0.000180390683696
       }
     },
     {
@@ -611,7 +611,7 @@
       "abbr": "msk",
       "transform": {
         "kind": "linear",
-        "factor": 1.4999999999999926e-05
+        "factor": 1.5e-05
       }
     },
     {
@@ -650,7 +650,7 @@
       "abbr": "cup",
       "transform": {
         "kind": "linear",
-        "factor": 0.00023658820000000105
+        "factor": 0.0002365882365
       }
     },
     {
@@ -663,7 +663,7 @@
       "abbr": "tbsp",
       "transform": {
         "kind": "linear",
-        "factor": 1.4786770000000039e-05
+        "factor": 1.478676478125e-05
       }
     },
     {
@@ -676,7 +676,7 @@
       "abbr": "tsp",
       "transform": {
         "kind": "linear",
-        "factor": 4.92892199999995e-06
+        "factor": 4.92892159375e-06
       }
     }
   ]

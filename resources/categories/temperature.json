@@ -17,30 +17,74 @@
     {
       "key": "kelvin",
       "type": "metric",
-      "name": {"sv": "Kelvin", "en": "Kelvin"},
+      "name": {"sv": "kelvin", "en": "kelvin"},
       "abbr": "K",
-      "transform": {"kind": "affine", "factor": 1, "offset": 0}
+      "transform": {"kind": "affine", "factor": 1, "offset": 0},
+      "definition": {
+        "summary": {
+          "en": "The SI base unit of thermodynamic temperature.",
+          "sv": "SI-grundenheten för termodynamisk temperatur."
+        },
+        "body": {
+          "en": "The kelvin (symbol: K) is the base unit of temperature in the International System of Units (SI). It is an absolute temperature scale where 0 K represents absolute zero. Since 2019, the kelvin is defined by fixing the numerical value of the Boltzmann constant.",
+          "sv": "Kelvin (K) är grundenheten för temperatur i SI-systemet. Det är en absolut temperaturskala där 0 K representerar absoluta nollpunkten. Enheten är uppkallad efter Lord Kelvin (William Thomson). Sedan 2019 definieras kelvin genom att fixera värdet på Boltzmanns konstant."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
+      }
     },
     {
       "key": "celsius",
       "type": "metric",
-      "name": {"sv": "Celsius", "en": "Celsius"},
-      "abbr": "C",
-      "transform": {"kind": "affine", "factor": 1, "offset": 273.15}
+      "name": {"sv": "grader Celsius", "en": "degree Celsius"},
+      "abbr": "°C",
+      "transform": {"kind": "affine", "factor": 1, "offset": 273.15},
+      "definition": {
+        "summary": {
+          "en": "Metric scale based on water's freezing/boiling points.",
+          "sv": "Metrisk skala baserad på vattnets frys- och kokpunkter."
+        },
+        "body": {
+          "en": "The degree Celsius (°C) is a unit of temperature on the Celsius scale. It was originally defined by the freezing point (0 °C) and boiling point (100 °C) of water at standard pressure. It is now defined relative to the kelvin, where 0 °C corresponds to 273.15 K.",
+          "sv": "Grad Celsius (°C) är en enhet på Celsius-skalan, uppkallad efter den svenske astronomen Anders Celsius. Skalan var ursprungligen baserad på vattnets fryspunkt (0 °C) och kokpunkt (100 °C). Idag definieras den i relation till kelvin, där 0 °C motsvarar 273,15 K."
+        },
+        "source": null
+      }
     },
     {
       "key": "fahrenheit",
       "type": "imperial",
-      "name": {"sv": "Fahrenheit", "en": "Fahrenheit"},
-      "abbr": "F",
-      "transform": {"kind": "affine", "factor": 0.5555555555555556, "offset": 255.3722222222222}
+      "name": {"sv": "grader Fahrenheit", "en": "degree Fahrenheit"},
+      "abbr": "°F",
+      "transform": {"kind": "affine", "factor": 0.5555555555555556, "offset": 255.3722222222222},
+      "definition": {
+        "summary": {
+          "en": "Scale used primarily in the United States.",
+          "sv": "Skala som främst används i USA."
+        },
+        "body": {
+          "en": "The degree Fahrenheit (°F) is a unit of temperature on the Fahrenheit scale. Water freezes at 32 °F and boils at 212 °F at standard pressure. It is the official temperature scale in the United States.",
+          "sv": "Grad Fahrenheit (°F) är en enhet på Fahrenheit-skalan. På denna skala fryser vatten vid 32 °F och kokar vid 212 °F. Skalan är officiell standard i USA, men har ersatts av Celsius i de flesta andra länder."
+        },
+        "source": "https://www.nist.gov/pml/weights-and-measures/si-units-temperature"
+      }
     },
     {
       "key": "rankine",
       "type": "imperial",
-      "name": {"sv": "Rankine", "en": "Rankine"},
-      "abbr": "R",
-      "transform": {"kind": "affine", "factor": 0.5555555555555556, "offset": 0}
+      "name": {"sv": "grader Rankine", "en": "degree Rankine"},
+      "abbr": "°R",
+      "transform": {"kind": "affine", "factor": 0.5555555555555556, "offset": 0},
+      "definition": {
+        "summary": {
+          "en": "Absolute scale using Fahrenheit degrees.",
+          "sv": "Absolut skala som använder Fahrenheit-grader."
+        },
+        "body": {
+          "en": "The Rankine scale (°R) is an absolute scale of thermodynamic temperature, similar to Kelvin but using the Fahrenheit degree as its unit increment. 0 °R is absolute zero, which corresponds to -459.67 °F.",
+          "sv": "Rankine-skalan (°R) är en absolut temperaturskala, liknande Kelvin, men som använder Fahrenheit-graden som steg. 0 °R är absoluta nollpunkten, vilket motsvarar -459,67 °F."
+        },
+        "source": null
+      }
     }
   ]
 }

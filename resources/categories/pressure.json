@@ -77,7 +77,7 @@
       "abbr": "kg/cm²",
       "transform": {
         "kind": "linear",
-        "factor": 98066.50000000272
+        "factor": 98066.5
       }
     },
     {
@@ -129,7 +129,7 @@
       "abbr": "kg/m²",
       "transform": {
         "kind": "linear",
-        "factor": 9.806650000000271
+        "factor": 9.80665
       }
     },
     {
@@ -155,7 +155,7 @@
       "abbr": "ksi",
       "transform": {
         "kind": "linear",
-        "factor": 6894757.0
+        "factor": 6894757.293168361
       }
     },
     {
@@ -168,7 +168,7 @@
       "abbr": "psi",
       "transform": {
         "kind": "linear",
-        "factor": 6894.757000000148
+        "factor": 6894.757293168361
       }
     },
     {
@@ -181,7 +181,7 @@
       "abbr": "psf",
       "transform": {
         "kind": "linear",
-        "factor": 47.880260000000554
+        "factor": 47.88025898033584
       }
     },
     {
@@ -194,7 +194,7 @@
       "abbr": "mHg",
       "transform": {
         "kind": "linear",
-        "factor": 133322.0
+        "factor": 133322.387415
       }
     },
     {
@@ -207,7 +207,7 @@
       "abbr": "inHg",
       "transform": {
         "kind": "linear",
-        "factor": 3386.378999999964
+        "factor": 3386.388640341
       }
     },
     {
@@ -220,7 +220,7 @@
       "abbr": "cmHg",
       "transform": {
         "kind": "linear",
-        "factor": 1333.2200000000012
+        "factor": 1333.22387415
       }
     },
     {
@@ -233,7 +233,7 @@
       "abbr": "mmHg",
       "transform": {
         "kind": "linear",
-        "factor": 133.32200000000012
+        "factor": 133.322387415
       }
     },
     {
@@ -246,7 +246,7 @@
       "abbr": "mH₂O",
       "transform": {
         "kind": "linear",
-        "factor": 9806.378999999635
+        "factor": 9806.65
       }
     },
     {
@@ -259,7 +259,7 @@
       "abbr": "inH₂O",
       "transform": {
         "kind": "linear",
-        "factor": 249.0819999999994
+        "factor": 249.08891
       }
     },
     {
@@ -272,7 +272,7 @@
       "abbr": "cmH₂O",
       "transform": {
         "kind": "linear",
-        "factor": 98.06378999999635
+        "factor": 98.0665
       }
     },
     {
@@ -298,7 +298,7 @@
       "abbr": "at",
       "transform": {
         "kind": "linear",
-        "factor": 98066.50000000272
+        "factor": 98066.5
       }
     }
   ]
