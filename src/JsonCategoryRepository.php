@@ -96,7 +96,7 @@ final class JsonCategoryRepository implements CategoryRepositoryInterface
                 (string) ($unit['abbr'] ?? ''),
                 $transform,
                 isset($unit['type']) ? (string) $unit['type'] : null,
-                isset($unit['help']) ? (array) $unit['help'] : null
+                isset($unit['definition']) ? (array) $unit['definition'] : null
             );
         }
 
