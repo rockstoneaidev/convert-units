@@ -75,19 +75,6 @@
       }
     },
     {
-      "key": "centner",
-      "type": "metric",
-      "name": {
-        "en": "centner",
-        "sv": "centner"
-      },
-      "abbr": "centner",
-      "transform": {
-        "kind": "linear",
-        "factor": 100.0
-      }
-    },
-    {
       "key": "kilogram",
       "type": "metric",
       "name": {
@@ -306,6 +293,19 @@
       "transform": {
         "kind": "linear",
         "factor": 170.0
+      }
+    },
+    {
+      "key": "centner",
+      "type": "swedish",
+      "name": {
+        "en": "centner",
+        "sv": "centner"
+      },
+      "abbr": "centner",
+      "transform": {
+        "kind": "linear",
+        "factor": 100.0
       }
     },
     {
