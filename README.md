@@ -16,7 +16,7 @@ Konvertera conversion engine as a standalone PHP Composer package. The goal is t
 This repository currently contains the product requirements and scaffolding. Implementation, resources, and tests are to be added according to the PRD.
 
 ## Where to look
-- `docs/app-prd.md` is the source of truth for schema, API, formatting rules, and acceptance criteria.
+- `project-documentation/app-prd.md` is the source of truth for schema, API, formatting rules, and acceptance criteria.
 - `AGENTS.md` provides guidance for AI agents working in this repo.
 
 ## Usage (framework-agnostic)
@@ -72,7 +72,7 @@ $repo = new JsonCategoryRepository(__DIR__ . '/resources');
 ```
 
 Requirements:
-- JSON files follow the schema in `docs/app-prd.md`.
+- JSON files follow the schema in `project-documentation/app-prd.md`.
 - Each category is stored at `categories/<key>.json`.
 - Optional `index.json` can list categories for navigation.
 
