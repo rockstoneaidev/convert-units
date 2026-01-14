@@ -263,8 +263,8 @@
       "key": "barrel_us_wet",
       "type": "us_wet",
       "name": {
-        "en": "barrel",
-        "sv": "barrel"
+        "en": "US barrel (oil)",
+        "sv": "Amerikansk barrel (olja)"
       },
       "abbr": "bbl",
       "transform": {
@@ -300,8 +300,8 @@
       "key": "gallon_us_wet",
       "type": "us_wet",
       "name": {
-        "en": "gallon",
-        "sv": "gallon"
+        "en": "US gallon",
+        "sv": "Amerikansk gallon (våt)"
       },
       "abbr": "gal",
       "transform": {
@@ -415,8 +415,8 @@
       "key": "barrel_us_dry",
       "type": "us_dry",
       "name": {
-        "en": "barrel",
-        "sv": "barrel"
+        "en": "US dry barrel",
+        "sv": "Amerikansk barrel (torr)"
       },
       "abbr": "bbl (dry)",
       "transform": {
@@ -454,8 +454,8 @@
       "key": "gallon_us_dry",
       "type": "us_dry",
       "name": {
-        "en": "gallon",
-        "sv": "gallon"
+        "en": "US dry gallon",
+        "sv": "Amerikansk gallon (torr)"
       },
       "abbr": "gal (dry)",
       "transform": {
@@ -506,8 +506,8 @@
       "key": "barrel_british",
       "type": "british",
       "name": {
-        "en": "barrel",
-        "sv": "barrel"
+        "en": "Imperial barrel",
+        "sv": "Brittisk (Imperial) barrel"
       },
       "abbr": "bbl (uk)",
       "transform": {
@@ -545,8 +545,8 @@
       "key": "gallon_british",
       "type": "british",
       "name": {
-        "en": "gallon",
-        "sv": "gallon"
+        "en": "Imperial gallon",
+        "sv": "Brittisk (Imperial) gallon"
       },
       "abbr": "gal (uk)",
       "transform": {
