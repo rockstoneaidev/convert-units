@@ -191,6 +191,7 @@
     {
       "key": "swedish_mil",
       "type": "swedish",
+      "slugs": {"sv": "svensk-mil", "en": "swedish-mil"},
       "name": {
         "en": "mil",
         "sv": "mil"
@@ -432,6 +433,7 @@
     {
       "key": "foot",
       "type": "imperial",
+      "slugs": {"sv": "fot", "en": "foot"},
       "name": {
         "en": "foot",
         "sv": "foot"
@@ -482,6 +484,7 @@
     {
       "key": "inch",
       "type": "imperial",
+      "slugs": {"sv": "tum", "en": "inch"},
       "name": {
         "en": "inch",
         "sv": "inch"

@@ -14,7 +14,9 @@ final class Unit
         public readonly string $abbr,
         public readonly Transform $transform,
         public readonly ?string $type = null,
-        public readonly ?array $definition = null
+        public readonly ?array $definition = null,
+        /** @var array<string, string>|null */
+        public readonly ?array $slugs = null
     ) {
     }
 }

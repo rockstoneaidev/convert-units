@@ -96,7 +96,8 @@ final class JsonCategoryRepository implements CategoryRepositoryInterface
                 (string) ($unit['abbr'] ?? ''),
                 $transform,
                 isset($unit['type']) ? (string) $unit['type'] : null,
-                isset($unit['definition']) ? (array) $unit['definition'] : null
+                isset($unit['definition']) ? (array) $unit['definition'] : null,
+                isset($unit['slugs']) ? (array) $unit['slugs'] : null
             );
         }
 
@@ -154,6 +155,17 @@ final class JsonCategoryRepository implements CategoryRepositoryInterface
 
         if (!array_key_exists('abbr', $unit) || !is_string($unit['abbr'])) {
             throw new \RuntimeException('Unit abbr missing or invalid.');
+        }
+
+        if (isset($unit['slugs'])) {
+            if (!is_array($unit['slugs'])) {
+                throw new \RuntimeException('Unit slugs must be an object map.');
+            }
+            foreach ($unit['slugs'] as $locale => $slug) {
+                if (!is_string($locale) || !is_string($slug) || $slug === '') {
+                    throw new \RuntimeException('Unit slugs must map locales to non-empty strings.');
+                }
+            }
         }
 
         if (!isset($unit['transform']) || !is_array($unit['transform'])) {

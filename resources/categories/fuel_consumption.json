@@ -21,6 +21,7 @@
     {
       "key": "liter_per_kilometer",
       "type": "metric",
+      "slugs": {"en": "liter-per-kilometer", "sv": "liter-per-kilometer"},
       "name": {"sv": "Liter per kilometer", "en": "Liters per kilometer"},
       "abbr": "L/km",
       "transform": {"kind": "linear", "factor": 1}
@@ -28,6 +29,7 @@
     {
       "key": "liter_per_10km",
       "type": "metric",
+      "slugs": {"en": "liter-per-10km", "sv": "liter-per-mil"},
       "name": {"sv": "Liter per mil", "en": "Liters per 10 kilometers"},
       "abbr": "L/mil",
       "transform": {"kind": "linear", "factor": 0.1},
@@ -46,6 +48,7 @@
     {
       "key": "liter_per_100km",
       "type": "metric",
+      "slugs": {"en": "liter-per-100km", "sv": "liter-per-100km"},
       "name": {"sv": "Liter per 100 kilometer", "en": "Liters per 100 kilometers"},
       "abbr": "L/100 km",
       "transform": {"kind": "linear", "factor": 0.01},
@@ -64,6 +67,7 @@
     {
       "key": "kilometer_per_liter",
       "type": "metric",
+      "slugs": {"en": "kilometer-per-liter", "sv": "kilometer-per-liter"},
       "name": {"sv": "Kilometer per liter", "en": "Kilometers per liter"},
       "abbr": "km/L",
       "transform": {"kind": "reciprocal_factor", "factor": 1}
@@ -71,6 +75,7 @@
     {
       "key": "miles_per_gallon_us",
       "type": "us",
+      "slugs": {"en": "miles-per-gallon-us", "sv": "miles-per-gallon-us"},
       "name": {"sv": "Miles per gallon (US)", "en": "Miles per gallon (US)"},
       "abbr": "mpg (US)",
       "transform": {"kind": "reciprocal_factor", "factor": 2.3521458333333333},
@@ -89,6 +94,7 @@
     {
       "key": "gallons_per_100_miles_us",
       "type": "us",
+      "slugs": {"en": "gallons-per-100-miles-us", "sv": "gallons-per-100-miles-us"},
       "name": {"sv": "Gallons per 100 miles", "en": "Gallons per 100 miles"},
       "abbr": "gal/100 mi (US)",
       "transform": {"kind": "linear", "factor": 0.023521458333333333}
@@ -96,6 +102,7 @@
     {
       "key": "miles_per_gallon_uk",
       "type": "british",
+      "slugs": {"en": "miles-per-gallon-uk", "sv": "miles-per-gallon-uk"},
       "name": {"sv": "Miles per gallon (UK)", "en": "Miles per gallon (UK)"},
       "abbr": "mpg (UK)",
       "transform": {"kind": "reciprocal_factor", "factor": 2.824809363864494},
@@ -114,6 +121,7 @@
     {
       "key": "gallons_per_100_miles_uk",
       "type": "british",
+      "slugs": {"en": "gallons-per-100-miles-uk", "sv": "gallons-per-100-miles-uk"},
       "name": {"sv": "Gallons per 100 miles", "en": "Gallons per 100 miles"},
       "abbr": "gal/100 mi (UK)",
       "transform": {"kind": "linear", "factor": 0.02824809363864494}

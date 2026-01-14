@@ -160,6 +160,7 @@ Example (abbreviated):
 - `abbr` (string, required; may be empty if needed)
 - `type` (string, optional; must match a `types[].key` if provided)
 - `help` (object map locale=>string, optional)
+- `slugs` (object map locale=>string, optional; used for localized URL slugs)
 - `transform` (object, required)
 
 #### Transform fields
@@ -449,4 +450,3 @@ Implement as data and tests:
 - Unit aliases and search synonyms.
 - Locale-aware formatting beyond decimal separator (grouping, thin spaces).
 - “Unit families” taxonomy expansion.
-

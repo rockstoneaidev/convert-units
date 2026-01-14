@@ -18,4 +18,15 @@ final class JsonCategoryRepositoryTest extends TestCase
         self::assertNotEmpty($categories);
         self::assertSame('length', $categories[0]['key']);
     }
+
+    public function testUnitSlugsAreLoaded(): void
+    {
+        $repo = new JsonCategoryRepository(dirname(__DIR__) . '/resources');
+
+        $category = $repo->getCategory('fuel_consumption');
+        $unit = $category->getUnit('liter_per_10km');
+
+        self::assertIsArray($unit->slugs);
+        self::assertSame('liter-per-mil', $unit->slugs['sv']);
+    }
 }
