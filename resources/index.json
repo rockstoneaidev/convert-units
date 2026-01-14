@@ -70,10 +70,31 @@
       }
     },
     {
+      "key": "data-it",
+      "name": {
+        "sv": "Data & IT",
+        "en": "Data & IT"
+      }
+    },
+    {
       "key": "data",
       "name": {
-        "en": "Data",
-        "sv": "Data"
+        "sv": "Data & IT",
+        "en": "Data & IT"
+      }
+    },
+    {
+      "key": "energy",
+      "name": {
+        "sv": "Energi",
+        "en": "Energy"
+      }
+    },
+    {
+      "key": "other",
+      "name": {
+        "sv": "Annat",
+        "en": "Other"
       }
     }
   ]
