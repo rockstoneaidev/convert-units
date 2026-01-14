@@ -81,11 +81,11 @@
       "definition": {
         "summary": {
           "en": "Standard unit for electricity billing.",
-          "sv": "Standardmåttet för elförbrukning."
+          "sv": "Standardm\u00e5ttet f\u00f6r elf\u00f6rbrukning."
         },
         "body": {
           "en": "The kilowatt-hour (kWh) is a unit of energy equal to 3.6 megajoules. It is commonly used as a billing unit for energy delivered to consumers by electric utilities.",
-          "sv": "Kilowattimme (kWh) är en energienhet som motsvarar den energi som utvecklas av effekten en kilowatt under en timme. Det är standardenheten för mätning av elektrisk energi i hushåll."
+          "sv": "Kilowattimme (kWh) \u00e4r en energienhet som motsvarar den energi som utvecklas av effekten en kilowatt under en timme. Det \u00e4r standardenheten f\u00f6r m\u00e4tning av elektrisk energi i hush\u00e5ll."
         },
         "source": "https://www.bipm.org/en/publications/si-brochure"
       }
@@ -144,11 +144,11 @@
       "definition": {
         "summary": {
           "en": "The SI derived unit of energy.",
-          "sv": "SI-härledd enhet för energi."
+          "sv": "SI-h\u00e4rledd enhet f\u00f6r energi."
         },
         "body": {
           "en": "The joule (J) is the SI unit of energy. It is defined as the work done by a force of one newton acting through one meter. It is also the energy dissipated as heat when an electric current of one ampere passes through a resistance of one ohm for one second.",
-          "sv": "Joule (J) är SI-enheten för energi, arbete och värmemängd. En joule definieras som arbetet som utförs av kraften en newton över sträckan en meter."
+          "sv": "Joule (J) \u00e4r SI-enheten f\u00f6r energi, arbete och v\u00e4rmem\u00e4ngd. En joule definieras som arbetet som utf\u00f6rs av kraften en newton \u00f6ver str\u00e4ckan en meter."
         },
         "source": "https://www.bipm.org/en/measurement-units/"
       }
@@ -168,11 +168,11 @@
       "definition": {
         "summary": {
           "en": "Tiny unit of energy used in particle physics.",
-          "sv": "Liten energienhet som används inom partikelfysik."
+          "sv": "Liten energienhet som anv\u00e4nds inom partikelfysik."
         },
         "body": {
-          "en": "The electronvolt (eV) is a unit of energy equal to approximately 1.6×10^-19 joules. It is the amount of kinetic energy gained by a single electron accelerating from rest through an electric potential difference of one volt.",
-          "sv": "Elektronvolt (eV) är en energienhet som används inom atom- och partikelfysik. Det är den rörelseenergi som en elektron får när den accelereras av spänningen 1 volt i vakuum."
+          "en": "The electronvolt (eV) is a unit of energy equal to approximately 1.6\u00d710^-19 joules. It is the amount of kinetic energy gained by a single electron accelerating from rest through an electric potential difference of one volt.",
+          "sv": "Elektronvolt (eV) \u00e4r en energienhet som anv\u00e4nds inom atom- och partikelfysik. Det \u00e4r den r\u00f6relseenergi som en elektron f\u00e5r n\u00e4r den accelereras av sp\u00e4nningen 1 volt i vakuum."
         },
         "source": "https://www.bipm.org/en/publications/si-brochure"
       }
@@ -218,11 +218,11 @@
       "definition": {
         "summary": {
           "en": "Unit for heat energy (HVAC).",
-          "sv": "Enhet för värmeenergi (används i AC/värmepumpar)."
+          "sv": "Enhet f\u00f6r v\u00e4rmeenergi (anv\u00e4nds i AC/v\u00e4rmepumpar)."
         },
         "body": {
           "en": "The British thermal unit (BTU) is a unit of heat; it is defined as the amount of heat required to raise the temperature of one pound of water by one degree Fahrenheit. It is commonly used in heating and air conditioning (HVAC).",
-          "sv": "British thermal unit (BTU) är en energienhet som definieras som den värme som krävs för att höja temperaturen på ett pund vatten med en grad Fahrenheit. Enheten är vanlig inom kyla och värme (t.ex. för att ange effekten på en AC)."
+          "sv": "British thermal unit (BTU) \u00e4r en energienhet som definieras som den v\u00e4rme som kr\u00e4vs f\u00f6r att h\u00f6ja temperaturen p\u00e5 ett pund vatten med en grad Fahrenheit. Enheten \u00e4r vanlig inom kyla och v\u00e4rme (t.ex. f\u00f6r att ange effekten p\u00e5 en AC)."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -234,10 +234,10 @@
         "en": "foot-pound",
         "sv": "fotpund"
       },
-      "abbr": "ft×lb",
+      "abbr": "ft\u00d7lb",
       "transform": {
         "kind": "linear",
-        "factor": 1.3558179483314004
+        "factor": 1.3558179483314003
       }
     },
     {
@@ -255,11 +255,11 @@
       "definition": {
         "summary": {
           "en": "Common unit for food energy.",
-          "sv": "Vanlig enhet för energi i mat."
+          "sv": "Vanlig enhet f\u00f6r energi i mat."
         },
         "body": {
-          "en": "The kilocalorie (kcal), often simply called 'calorie' in nutrition, is a unit of energy. It was originally defined as the heat required to raise the temperature of 1 kg of water by 1 °C. In nutrition labels, 1 Calorie (capital C) usually means 1 kilocalorie.",
-          "sv": "Kilokalori (kcal) är den enhet vi oftast använder för att mäta energiinnehållet i mat. I vardagligt tal säger vi ofta bara 'kalorier' när vi egentligen menar kilokalorier."
+          "en": "The kilocalorie (kcal), often simply called 'calorie' in nutrition, is a unit of energy. It was originally defined as the heat required to raise the temperature of 1 kg of water by 1 \u00b0C. In nutrition labels, 1 Calorie (capital C) usually means 1 kilocalorie.",
+          "sv": "Kilokalori (kcal) \u00e4r den enhet vi oftast anv\u00e4nder f\u00f6r att m\u00e4ta energiinneh\u00e5llet i mat. I vardagligt tal s\u00e4ger vi ofta bara 'kalorier' n\u00e4r vi egentligen menar kilokalorier."
         },
         "source": null
       }
@@ -283,10 +283,14 @@
         },
         "body": {
           "en": "The calorie (cal) is a pre-SI metric unit of energy. It is defined as the amount of heat needed to raise the temperature of one gram of water by one degree Celsius. It is 1/1000 of a kilocalorie.",
-          "sv": "Kalori (cal), eller gramkalori, är en energienhet som motsvarar värmemängden som krävs för att värma ett gram vatten en grad Celsius. En kilokalori (kcal) är 1000 kalorier."
+          "sv": "Kalori (cal), eller gramkalori, \u00e4r en energienhet som motsvarar v\u00e4rmem\u00e4ngden som kr\u00e4vs f\u00f6r att v\u00e4rma ett gram vatten en grad Celsius. En kilokalori (kcal) \u00e4r 1000 kalorier."
         },
         "source": null
       }
     }
-  ]
+  ],
+  "slugs": {
+    "en": "energy",
+    "sv": "energi"
+  }
 }

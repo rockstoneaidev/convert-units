@@ -6,28 +6,41 @@
   "types": [
     {
       "key": "metric",
-      "name": {"sv": "Metrisk", "en": "Metric"}
+      "name": {
+        "sv": "Metrisk",
+        "en": "Metric"
+      }
     },
     {
       "key": "imperial",
-      "name": {"sv": "Anglosaxisk", "en": "Imperial"}
+      "name": {
+        "sv": "Anglosaxisk",
+        "en": "Imperial"
+      }
     }
   ],
   "units": [
     {
       "key": "kelvin",
       "type": "metric",
-      "name": {"sv": "kelvin", "en": "kelvin"},
+      "name": {
+        "sv": "kelvin",
+        "en": "kelvin"
+      },
       "abbr": "K",
-      "transform": {"kind": "affine", "factor": 1, "offset": 0},
+      "transform": {
+        "kind": "affine",
+        "factor": 1,
+        "offset": 0
+      },
       "definition": {
         "summary": {
           "en": "The SI base unit of thermodynamic temperature.",
-          "sv": "SI-grundenheten för termodynamisk temperatur."
+          "sv": "SI-grundenheten f\u00f6r termodynamisk temperatur."
         },
         "body": {
           "en": "The kelvin (symbol: K) is the base unit of temperature in the International System of Units (SI). It is an absolute temperature scale where 0 K represents absolute zero. Since 2019, the kelvin is defined by fixing the numerical value of the Boltzmann constant.",
-          "sv": "Kelvin (K) är grundenheten för temperatur i SI-systemet. Det är en absolut temperaturskala där 0 K representerar absoluta nollpunkten. Enheten är uppkallad efter Lord Kelvin (William Thomson). Sedan 2019 definieras kelvin genom att fixera värdet på Boltzmanns konstant."
+          "sv": "Kelvin (K) \u00e4r grundenheten f\u00f6r temperatur i SI-systemet. Det \u00e4r en absolut temperaturskala d\u00e4r 0 K representerar absoluta nollpunkten. Enheten \u00e4r uppkallad efter Lord Kelvin (William Thomson). Sedan 2019 definieras kelvin genom att fixera v\u00e4rdet p\u00e5 Boltzmanns konstant."
         },
         "source": "https://www.bipm.org/en/measurement-units/"
       }
@@ -35,17 +48,24 @@
     {
       "key": "celsius",
       "type": "metric",
-      "name": {"sv": "grader Celsius", "en": "degree Celsius"},
-      "abbr": "°C",
-      "transform": {"kind": "affine", "factor": 1, "offset": 273.15},
+      "name": {
+        "sv": "grader Celsius",
+        "en": "degree Celsius"
+      },
+      "abbr": "\u00b0C",
+      "transform": {
+        "kind": "affine",
+        "factor": 1,
+        "offset": 273.15
+      },
       "definition": {
         "summary": {
           "en": "Metric scale based on water's freezing/boiling points.",
-          "sv": "Metrisk skala baserad på vattnets frys- och kokpunkter."
+          "sv": "Metrisk skala baserad p\u00e5 vattnets frys- och kokpunkter."
         },
         "body": {
-          "en": "The degree Celsius (°C) is a unit of temperature on the Celsius scale. It was originally defined by the freezing point (0 °C) and boiling point (100 °C) of water at standard pressure. It is now defined relative to the kelvin, where 0 °C corresponds to 273.15 K.",
-          "sv": "Grad Celsius (°C) är en enhet på Celsius-skalan, uppkallad efter den svenske astronomen Anders Celsius. Skalan var ursprungligen baserad på vattnets fryspunkt (0 °C) och kokpunkt (100 °C). Idag definieras den i relation till kelvin, där 0 °C motsvarar 273,15 K."
+          "en": "The degree Celsius (\u00b0C) is a unit of temperature on the Celsius scale. It was originally defined by the freezing point (0 \u00b0C) and boiling point (100 \u00b0C) of water at standard pressure. It is now defined relative to the kelvin, where 0 \u00b0C corresponds to 273.15 K.",
+          "sv": "Grad Celsius (\u00b0C) \u00e4r en enhet p\u00e5 Celsius-skalan, uppkallad efter den svenske astronomen Anders Celsius. Skalan var ursprungligen baserad p\u00e5 vattnets fryspunkt (0 \u00b0C) och kokpunkt (100 \u00b0C). Idag definieras den i relation till kelvin, d\u00e4r 0 \u00b0C motsvarar 273,15 K."
         },
         "source": null
       }
@@ -53,17 +73,24 @@
     {
       "key": "fahrenheit",
       "type": "imperial",
-      "name": {"sv": "grader Fahrenheit", "en": "degree Fahrenheit"},
-      "abbr": "°F",
-      "transform": {"kind": "affine", "factor": 0.5555555555555556, "offset": 255.3722222222222},
+      "name": {
+        "sv": "grader Fahrenheit",
+        "en": "degree Fahrenheit"
+      },
+      "abbr": "\u00b0F",
+      "transform": {
+        "kind": "affine",
+        "factor": 0.5555555555555556,
+        "offset": 255.3722222222222
+      },
       "definition": {
         "summary": {
           "en": "Scale used primarily in the United States.",
-          "sv": "Skala som främst används i USA."
+          "sv": "Skala som fr\u00e4mst anv\u00e4nds i USA."
         },
         "body": {
-          "en": "The degree Fahrenheit (°F) is a unit of temperature on the Fahrenheit scale. Water freezes at 32 °F and boils at 212 °F at standard pressure. It is the official temperature scale in the United States.",
-          "sv": "Grad Fahrenheit (°F) är en enhet på Fahrenheit-skalan. På denna skala fryser vatten vid 32 °F och kokar vid 212 °F. Skalan är officiell standard i USA, men har ersatts av Celsius i de flesta andra länder."
+          "en": "The degree Fahrenheit (\u00b0F) is a unit of temperature on the Fahrenheit scale. Water freezes at 32 \u00b0F and boils at 212 \u00b0F at standard pressure. It is the official temperature scale in the United States.",
+          "sv": "Grad Fahrenheit (\u00b0F) \u00e4r en enhet p\u00e5 Fahrenheit-skalan. P\u00e5 denna skala fryser vatten vid 32 \u00b0F och kokar vid 212 \u00b0F. Skalan \u00e4r officiell standard i USA, men har ersatts av Celsius i de flesta andra l\u00e4nder."
         },
         "source": "https://www.nist.gov/pml/owm/si-units-temperature"
       }
@@ -71,20 +98,31 @@
     {
       "key": "rankine",
       "type": "imperial",
-      "name": {"sv": "grader Rankine", "en": "degree Rankine"},
-      "abbr": "°R",
-      "transform": {"kind": "affine", "factor": 0.5555555555555556, "offset": 0},
+      "name": {
+        "sv": "grader Rankine",
+        "en": "degree Rankine"
+      },
+      "abbr": "\u00b0R",
+      "transform": {
+        "kind": "affine",
+        "factor": 0.5555555555555556,
+        "offset": 0
+      },
       "definition": {
         "summary": {
           "en": "Absolute scale using Fahrenheit degrees.",
-          "sv": "Absolut skala som använder Fahrenheit-grader."
+          "sv": "Absolut skala som anv\u00e4nder Fahrenheit-grader."
         },
         "body": {
-          "en": "The Rankine scale (°R) is an absolute scale of thermodynamic temperature, similar to Kelvin but using the Fahrenheit degree as its unit increment. 0 °R is absolute zero, which corresponds to -459.67 °F.",
-          "sv": "Rankine-skalan (°R) är en absolut temperaturskala, liknande Kelvin, men som använder Fahrenheit-graden som steg. 0 °R är absoluta nollpunkten, vilket motsvarar -459,67 °F."
+          "en": "The Rankine scale (\u00b0R) is an absolute scale of thermodynamic temperature, similar to Kelvin but using the Fahrenheit degree as its unit increment. 0 \u00b0R is absolute zero, which corresponds to -459.67 \u00b0F.",
+          "sv": "Rankine-skalan (\u00b0R) \u00e4r en absolut temperaturskala, liknande Kelvin, men som anv\u00e4nder Fahrenheit-graden som steg. 0 \u00b0R \u00e4r absoluta nollpunkten, vilket motsvarar -459,67 \u00b0F."
         },
         "source": null
       }
     }
-  ]
+  ],
+  "slugs": {
+    "en": "temperature",
+    "sv": "temperatur"
+  }
 }

@@ -32,7 +32,7 @@
       "type": "metric",
       "name": {
         "en": "scientific year",
-        "sv": "vetenskapligt år"
+        "sv": "vetenskapligt \u00e5r"
       },
       "abbr": "a",
       "transform": {
@@ -55,11 +55,11 @@
       "definition": {
         "summary": {
           "en": "The SI base unit of time. Defined by atomic transitions.",
-          "sv": "SI-grundenheten för tid. Definieras av atomära övergångar."
+          "sv": "SI-grundenheten f\u00f6r tid. Definieras av atom\u00e4ra \u00f6verg\u00e5ngar."
         },
         "body": {
           "en": "The second (symbol: s) is the base unit of time in the International System of Units (SI). Since 1967, it has been defined by the fixed numerical value of the cesium frequency, the unperturbed ground-state hyperfine transition frequency of the cesium-133 atom.",
-          "sv": "Sekunden (s) är grundenheten för tid i SI-systemet. Sedan 1967 definieras den genom att fixera det numeriska värdet av cesiumfrekvensen, det vill säga svängningarna hos strålningen vid övergången mellan de två hyperfinstrukturnivåerna i grundtillståndet hos atomen cesium-133."
+          "sv": "Sekunden (s) \u00e4r grundenheten f\u00f6r tid i SI-systemet. Sedan 1967 definieras den genom att fixera det numeriska v\u00e4rdet av cesiumfrekvensen, det vill s\u00e4ga sv\u00e4ngningarna hos str\u00e5lningen vid \u00f6verg\u00e5ngen mellan de tv\u00e5 hyperfinstrukturniv\u00e5erna i grundtillst\u00e5ndet hos atomen cesium-133."
         },
         "source": "https://www.bipm.org/en/measurement-units/"
       }
@@ -84,7 +84,7 @@
         "en": "microsecond",
         "sv": "mikrosekund"
       },
-      "abbr": "µs",
+      "abbr": "\u00b5s",
       "transform": {
         "kind": "linear",
         "factor": 1e-06
@@ -108,7 +108,7 @@
       "type": "common",
       "name": {
         "en": "julian year",
-        "sv": "julianskt år"
+        "sv": "julianskt \u00e5r"
       },
       "abbr": "a",
       "transform": {
@@ -118,11 +118,11 @@
       "definition": {
         "summary": {
           "en": "Exactly 365.25 days. Used in astronomy.",
-          "sv": "Exakt 365,25 dagar. Används inom astronomi."
+          "sv": "Exakt 365,25 dagar. Anv\u00e4nds inom astronomi."
         },
         "body": {
           "en": "A Julian year (symbol: a) is a unit of measurement of time defined as exactly 365.25 days of 86,400 SI seconds each. It is the standard unit used by astronomers to define the light-year.",
-          "sv": "Ett julianskt år är en tidsenhet som definieras som exakt 365,25 dygn (à 86 400 sekunder). Det är den standardenhet som astronomer använder för att bland annat definiera ett ljusår."
+          "sv": "Ett julianskt \u00e5r \u00e4r en tidsenhet som definieras som exakt 365,25 dygn (\u00e0 86 400 sekunder). Det \u00e4r den standardenhet som astronomer anv\u00e4nder f\u00f6r att bland annat definiera ett ljus\u00e5r."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -132,7 +132,7 @@
       "type": "common",
       "name": {
         "en": "gregorian year",
-        "sv": "gregorianskt år"
+        "sv": "gregorianskt \u00e5r"
       },
       "abbr": "a",
       "transform": {
@@ -142,11 +142,11 @@
       "definition": {
         "summary": {
           "en": "Standard calendar year, 365.2425 days.",
-          "sv": "Standardåret i vår kalender, 365,2425 dagar."
+          "sv": "Standard\u00e5ret i v\u00e5r kalender, 365,2425 dagar."
         },
         "body": {
           "en": "The Gregorian year is the average length of the year in the Gregorian calendar. It is exactly 365.2425 days, accounting for leap year rules where years divisible by 100 are not leap years unless they are also divisible by 400.",
-          "sv": "Det gregorianska året är medellängden på ett år i den gregorianska kalendern (vår nuvarande kalender). Det motsvarar 365,2425 dygn, vilket tar hänsyn till skottårsregeln att jämna århundraden inte är skottår om de inte är delbara med 400."
+          "sv": "Det gregorianska \u00e5ret \u00e4r medell\u00e4ngden p\u00e5 ett \u00e5r i den gregorianska kalendern (v\u00e5r nuvarande kalender). Det motsvarar 365,2425 dygn, vilket tar h\u00e4nsyn till skott\u00e5rsregeln att j\u00e4mna \u00e5rhundraden inte \u00e4r skott\u00e5r om de inte \u00e4r delbara med 400."
         },
         "source": null
       }
@@ -156,7 +156,7 @@
       "type": "common",
       "name": {
         "en": "month (30 days)",
-        "sv": "månad (30 dagar)"
+        "sv": "m\u00e5nad (30 dagar)"
       },
       "abbr": "mo",
       "transform": {
@@ -196,7 +196,7 @@
         },
         "body": {
           "en": "A day is a unit of time defined as exactly 86,400 seconds. It is accepted for use with the SI, although the actual rotation of the Earth can vary slightly (monitored via leap seconds).",
-          "sv": "Ett dygn (dag) är en tidsenhet som definieras som exakt 86 400 sekunder. Det är en enhet som är godkänd att användas tillsammans med SI-systemet."
+          "sv": "Ett dygn (dag) \u00e4r en tidsenhet som definieras som exakt 86 400 sekunder. Det \u00e4r en enhet som \u00e4r godk\u00e4nd att anv\u00e4ndas tillsammans med SI-systemet."
         },
         "source": "https://www.bipm.org/en/publications/si-brochure"
       }
@@ -220,7 +220,7 @@
         },
         "body": {
           "en": "The hour (symbol: h) is a unit of time equal to 60 minutes, or 3,600 seconds. It is a non-SI unit accepted for use with the SI units.",
-          "sv": "En timme (h) är en tidsenhet som motsvarar 60 minuter eller 3 600 sekunder. Enheten är godkänd för användning tillsammans med SI-systemet."
+          "sv": "En timme (h) \u00e4r en tidsenhet som motsvarar 60 minuter eller 3 600 sekunder. Enheten \u00e4r godk\u00e4nd f\u00f6r anv\u00e4ndning tillsammans med SI-systemet."
         },
         "source": "https://www.bipm.org/en/publications/si-brochure"
       }
@@ -244,7 +244,7 @@
         },
         "body": {
           "en": "The minute is a unit of time equal to 60 seconds. It is a non-SI unit accepted for use with the SI units.",
-          "sv": "En minut är en tidsenhet som motsvarar 60 sekunder. Enheten är godkänd för användning tillsammans med SI-systemet."
+          "sv": "En minut \u00e4r en tidsenhet som motsvarar 60 sekunder. Enheten \u00e4r godk\u00e4nd f\u00f6r anv\u00e4ndning tillsammans med SI-systemet."
         },
         "source": "https://www.bipm.org/en/publications/si-brochure"
       }
@@ -254,7 +254,7 @@
       "type": "astronomical",
       "name": {
         "en": "anomalistic year",
-        "sv": "anomalistiskt år"
+        "sv": "anomalistiskt \u00e5r"
       },
       "abbr": "a",
       "transform": {
@@ -267,7 +267,7 @@
       "type": "astronomical",
       "name": {
         "en": "sidereal year",
-        "sv": "sideriskt år"
+        "sv": "sideriskt \u00e5r"
       },
       "abbr": "a",
       "transform": {
@@ -280,7 +280,7 @@
       "type": "astronomical",
       "name": {
         "en": "stellar year",
-        "sv": "stjärnår"
+        "sv": "stj\u00e4rn\u00e5r"
       },
       "abbr": "a",
       "transform": {
@@ -293,7 +293,7 @@
       "type": "astronomical",
       "name": {
         "en": "tropical year",
-        "sv": "tropiskt år"
+        "sv": "tropiskt \u00e5r"
       },
       "abbr": "a",
       "transform": {
@@ -301,5 +301,9 @@
         "factor": 31558032.006778415
       }
     }
-  ]
+  ],
+  "slugs": {
+    "en": "time",
+    "sv": "tid"
+  }
 }

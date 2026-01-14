@@ -6,41 +6,68 @@
   "types": [
     {
       "key": "metric",
-      "name": {"sv": "Metrisk", "en": "Metric"}
+      "name": {
+        "sv": "Metrisk",
+        "en": "Metric"
+      }
     },
     {
       "key": "us",
-      "name": {"sv": "U.S.", "en": "U.S."}
+      "name": {
+        "sv": "U.S.",
+        "en": "U.S."
+      }
     },
     {
       "key": "british",
-      "name": {"sv": "Brittisk", "en": "British"}
+      "name": {
+        "sv": "Brittisk",
+        "en": "British"
+      }
     }
   ],
   "units": [
     {
       "key": "liter_per_kilometer",
       "type": "metric",
-      "slugs": {"en": "liter-per-kilometer", "sv": "liter-per-kilometer"},
-      "name": {"sv": "Liter per kilometer", "en": "Liters per kilometer"},
+      "slugs": {
+        "en": "liter-per-kilometer",
+        "sv": "liter-per-kilometer"
+      },
+      "name": {
+        "sv": "Liter per kilometer",
+        "en": "Liters per kilometer"
+      },
       "abbr": "L/km",
-      "transform": {"kind": "linear", "factor": 1}
+      "transform": {
+        "kind": "linear",
+        "factor": 1
+      }
     },
     {
       "key": "liter_per_10km",
       "type": "metric",
-      "slugs": {"en": "liter-per-10km", "sv": "liter-per-mil"},
-      "name": {"sv": "Liter per mil", "en": "Liters per 10 kilometers"},
+      "slugs": {
+        "en": "liter-per-10km",
+        "sv": "liter-per-mil"
+      },
+      "name": {
+        "sv": "Liter per mil",
+        "en": "Liters per 10 kilometers"
+      },
       "abbr": "L/mil",
-      "transform": {"kind": "linear", "factor": 0.1},
+      "transform": {
+        "kind": "linear",
+        "factor": 0.1
+      },
       "definition": {
         "summary": {
           "en": "Liters consumed per Swedish mil (10 km).",
-          "sv": "Liter förbrukad per svensk mil (10 km)."
+          "sv": "Liter f\u00f6rbrukad per svensk mil (10 km)."
         },
         "body": {
           "en": "Liters per mil is a fuel consumption unit used primarily in Sweden and Norway, where 'mil' refers to a metric mile of 10 kilometers.",
-          "sv": "Liter per mil är standardmåttet för bränsleförbrukning i Sverige. Observera att 'mil' här syftar på en svensk mil (10 km), inte en engelsk mile."
+          "sv": "Liter per mil \u00e4r standardm\u00e5ttet f\u00f6r br\u00e4nslef\u00f6rbrukning i Sverige. Observera att 'mil' h\u00e4r syftar p\u00e5 en svensk mil (10 km), inte en engelsk mile."
         },
         "source": null
       }
@@ -48,18 +75,27 @@
     {
       "key": "liter_per_100km",
       "type": "metric",
-      "slugs": {"en": "liter-per-100km", "sv": "liter-per-100km"},
-      "name": {"sv": "Liter per 100 kilometer", "en": "Liters per 100 kilometers"},
+      "slugs": {
+        "en": "liter-per-100km",
+        "sv": "liter-per-100km"
+      },
+      "name": {
+        "sv": "Liter per 100 kilometer",
+        "en": "Liters per 100 kilometers"
+      },
       "abbr": "L/100 km",
-      "transform": {"kind": "linear", "factor": 0.01},
+      "transform": {
+        "kind": "linear",
+        "factor": 0.01
+      },
       "definition": {
         "summary": {
           "en": "European standard for fuel economy.",
-          "sv": "Europeisk standard för bränsleförbrukning."
+          "sv": "Europeisk standard f\u00f6r br\u00e4nslef\u00f6rbrukning."
         },
         "body": {
           "en": "Liters per 100 kilometers (L/100km) is the standard method for measuring fuel consumption in most of Europe, Canada, and Australia. A lower number indicates better fuel economy.",
-          "sv": "Liter per 100 kilometer är standardmåttet för bränsleförbrukning i större delen av Europa. Till skillnad från MPG (Miles Per Gallon) är detta ett mått på förbrukning, så ett lägre tal är bättre."
+          "sv": "Liter per 100 kilometer \u00e4r standardm\u00e5ttet f\u00f6r br\u00e4nslef\u00f6rbrukning i st\u00f6rre delen av Europa. Till skillnad fr\u00e5n MPG (Miles Per Gallon) \u00e4r detta ett m\u00e5tt p\u00e5 f\u00f6rbrukning, s\u00e5 ett l\u00e4gre tal \u00e4r b\u00e4ttre."
         },
         "source": null
       }
@@ -67,26 +103,44 @@
     {
       "key": "kilometer_per_liter",
       "type": "metric",
-      "slugs": {"en": "kilometer-per-liter", "sv": "kilometer-per-liter"},
-      "name": {"sv": "Kilometer per liter", "en": "Kilometers per liter"},
+      "slugs": {
+        "en": "kilometer-per-liter",
+        "sv": "kilometer-per-liter"
+      },
+      "name": {
+        "sv": "Kilometer per liter",
+        "en": "Kilometers per liter"
+      },
       "abbr": "km/L",
-      "transform": {"kind": "reciprocal_factor", "factor": 1}
+      "transform": {
+        "kind": "reciprocal_factor",
+        "factor": 1
+      }
     },
     {
       "key": "miles_per_gallon_us",
       "type": "us",
-      "slugs": {"en": "miles-per-gallon-us", "sv": "miles-per-gallon-us"},
-      "name": {"sv": "Miles per gallon (US)", "en": "Miles per gallon (US)"},
+      "slugs": {
+        "en": "miles-per-gallon-us",
+        "sv": "miles-per-gallon-us"
+      },
+      "name": {
+        "sv": "Miles per gallon (US)",
+        "en": "Miles per gallon (US)"
+      },
       "abbr": "mpg (US)",
-      "transform": {"kind": "reciprocal_factor", "factor": 2.3521458333333333},
+      "transform": {
+        "kind": "reciprocal_factor",
+        "factor": 2.352145833333333
+      },
       "definition": {
         "summary": {
           "en": "US standard fuel economy (using US Gallons).",
-          "sv": "Amerikansk standard (använder US Gallon)."
+          "sv": "Amerikansk standard (anv\u00e4nder US Gallon)."
         },
         "body": {
           "en": "Miles per gallon (MPG) is the standard unit for fuel economy in the United States. It measures how far a vehicle can travel on one US gallon of fuel. A higher number indicates better efficiency. Note that the US gallon is smaller than the UK gallon.",
-          "sv": "Miles per gallon (MPG) är standardmåttet för bränsleekonomi i USA. Det anger hur många miles en bil kan köra på en US gallon bensin. Ett högre tal är bättre. Observera att US gallon skiljer sig från brittisk gallon."
+          "sv": "Miles per gallon (MPG) \u00e4r standardm\u00e5ttet f\u00f6r br\u00e4nsleekonomi i USA. Det anger hur m\u00e5nga miles en bil kan k\u00f6ra p\u00e5 en US gallon bensin. Ett h\u00f6gre tal \u00e4r b\u00e4ttre. Observera att US gallon skiljer sig fr\u00e5n brittisk gallon."
         },
         "source": null
       }
@@ -94,26 +148,44 @@
     {
       "key": "gallons_per_100_miles_us",
       "type": "us",
-      "slugs": {"en": "gallons-per-100-miles-us", "sv": "gallons-per-100-miles-us"},
-      "name": {"sv": "Gallons per 100 miles", "en": "Gallons per 100 miles"},
+      "slugs": {
+        "en": "gallons-per-100-miles-us",
+        "sv": "gallons-per-100-miles-us"
+      },
+      "name": {
+        "sv": "Gallons per 100 miles",
+        "en": "Gallons per 100 miles"
+      },
       "abbr": "gal/100 mi (US)",
-      "transform": {"kind": "linear", "factor": 0.023521458333333333}
+      "transform": {
+        "kind": "linear",
+        "factor": 0.02352145833333333
+      }
     },
     {
       "key": "miles_per_gallon_uk",
       "type": "british",
-      "slugs": {"en": "miles-per-gallon-uk", "sv": "miles-per-gallon-uk"},
-      "name": {"sv": "Miles per gallon (UK)", "en": "Miles per gallon (UK)"},
+      "slugs": {
+        "en": "miles-per-gallon-uk",
+        "sv": "miles-per-gallon-uk"
+      },
+      "name": {
+        "sv": "Miles per gallon (UK)",
+        "en": "Miles per gallon (UK)"
+      },
       "abbr": "mpg (UK)",
-      "transform": {"kind": "reciprocal_factor", "factor": 2.824809363864494},
+      "transform": {
+        "kind": "reciprocal_factor",
+        "factor": 2.824809363864494
+      },
       "definition": {
         "summary": {
           "en": "UK standard fuel economy (using Imperial Gallons).",
-          "sv": "Brittisk standard (använder Imperial Gallon)."
+          "sv": "Brittisk standard (anv\u00e4nder Imperial Gallon)."
         },
         "body": {
           "en": "Miles per gallon (MPG) is also used in the UK, but it is based on the Imperial gallon, which is about 20% larger than the US gallon. Therefore, MPG values in the UK appear higher than in the US for the same efficiency.",
-          "sv": "Miles per gallon (MPG) används även i Storbritannien, men baseras där på en Imperial gallon som är ca 20% större än en US gallon. Därför blir MPG-siffrorna högre i UK än i USA för samma bil."
+          "sv": "Miles per gallon (MPG) anv\u00e4nds \u00e4ven i Storbritannien, men baseras d\u00e4r p\u00e5 en Imperial gallon som \u00e4r ca 20% st\u00f6rre \u00e4n en US gallon. D\u00e4rf\u00f6r blir MPG-siffrorna h\u00f6gre i UK \u00e4n i USA f\u00f6r samma bil."
         },
         "source": null
       }
@@ -121,10 +193,23 @@
     {
       "key": "gallons_per_100_miles_uk",
       "type": "british",
-      "slugs": {"en": "gallons-per-100-miles-uk", "sv": "gallons-per-100-miles-uk"},
-      "name": {"sv": "Gallons per 100 miles", "en": "Gallons per 100 miles"},
+      "slugs": {
+        "en": "gallons-per-100-miles-uk",
+        "sv": "gallons-per-100-miles-uk"
+      },
+      "name": {
+        "sv": "Gallons per 100 miles",
+        "en": "Gallons per 100 miles"
+      },
       "abbr": "gal/100 mi (UK)",
-      "transform": {"kind": "linear", "factor": 0.02824809363864494}
+      "transform": {
+        "kind": "linear",
+        "factor": 0.02824809363864494
+      }
     }
-  ]
+  ],
+  "slugs": {
+    "en": "fuel-consumption",
+    "sv": "bransleforbrukning"
+  }
 }
