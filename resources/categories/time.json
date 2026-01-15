@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "key": "time",
-  "family": "physics",
+  "family": "time",
   "base_unit": "second",
   "types": [
     {

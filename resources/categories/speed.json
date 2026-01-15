@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "key": "speed",
-  "family": "physics",
+  "family": "motion",
   "base_unit": "meter_per_second",
   "types": [
     {

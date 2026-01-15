@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "key": "fuel_consumption",
-  "family": "transport",
+  "family": "energy",
   "base_unit": "liter_per_kilometer",
   "types": [
     {

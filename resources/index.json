@@ -3,84 +3,91 @@
   "categories": [
     {
       "key": "length",
-      "family": "physics"
+      "family": "dimension"
     },
     {
       "key": "temperature",
-      "family": "physics"
+      "family": "energy"
     },
     {
       "key": "fuel_consumption",
-      "family": "transport"
+      "family": "energy"
     },
     {
       "key": "data_rate",
-      "family": "data"
+      "family": "computing"
     },
     {
       "key": "power",
-      "family": "physics"
+      "family": "energy"
     },
     {
       "key": "energy",
-      "family": "physics"
+      "family": "energy"
     },
     {
       "key": "speed",
-      "family": "physics"
+      "family": "motion"
     },
     {
       "key": "time",
-      "family": "physics"
+      "family": "time"
     },
     {
       "key": "pressure",
-      "family": "physics"
+      "family": "mechanics"
     },
     {
       "key": "mass",
-      "family": "physics"
+      "family": "mechanics"
     },
     {
       "key": "volume",
-      "family": "physics"
+      "family": "dimension"
     },
     {
       "key": "data_storage",
-      "family": "data"
+      "family": "computing"
     },
     {
       "key": "area",
-      "family": "physics"
+      "family": "dimension"
     }
   ],
   "families": [
     {
-      "key": "physics",
+      "key": "chemistry",
       "name": {
-        "sv": "Fysik",
-        "en": "Physics"
+        "sv": "Kemi",
+        "en": "Chemistry"
       }
     },
     {
-      "key": "transport",
+      "key": "clothing",
       "name": {
-        "sv": "Transport",
-        "en": "Transport"
+        "sv": "Kläder",
+        "en": "Clothing"
       }
     },
     {
-      "key": "data-it",
+      "key": "computing",
       "name": {
-        "sv": "Data & IT",
-        "en": "Data & IT"
+        "sv": "Datorer",
+        "en": "Computing"
       }
     },
     {
-      "key": "data",
+      "key": "dimension",
       "name": {
-        "sv": "Data & IT",
-        "en": "Data & IT"
+        "sv": "Dimension",
+        "en": "Dimension"
+      }
+    },
+    {
+      "key": "electricity",
+      "name": {
+        "sv": "Elektricitet",
+        "en": "Electricity"
       }
     },
     {
@@ -88,6 +95,55 @@
       "name": {
         "sv": "Energi",
         "en": "Energy"
+      }
+    },
+    {
+      "key": "flow_rate",
+      "name": {
+        "sv": "Flödeshastighet",
+        "en": "Flow rate"
+      }
+    },
+    {
+      "key": "magnetism",
+      "name": {
+        "sv": "Magnetism",
+        "en": "Magnetism"
+      }
+    },
+    {
+      "key": "mechanics",
+      "name": {
+        "sv": "Mekanik",
+        "en": "Mechanics"
+      }
+    },
+    {
+      "key": "motion",
+      "name": {
+        "sv": "Rörelse",
+        "en": "Motion"
+      }
+    },
+    {
+      "key": "photometry",
+      "name": {
+        "sv": "Fotometri",
+        "en": "Photometry"
+      }
+    },
+    {
+      "key": "radioactivity",
+      "name": {
+        "sv": "Radioaktivitet",
+        "en": "Radioactivity"
+      }
+    },
+    {
+      "key": "time",
+      "name": {
+        "sv": "Tid",
+        "en": "Time"
       }
     },
     {

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "key": "data_rate",
-  "family": "data",
+  "family": "computing",
   "base_unit": "bit_per_second",
   "types": [
     {

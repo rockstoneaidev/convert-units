@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "key": "pressure",
-  "family": "physics",
+  "family": "mechanics",
   "base_unit": "pascal",
   "types": [
     {

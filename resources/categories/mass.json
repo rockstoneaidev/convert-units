@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "key": "mass",
-  "family": "physics",
+  "family": "mechanics",
   "base_unit": "kilogram",
   "types": [
     {

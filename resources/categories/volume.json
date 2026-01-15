@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "key": "volume",
-  "family": "physics",
+  "family": "dimension",
   "base_unit": "cubic_meter",
   "types": [
     {
