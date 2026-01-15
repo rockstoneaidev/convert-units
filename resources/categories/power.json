@@ -84,7 +84,7 @@
       "type": "metric",
       "name": {
         "en": "metric horsepower",
-        "sv": "h\u00e4stkraft"
+        "sv": "hästkraft"
       },
       "abbr": "hk",
       "transform": {
@@ -98,7 +98,7 @@
         },
         "body": {
           "en": "The metric horsepower (PS, hk, ch) is defined as the power to lift a mass of 75 kg by 1 meter in 1 second. It is approximately 735.5 watts. It differs slightly from the imperial mechanical horsepower.",
-          "sv": "Metrisk h\u00e4stkraft (hk) definieras som effekten som kr\u00e4vs f\u00f6r att lyfta 75 kg en meter upp\u00e5t p\u00e5 en sekund. Det motsvarar ca 735,5 watt. Observera att detta skiljer sig n\u00e5got fr\u00e5n den engelska h\u00e4stkraften (hp)."
+          "sv": "Metrisk hästkraft (hk) definieras som effekten som krävs för att lyfta 75 kg en meter uppåt på en sekund. Det motsvarar ca 735,5 watt. Observera att detta skiljer sig något från den engelska hästkraften (hp)."
         },
         "source": null
       }
@@ -118,11 +118,11 @@
       "definition": {
         "summary": {
           "en": "SI derived unit of power. 1 joule per second.",
-          "sv": "SI-h\u00e4rledd enhet f\u00f6r effekt. 1 joule per sekund."
+          "sv": "SI-härledd enhet för effekt. 1 joule per sekund."
         },
         "body": {
           "en": "The watt (W) is the unit of power in the International System of Units (SI). It is defined as a derived unit of 1 joule per second. It is used to quantify the rate of energy transfer.",
-          "sv": "Watt (W) \u00e4r SI-enheten f\u00f6r effekt. En watt definieras som en joule per sekund. Enheten \u00e4r uppkallad efter den skotske uppfinnaren James Watt."
+          "sv": "Watt (W) är SI-enheten för effekt. En watt definieras som en joule per sekund. Enheten är uppkallad efter den skotske uppfinnaren James Watt."
         },
         "source": "https://www.bipm.org/en/measurement-units/"
       }
@@ -147,7 +147,7 @@
         "en": "microwatt",
         "sv": "mikrowatt"
       },
-      "abbr": "\u00b5W",
+      "abbr": "µW",
       "transform": {
         "kind": "linear",
         "factor": 1e-06
@@ -184,7 +184,7 @@
       "type": "imperial",
       "name": {
         "en": "horsepower",
-        "sv": "h\u00e4stkraft"
+        "sv": "hästkraft"
       },
       "abbr": "hp",
       "transform": {
@@ -198,7 +198,7 @@
         },
         "body": {
           "en": "Mechanical horsepower (hp), also known as imperial horsepower, is defined as approximately 745.7 watts. It is based on lifting 550 pounds by 1 foot in 1 second.",
-          "sv": "Mekanisk h\u00e4stkraft (hp), \u00e4ven kallad imperial horsepower, \u00e4r den definition som anv\u00e4nds i USA och Storbritannien. Den motsvarar ca 745,7 watt, vilket \u00e4r n\u00e5got mer \u00e4n den metriska h\u00e4stkraften."
+          "sv": "Mekanisk hästkraft (hp), även kallad imperial horsepower, är den definition som används i USA och Storbritannien. Den motsvarar ca 745,7 watt, vilket är något mer än den metriska hästkraften."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -223,7 +223,7 @@
         "en": "foot pound-force per second",
         "sv": "fotpundkraft per sekund"
       },
-      "abbr": "ft\u00d7lbf/s",
+      "abbr": "ft×lbf/s",
       "transform": {
         "kind": "linear",
         "factor": 1.355817948

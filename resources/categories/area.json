@@ -41,7 +41,7 @@
         "en": "square kilometer",
         "sv": "kvadratkilometer"
       },
-      "abbr": "km\u00b2",
+      "abbr": "km²",
       "transform": {
         "kind": "linear",
         "factor": 1000000.0
@@ -49,11 +49,11 @@
       "definition": {
         "summary": {
           "en": "1,000,000 square meters. Used for large geographical areas.",
-          "sv": "1 000 000 kvadratmeter. Anv\u00e4nds f\u00f6r stora geografiska ytor."
+          "sv": "1 000 000 kvadratmeter. Används för stora geografiska ytor."
         },
         "body": {
-          "en": "The square kilometer (km\u00b2) is a metric unit of area equal to a square with sides of one kilometer. It corresponds to one million square meters.",
-          "sv": "Kvadratkilometer (km\u00b2) \u00e4r en ytenhet som motsvarar en kvadrat med en kilometers sida. Det \u00e4r lika med en miljon kvadratmeter."
+          "en": "The square kilometer (km²) is a metric unit of area equal to a square with sides of one kilometer. It corresponds to one million square meters.",
+          "sv": "Kvadratkilometer (km²) är en ytenhet som motsvarar en kvadrat med en kilometers sida. Det är lika med en miljon kvadratmeter."
         },
         "source": null
       }
@@ -65,7 +65,7 @@
         "en": "square hectometer",
         "sv": "kvadrathektometer"
       },
-      "abbr": "hm\u00b2",
+      "abbr": "hm²",
       "transform": {
         "kind": "linear",
         "factor": 10000.0
@@ -86,11 +86,11 @@
       "definition": {
         "summary": {
           "en": "10,000 square meters. Common for land measurement.",
-          "sv": "10 000 kvadratmeter. Vanligt f\u00f6r landareal."
+          "sv": "10 000 kvadratmeter. Vanligt för landareal."
         },
         "body": {
-          "en": "The hectare (ha) is a non-SI metric unit of area equal to a square with 100-meter sides (10,000 m\u00b2). It is primarily used in the measurement of land.",
-          "sv": "Hektar (ha) \u00e4r en ytenhet som motsvarar 10 000 kvadratmeter (ett omr\u00e5de p\u00e5 100 \u00d7 100 meter). Enheten anv\u00e4nds fr\u00e4mst f\u00f6r att ange storleken p\u00e5 landomr\u00e5den, skog och \u00e5kermark."
+          "en": "The hectare (ha) is a non-SI metric unit of area equal to a square with 100-meter sides (10,000 m²). It is primarily used in the measurement of land.",
+          "sv": "Hektar (ha) är en ytenhet som motsvarar 10 000 kvadratmeter (ett område på 100 × 100 meter). Enheten används främst för att ange storleken på landområden, skog och åkermark."
         },
         "source": "https://www.bipm.org/en/publications/si-brochure"
       }
@@ -102,7 +102,7 @@
         "en": "square dekameter",
         "sv": "kvadratdekameter"
       },
-      "abbr": "dam\u00b2",
+      "abbr": "dam²",
       "transform": {
         "kind": "linear",
         "factor": 100.0
@@ -115,7 +115,7 @@
         "en": "square meter",
         "sv": "kvadratmeter"
       },
-      "abbr": "m\u00b2",
+      "abbr": "m²",
       "transform": {
         "kind": "linear",
         "factor": 1.0
@@ -123,11 +123,11 @@
       "definition": {
         "summary": {
           "en": "The SI derived unit of area.",
-          "sv": "SI-h\u00e4rledd enhet f\u00f6r area."
+          "sv": "SI-härledd enhet för area."
         },
         "body": {
-          "en": "The square meter (m\u00b2) is the SI derived unit of area. It is defined as the area of a square with sides of one meter.",
-          "sv": "Kvadratmeter (m\u00b2) \u00e4r den h\u00e4rledda SI-enheten f\u00f6r area. Den definieras som ytan av en kvadrat med en meters sida."
+          "en": "The square meter (m²) is the SI derived unit of area. It is defined as the area of a square with sides of one meter.",
+          "sv": "Kvadratmeter (m²) är den härledda SI-enheten för area. Den definieras som ytan av en kvadrat med en meters sida."
         },
         "source": "https://www.bipm.org/en/measurement-units/"
       }
@@ -139,7 +139,7 @@
         "en": "square decimeter",
         "sv": "kvadratdecimeter"
       },
-      "abbr": "dm\u00b2",
+      "abbr": "dm²",
       "transform": {
         "kind": "linear",
         "factor": 0.01
@@ -152,7 +152,7 @@
         "en": "square millimeter",
         "sv": "kvadratmillimeter"
       },
-      "abbr": "mm\u00b2",
+      "abbr": "mm²",
       "transform": {
         "kind": "linear",
         "factor": 1e-06
@@ -165,7 +165,7 @@
         "en": "square micrometer",
         "sv": "kvadratmikrometer"
       },
-      "abbr": "\u00b5m\u00b2",
+      "abbr": "µm²",
       "transform": {
         "kind": "linear",
         "factor": 1e-12
@@ -178,7 +178,7 @@
         "en": "square nanometer",
         "sv": "kvadratnanometer"
       },
-      "abbr": "nm\u00b2",
+      "abbr": "nm²",
       "transform": {
         "kind": "linear",
         "factor": 1e-18
@@ -202,9 +202,9 @@
       "type": "swedish",
       "name": {
         "en": "skappland",
-        "sv": "sk\u00e4ppland"
+        "sv": "skäppland"
       },
-      "abbr": "sk\u00e4ppland",
+      "abbr": "skäppland",
       "transform": {
         "kind": "linear",
         "factor": 823.0
@@ -230,7 +230,7 @@
         "en": "square mile",
         "sv": "square mil"
       },
-      "abbr": "mi\u00b2",
+      "abbr": "mi²",
       "transform": {
         "kind": "linear",
         "factor": 2589988.110336
@@ -238,11 +238,11 @@
       "definition": {
         "summary": {
           "en": "640 acres. Standard unit for large areas in US/UK.",
-          "sv": "640 acres. Standard f\u00f6r stora ytor i USA/UK."
+          "sv": "640 acres. Standard för stora ytor i USA/UK."
         },
         "body": {
           "en": "The square mile is an imperial and US customary unit of area equal to 640 acres or 2.59 square kilometers.",
-          "sv": "Square mile (kvadrat-mile) \u00e4r en ytenhet som motsvarar 640 acres eller drygt 2,58 kvadratkilometer."
+          "sv": "Square mile (kvadrat-mile) är en ytenhet som motsvarar 640 acres eller drygt 2,58 kvadratkilometer."
         },
         "source": null
       }
@@ -275,11 +275,11 @@
       "definition": {
         "summary": {
           "en": "Traditional unit of land area, approx 0.4 hectares.",
-          "sv": "Traditionell enhet f\u00f6r landareal, ca 0,4 hektar."
+          "sv": "Traditionell enhet för landareal, ca 0,4 hektar."
         },
         "body": {
           "en": "The acre is a unit of land area used in the imperial and US customary systems. It is traditionally defined as the area of one chain by one furlong (66 by 660 feet). One acre is approximately 4,047 square meters.",
-          "sv": "Acre \u00e4r en \u00e4ldre ytenhet som fortfarande anv\u00e4nds i stor utstr\u00e4ckning i USA och Storbritannien f\u00f6r att m\u00e4ta land. En acre motsvarar ca 4 047 kvadratmeter (eller ungef\u00e4r 0,4 hektar)."
+          "sv": "Acre är en äldre ytenhet som fortfarande används i stor utsträckning i USA och Storbritannien för att mäta land. En acre motsvarar ca 4 047 kvadratmeter (eller ungefär 0,4 hektar)."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -304,7 +304,7 @@
         "en": "square rod",
         "sv": "square rod"
       },
-      "abbr": "rod\u00b2",
+      "abbr": "rod²",
       "transform": {
         "kind": "linear",
         "factor": 25.29285264
@@ -330,7 +330,7 @@
         "en": "square yard",
         "sv": "square yard"
       },
-      "abbr": "yd\u00b2",
+      "abbr": "yd²",
       "transform": {
         "kind": "linear",
         "factor": 0.83612736
@@ -343,7 +343,7 @@
         "en": "square foot",
         "sv": "square foot"
       },
-      "abbr": "ft\u00b2",
+      "abbr": "ft²",
       "transform": {
         "kind": "linear",
         "factor": 0.09290304
@@ -355,7 +355,7 @@
         },
         "body": {
           "en": "The square foot is an imperial unit of area widely used in the United States and UK for real estate and floor plans.",
-          "sv": "Square foot (kvadratfot) \u00e4r en ytenhet som anv\u00e4nds flitigt i USA och Storbritannien, s\u00e4rskilt f\u00f6r att ange storleken p\u00e5 l\u00e4genheter och hus."
+          "sv": "Square foot (kvadratfot) är en ytenhet som används flitigt i USA och Storbritannien, särskilt för att ange storleken på lägenheter och hus."
         },
         "source": null
       }
@@ -367,7 +367,7 @@
         "en": "square inch",
         "sv": "square inch"
       },
-      "abbr": "in\u00b2",
+      "abbr": "in²",
       "transform": {
         "kind": "linear",
         "factor": 0.00064516

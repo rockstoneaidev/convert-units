@@ -36,7 +36,7 @@
       "key": "atmosphere",
       "name": {
         "en": "Atmosphere",
-        "sv": "Atmosf\u00e4r"
+        "sv": "Atmosfär"
       }
     }
   ],
@@ -73,7 +73,7 @@
         },
         "body": {
           "en": "The bar is a metric unit of pressure, but not part of the International System of Units (SI). It is defined as exactly 100,000 Pa (100 kPa). It is slightly less than the current average atmospheric pressure on Earth at sea level.",
-          "sv": "Bar \u00e4r en enhet f\u00f6r tryck som motsvarar exakt 100 000 pascal (100 kPa). Det ligger mycket n\u00e4ra det normala lufttrycket vid havsytan (1 atmosf\u00e4r \u2248 1,013 bar)."
+          "sv": "Bar är en enhet för tryck som motsvarar exakt 100 000 pascal (100 kPa). Det ligger mycket nära det normala lufttrycket vid havsytan (1 atmosfär ≈ 1,013 bar)."
         },
         "source": "https://www.bipm.org/en/publications/si-brochure"
       }
@@ -85,7 +85,7 @@
         "en": "kilogram per square centimeter",
         "sv": "kilogram per kvadratcentimeter"
       },
-      "abbr": "kg/cm\u00b2",
+      "abbr": "kg/cm²",
       "transform": {
         "kind": "linear",
         "factor": 98066.5
@@ -119,11 +119,11 @@
       "definition": {
         "summary": {
           "en": "Equivalent to millibar. Used in meteorology.",
-          "sv": "Motsvarar millibar. Anv\u00e4nds inom meteorologi."
+          "sv": "Motsvarar millibar. Används inom meteorologi."
         },
         "body": {
           "en": "The hectopascal (hPa) is equal to 100 pascals or 1 millibar. It is the international standard unit for measuring atmospheric pressure in meteorology.",
-          "sv": "Hektopascal (hPa) \u00e4r en tryckenhet som motsvarar 100 pascal. Inom meteorologi har den ersatt den \u00e4ldre enheten millibar (mbar), men v\u00e4rdet \u00e4r exakt detsamma (1 hPa = 1 mbar)."
+          "sv": "Hektopascal (hPa) är en tryckenhet som motsvarar 100 pascal. Inom meteorologi har den ersatt den äldre enheten millibar (mbar), men värdet är exakt detsamma (1 hPa = 1 mbar)."
         },
         "source": null
       }
@@ -148,7 +148,7 @@
         "en": "kilogram per square meter",
         "sv": "kilogram per kvadratmeter"
       },
-      "abbr": "kg/m\u00b2",
+      "abbr": "kg/m²",
       "transform": {
         "kind": "linear",
         "factor": 9.80665
@@ -169,11 +169,11 @@
       "definition": {
         "summary": {
           "en": "The SI derived unit of pressure.",
-          "sv": "SI-h\u00e4rledd enhet f\u00f6r tryck."
+          "sv": "SI-härledd enhet för tryck."
         },
         "body": {
           "en": "The pascal (Pa) is the SI derived unit of pressure used to quantify internal pressure, stress, Young's modulus, and ultimate tensile strength. It is defined as one newton per square meter.",
-          "sv": "Pascal (Pa) \u00e4r SI-enheten f\u00f6r tryck. En pascal definieras som trycket av en kraft p\u00e5 en newton f\u00f6rdelad \u00f6ver en yta p\u00e5 en kvadratmeter. Enheten \u00e4r uppkallad efter Blaise Pascal."
+          "sv": "Pascal (Pa) är SI-enheten för tryck. En pascal definieras som trycket av en kraft på en newton fördelad över en yta på en kvadratmeter. Enheten är uppkallad efter Blaise Pascal."
         },
         "source": "https://www.bipm.org/en/measurement-units/"
       }
@@ -206,11 +206,11 @@
       "definition": {
         "summary": {
           "en": "Imperial/US unit. Common for tire pressure.",
-          "sv": "Anglosaxisk enhet. Vanlig f\u00f6r d\u00e4cktryck."
+          "sv": "Anglosaxisk enhet. Vanlig för däcktryck."
         },
         "body": {
           "en": "Pounds per square inch (PSI) is a unit of pressure resulting from a force of one pound-force applied to an area of one square inch. It is widely used in the US and UK, particularly for tire pressure.",
-          "sv": "PSI (Pounds per Square Inch) \u00e4r en tryckenhet som \u00e4r vanlig i USA och Storbritannien. Den anger trycket i pund per kvadrattum. I Sverige ser vi den ofta n\u00e4r vi pumpar d\u00e4ck."
+          "sv": "PSI (Pounds per Square Inch) är en tryckenhet som är vanlig i USA och Storbritannien. Den anger trycket i pund per kvadrattum. I Sverige ser vi den ofta när vi pumpar däck."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -287,7 +287,7 @@
         "en": "meter of water",
         "sv": "meter vatten"
       },
-      "abbr": "mH\u2082O",
+      "abbr": "mH₂O",
       "transform": {
         "kind": "linear",
         "factor": 9806.65
@@ -300,7 +300,7 @@
         "en": "inch of water",
         "sv": "tum vatten"
       },
-      "abbr": "inH\u2082O",
+      "abbr": "inH₂O",
       "transform": {
         "kind": "linear",
         "factor": 249.08891
@@ -313,7 +313,7 @@
         "en": "centimeter of water",
         "sv": "centimeter vatten"
       },
-      "abbr": "cmH\u2082O",
+      "abbr": "cmH₂O",
       "transform": {
         "kind": "linear",
         "factor": 98.0665
@@ -324,7 +324,7 @@
       "type": "atmosphere",
       "name": {
         "en": "standard atmosphere",
-        "sv": "fysik atmosf\u00e4r"
+        "sv": "fysik atmosfär"
       },
       "abbr": "atm",
       "transform": {
@@ -338,7 +338,7 @@
         },
         "body": {
           "en": "The standard atmosphere (atm) is a unit of pressure defined as exactly 101,325 Pa. It approximates the average atmospheric pressure on Earth at sea level.",
-          "sv": "Fysikalisk atmosf\u00e4r (atm) \u00e4r en tryckenhet som definieras som exakt 101 325 Pascal. Det \u00e4r t\u00e4nkt att motsvara medellufttrycket vid havsytan."
+          "sv": "Fysikalisk atmosfär (atm) är en tryckenhet som definieras som exakt 101 325 Pascal. Det är tänkt att motsvara medellufttrycket vid havsytan."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -348,7 +348,7 @@
       "type": "atmosphere",
       "name": {
         "en": "technical atmosphere",
-        "sv": "teknisk atmosf\u00e4r"
+        "sv": "teknisk atmosfär"
       },
       "abbr": "at",
       "transform": {

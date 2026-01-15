@@ -15,7 +15,7 @@
       "key": "binary",
       "name": {
         "en": "Binary Prefix",
-        "sv": "Bin\u00e4r prefix"
+        "sv": "Binär prefix"
       }
     }
   ],
@@ -61,11 +61,11 @@
       "definition": {
         "summary": {
           "en": "A unit of data transfer speed equal to 8 megabits per second.",
-          "sv": "En enhet f\u00f6r datahastighet som motsvarar 8 megabit per sekund."
+          "sv": "En enhet för datahastighet som motsvarar 8 megabit per sekund."
         },
         "body": {
           "en": "Megabytes per second (MB/s) is often used to measure file transfer speeds or disk I/O. It is important to distinguish this from Mbps (megabits per second), which is 8 times slower.",
-          "sv": "Megabyte per sekund (MB/s) anv\u00e4nds ofta f\u00f6r att m\u00e4ta hastigheten p\u00e5 fil\u00f6verf\u00f6ringar eller h\u00e5rddiskar. Det \u00e4r viktigt att skilja denna fr\u00e5n Mbps (megabit per sekund), som \u00e4r 8 g\u00e5nger l\u00e5ngsammare."
+          "sv": "Megabyte per sekund (MB/s) används ofta för att mäta hastigheten på filöverföringar eller hårddiskar. Det är viktigt att skilja denna från Mbps (megabit per sekund), som är 8 gånger långsammare."
         },
         "source": null
       }
@@ -85,11 +85,11 @@
       "definition": {
         "summary": {
           "en": "Standard unit for internet connection speeds.",
-          "sv": "Standardm\u00e5ttet f\u00f6r internethastigheter."
+          "sv": "Standardmåttet för internethastigheter."
         },
         "body": {
           "en": "Megabits per second (Mbps or Mbit/s) is the standard unit for measuring bandwidth and internet connection speeds. One megabit per second corresponds to transferring one million bits every second.",
-          "sv": "Megabit per sekund (Mbit/s) \u00e4r standardenheten f\u00f6r att m\u00e4ta bandbredd och internethastighet. En megabit per sekund inneb\u00e4r att en miljon bitar \u00f6verf\u00f6rs varje sekund."
+          "sv": "Megabit per sekund (Mbit/s) är standardenheten för att mäta bandbredd och internethastighet. En megabit per sekund innebär att en miljon bitar överförs varje sekund."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -139,7 +139,7 @@
         },
         "body": {
           "en": "One byte per second (B/s) is a rate equal to eight bits per second. It is commonly used in low-level data transfer contexts.",
-          "sv": "En byte per sekund (B/s) motsvarar \u00e5tta bitar per sekund. Enheten anv\u00e4nds ofta i sammanhang som r\u00f6r grundl\u00e4ggande data\u00f6verf\u00f6ring."
+          "sv": "En byte per sekund (B/s) motsvarar åtta bitar per sekund. Enheten används ofta i sammanhang som rör grundläggande dataöverföring."
         },
         "source": null
       }
@@ -159,11 +159,11 @@
       "definition": {
         "summary": {
           "en": "The base unit of data rate. Formally bit/s.",
-          "sv": "Basenheten f\u00f6r datahastighet. Formellt bit/s."
+          "sv": "Basenheten för datahastighet. Formellt bit/s."
         },
         "body": {
           "en": "Bit per second (bps) is the primary unit of data transfer rate. While 'bps' is common in informal contexts, 'bit/s' is the formal abbreviation. It should not be confused with B/s (byte per second), where 1 B/s = 8 bps. It is also distinct from 'baud', which refers to symbol rate.",
-          "sv": "Bitar per sekund (bit/s eller bps) \u00e4r den grundl\u00e4ggande enheten f\u00f6r datahastighet. I informella sammanhang anv\u00e4nds ofta bps eller b/s, men den formella f\u00f6rkortningen \u00e4r bit/s. Det \u00e4r viktigt att inte blanda ihop b/s med B/s (byte per sekund), d\u00e5 1 B/s = 8 bit/s. Enheten blandas ibland \u00e4ven ihop med 'baud', som ist\u00e4llet avser moduleringshastigheten."
+          "sv": "Bitar per sekund (bit/s eller bps) är den grundläggande enheten för datahastighet. I informella sammanhang används ofta bps eller b/s, men den formella förkortningen är bit/s. Det är viktigt att inte blanda ihop b/s med B/s (byte per sekund), då 1 B/s = 8 bit/s. Enheten blandas ibland även ihop med 'baud', som istället avser moduleringshastigheten."
         },
         "source": "https://physics.nist.gov/cuu/Units/binary.html"
       }
@@ -183,11 +183,11 @@
       "definition": {
         "summary": {
           "en": "Binary data rate unit (2^30 bits per second).",
-          "sv": "Bin\u00e4r enhet f\u00f6r datahastighet (2^30 bitar per sekund)."
+          "sv": "Binär enhet för datahastighet (2^30 bitar per sekund)."
         },
         "body": {
           "en": "Gibibit per second (Gibit/s) is a binary unit of data rate defined by the IEC. Unlike the decimal gigabit (10^9 bits), the gibibit is exactly 2^30 bits (1,073,741,824 bits).",
-          "sv": "Gibibit per sekund (Gibit/s) \u00e4r en bin\u00e4r enhet f\u00f6r datahastighet definierad av IEC. Till skillnad fr\u00e5n den decimala gigabiten (10^9 bitar) motsvarar en gibibit exakt 2^30 bitar (1 073 741 824 bitar)."
+          "sv": "Gibibit per sekund (Gibit/s) är en binär enhet för datahastighet definierad av IEC. Till skillnad från den decimala gigabiten (10^9 bitar) motsvarar en gibibit exakt 2^30 bitar (1 073 741 824 bitar)."
         },
         "source": "https://physics.nist.gov/cuu/Units/binary.html"
       }

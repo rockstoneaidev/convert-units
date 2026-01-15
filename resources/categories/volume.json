@@ -15,7 +15,7 @@
       "key": "us_wet",
       "name": {
         "en": "U.S. Wet Volume",
-        "sv": "U.S. v\u00e5t volym"
+        "sv": "U.S. våt volym"
       }
     },
     {
@@ -29,7 +29,7 @@
       "key": "british",
       "name": {
         "en": "British Wet / Dry Volume",
-        "sv": "Brittisk v\u00e5t / torr volym"
+        "sv": "Brittisk våt / torr volym"
       }
     },
     {
@@ -43,14 +43,14 @@
       "key": "cooking_se",
       "name": {
         "en": "Cooking (Sweden)",
-        "sv": "Matm\u00e5tt (Svenska)"
+        "sv": "Matmått (Svenska)"
       }
     },
     {
       "key": "cooking_us",
       "name": {
         "en": "Cooking (U.S.)",
-        "sv": "Matm\u00e5tt (U.S.)"
+        "sv": "Matmått (U.S.)"
       }
     }
   ],
@@ -62,7 +62,7 @@
         "en": "cubic kilometer",
         "sv": "kubikkilometer"
       },
-      "abbr": "km\u00b3",
+      "abbr": "km³",
       "transform": {
         "kind": "linear",
         "factor": 1000000000.0
@@ -75,7 +75,7 @@
         "en": "cubic meter",
         "sv": "kubikmeter"
       },
-      "abbr": "m\u00b3",
+      "abbr": "m³",
       "transform": {
         "kind": "linear",
         "factor": 1.0
@@ -83,11 +83,11 @@
       "definition": {
         "summary": {
           "en": "SI derived unit of volume.",
-          "sv": "SI-h\u00e4rledd enhet f\u00f6r volym."
+          "sv": "SI-härledd enhet för volym."
         },
         "body": {
-          "en": "The cubic meter (m\u00b3) is the SI derived unit of volume. It corresponds to the volume of a cube with edges of one meter. One cubic meter is equal to 1000 liters.",
-          "sv": "Kubikmeter (m\u00b3) \u00e4r den h\u00e4rledda SI-enheten f\u00f6r volym. Den definieras som volymen av en kub med en meters sida. En kubikmeter motsvarar 1000 liter."
+          "en": "The cubic meter (m³) is the SI derived unit of volume. It corresponds to the volume of a cube with edges of one meter. One cubic meter is equal to 1000 liters.",
+          "sv": "Kubikmeter (m³) är den härledda SI-enheten för volym. Den definieras som volymen av en kub med en meters sida. En kubikmeter motsvarar 1000 liter."
         },
         "source": "https://www.bipm.org/en/measurement-units/"
       }
@@ -125,7 +125,7 @@
         "en": "cubic decimeter",
         "sv": "kubikdecimeter"
       },
-      "abbr": "dm\u00b3",
+      "abbr": "dm³",
       "transform": {
         "kind": "linear",
         "factor": 0.001
@@ -149,8 +149,8 @@
           "sv": "Accepterad metrisk enhet, 1 kubikdecimeter."
         },
         "body": {
-          "en": "The liter is a metric unit of volume equal to one cubic decimeter (dm\u00b3), 1000 cubic centimeters (cm\u00b3), or 1/1000 cubic meter. It is accepted for use with the SI.",
-          "sv": "Liter \u00e4r en metrisk volymenhet som motsvarar en kubikdecimeter (dm\u00b3). Det g\u00e5r 1000 liter p\u00e5 en kubikmeter."
+          "en": "The liter is a metric unit of volume equal to one cubic decimeter (dm³), 1000 cubic centimeters (cm³), or 1/1000 cubic meter. It is accepted for use with the SI.",
+          "sv": "Liter är en metrisk volymenhet som motsvarar en kubikdecimeter (dm³). Det går 1000 liter på en kubikmeter."
         },
         "source": "https://www.bipm.org/en/publications/si-brochure"
       }
@@ -188,7 +188,7 @@
         "en": "cubic centimeter",
         "sv": "kubikcentimeter"
       },
-      "abbr": "cm\u00b3",
+      "abbr": "cm³",
       "transform": {
         "kind": "linear",
         "factor": 1e-06
@@ -214,7 +214,7 @@
         "en": "cubic millimeter",
         "sv": "kubikmillimeter"
       },
-      "abbr": "mm\u00b3",
+      "abbr": "mm³",
       "transform": {
         "kind": "linear",
         "factor": 1e-09
@@ -227,7 +227,7 @@
         "en": "microliter",
         "sv": "mikroliter"
       },
-      "abbr": "\u00b5l",
+      "abbr": "µl",
       "transform": {
         "kind": "linear",
         "factor": 1e-09
@@ -253,7 +253,7 @@
         "en": "cubic yard",
         "sv": "cubic yard"
       },
-      "abbr": "yd\u00b3",
+      "abbr": "yd³",
       "transform": {
         "kind": "linear",
         "factor": 0.764554857984
@@ -274,11 +274,11 @@
       "definition": {
         "summary": {
           "en": "Standard oil barrel is 42 US gallons.",
-          "sv": "Standard oljefat \u00e4r 42 US gallons (ca 159 liter)."
+          "sv": "Standard oljefat är 42 US gallons (ca 159 liter)."
         },
         "body": {
           "en": "A standard oil barrel (bbl) is defined as 42 US gallons, which is approximately 159 liters. There are other definitions for dry barrels and beer barrels.",
-          "sv": "Ett standardfat f\u00f6r olja (barrel) definieras som 42 US gallons, vilket motsvarar ungef\u00e4r 159 liter. Det finns andra definitioner f\u00f6r 'dry barrels' och \u00f6lfat."
+          "sv": "Ett standardfat för olja (barrel) definieras som 42 US gallons, vilket motsvarar ungefär 159 liter. Det finns andra definitioner för 'dry barrels' och ölfat."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -290,7 +290,7 @@
         "en": "cubic foot",
         "sv": "cubic foot"
       },
-      "abbr": "ft\u00b3",
+      "abbr": "ft³",
       "transform": {
         "kind": "linear",
         "factor": 0.028316846592
@@ -301,7 +301,7 @@
       "type": "us_wet",
       "name": {
         "en": "US gallon",
-        "sv": "Amerikansk gallon (v\u00e5t)"
+        "sv": "Amerikansk gallon (våt)"
       },
       "abbr": "gal",
       "transform": {
@@ -315,7 +315,7 @@
         },
         "body": {
           "en": "The US liquid gallon is legally defined as 231 cubic inches, which is exactly 3.785411784 liters. It is distinct from the Imperial (UK) gallon.",
-          "sv": "US liquid gallon definieras som exakt 231 kubiktum, vilket motsvarar ca 3,785 liter. Detta \u00e4r mindre \u00e4n den brittiska (Imperial) gallonen."
+          "sv": "US liquid gallon definieras som exakt 231 kubiktum, vilket motsvarar ca 3,785 liter. Detta är mindre än den brittiska (Imperial) gallonen."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -379,7 +379,7 @@
         "en": "cubic inch",
         "sv": "cubic inch"
       },
-      "abbr": "in\u00b3",
+      "abbr": "in³",
       "transform": {
         "kind": "linear",
         "factor": 1.6387064e-05
@@ -560,7 +560,7 @@
         },
         "body": {
           "en": "The Imperial (UK) gallon is defined as exactly 4.54609 liters. It is about 20% larger than the US liquid gallon.",
-          "sv": "Imperial (Brittisk) gallon definieras som exakt 4,54609 liter. Den \u00e4r d\u00e4rmed cirka 20% st\u00f6rre \u00e4n en amerikansk gallon."
+          "sv": "Imperial (Brittisk) gallon definieras som exakt 4,54609 liter. Den är därmed cirka 20% större än en amerikansk gallon."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -687,7 +687,7 @@
       "type": "cooking_se",
       "name": {
         "en": "spice measure",
-        "sv": "kryddm\u00e5tt"
+        "sv": "kryddmått"
       },
       "abbr": "krm",
       "transform": {
@@ -714,7 +714,7 @@
         },
         "body": {
           "en": "A US cup is a unit of volume equal to 1/16 of a US gallon, or about 236.6 milliliters. Metric cups (250 ml) are often used in other countries.",
-          "sv": "En 'cup' (kopp) \u00e4r en volymenhet som \u00e4r standard i amerikanska recept. Den motsvarar ca 237 ml. Observera att en 'metrisk kopp' (ofta anv\u00e4nd i Australien och Kanada) \u00e4r 250 ml."
+          "sv": "En 'cup' (kopp) är en volymenhet som är standard i amerikanska recept. Den motsvarar ca 237 ml. Observera att en 'metrisk kopp' (ofta använd i Australien och Kanada) är 250 ml."
         },
         "source": null
       }

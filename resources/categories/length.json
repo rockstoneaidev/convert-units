@@ -77,11 +77,11 @@
       "definition": {
         "summary": {
           "en": "1000 meters. The standard unit for geographical distances.",
-          "sv": "1000 meter. Standardm\u00e5ttet f\u00f6r geografiska avst\u00e5nd."
+          "sv": "1000 meter. Standardmåttet för geografiska avstånd."
         },
         "body": {
           "en": "The kilometer is a unit of length in the metric system, equal to one thousand meters. It is the primary unit used for expressing distances between geographical places on land in most of the world.",
-          "sv": "Kilometer \u00e4r en l\u00e4ngdenhet i det metriska systemet som motsvarar tusen meter. Det \u00e4r den prim\u00e4ra enheten f\u00f6r att ange avst\u00e5nd mellan geografiska platser p\u00e5 land i st\u00f6rre delen av v\u00e4rlden."
+          "sv": "Kilometer är en längdenhet i det metriska systemet som motsvarar tusen meter. Det är den primära enheten för att ange avstånd mellan geografiska platser på land i större delen av världen."
         },
         "source": null
       }
@@ -101,13 +101,13 @@
       "definition": {
         "summary": {
           "en": "The SI base unit of length. Defined by the speed of light.",
-          "sv": "SI-grundenheten f\u00f6r l\u00e4ngd. Definieras av ljusets hastighet."
+          "sv": "SI-grundenheten för längd. Definieras av ljusets hastighet."
         },
         "body": {
           "en": "The meter is the base unit of length in the International System of Units (SI). Originally defined in 1793 as one ten-millionth of the distance from the equator to the North Pole, it has been defined since 1983 as the distance light travels in a vacuum in 1/299 792 458 of a second.",
-          "sv": "Metern \u00e4r grundenheten f\u00f6r l\u00e4ngd i SI-systemet. Den definierades ursprungligen 1793 som en tiomiljondel av avst\u00e5ndet fr\u00e5n ekvatorn till nordpolen. Sedan 1983 definieras den exakt som den str\u00e4cka ljuset f\u00e4rdas i vakuum under tidsintervallet 1/299 792 458 av en sekund."
+          "sv": "Metern är grundenheten för längd i SI-systemet. Den definierades ursprungligen 1793 som en tiomiljondel av avståndet från ekvatorn till nordpolen. Sedan 1983 definieras den exakt som den sträcka ljuset färdas i vakuum under tidsintervallet 1/299 792 458 av en sekund."
         },
-        "source": "https://www.bipm.org/en/measurement-units/"
+        "source": "https://www.bipm.org/en/si-base-units/metre"
       }
     },
     {
@@ -156,7 +156,7 @@
         "en": "micrometer",
         "sv": "mikrometer"
       },
-      "abbr": "\u00b5m",
+      "abbr": "µm",
       "transform": {
         "kind": "linear",
         "factor": 1e-06
@@ -180,9 +180,9 @@
       "type": "metric",
       "name": {
         "en": "angstrom",
-        "sv": "\u00e5ngstr\u00f6m"
+        "sv": "ångström"
       },
-      "abbr": "\u00c5",
+      "abbr": "Å",
       "transform": {
         "kind": "linear",
         "factor": 1e-10
@@ -211,7 +211,7 @@
         },
         "body": {
           "en": "The 'mil' is a unit of length common in Sweden and Norway. Historically it varied by region, but since 1889 it has been standardized as exactly 10 kilometers. It should not be confused with the English 'mile'.",
-          "sv": "Milen \u00e4r en l\u00e4ngdenhet som \u00e4r vanlig i Sverige och Norge. Historiskt sett varierade l\u00e4ngden beroende p\u00e5 landsdel, men sedan 1889 \u00e4r en svensk mil standardiserad till exakt 10 kilometer (10 000 meter)."
+          "sv": "Milen är en längdenhet som är vanlig i Sverige och Norge. Historiskt sett varierade längden beroende på landsdel, men sedan 1889 är en svensk mil standardiserad till exakt 10 kilometer (10 000 meter)."
         },
         "source": null
       }
@@ -221,9 +221,9 @@
       "type": "swedish",
       "name": {
         "en": "fjardingsvag",
-        "sv": "fj\u00e4rdingsv\u00e4g"
+        "sv": "fjärdingsväg"
       },
-      "abbr": "fj\u00e4rdingsv\u00e4g",
+      "abbr": "fjärdingsväg",
       "transform": {
         "kind": "linear",
         "factor": 2672
@@ -365,7 +365,7 @@
         },
         "body": {
           "en": "The mile is an English unit of length equal to 5,280 feet, or 1,760 yards. It was standardized as exactly 1,609.344 meters by the International Yard and Pound Agreement of 1959.",
-          "sv": "Mile (engelsk mil) \u00e4r en l\u00e4ngdenhet som \u00e4r vanlig i USA och Storbritannien. Den motsvarar 5 280 fot eller 1 760 yards. \u00c5r 1959 standardiserades den internationellt till exakt 1 609,344 meter."
+          "sv": "Mile (engelsk mil) är en längdenhet som är vanlig i USA och Storbritannien. Den motsvarar 5 280 fot eller 1 760 yards. År 1959 standardiserades den internationellt till exakt 1 609,344 meter."
         },
         "source": "https://www.nist.gov/pml/owm/si-units-length"
       }
@@ -428,7 +428,7 @@
         },
         "body": {
           "en": "The yard is a unit of length in both the British imperial and US customary systems of measurement. It comprises 3 feet or 36 inches. Since 1959, it is strictly defined as exactly 0.9144 meters.",
-          "sv": "Yard \u00e4r en l\u00e4ngdenhet i b\u00e5de det brittiska och amerikanska m\u00e5ttsystemet. En yard motsvarar 3 fot eller 36 tum. Sedan 1959 \u00e4r den definierad som exakt 0,9144 meter."
+          "sv": "Yard är en längdenhet i både det brittiska och amerikanska måttsystemet. En yard motsvarar 3 fot eller 36 tum. Sedan 1959 är den definierad som exakt 0,9144 meter."
         },
         "source": "https://www.nist.gov/pml/owm/si-units-length"
       }
@@ -456,7 +456,7 @@
         },
         "body": {
           "en": "The foot is a unit of length in the British imperial and United States customary systems of measurement. It is equal to 12 inches. Since 1959, the international foot is defined as exactly 0.3048 meters.",
-          "sv": "Fot (foot) \u00e4r en l\u00e4ngdenhet som anv\u00e4nds fr\u00e4mst i USA och Storbritannien. En fot delas in i 12 tum (inches). Sedan 1959 \u00e4r den internationella foten definierad som exakt 0,3048 meter."
+          "sv": "Fot (foot) är en längdenhet som används främst i USA och Storbritannien. En fot delas in i 12 tum (inches). Sedan 1959 är den internationella foten definierad som exakt 0,3048 meter."
         },
         "source": "https://www.nist.gov/pml/owm/si-units-length"
       }
@@ -510,7 +510,7 @@
         },
         "body": {
           "en": "The inch is a unit of length in the British imperial and the United States customary systems of measurement. It is equal to 1/36 yard or 1/12 of a foot. Since 1959, the inch has been defined as exactly 25.4 mm.",
-          "sv": "Tum (inch) \u00e4r en l\u00e4ngdenhet som anv\u00e4nds i det brittiska och amerikanska m\u00e5ttsystemet. Den motsvarar 1/12 fot. Sedan 1959 definieras en tum som exakt 25,4 millimeter."
+          "sv": "Tum (inch) är en längdenhet som används i det brittiska och amerikanska måttsystemet. Den motsvarar 1/12 fot. Sedan 1959 definieras en tum som exakt 25,4 millimeter."
         },
         "source": "https://www.nist.gov/pml/owm/si-units-length"
       }
@@ -548,7 +548,7 @@
         "en": "nautical mile",
         "sv": "sjomil"
       },
-      "abbr": "sj\u00f6mil",
+      "abbr": "sjömil",
       "transform": {
         "kind": "linear",
         "factor": 1852
@@ -556,11 +556,11 @@
       "definition": {
         "summary": {
           "en": "Unit used in navigation, exactly 1852 meters.",
-          "sv": "Enhet f\u00f6r navigation, exakt 1852 meter."
+          "sv": "Enhet för navigation, exakt 1852 meter."
         },
         "body": {
           "en": "The nautical mile is a unit of length used in air, marine, and space navigation, and for the definition of territorial waters. Historically defined as one minute of latitude, it is now internationally defined as exactly 1852 meters.",
-          "sv": "En nautisk mil (sj\u00f6mil) \u00e4r en l\u00e4ngdenhet som anv\u00e4nds inom sj\u00f6fart, flyg och navigation. Den definierades ursprungligen som en distansminut (1/60 grad) l\u00e4ngs en meridian, men \u00e4r numera standardiserad till exakt 1852 meter."
+          "sv": "En nautisk mil (sjömil) är en längdenhet som används inom sjöfart, flyg och navigation. Den definierades ursprungligen som en distansminut (1/60 grad) längs en meridian, men är numera standardiserad till exakt 1852 meter."
         },
         "source": "https://www.bipm.org/en/measurement-units/"
       }
@@ -583,9 +583,9 @@
       "type": "nautical",
       "name": {
         "en": "cable length",
-        "sv": "kabell\u00e4ngd"
+        "sv": "kabellängd"
       },
-      "abbr": "kabell\u00e4ngd",
+      "abbr": "kabellängd",
       "transform": {
         "kind": "linear",
         "factor": 185.2
@@ -814,11 +814,11 @@
       "definition": {
         "summary": {
           "en": "Astronomical unit approx 3.26 light-years.",
-          "sv": "Astronomisk enhet, ca 3,26 ljus\u00e5r."
+          "sv": "Astronomisk enhet, ca 3,26 ljusår."
         },
         "body": {
           "en": "The parsec is a unit of length used to measure the large distances to astronomical objects outside the Solar System. It is defined as the distance at which one astronomical unit subtends an angle of one arcsecond. It is approximately equal to 3.26 light-years.",
-          "sv": "Parsek (pc) \u00e4r en l\u00e4ngdenhet som anv\u00e4nds inom astronomi f\u00f6r att ange stora avst\u00e5nd till objekt utanf\u00f6r solsystemet. En parsek definieras som avst\u00e5ndet d\u00e4r en astronomisk enhet (avst\u00e5ndet jorden-solen) upptar vinkeln en b\u00e5gsekund. Det motsvarar ca 3,26 ljus\u00e5r."
+          "sv": "Parsek (pc) är en längdenhet som används inom astronomi för att ange stora avstånd till objekt utanför solsystemet. En parsek definieras som avståndet där en astronomisk enhet (avståndet jorden-solen) upptar vinkeln en bågsekund. Det motsvarar ca 3,26 ljusår."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -828,7 +828,7 @@
       "type": "astronomical",
       "name": {
         "en": "light-year",
-        "sv": "ljus\u00e5r"
+        "sv": "ljusår"
       },
       "abbr": "ly",
       "transform": {
@@ -838,11 +838,11 @@
       "definition": {
         "summary": {
           "en": "The distance light travels in one Julian year.",
-          "sv": "Str\u00e4ckan ljuset f\u00e4rdas p\u00e5 ett julianskt \u00e5r."
+          "sv": "Sträckan ljuset färdas på ett julianskt år."
         },
         "body": {
           "en": "A light-year is a large unit of length used to express astronomical distances. It is defined as the distance that light travels in a vacuum in one Julian year (365.25 days). It is equivalent to approximately 9.46 trillion kilometers.",
-          "sv": "Ett ljus\u00e5r \u00e4r en l\u00e4ngdenhet som anv\u00e4nds inom astronomi. Det definieras som den str\u00e4cka ljuset f\u00e4rdas i vakuum under ett julianskt \u00e5r (365,25 dagar). Det motsvarar ungef\u00e4r 9 460 miljarder kilometer."
+          "sv": "Ett ljusår är en längdenhet som används inom astronomi. Det definieras som den sträcka ljuset färdas i vakuum under ett julianskt år (365,25 dagar). Det motsvarar ungefär 9 460 miljarder kilometer."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -862,11 +862,11 @@
       "definition": {
         "summary": {
           "en": "Average distance from Earth to Sun.",
-          "sv": "Medelavst\u00e5ndet mellan jorden och solen."
+          "sv": "Medelavståndet mellan jorden och solen."
         },
         "body": {
           "en": "The astronomical unit (symbol: au) is a unit of length, roughly the distance from Earth to the Sun. However, that distance varies as Earth orbits the Sun. The au is defined as exactly 149 597 870 700 meters.",
-          "sv": "En astronomisk enhet (au) motsvarar ungef\u00e4r avst\u00e5ndet mellan jorden och solen. Enheten definieras exakt som 149 597 870 700 meter."
+          "sv": "En astronomisk enhet (au) motsvarar ungefär avståndet mellan jorden och solen. Enheten definieras exakt som 149 597 870 700 meter."
         },
         "source": "https://www.bipm.org/en/publications/si-brochure"
       }

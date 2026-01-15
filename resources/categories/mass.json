@@ -67,7 +67,7 @@
         },
         "body": {
           "en": "The tonne (also known as the metric ton) is a non-SI unit of mass accepted for use with the SI. It is equal to 1000 kilograms. It is distinct from the 'long ton' (UK) and 'short ton' (US).",
-          "sv": "Ton (metriskt ton) \u00e4r en massenhet som anv\u00e4nds tillsammans med SI-systemet. Det motsvarar 1000 kilogram. Enheten skiljer sig fr\u00e5n b\u00e5de 'long ton' (Storbritannien) och 'short ton' (USA)."
+          "sv": "Ton (metriskt ton) är en massenhet som används tillsammans med SI-systemet. Det motsvarar 1000 kilogram. Enheten skiljer sig från både 'long ton' (Storbritannien) och 'short ton' (USA)."
         },
         "source": "https://www.bipm.org/en/publications/si-brochure"
       }
@@ -113,11 +113,11 @@
       "definition": {
         "summary": {
           "en": "The SI base unit of mass. Defined by Planck's constant.",
-          "sv": "SI-grundenheten f\u00f6r massa. Definieras av Plancks konstant."
+          "sv": "SI-grundenheten för massa. Definieras av Plancks konstant."
         },
         "body": {
           "en": "The kilogram is the base unit of mass in the International System of Units (SI). Until 2019, it was defined by a physical artifact (Le Grand K). It is now defined by fixing the numerical value of the Planck constant.",
-          "sv": "Kilogram \u00e4r grundenheten f\u00f6r massa i SI-systemet. Fram till 2019 definierades den av en fysisk vikt i Paris. Numera definieras den exakt genom att fixera v\u00e4rdet p\u00e5 Plancks konstant."
+          "sv": "Kilogram är grundenheten för massa i SI-systemet. Fram till 2019 definierades den av en fysisk vikt i Paris. Numera definieras den exakt genom att fixera värdet på Plancks konstant."
         },
         "source": "https://www.bipm.org/en/measurement-units/"
       }
@@ -137,11 +137,11 @@
       "definition": {
         "summary": {
           "en": "1/1000 of a kilogram. Standard unit for small masses.",
-          "sv": "1/1000 av ett kilogram. Standardm\u00e5ttet f\u00f6r sm\u00e5 massor."
+          "sv": "1/1000 av ett kilogram. Standardmåttet för små massor."
         },
         "body": {
-          "en": "The gram is a metric unit of mass equal to one thousandth of a kilogram. It was originally defined as the mass of one cubic centimeter of pure water at 4 \u00b0C.",
-          "sv": "Gram \u00e4r en metrisk massenhet som motsvarar en tusendel av ett kilogram. Ursprungligen definierades grammet som vikten av en kubikcentimeter rent vatten vid 4 \u00b0C."
+          "en": "The gram is a metric unit of mass equal to one thousandth of a kilogram. It was originally defined as the mass of one cubic centimeter of pure water at 4 °C.",
+          "sv": "Gram är en metrisk massenhet som motsvarar en tusendel av ett kilogram. Ursprungligen definierades grammet som vikten av en kubikcentimeter rent vatten vid 4 °C."
         },
         "source": null
       }
@@ -161,11 +161,11 @@
       "definition": {
         "summary": {
           "en": "Unit for gemstones, equal to 200 mg.",
-          "sv": "Enhet f\u00f6r \u00e4delstenar, motsvarar 200 mg."
+          "sv": "Enhet för ädelstenar, motsvarar 200 mg."
         },
         "body": {
           "en": "The metric carat is a unit of mass used for measuring gemstones and pearls. Since 1907, it has been internationally standardized as exactly 200 milligrams.",
-          "sv": "Metrisk karat \u00e4r en massenhet som anv\u00e4nds f\u00f6r att v\u00e4ga \u00e4delstenar och p\u00e4rlor. Sedan 1907 \u00e4r enheten internationellt standardiserad till exakt 200 milligram."
+          "sv": "Metrisk karat är en massenhet som används för att väga ädelstenar och pärlor. Sedan 1907 är enheten internationellt standardiserad till exakt 200 milligram."
         },
         "source": "https://www.bipm.org/en/publications/si-brochure"
       }
@@ -203,7 +203,7 @@
         "en": "microgram",
         "sv": "mikrogram"
       },
-      "abbr": "\u00b5g",
+      "abbr": "µg",
       "transform": {
         "kind": "linear",
         "factor": 1e-09
@@ -241,7 +241,7 @@
         },
         "body": {
           "en": "The long ton (imperial ton) is a British unit of mass equal to 2,240 pounds (1,016 kg). It is heavier than both the metric tonne and the US short ton.",
-          "sv": "Long ton (\u00e4ven kallad imperial ton) \u00e4r en brittisk massenhet som motsvarar 2 240 pund (ca 1 016 kg). Den \u00e4r tyngre \u00e4n b\u00e5de det metriska tonnet och det amerikanska 'short ton'."
+          "sv": "Long ton (även kallad imperial ton) är en brittisk massenhet som motsvarar 2 240 pund (ca 1 016 kg). Den är tyngre än både det metriska tonnet och det amerikanska 'short ton'."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -265,7 +265,7 @@
         },
         "body": {
           "en": "The short ton is a unit of mass common in the United States. It is equal to 2,000 pounds (approx. 907 kg).",
-          "sv": "Short ton \u00e4r en massenhet som \u00e4r vanlig i USA. Den motsvarar 2 000 pund (ca 907 kg) och \u00e4r d\u00e4rmed l\u00e4ttare \u00e4n ett metriskt ton."
+          "sv": "Short ton är en massenhet som är vanlig i USA. Den motsvarar 2 000 pund (ca 907 kg) och är därmed lättare än ett metriskt ton."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -328,7 +328,7 @@
         },
         "body": {
           "en": "The pound (avoirdupois) is a unit of mass used in the imperial and US customary systems. Since 1959, the international pound has been defined as exactly 0.453 592 37 kilograms.",
-          "sv": "Pound (sk\u00e5lpund) \u00e4r en massenhet som anv\u00e4nds i det brittiska och amerikanska m\u00e5ttsystemet. Sedan 1959 \u00e4r det internationella pundet definierat som exakt 0,453 592 37 kilogram."
+          "sv": "Pound (skålpund) är en massenhet som används i det brittiska och amerikanska måttsystemet. Sedan 1959 är det internationella pundet definierat som exakt 0,453 592 37 kilogram."
         },
         "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
       }
@@ -352,7 +352,7 @@
         },
         "body": {
           "en": "The ounce (avoirdupois) is a unit of mass equal to 1/16 of a pound, or approximately 28.35 grams. It should not be confused with the 'fluid ounce', which is a unit of volume.",
-          "sv": "Ounce (uns) \u00e4r en massenhet som motsvarar 1/16 av ett pund, eller ungef\u00e4r 28,35 gram. Den ska inte f\u00f6rv\u00e4xlas med 'fluid ounce', som \u00e4r ett volymm\u00e5tt."
+          "sv": "Ounce (uns) är en massenhet som motsvarar 1/16 av ett pund, eller ungefär 28,35 gram. Den ska inte förväxlas med 'fluid ounce', som är ett volymmått."
         },
         "source": null
       }
@@ -414,9 +414,9 @@
       "type": "swedish",
       "name": {
         "en": "skalpund",
-        "sv": "sk\u00e5lpund"
+        "sv": "skålpund"
       },
-      "abbr": "sk\u00e5lpund",
+      "abbr": "skålpund",
       "transform": {
         "kind": "linear",
         "factor": 0.425
