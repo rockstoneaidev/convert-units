@@ -121,6 +121,68 @@
       }
     }
   ],
+  "conversion_table": {
+    "title": {
+      "en": "Temperature Conversion",
+      "sv": "Temperaturomvandling"
+    },
+    "headers": {
+      "en": [
+        "From",
+        "To Fahrenheit",
+        "To Celsius",
+        "To Kelvin"
+      ],
+      "sv": [
+        "Från",
+        "Till Fahrenheit",
+        "Till Celsius",
+        "Till Kelvin"
+      ]
+    },
+    "rows": {
+      "en": [
+        [
+          "Fahrenheit (°F)",
+          "°F",
+          "(°F - 32) / 1.8",
+          "(°F - 32) / 1.8 + 273.15"
+        ],
+        [
+          "Celsius (°C)",
+          "(°C * 1.8) + 32",
+          "°C",
+          "°C + 273.15"
+        ],
+        [
+          "Kelvin (K)",
+          "(K - 273.15) * 1.8 + 32",
+          "K - 273.15",
+          "K"
+        ]
+      ],
+      "sv": [
+        [
+          "Fahrenheit (°F)",
+          "°F",
+          "(°F - 32) / 1.8",
+          "(°F - 32) / 1.8 + 273.15"
+        ],
+        [
+          "Celsius (°C)",
+          "(°C * 1.8) + 32",
+          "°C",
+          "°C + 273.15"
+        ],
+        [
+          "Kelvin (K)",
+          "(K - 273.15) * 1.8 + 32",
+          "K - 273.15",
+          "K"
+        ]
+      ]
+    }
+  },
   "slugs": {
     "en": "temperature",
     "sv": "temperatur"
