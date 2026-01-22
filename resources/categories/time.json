@@ -279,7 +279,6 @@
         "en": "sidereal year",
         "sv": "sideriskt år"
       },
-      "abbr": "a",
       "transform": {
         "kind": "linear",
         "factor": 31558149.9843840
@@ -292,7 +291,6 @@
         "en": "stellar year",
         "sv": "stjärnår"
       },
-      "abbr": "a",
       "transform": {
         "kind": "linear",
         "factor": 31558149.7676000
@@ -305,7 +303,6 @@
         "en": "tropical year",
         "sv": "tropiskt år"
       },
-      "abbr": "a",
       "transform": {
         "kind": "linear",
         "factor": 31556925.993600030
