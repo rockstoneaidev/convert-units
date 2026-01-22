@@ -37,7 +37,7 @@
       "abbr": "TW",
       "transform": {
         "kind": "linear",
-        "factor": 1000000000000.0
+        "factor": 1000000000000.00
       }
     },
     {
@@ -50,7 +50,7 @@
       "abbr": "GW",
       "transform": {
         "kind": "linear",
-        "factor": 1000000000.0
+        "factor": 1000000000.00000
       }
     },
     {
@@ -63,7 +63,7 @@
       "abbr": "MW",
       "transform": {
         "kind": "linear",
-        "factor": 1000000.0
+        "factor": 1000000.00000000
       }
     },
     {
@@ -76,7 +76,7 @@
       "abbr": "kW",
       "transform": {
         "kind": "linear",
-        "factor": 1000.0
+        "factor": 1000.00000000000
       }
     },
     {
@@ -89,7 +89,7 @@
       "abbr": "hk",
       "transform": {
         "kind": "linear",
-        "factor": 735.49875
+        "factor": 735.498750000000
       },
       "definition": {
         "summary": {
@@ -113,7 +113,7 @@
       "abbr": "W",
       "transform": {
         "kind": "linear",
-        "factor": 1.0
+        "factor": 1.00000000000000
       },
       "definition": {
         "summary": {
@@ -137,7 +137,7 @@
       "abbr": "mW",
       "transform": {
         "kind": "linear",
-        "factor": 0.001
+        "factor": 0.00100000000000000
       }
     },
     {
@@ -150,7 +150,7 @@
       "abbr": "µW",
       "transform": {
         "kind": "linear",
-        "factor": 1e-06
+        "factor": 1.00000000000000e-6
       }
     },
     {
@@ -163,7 +163,7 @@
       "abbr": "nW",
       "transform": {
         "kind": "linear",
-        "factor": 1e-09
+        "factor": 1.00000000000000e-9
       }
     },
     {
@@ -176,7 +176,7 @@
       "abbr": "BTU/s",
       "transform": {
         "kind": "linear",
-        "factor": 1055.05585262
+        "factor": 1055.05585262000
       }
     },
     {
@@ -189,7 +189,7 @@
       "abbr": "hp",
       "transform": {
         "kind": "linear",
-        "factor": 745.69987158
+        "factor": 745.699871582270
       },
       "definition": {
         "summary": {
@@ -213,7 +213,7 @@
       "abbr": "BTU/min",
       "transform": {
         "kind": "linear",
-        "factor": 17.584264
+        "factor": 17.5842642103333
       }
     },
     {
@@ -226,7 +226,7 @@
       "abbr": "ft×lbf/s",
       "transform": {
         "kind": "linear",
-        "factor": 1.355817948
+        "factor": 1.35581794833140
       }
     },
     {
@@ -239,7 +239,7 @@
       "abbr": "BTU/h",
       "transform": {
         "kind": "linear",
-        "factor": 0.29307107
+        "factor": 0.293071070172222
       }
     },
     {
@@ -252,7 +252,7 @@
       "abbr": "kcal/h",
       "transform": {
         "kind": "linear",
-        "factor": 1.16222222
+        "factor": 1.16222222222222
       }
     },
     {
@@ -265,7 +265,7 @@
       "abbr": "cal/h",
       "transform": {
         "kind": "linear",
-        "factor": 0.00116222222
+        "factor": 0.00116222222222222
       }
     }
   ],

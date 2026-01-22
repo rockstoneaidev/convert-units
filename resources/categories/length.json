@@ -72,7 +72,7 @@
       "abbr": "km",
       "transform": {
         "kind": "linear",
-        "factor": 1000.0
+        "factor": 1000.00000000000
       },
       "definition": {
         "summary": {
@@ -96,7 +96,7 @@
       "abbr": "m",
       "transform": {
         "kind": "linear",
-        "factor": 1.0
+        "factor": 1.00000000000000
       },
       "definition": {
         "summary": {
@@ -120,7 +120,7 @@
       "abbr": "dm",
       "transform": {
         "kind": "linear",
-        "factor": 0.1
+        "factor": 0.100000000000000
       }
     },
     {
@@ -133,7 +133,7 @@
       "abbr": "cm",
       "transform": {
         "kind": "linear",
-        "factor": 0.01
+        "factor": 0.0100000000000000
       }
     },
     {
@@ -146,7 +146,7 @@
       "abbr": "mm",
       "transform": {
         "kind": "linear",
-        "factor": 0.001
+        "factor": 0.00100000000000000
       }
     },
     {
@@ -159,7 +159,7 @@
       "abbr": "µm",
       "transform": {
         "kind": "linear",
-        "factor": 1e-06
+        "factor": 1.00000000000000e-6
       }
     },
     {
@@ -172,7 +172,7 @@
       "abbr": "nm",
       "transform": {
         "kind": "linear",
-        "factor": 1e-09
+        "factor": 1.00000000000000e-9
       }
     },
     {
@@ -185,7 +185,7 @@
       "abbr": "Å",
       "transform": {
         "kind": "linear",
-        "factor": 1e-10
+        "factor": 1.00000000000000e-10
       }
     },
     {
@@ -202,7 +202,7 @@
       "abbr": "mil",
       "transform": {
         "kind": "linear",
-        "factor": 10000.0
+        "factor": 10000.0000000000
       },
       "definition": {
         "summary": {
@@ -226,7 +226,7 @@
       "abbr": "fjärdingsväg",
       "transform": {
         "kind": "linear",
-        "factor": 2672
+        "factor": 2672.00000000000
       }
     },
     {
@@ -239,7 +239,7 @@
       "abbr": "famn",
       "transform": {
         "kind": "linear",
-        "factor": 1.78
+        "factor": 1.78000000000000
       }
     },
     {
@@ -252,7 +252,7 @@
       "abbr": "steg",
       "transform": {
         "kind": "linear",
-        "factor": 0.9
+        "factor": 0.900000000000000
       }
     },
     {
@@ -265,7 +265,7 @@
       "abbr": "aln",
       "transform": {
         "kind": "linear",
-        "factor": 0.593802
+        "factor": 0.593802000000000
       }
     },
     {
@@ -278,7 +278,7 @@
       "abbr": "fot",
       "transform": {
         "kind": "linear",
-        "factor": 0.296901
+        "factor": 0.296901000000000
       }
     },
     {
@@ -291,7 +291,7 @@
       "abbr": "verktum",
       "transform": {
         "kind": "linear",
-        "factor": 0.02474175
+        "factor": 0.0247417500000000
       }
     },
     {
@@ -304,7 +304,7 @@
       "abbr": "tum",
       "transform": {
         "kind": "linear",
-        "factor": 0.02474
+        "factor": 0.0247400000000000
       }
     },
     {
@@ -317,7 +317,7 @@
       "abbr": "verklinje",
       "transform": {
         "kind": "linear",
-        "factor": 0.0020618125
+        "factor": 0.00206181250000000
       }
     },
     {
@@ -330,7 +330,7 @@
       "abbr": "skrupel",
       "transform": {
         "kind": "linear",
-        "factor": 2.969166e-05
+        "factor": 2.96916600000000e-5
       }
     },
     {
@@ -343,7 +343,7 @@
       "abbr": "league",
       "transform": {
         "kind": "linear",
-        "factor": 4828.032
+        "factor": 4828.03200000000
       }
     },
     {
@@ -356,7 +356,7 @@
       "abbr": "mi",
       "transform": {
         "kind": "linear",
-        "factor": 1609.344
+        "factor": 1609.34400000000
       },
       "definition": {
         "summary": {
@@ -380,7 +380,7 @@
       "abbr": "furlong",
       "transform": {
         "kind": "linear",
-        "factor": 201.168
+        "factor": 201.168000000000
       }
     },
     {
@@ -393,7 +393,7 @@
       "abbr": "chain",
       "transform": {
         "kind": "linear",
-        "factor": 20.1168
+        "factor": 20.1168000000000
       }
     },
     {
@@ -406,7 +406,7 @@
       "abbr": "rd",
       "transform": {
         "kind": "linear",
-        "factor": 5.0292
+        "factor": 5.02920000000000
       }
     },
     {
@@ -419,7 +419,7 @@
       "abbr": "yd",
       "transform": {
         "kind": "linear",
-        "factor": 0.9144
+        "factor": 0.914400000000000
       },
       "definition": {
         "summary": {
@@ -447,7 +447,7 @@
       "abbr": "ft",
       "transform": {
         "kind": "linear",
-        "factor": 0.3048
+        "factor": 0.304800000000000
       },
       "definition": {
         "summary": {
@@ -471,7 +471,7 @@
       "abbr": "link",
       "transform": {
         "kind": "linear",
-        "factor": 0.201168
+        "factor": 0.201168000000000
       }
     },
     {
@@ -484,7 +484,7 @@
       "abbr": "hand",
       "transform": {
         "kind": "linear",
-        "factor": 0.1016
+        "factor": 0.101600000000000
       }
     },
     {
@@ -501,7 +501,7 @@
       "abbr": "in",
       "transform": {
         "kind": "linear",
-        "factor": 0.0254
+        "factor": 0.0254000000000000
       },
       "definition": {
         "summary": {
@@ -525,7 +525,7 @@
       "abbr": "line",
       "transform": {
         "kind": "linear",
-        "factor": 0.002116667
+        "factor": 0.00211666666666667
       }
     },
     {
@@ -538,7 +538,7 @@
       "abbr": "distansminut",
       "transform": {
         "kind": "linear",
-        "factor": 1852
+        "factor": 1852.00000000000
       }
     },
     {
@@ -551,7 +551,7 @@
       "abbr": "sjömil",
       "transform": {
         "kind": "linear",
-        "factor": 1852
+        "factor": 1852.00000000000
       },
       "definition": {
         "summary": {
@@ -575,7 +575,7 @@
       "abbr": "nautisk mil",
       "transform": {
         "kind": "linear",
-        "factor": 1852
+        "factor": 1852.00000000000
       }
     },
     {
@@ -588,7 +588,7 @@
       "abbr": "kabellängd",
       "transform": {
         "kind": "linear",
-        "factor": 185.2
+        "factor": 185.200000000000
       }
     },
     {
@@ -601,7 +601,7 @@
       "abbr": "orgium (1000)",
       "transform": {
         "kind": "linear",
-        "factor": 1851
+        "factor": 1851.00000000000
       }
     },
     {
@@ -614,7 +614,7 @@
       "abbr": "mile",
       "transform": {
         "kind": "linear",
-        "factor": 1388.25
+        "factor": 1388.25000000000
       }
     },
     {
@@ -627,7 +627,7 @@
       "abbr": "stadium",
       "transform": {
         "kind": "linear",
-        "factor": 192.27
+        "factor": 192.270000000000
       }
     },
     {
@@ -640,7 +640,7 @@
       "abbr": "stadium",
       "transform": {
         "kind": "linear",
-        "factor": 185
+        "factor": 185.000000000000
       }
     },
     {
@@ -653,7 +653,7 @@
       "abbr": "stadium",
       "transform": {
         "kind": "linear",
-        "factor": 184.98
+        "factor": 184.980000000000
       }
     },
     {
@@ -666,7 +666,7 @@
       "abbr": "ri",
       "transform": {
         "kind": "linear",
-        "factor": 3927.3
+        "factor": 3927.27272727272
       }
     },
     {
@@ -679,7 +679,7 @@
       "abbr": "kairi",
       "transform": {
         "kind": "linear",
-        "factor": 1852
+        "factor": 1852.00000000000
       }
     },
     {
@@ -692,7 +692,7 @@
       "abbr": "cho",
       "transform": {
         "kind": "linear",
-        "factor": 109.0917
+        "factor": 109.090909090909
       }
     },
     {
@@ -705,7 +705,7 @@
       "abbr": "jyo",
       "transform": {
         "kind": "linear",
-        "factor": 3.030324
+        "factor": 3.03030303030303
       }
     },
     {
@@ -718,7 +718,7 @@
       "abbr": "ken",
       "transform": {
         "kind": "linear",
-        "factor": 1.818194
+        "factor": 1.81818181818182
       }
     },
     {
@@ -731,7 +731,7 @@
       "abbr": "shyaku",
       "transform": {
         "kind": "linear",
-        "factor": 0.3030324
+        "factor": 0.303030303030303
       }
     },
     {
@@ -744,7 +744,7 @@
       "abbr": "sun",
       "transform": {
         "kind": "linear",
-        "factor": 0.03030324
+        "factor": 0.0303030303030303
       }
     },
     {
@@ -757,7 +757,7 @@
       "abbr": "mon",
       "transform": {
         "kind": "linear",
-        "factor": 0.024
+        "factor": 0.0240000000000000
       }
     },
     {
@@ -770,7 +770,7 @@
       "abbr": "cubit",
       "transform": {
         "kind": "linear",
-        "factor": 0.4572
+        "factor": 0.457199204999999
       }
     },
     {
@@ -783,7 +783,7 @@
       "abbr": "span",
       "transform": {
         "kind": "linear",
-        "factor": 0.2286
+        "factor": 0.228599602500000
       }
     },
     {
@@ -796,7 +796,7 @@
       "abbr": "handbreadth",
       "transform": {
         "kind": "linear",
-        "factor": 0.0762
+        "factor": 0.0762000000000000
       }
     },
     {
@@ -809,7 +809,7 @@
       "abbr": "pc",
       "transform": {
         "kind": "linear",
-        "factor": 30856775814913700
+        "factor": 30856775814671917
       },
       "definition": {
         "summary": {
@@ -857,7 +857,7 @@
       "abbr": "AE",
       "transform": {
         "kind": "linear",
-        "factor": 149597870700
+        "factor": 149597870700.000
       },
       "definition": {
         "summary": {
@@ -881,7 +881,7 @@
       "abbr": "lm",
       "transform": {
         "kind": "linear",
-        "factor": 17987547480
+        "factor": 17987547480.0000
       }
     },
     {
@@ -894,7 +894,7 @@
       "abbr": "ls",
       "transform": {
         "kind": "linear",
-        "factor": 299792458
+        "factor": 299792458.000000
       }
     }
   ],

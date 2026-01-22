@@ -37,7 +37,7 @@
       "abbr": "km/s",
       "transform": {
         "kind": "linear",
-        "factor": 1000.0
+        "factor": 1000.00000000000
       }
     },
     {
@@ -50,7 +50,7 @@
       "abbr": "m/s",
       "transform": {
         "kind": "linear",
-        "factor": 1.0
+        "factor": 1.00000000000000
       },
       "definition": {
         "summary": {
@@ -74,7 +74,7 @@
       "abbr": "km/h",
       "transform": {
         "kind": "linear",
-        "factor": 0.2777777778
+        "factor": 0.277777777777778
       },
       "definition": {
         "summary": {
@@ -98,7 +98,7 @@
       "abbr": "mi/s",
       "transform": {
         "kind": "linear",
-        "factor": 1609.344
+        "factor": 1609.34400000000
       }
     },
     {
@@ -111,7 +111,7 @@
       "abbr": "mph",
       "transform": {
         "kind": "linear",
-        "factor": 0.44704
+        "factor": 0.447040000000000
       },
       "definition": {
         "summary": {
@@ -135,7 +135,7 @@
       "abbr": "ft/s",
       "transform": {
         "kind": "linear",
-        "factor": 0.3048
+        "factor": 0.304800000000000
       }
     },
     {
@@ -148,7 +148,7 @@
       "abbr": "kn",
       "transform": {
         "kind": "linear",
-        "factor": 0.514444444
+        "factor": 0.514444444444444
       },
       "definition": {
         "summary": {
@@ -172,7 +172,7 @@
       "abbr": "nmi/h",
       "transform": {
         "kind": "linear",
-        "factor": 0.514444444
+        "factor": 0.514444444444444
       }
     }
   ],

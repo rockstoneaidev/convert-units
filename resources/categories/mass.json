@@ -58,7 +58,7 @@
       "abbr": "t",
       "transform": {
         "kind": "linear",
-        "factor": 1000.0
+        "factor": 1000.00000000000
       },
       "definition": {
         "summary": {
@@ -82,7 +82,7 @@
       "abbr": "kN",
       "transform": {
         "kind": "linear",
-        "factor": 101.97160000000049
+        "factor": 101.97162129779282
       }
     },
     {
@@ -95,7 +95,7 @@
       "abbr": "centner",
       "transform": {
         "kind": "linear",
-        "factor": 100.0
+        "factor": 100.000000000000
       }
     },
     {
@@ -108,7 +108,7 @@
       "abbr": "kg",
       "transform": {
         "kind": "linear",
-        "factor": 1.0
+        "factor": 1.00000000000000
       },
       "definition": {
         "summary": {
@@ -132,7 +132,7 @@
       "abbr": "g",
       "transform": {
         "kind": "linear",
-        "factor": 0.001
+        "factor": 0.00100000000000000
       },
       "definition": {
         "summary": {
@@ -156,7 +156,7 @@
       "abbr": "ct",
       "transform": {
         "kind": "linear",
-        "factor": 0.0002
+        "factor": 2.00000000000000e-4
       },
       "definition": {
         "summary": {
@@ -180,7 +180,7 @@
       "abbr": "cg",
       "transform": {
         "kind": "linear",
-        "factor": 1e-05
+        "factor": 1.00000000000000e-5
       }
     },
     {
@@ -193,7 +193,7 @@
       "abbr": "mg",
       "transform": {
         "kind": "linear",
-        "factor": 1e-06
+        "factor": 1.00000000000000e-6
       }
     },
     {
@@ -206,7 +206,7 @@
       "abbr": "µg",
       "transform": {
         "kind": "linear",
-        "factor": 1e-09
+        "factor": 1.00000000000000e-9
       }
     },
     {
@@ -219,7 +219,7 @@
       "abbr": "ng",
       "transform": {
         "kind": "linear",
-        "factor": 1e-12
+        "factor": 1.00000000000000e-12
       }
     },
     {
@@ -232,7 +232,7 @@
       "abbr": "long ton",
       "transform": {
         "kind": "linear",
-        "factor": 1016.0469088
+        "factor": 1016.04690880000
       },
       "definition": {
         "summary": {
@@ -256,7 +256,7 @@
       "abbr": "short ton",
       "transform": {
         "kind": "linear",
-        "factor": 907.18474
+        "factor": 907.184740000000
       },
       "definition": {
         "summary": {
@@ -280,7 +280,7 @@
       "abbr": "cwt (long)",
       "transform": {
         "kind": "linear",
-        "factor": 50.80234544
+        "factor": 50.8023454400000
       }
     },
     {
@@ -293,7 +293,7 @@
       "abbr": "cwt (short)",
       "transform": {
         "kind": "linear",
-        "factor": 45.359237
+        "factor": 45.3592370000000
       }
     },
     {
@@ -306,7 +306,7 @@
       "abbr": "st",
       "transform": {
         "kind": "linear",
-        "factor": 6.35029318
+        "factor": 6.35029318000000
       }
     },
     {
@@ -319,7 +319,7 @@
       "abbr": "lb",
       "transform": {
         "kind": "linear",
-        "factor": 0.45359237
+        "factor": 0.453592370000000
       },
       "definition": {
         "summary": {
@@ -343,7 +343,7 @@
       "abbr": "oz",
       "transform": {
         "kind": "linear",
-        "factor": 0.028349523125
+        "factor": 0.0283495231250000
       },
       "definition": {
         "summary": {
@@ -367,7 +367,7 @@
       "abbr": "dr",
       "transform": {
         "kind": "linear",
-        "factor": 0.0017718451953125
+        "factor": 0.00177184519531250
       }
     },
     {
@@ -380,7 +380,7 @@
       "abbr": "gr",
       "transform": {
         "kind": "linear",
-        "factor": 6.479891e-05
+        "factor": 6.47989100000000e-5
       }
     },
     {
@@ -393,7 +393,7 @@
       "abbr": "skeppspund",
       "transform": {
         "kind": "linear",
-        "factor": 170.0
+        "factor": 170.000000000000
       }
     },
     {
@@ -406,7 +406,7 @@
       "abbr": "lispund",
       "transform": {
         "kind": "linear",
-        "factor": 8.502
+        "factor": 8.50200000000000
       }
     },
     {
@@ -419,7 +419,7 @@
       "abbr": "skålpund",
       "transform": {
         "kind": "linear",
-        "factor": 0.425
+        "factor": 0.425000000000000
       }
     },
     {
@@ -432,7 +432,7 @@
       "abbr": "mark",
       "transform": {
         "kind": "linear",
-        "factor": 0.2125
+        "factor": 0.212500000000000
       }
     },
     {
@@ -445,7 +445,7 @@
       "abbr": "uns",
       "transform": {
         "kind": "linear",
-        "factor": 0.0279
+        "factor": 0.0279000000000000
       }
     },
     {
@@ -458,7 +458,7 @@
       "abbr": "lod",
       "transform": {
         "kind": "linear",
-        "factor": 0.0133
+        "factor": 0.0133000000000000
       }
     },
     {
@@ -471,7 +471,7 @@
       "abbr": "lb t",
       "transform": {
         "kind": "linear",
-        "factor": 0.3732417216
+        "factor": 0.373241721600000
       }
     },
     {
@@ -484,7 +484,7 @@
       "abbr": "oz t",
       "transform": {
         "kind": "linear",
-        "factor": 0.0311034768
+        "factor": 0.0311034768000000
       }
     },
     {
@@ -497,7 +497,7 @@
       "abbr": "dwt",
       "transform": {
         "kind": "linear",
-        "factor": 0.00155517384
+        "factor": 0.00155517384000000
       }
     },
     {
@@ -510,7 +510,7 @@
       "abbr": "ct t",
       "transform": {
         "kind": "linear",
-        "factor": 0.000205
+        "factor": 2.05000000000000e-4
       }
     },
     {
@@ -523,7 +523,7 @@
       "abbr": "gr t",
       "transform": {
         "kind": "linear",
-        "factor": 6.479891e-05
+        "factor": 6.47989100000000e-5
       }
     },
     {
@@ -536,7 +536,7 @@
       "abbr": "mite",
       "transform": {
         "kind": "linear",
-        "factor": 3.2399455e-06
+        "factor": 3.23994550000000e-6
       }
     },
     {
@@ -549,7 +549,7 @@
       "abbr": "doite",
       "transform": {
         "kind": "linear",
-        "factor": 1.3499773e-06
+        "factor": 1.34997730000000e-6
       }
     },
     {
@@ -562,7 +562,7 @@
       "abbr": "koku",
       "transform": {
         "kind": "linear",
-        "factor": 180.39
+        "factor": 180.390000000000
       }
     },
     {
@@ -575,7 +575,7 @@
       "abbr": "kann",
       "transform": {
         "kind": "linear",
-        "factor": 3.75
+        "factor": 3.75000000000000
       }
     },
     {
@@ -588,7 +588,7 @@
       "abbr": "kinn",
       "transform": {
         "kind": "linear",
-        "factor": 0.6
+        "factor": 0.599999999999999
       }
     },
     {
@@ -601,7 +601,7 @@
       "abbr": "monme",
       "transform": {
         "kind": "linear",
-        "factor": 0.00375
+        "factor": 0.00375000000000000
       }
     },
     {
@@ -614,7 +614,7 @@
       "abbr": "tael",
       "transform": {
         "kind": "linear",
-        "factor": 0.037783
+        "factor": 0.0500000000000000
       }
     },
     {
@@ -627,7 +627,7 @@
       "abbr": "ku ping",
       "transform": {
         "kind": "linear",
-        "factor": 0.03731256
+        "factor": 0.0373125600000000
       }
     }
   ],

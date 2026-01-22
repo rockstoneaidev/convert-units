@@ -41,7 +41,7 @@
       "abbr": "L/km",
       "transform": {
         "kind": "linear",
-        "factor": 1
+        "factor": 1.00000000000000
       }
     },
     {
@@ -58,7 +58,7 @@
       "abbr": "L/mil",
       "transform": {
         "kind": "linear",
-        "factor": 0.1
+        "factor": 0.100000000000000
       },
       "definition": {
         "summary": {
@@ -86,7 +86,7 @@
       "abbr": "L/100 km",
       "transform": {
         "kind": "linear",
-        "factor": 0.01
+        "factor": 0.0100000000000000
       },
       "definition": {
         "summary": {
@@ -114,7 +114,7 @@
       "abbr": "km/L",
       "transform": {
         "kind": "reciprocal_factor",
-        "factor": 1
+        "factor": 1.00000000000000
       }
     },
     {
@@ -176,7 +176,7 @@
       "abbr": "mpg (UK)",
       "transform": {
         "kind": "reciprocal_factor",
-        "factor": 2.824809363864494
+        "factor": 2.824809363318222
       },
       "definition": {
         "summary": {
@@ -204,7 +204,7 @@
       "abbr": "gal/100 mi (UK)",
       "transform": {
         "kind": "linear",
-        "factor": 0.02824809363864494
+        "factor": 0.02824809363318222
       }
     }
   ],

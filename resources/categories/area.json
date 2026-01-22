@@ -44,7 +44,7 @@
       "abbr": "km²",
       "transform": {
         "kind": "linear",
-        "factor": 1000000.0
+        "factor": 1000000.00000000
       },
       "definition": {
         "summary": {
@@ -68,7 +68,7 @@
       "abbr": "hm²",
       "transform": {
         "kind": "linear",
-        "factor": 10000.0
+        "factor": 10000.0000000000
       }
     },
     {
@@ -81,7 +81,7 @@
       "abbr": "ha",
       "transform": {
         "kind": "linear",
-        "factor": 10000.0
+        "factor": 10000.0000000000
       },
       "definition": {
         "summary": {
@@ -105,7 +105,7 @@
       "abbr": "dam²",
       "transform": {
         "kind": "linear",
-        "factor": 100.0
+        "factor": 100.000000000000
       }
     },
     {
@@ -118,7 +118,7 @@
       "abbr": "m²",
       "transform": {
         "kind": "linear",
-        "factor": 1.0
+        "factor": 1.00000000000000
       },
       "definition": {
         "summary": {
@@ -142,7 +142,7 @@
       "abbr": "dm²",
       "transform": {
         "kind": "linear",
-        "factor": 0.01
+        "factor": 0.0100000000000000
       }
     },
     {
@@ -155,7 +155,7 @@
       "abbr": "mm²",
       "transform": {
         "kind": "linear",
-        "factor": 1e-06
+        "factor": 1.00000000000000e-6
       }
     },
     {
@@ -168,7 +168,7 @@
       "abbr": "µm²",
       "transform": {
         "kind": "linear",
-        "factor": 1e-12
+        "factor": 1.00000000000000e-12
       }
     },
     {
@@ -181,7 +181,7 @@
       "abbr": "nm²",
       "transform": {
         "kind": "linear",
-        "factor": 1e-18
+        "factor": 1.00000000000000e-18
       }
     },
     {
@@ -194,7 +194,7 @@
       "abbr": "tunnland",
       "transform": {
         "kind": "linear",
-        "factor": 4936.6
+        "factor": 4936.60000000000
       }
     },
     {
@@ -207,7 +207,7 @@
       "abbr": "skäppland",
       "transform": {
         "kind": "linear",
-        "factor": 823.0
+        "factor": 823.000000000000
       }
     },
     {
@@ -220,7 +220,7 @@
       "abbr": "township",
       "transform": {
         "kind": "linear",
-        "factor": 93239570.0
+        "factor": 93239571.9720959
       }
     },
     {
@@ -233,7 +233,7 @@
       "abbr": "mi²",
       "transform": {
         "kind": "linear",
-        "factor": 2589988.110336
+        "factor": 2589988.11033600
       },
       "definition": {
         "summary": {
@@ -257,7 +257,7 @@
       "abbr": "homestead",
       "transform": {
         "kind": "linear",
-        "factor": 647497.0
+        "factor": 647497.027584001
       }
     },
     {
@@ -270,7 +270,7 @@
       "abbr": "acre",
       "transform": {
         "kind": "linear",
-        "factor": 4046.8564224
+        "factor": 4046.85642240000
       },
       "definition": {
         "summary": {
@@ -294,7 +294,7 @@
       "abbr": "rood",
       "transform": {
         "kind": "linear",
-        "factor": 1011.7141056
+        "factor": 1011.71410560000
       }
     },
     {
@@ -307,7 +307,7 @@
       "abbr": "rod²",
       "transform": {
         "kind": "linear",
-        "factor": 25.29285264
+        "factor": 25.2928526400000
       }
     },
     {
@@ -320,7 +320,7 @@
       "abbr": "square",
       "transform": {
         "kind": "linear",
-        "factor": 9.290304
+        "factor": 9.29030400000000
       }
     },
     {
@@ -333,7 +333,7 @@
       "abbr": "yd²",
       "transform": {
         "kind": "linear",
-        "factor": 0.83612736
+        "factor": 0.836127360000000
       }
     },
     {
@@ -346,7 +346,7 @@
       "abbr": "ft²",
       "transform": {
         "kind": "linear",
-        "factor": 0.09290304
+        "factor": 0.0929030400000000
       },
       "definition": {
         "summary": {
@@ -370,7 +370,7 @@
       "abbr": "in²",
       "transform": {
         "kind": "linear",
-        "factor": 0.00064516
+        "factor": 6.45160000000000e-4
       }
     },
     {
@@ -383,7 +383,7 @@
       "abbr": "cho",
       "transform": {
         "kind": "linear",
-        "factor": 9917.36
+        "factor": 9917.35537190086
       }
     },
     {
@@ -396,7 +396,7 @@
       "abbr": "tann",
       "transform": {
         "kind": "linear",
-        "factor": 991.736
+        "factor": 991.735537190086
       }
     },
     {
@@ -409,7 +409,7 @@
       "abbr": "se",
       "transform": {
         "kind": "linear",
-        "factor": 99.1736
+        "factor": 99.1735537190086
       }
     },
     {
@@ -422,7 +422,7 @@
       "abbr": "tsubo",
       "transform": {
         "kind": "linear",
-        "factor": 3.305785
+        "factor": 3.30578512396694
       }
     }
   ],

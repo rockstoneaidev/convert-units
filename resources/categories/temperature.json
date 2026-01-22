@@ -30,8 +30,8 @@
       "abbr": "K",
       "transform": {
         "kind": "affine",
-        "factor": 1,
-        "offset": 0
+        "factor": 1.00000000000000,
+        "offset": 0.00000000000000
       },
       "definition": {
         "summary": {
@@ -55,8 +55,8 @@
       "abbr": "°C",
       "transform": {
         "kind": "affine",
-        "factor": 1,
-        "offset": 273.15
+        "factor": 1.00000000000000,
+        "offset": 273.150000000000
       },
       "definition": {
         "summary": {
@@ -106,7 +106,7 @@
       "transform": {
         "kind": "affine",
         "factor": 0.5555555555555556,
-        "offset": 0
+        "offset": 0.00000000000000
       },
       "definition": {
         "summary": {

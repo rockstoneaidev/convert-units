@@ -30,7 +30,7 @@
       "abbr": "GB/s",
       "transform": {
         "kind": "linear",
-        "factor": 8000000000.0
+        "factor": 8000000000.00000
       }
     },
     {
@@ -43,7 +43,7 @@
       "abbr": "Gbit/s",
       "transform": {
         "kind": "linear",
-        "factor": 1000000000.0
+        "factor": 1000000000.00000
       }
     },
     {
@@ -56,7 +56,7 @@
       "abbr": "MB/s",
       "transform": {
         "kind": "linear",
-        "factor": 8000000.0
+        "factor": 8000000.00000000
       },
       "definition": {
         "summary": {
@@ -80,7 +80,7 @@
       "abbr": "Mbit/s",
       "transform": {
         "kind": "linear",
-        "factor": 1000000.0
+        "factor": 1000000.00000000
       },
       "definition": {
         "summary": {
@@ -104,7 +104,7 @@
       "abbr": "kB/s",
       "transform": {
         "kind": "linear",
-        "factor": 8000.0
+        "factor": 8000.00000000000
       }
     },
     {
@@ -117,7 +117,7 @@
       "abbr": "kbit/s",
       "transform": {
         "kind": "linear",
-        "factor": 1000.0
+        "factor": 1000.00000000000
       }
     },
     {
@@ -130,7 +130,7 @@
       "abbr": "B/s",
       "transform": {
         "kind": "linear",
-        "factor": 8.0
+        "factor": 8.00000000000000
       },
       "definition": {
         "summary": {
@@ -154,7 +154,7 @@
       "abbr": "bps",
       "transform": {
         "kind": "linear",
-        "factor": 1.0
+        "factor": 1.00000000000000
       },
       "definition": {
         "summary": {
@@ -178,7 +178,7 @@
       "abbr": "Gibit/s",
       "transform": {
         "kind": "linear",
-        "factor": 1073741824.0
+        "factor": 1073741824.00000
       },
       "definition": {
         "summary": {
@@ -202,7 +202,7 @@
       "abbr": "Mibit/s",
       "transform": {
         "kind": "linear",
-        "factor": 1048576.0
+        "factor": 1048576.00000000
       }
     },
     {
@@ -215,7 +215,7 @@
       "abbr": "Kibit/s",
       "transform": {
         "kind": "linear",
-        "factor": 1024.0
+        "factor": 1024.00000000000
       }
     }
   ],

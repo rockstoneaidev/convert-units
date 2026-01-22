@@ -37,7 +37,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31557600
+        "factor": 31557600.0000000
       }
     },
     {
@@ -50,7 +50,7 @@
       "abbr": "s",
       "transform": {
         "kind": "linear",
-        "factor": 1.0
+        "factor": 1.00000000000000
       },
       "definition": {
         "summary": {
@@ -74,7 +74,7 @@
       "abbr": "ms",
       "transform": {
         "kind": "linear",
-        "factor": 0.001
+        "factor": 0.00100000000000000
       }
     },
     {
@@ -87,7 +87,7 @@
       "abbr": "µs",
       "transform": {
         "kind": "linear",
-        "factor": 1e-06
+        "factor": 1.00000000000000e-6
       }
     },
     {
@@ -100,7 +100,7 @@
       "abbr": "ns",
       "transform": {
         "kind": "linear",
-        "factor": 1e-09
+        "factor": 1.00000000000000e-9
       }
     },
     {
@@ -113,7 +113,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31557600
+        "factor": 31557600.0000000
       },
       "definition": {
         "summary": {
@@ -137,7 +137,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31556952
+        "factor": 31556925.9746784
       },
       "definition": {
         "summary": {
@@ -161,7 +161,7 @@
       "abbr": "mo",
       "transform": {
         "kind": "linear",
-        "factor": 2592000
+        "factor": 2592000.00000000
       }
     },
     {
@@ -174,7 +174,7 @@
       "abbr": "wk",
       "transform": {
         "kind": "linear",
-        "factor": 604800
+        "factor": 604800.000000000
       }
     },
     {
@@ -187,7 +187,7 @@
       "abbr": "d",
       "transform": {
         "kind": "linear",
-        "factor": 86400
+        "factor": 86400.0000000000
       },
       "definition": {
         "summary": {
@@ -211,7 +211,7 @@
       "abbr": "h",
       "transform": {
         "kind": "linear",
-        "factor": 3600
+        "factor": 3600.00000000000
       },
       "definition": {
         "summary": {
@@ -235,7 +235,7 @@
       "abbr": "min",
       "transform": {
         "kind": "linear",
-        "factor": 60
+        "factor": 60.0000000000000
       },
       "definition": {
         "summary": {
@@ -259,7 +259,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31558429.44
+        "factor": 31558433.0117760
       }
     },
     {
@@ -272,7 +272,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31558149.7676
+        "factor": 31558149.9843840
       }
     },
     {
@@ -285,7 +285,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31558149.7676
+        "factor": 31558149.7676000
       }
     },
     {
@@ -298,7 +298,7 @@
       "abbr": "a",
       "transform": {
         "kind": "linear",
-        "factor": 31558032.006778415
+        "factor": 31556925.993600030
       }
     }
   ],

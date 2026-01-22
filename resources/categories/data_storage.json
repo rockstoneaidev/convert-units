@@ -30,7 +30,7 @@
       "abbr": "bit",
       "transform": {
         "kind": "linear",
-        "factor": 1
+        "factor": 1.00000000000000
       }
     },
     {
@@ -43,7 +43,7 @@
       "abbr": "B",
       "transform": {
         "kind": "linear",
-        "factor": 8
+        "factor": 8.00000000000000
       }
     },
     {
@@ -56,7 +56,7 @@
       "abbr": "kbit",
       "transform": {
         "kind": "linear",
-        "factor": 1000
+        "factor": 1000.00000000000
       }
     },
     {
@@ -69,7 +69,7 @@
       "abbr": "Mbit",
       "transform": {
         "kind": "linear",
-        "factor": 1000000
+        "factor": 1000000.00000000
       }
     },
     {
@@ -82,7 +82,7 @@
       "abbr": "Gbit",
       "transform": {
         "kind": "linear",
-        "factor": 1000000000
+        "factor": 1000000000.00000
       }
     },
     {
@@ -95,7 +95,7 @@
       "abbr": "Tbit",
       "transform": {
         "kind": "linear",
-        "factor": 1000000000000
+        "factor": 1000000000000.00
       }
     },
     {
@@ -134,7 +134,7 @@
       "abbr": "kB",
       "transform": {
         "kind": "linear",
-        "factor": 8000
+        "factor": 8000.00000000000
       }
     },
     {
@@ -147,7 +147,7 @@
       "abbr": "MB",
       "transform": {
         "kind": "linear",
-        "factor": 8000000
+        "factor": 8000000.00000000
       }
     },
     {
@@ -160,7 +160,7 @@
       "abbr": "GB",
       "transform": {
         "kind": "linear",
-        "factor": 8000000000
+        "factor": 8000000000.00000
       }
     },
     {
@@ -173,7 +173,7 @@
       "abbr": "TB",
       "transform": {
         "kind": "linear",
-        "factor": 8000000000000
+        "factor": 8000000000000.00
       }
     },
     {
@@ -212,7 +212,7 @@
       "abbr": "Kibit",
       "transform": {
         "kind": "linear",
-        "factor": 1024
+        "factor": 1024.00000000000
       }
     },
     {
@@ -225,7 +225,7 @@
       "abbr": "Mibit",
       "transform": {
         "kind": "linear",
-        "factor": 1048576
+        "factor": 1048576.00000000
       }
     },
     {
@@ -238,7 +238,7 @@
       "abbr": "Gibit",
       "transform": {
         "kind": "linear",
-        "factor": 1073741824
+        "factor": 1073741824.00000
       }
     },
     {
@@ -251,7 +251,7 @@
       "abbr": "Tibit",
       "transform": {
         "kind": "linear",
-        "factor": 1099511627776
+        "factor": 1099511627776.00
       }
     },
     {
@@ -290,7 +290,7 @@
       "abbr": "KiB",
       "transform": {
         "kind": "linear",
-        "factor": 8192
+        "factor": 8192.00000000000
       }
     },
     {
@@ -303,7 +303,7 @@
       "abbr": "MiB",
       "transform": {
         "kind": "linear",
-        "factor": 8388608
+        "factor": 8388608.00000000
       }
     },
     {
@@ -316,7 +316,7 @@
       "abbr": "GiB",
       "transform": {
         "kind": "linear",
-        "factor": 8589934592
+        "factor": 8589934592.00000
       }
     },
     {
@@ -329,7 +329,7 @@
       "abbr": "TiB",
       "transform": {
         "kind": "linear",
-        "factor": 8796093022208
+        "factor": 8796093022208.00
       }
     },
     {

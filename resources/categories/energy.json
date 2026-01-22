@@ -50,7 +50,7 @@
       "abbr": "GWh",
       "transform": {
         "kind": "linear",
-        "factor": 3600000000000.0
+        "factor": 3600000000000.00
       }
     },
     {
@@ -63,7 +63,7 @@
       "abbr": "MWh",
       "transform": {
         "kind": "linear",
-        "factor": 3600000000.0
+        "factor": 3600000000.00000
       }
     },
     {
@@ -76,7 +76,7 @@
       "abbr": "kWh",
       "transform": {
         "kind": "linear",
-        "factor": 3600000.0
+        "factor": 3600000.00000000
       },
       "definition": {
         "summary": {
@@ -100,7 +100,7 @@
       "abbr": "MJ",
       "transform": {
         "kind": "linear",
-        "factor": 1000000.0
+        "factor": 1000000.00000000
       }
     },
     {
@@ -113,7 +113,7 @@
       "abbr": "kJ",
       "transform": {
         "kind": "linear",
-        "factor": 1000.0
+        "factor": 1000.00000000000
       }
     },
     {
@@ -126,7 +126,7 @@
       "abbr": "Ws",
       "transform": {
         "kind": "linear",
-        "factor": 1.0
+        "factor": 1.00000000000000
       }
     },
     {
@@ -139,7 +139,7 @@
       "abbr": "J",
       "transform": {
         "kind": "linear",
-        "factor": 1.0
+        "factor": 1.00000000000000
       },
       "definition": {
         "summary": {
@@ -163,7 +163,7 @@
       "abbr": "eV",
       "transform": {
         "kind": "linear",
-        "factor": 1.602176634e-19
+        "factor": 1.60217663400000e-19
       },
       "definition": {
         "summary": {
@@ -187,7 +187,7 @@
       "abbr": "quad",
       "transform": {
         "kind": "linear",
-        "factor": 1.05505585262e+18
+        "factor": 1055055852620000000
       }
     },
     {
@@ -200,7 +200,7 @@
       "abbr": "therm",
       "transform": {
         "kind": "linear",
-        "factor": 105505585.262
+        "factor": 105505585.262000
       }
     },
     {
@@ -213,7 +213,7 @@
       "abbr": "BTU",
       "transform": {
         "kind": "linear",
-        "factor": 1055.05585262
+        "factor": 1055.05585262000
       },
       "definition": {
         "summary": {
@@ -237,7 +237,7 @@
       "abbr": "ft×lb",
       "transform": {
         "kind": "linear",
-        "factor": 1.3558179483314003
+        "factor": 1.3558179483314004
       }
     },
     {
@@ -250,7 +250,7 @@
       "abbr": "kcal",
       "transform": {
         "kind": "linear",
-        "factor": 4184.0
+        "factor": 4184.00000000000
       },
       "definition": {
         "summary": {
@@ -274,7 +274,7 @@
       "abbr": "cal",
       "transform": {
         "kind": "linear",
-        "factor": 4.184
+        "factor": 4.18400000000000
       },
       "definition": {
         "summary": {
