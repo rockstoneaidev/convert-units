@@ -256,10 +256,20 @@
         "en": "anomalistic year",
         "sv": "anomalistiskt år"
       },
-      "abbr": "a",
       "transform": {
         "kind": "linear",
         "factor": 31558433.0117760
+      },
+      "definition": {
+        "summary": {
+          "en": "365.2596 days.",
+          "sv": "365,2596 dagar."
+        },
+        "body": {
+          "en": "An anomalistic year is the time it takes Earth to travel from its closest point to the Sun (perihelion) and back to perihelion again, lasting approximately 365.2596 days (or 365 days, 6 hours, 13 minutes, 53 seconds). This period is slightly longer than other year definitions (like the tropical year or sidereal year) because the Earth's elliptical orbit slowly shifts, a phenomenon called apsidal precession, causing the perihelion point to move eastward.",
+          "sv": "Ett anomalistiskt år är den tid det tar för jorden att färdas från sin närmaste punkt till solen (perihelium) och tillbaka till perihelium igen, vilket varar ungefär 365,2596 dagar (eller 365 dagar, 6 timmar, 13 minuter, 53 sekunder). Denna period är något längre än andra årdefinitioner (som det tropiska året eller det sideriska året) eftersom jordens elliptiska bana långsamt förskjuts, ett fenomen som kallas apsidprecession, vilket gör att perihelpunkten rör sig österut."
+        },
+        "source": "https://www.britannica.com/science/anomalistic-year"
       }
     },
     {
