@@ -34,7 +34,6 @@
         "en": "scientific year",
         "sv": "vetenskapligt år"
       },
-      "abbr": "a",
       "transform": {
         "kind": "linear",
         "factor": 31557600.0000000
@@ -110,7 +109,6 @@
         "en": "julian year",
         "sv": "julianskt år"
       },
-      "abbr": "a",
       "transform": {
         "kind": "linear",
         "factor": 31557600.0000000
@@ -134,7 +132,6 @@
         "en": "gregorian year",
         "sv": "gregorianskt år"
       },
-      "abbr": "a",
       "transform": {
         "kind": "linear",
         "factor": 31556925.9746784

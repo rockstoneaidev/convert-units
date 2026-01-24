@@ -548,7 +548,6 @@
         "en": "nautical mile",
         "sv": "sjomil"
       },
-      "abbr": "sjömil",
       "transform": {
         "kind": "linear",
         "factor": 1852.00000000000
@@ -854,7 +853,7 @@
         "en": "astronomical unit",
         "sv": "astronomisk enhet"
       },
-      "abbr": "AE",
+      "abbr": "AU",
       "transform": {
         "kind": "linear",
         "factor": 149597870700.000
