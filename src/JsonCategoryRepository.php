@@ -153,7 +153,7 @@ final class JsonCategoryRepository implements CategoryRepositoryInterface
             throw new \RuntimeException('Unit name missing or invalid.');
         }
 
-        if (!array_key_exists('abbr', $unit) || !is_string($unit['abbr'])) {
+        if (array_key_exists('abbr', $unit) && !is_string($unit['abbr'])) {
             throw new \RuntimeException('Unit abbr missing or invalid.');
         }
 
