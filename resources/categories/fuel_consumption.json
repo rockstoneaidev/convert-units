@@ -55,7 +55,7 @@
         "sv": "Liter per mil",
         "en": "Liters per 10 kilometers"
       },
-      "abbr": "L/mil",
+      "abbr": "L/10 km",
       "transform": {
         "kind": "linear",
         "factor": 0.100000000000000
@@ -66,7 +66,7 @@
           "sv": "Liter förbrukad per svensk mil (10 km)."
         },
         "body": {
-          "en": "Liters per mil is a fuel consumption unit used primarily in Sweden and Norway, where 'mil' refers to a metric mile of 10 kilometers.",
+          "en": "Liters per 10 kilometers is a fuel consumption unit used primarily in Sweden and Norway, usually by writing 'liter per mil', where 'mil' refers to the equivalent of 10 kilometers.",
           "sv": "Liter per mil är standardmåttet för bränsleförbrukning i Sverige. Observera att 'mil' här syftar på en svensk mil (10 km), inte en engelsk mile."
         },
         "source": null
