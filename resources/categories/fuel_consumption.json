@@ -62,7 +62,7 @@
       },
       "definition": {
         "summary": {
-          "en": "Liters consumed per Swedish mil (10 km).",
+          "en": "Liters consumed per 10 km.",
           "sv": "Liter förbrukad per svensk mil (10 km)."
         },
         "body": {
