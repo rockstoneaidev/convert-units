@@ -660,7 +660,7 @@
       "key": "tablespoon_se",
       "type": "cooking_se",
       "name": {
-        "en": "tablespoon",
+        "en": "Swedish tablespoon",
         "sv": "matsked"
       },
       "abbr": "msk",
@@ -673,7 +673,7 @@
       "key": "teaspoon_se",
       "type": "cooking_se",
       "name": {
-        "en": "teaspoon",
+        "en": "Swedish teaspoon",
         "sv": "tesked"
       },
       "abbr": "tsk",
@@ -723,7 +723,7 @@
       "key": "tablespoon_us",
       "type": "cooking_us",
       "name": {
-        "en": "tablespoon",
+        "en": "US tablespoon",
         "sv": "tablespoon"
       },
       "abbr": "tbsp",
@@ -736,7 +736,7 @@
       "key": "teaspoon_us",
       "type": "cooking_us",
       "name": {
-        "en": "teaspoon",
+        "en": "US teaspoon",
         "sv": "teaspoon"
       },
       "abbr": "tsp",

@@ -518,7 +518,7 @@
       "type": "troy",
       "name": {
         "en": "grain (troy)",
-        "sv": "grain"
+        "sv": "grain (troy)"
       },
       "abbr": "gr t",
       "transform": {
