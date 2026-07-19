@@ -297,14 +297,29 @@
     {
       "key": "tum",
       "type": "swedish",
+      "slugs": {
+        "sv": "gammal-svensk-tum",
+        "en": "old-swedish-tum"
+      },
       "name": {
-        "en": "inch",
-        "sv": "tum"
+        "en": "old Swedish tum",
+        "sv": "gammal svensk tum"
       },
       "abbr": "tum",
       "transform": {
         "kind": "linear",
         "factor": 0.0247400000000000
+      },
+      "definition": {
+        "summary": {
+          "en": "Old Swedish inch (tum) used before the metric system, about 24.74 mm.",
+          "sv": "Gammal svensk tum som användes före metersystemet, cirka 24,74 mm."
+        },
+        "body": {
+          "en": "Before Sweden adopted the metric system, the tum (Swedish inch) measured about 24.74 mm — roughly 1/12 of a Swedish foot — noticeably shorter than the modern international inch of exactly 25.4 mm. For the modern inch, use the inch converter.",
+          "sv": "Innan Sverige införde metersystemet var en tum (svensk tum) ungefär 24,74 mm — cirka 1/12 svensk fot — märkbart kortare än den moderna internationella tummen på exakt 25,4 mm. För den moderna tummen, använd omvandlaren för tum (inch)."
+        },
+        "source": "https://sv.wikipedia.org/wiki/Tum"
       }
     },
     {
