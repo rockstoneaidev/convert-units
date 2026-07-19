@@ -272,7 +272,7 @@
       "key": "swedish_fot",
       "type": "swedish",
       "name": {
-        "en": "foot",
+        "en": "Swedish fot",
         "sv": "fot"
       },
       "abbr": "fot",
@@ -583,7 +583,7 @@
       "key": "nautical_mile_alt",
       "type": "nautical",
       "name": {
-        "en": "nautical mile",
+        "en": "nautical mile (nautisk mil)",
         "sv": "nautisk mil"
       },
       "abbr": "nautisk mil",
@@ -622,8 +622,8 @@
       "key": "greek_mile",
       "type": "greek",
       "name": {
-        "en": "mile",
-        "sv": "mile"
+        "en": "Greek mile",
+        "sv": "grekisk mile"
       },
       "abbr": "mile",
       "transform": {

@@ -84,7 +84,7 @@
       "type": "metric",
       "name": {
         "en": "metric horsepower",
-        "sv": "hästkraft"
+        "sv": "hästkraft (metrisk)"
       },
       "abbr": "hk",
       "transform": {
@@ -184,7 +184,7 @@
       "type": "imperial",
       "name": {
         "en": "horsepower",
-        "sv": "hästkraft"
+        "sv": "hästkraft (brittisk)"
       },
       "abbr": "hp",
       "transform": {
