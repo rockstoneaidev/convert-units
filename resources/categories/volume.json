@@ -324,8 +324,8 @@
       "key": "quart_us_wet",
       "type": "us_wet",
       "name": {
-        "en": "quart",
-        "sv": "quart"
+        "en": "US quart",
+        "sv": "Amerikansk quart (våt)"
       },
       "abbr": "qt",
       "transform": {
@@ -337,8 +337,8 @@
       "key": "pint_us_wet",
       "type": "us_wet",
       "name": {
-        "en": "pint",
-        "sv": "pint"
+        "en": "US pint",
+        "sv": "Amerikansk pint (våt)"
       },
       "abbr": "pt",
       "transform": {
@@ -350,8 +350,8 @@
       "key": "gill_us_wet",
       "type": "us_wet",
       "name": {
-        "en": "gill",
-        "sv": "gill"
+        "en": "US gill",
+        "sv": "Amerikansk gill (våt)"
       },
       "abbr": "gi",
       "transform": {
@@ -363,8 +363,8 @@
       "key": "fluid_ounce_us",
       "type": "us_wet",
       "name": {
-        "en": "fluid ounce",
-        "sv": "fluid ounce"
+        "en": "US fluid ounce",
+        "sv": "Amerikansk fluid ounce"
       },
       "abbr": "fl oz",
       "transform": {
@@ -428,8 +428,8 @@
       "key": "bushel_us",
       "type": "us_dry",
       "name": {
-        "en": "bushel",
-        "sv": "bushel"
+        "en": "US bushel",
+        "sv": "Amerikansk bushel"
       },
       "abbr": "bu",
       "transform": {
@@ -441,8 +441,8 @@
       "key": "peck_us",
       "type": "us_dry",
       "name": {
-        "en": "peck",
-        "sv": "peck"
+        "en": "US peck",
+        "sv": "Amerikansk peck"
       },
       "abbr": "pk",
       "transform": {
@@ -467,8 +467,8 @@
       "key": "quart_us_dry",
       "type": "us_dry",
       "name": {
-        "en": "quart",
-        "sv": "quart"
+        "en": "US dry quart",
+        "sv": "Amerikansk quart (torr)"
       },
       "abbr": "qt (dry)",
       "transform": {
@@ -480,8 +480,8 @@
       "key": "pint_us_dry",
       "type": "us_dry",
       "name": {
-        "en": "pint",
-        "sv": "pint"
+        "en": "US dry pint",
+        "sv": "Amerikansk pint (torr)"
       },
       "abbr": "pt (dry)",
       "transform": {
@@ -493,8 +493,8 @@
       "key": "gill_us_dry",
       "type": "us_dry",
       "name": {
-        "en": "gill",
-        "sv": "gill"
+        "en": "US dry gill",
+        "sv": "Amerikansk gill (torr)"
       },
       "abbr": "gi (dry)",
       "transform": {
@@ -519,8 +519,8 @@
       "key": "bushel_british",
       "type": "british",
       "name": {
-        "en": "bushel",
-        "sv": "bushel"
+        "en": "Imperial bushel",
+        "sv": "Brittisk (Imperial) bushel"
       },
       "abbr": "bu (uk)",
       "transform": {
@@ -532,8 +532,8 @@
       "key": "peck_british",
       "type": "british",
       "name": {
-        "en": "peck",
-        "sv": "peck"
+        "en": "Imperial peck",
+        "sv": "Brittisk (Imperial) peck"
       },
       "abbr": "pk (uk)",
       "transform": {
@@ -569,8 +569,8 @@
       "key": "quart_british",
       "type": "british",
       "name": {
-        "en": "quart",
-        "sv": "quart"
+        "en": "Imperial quart",
+        "sv": "Brittisk (Imperial) quart"
       },
       "abbr": "qt (uk)",
       "transform": {
@@ -582,8 +582,8 @@
       "key": "pint_british",
       "type": "british",
       "name": {
-        "en": "pint",
-        "sv": "pint"
+        "en": "Imperial pint",
+        "sv": "Brittisk (Imperial) pint"
       },
       "abbr": "pt (uk)",
       "transform": {
@@ -595,8 +595,8 @@
       "key": "fluid_ounce_british",
       "type": "british",
       "name": {
-        "en": "fluid ounce",
-        "sv": "fluid ounce"
+        "en": "Imperial fluid ounce",
+        "sv": "Brittisk (Imperial) fluid ounce"
       },
       "abbr": "fl oz (uk)",
       "transform": {
