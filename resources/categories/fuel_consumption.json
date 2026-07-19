@@ -153,8 +153,8 @@
         "sv": "gallons-per-100-miles-us"
       },
       "name": {
-        "sv": "Gallons per 100 miles",
-        "en": "Gallons per 100 miles"
+        "sv": "Gallons per 100 miles (US)",
+        "en": "Gallons per 100 miles (US)"
       },
       "abbr": "gal/100 mi (US)",
       "transform": {
@@ -198,8 +198,8 @@
         "sv": "gallons-per-100-miles-uk"
       },
       "name": {
-        "sv": "Gallons per 100 miles",
-        "en": "Gallons per 100 miles"
+        "sv": "Gallons per 100 miles (UK)",
+        "en": "Gallons per 100 miles (UK)"
       },
       "abbr": "gal/100 mi (UK)",
       "transform": {
