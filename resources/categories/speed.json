@@ -34,6 +34,9 @@
         "en": "kilometer per second",
         "sv": "kilometer per sekund"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q3674704"
+      ],
       "abbr": "km/s",
       "transform": {
         "kind": "linear",
@@ -47,6 +50,9 @@
         "en": "meter per second",
         "sv": "meter per sekund"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q182429"
+      ],
       "abbr": "m/s",
       "transform": {
         "kind": "linear",
@@ -71,6 +77,9 @@
         "en": "kilometer per hour",
         "sv": "kilometer per timme"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q180154"
+      ],
       "abbr": "km/h",
       "transform": {
         "kind": "linear",
@@ -108,6 +117,9 @@
         "en": "mile per hour",
         "sv": "mile per timme"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q211256"
+      ],
       "abbr": "mph",
       "transform": {
         "kind": "linear",
@@ -132,6 +144,9 @@
         "en": "foot per second",
         "sv": "fot per sekund"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q748716"
+      ],
       "abbr": "ft/s",
       "transform": {
         "kind": "linear",
@@ -169,6 +184,9 @@
         "en": "nautical mile per hour",
         "sv": "sjömil per timme"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q104907390"
+      ],
       "abbr": "nmi/h",
       "transform": {
         "kind": "linear",

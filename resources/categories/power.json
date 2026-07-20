@@ -34,6 +34,9 @@
         "en": "terawatt",
         "sv": "terawatt"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q23823681"
+      ],
       "abbr": "TW",
       "transform": {
         "kind": "linear",
@@ -47,6 +50,9 @@
         "en": "gigawatt",
         "sv": "gigawatt"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q5879479"
+      ],
       "abbr": "GW",
       "transform": {
         "kind": "linear",
@@ -60,6 +66,9 @@
         "en": "megawatt",
         "sv": "megawatt"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q6982035"
+      ],
       "abbr": "MW",
       "transform": {
         "kind": "linear",
@@ -73,6 +82,9 @@
         "en": "kilowatt",
         "sv": "kilowatt"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q3320608"
+      ],
       "abbr": "kW",
       "transform": {
         "kind": "linear",
@@ -86,6 +98,9 @@
         "en": "metric horsepower",
         "sv": "hästkraft (metrisk)"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q160857"
+      ],
       "abbr": "hk",
       "transform": {
         "kind": "linear",
@@ -110,6 +125,9 @@
         "en": "watt",
         "sv": "watt"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q25236"
+      ],
       "abbr": "W",
       "transform": {
         "kind": "linear",
@@ -134,6 +152,9 @@
         "en": "milliwatt",
         "sv": "milliwatt"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q3207456"
+      ],
       "abbr": "mW",
       "transform": {
         "kind": "linear",
@@ -147,6 +168,9 @@
         "en": "microwatt",
         "sv": "mikrowatt"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q1823150"
+      ],
       "abbr": "µW",
       "transform": {
         "kind": "linear",
@@ -160,6 +184,9 @@
         "en": "nanowatt",
         "sv": "nanowatt"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q53449021"
+      ],
       "abbr": "nW",
       "transform": {
         "kind": "linear",

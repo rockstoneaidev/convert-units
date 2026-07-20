@@ -46,6 +46,9 @@
         "en": "second",
         "sv": "sekund"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q11574"
+      ],
       "abbr": "s",
       "transform": {
         "kind": "linear",
@@ -70,6 +73,9 @@
         "en": "millisecond",
         "sv": "millisekund"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q723733"
+      ],
       "abbr": "ms",
       "transform": {
         "kind": "linear",
@@ -83,6 +89,9 @@
         "en": "microsecond",
         "sv": "mikrosekund"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q842015"
+      ],
       "abbr": "µs",
       "transform": {
         "kind": "linear",
@@ -96,6 +105,9 @@
         "en": "nanosecond",
         "sv": "nanosekund"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q838801"
+      ],
       "abbr": "ns",
       "transform": {
         "kind": "linear",
@@ -109,6 +121,9 @@
         "en": "julian year",
         "sv": "julianskt år"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q217208"
+      ],
       "transform": {
         "kind": "linear",
         "factor": 31557600.0000000
@@ -132,6 +147,9 @@
         "en": "gregorian year",
         "sv": "gregorianskt år"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q39628023"
+      ],
       "transform": {
         "kind": "linear",
         "factor": 31556925.9746784
@@ -168,6 +186,9 @@
         "en": "week",
         "sv": "vecka"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q23387"
+      ],
       "abbr": "wk",
       "transform": {
         "kind": "linear",
@@ -181,6 +202,9 @@
         "en": "day",
         "sv": "dag"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q573"
+      ],
       "abbr": "d",
       "transform": {
         "kind": "linear",
