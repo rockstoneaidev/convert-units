@@ -40,6 +40,9 @@
         "en": "gigabit per second",
         "sv": "gigabit per sekund"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q2243141"
+      ],
       "abbr": "Gbit/s",
       "transform": {
         "kind": "linear",
@@ -77,6 +80,9 @@
         "en": "megabit per second",
         "sv": "megabit per sekund"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q7350781"
+      ],
       "abbr": "Mbit/s",
       "transform": {
         "kind": "linear",
@@ -114,6 +120,9 @@
         "en": "kilobit per second",
         "sv": "kilobit per sekund"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q2269250"
+      ],
       "abbr": "kbit/s",
       "transform": {
         "kind": "linear",
@@ -151,6 +160,9 @@
         "en": "bit per second",
         "sv": "bit per sekund"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q549389"
+      ],
       "abbr": "bps",
       "transform": {
         "kind": "linear",

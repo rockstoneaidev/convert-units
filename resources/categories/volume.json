@@ -62,6 +62,9 @@
         "en": "cubic kilometer",
         "sv": "kubikkilometer"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q4243638"
+      ],
       "abbr": "km³",
       "transform": {
         "kind": "linear",
@@ -75,6 +78,9 @@
         "en": "cubic meter",
         "sv": "kubikmeter"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q25517"
+      ],
       "abbr": "m³",
       "transform": {
         "kind": "linear",
@@ -99,6 +105,9 @@
         "en": "hectoliter",
         "sv": "hektoliter"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q2029519"
+      ],
       "abbr": "hl",
       "transform": {
         "kind": "linear",
@@ -112,6 +121,9 @@
         "en": "dekaliter",
         "sv": "dekaliter"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q2637946"
+      ],
       "abbr": "dal",
       "transform": {
         "kind": "linear",
@@ -125,6 +137,9 @@
         "en": "cubic decimeter",
         "sv": "kubikdecimeter"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q2175964"
+      ],
       "abbr": "dm³",
       "transform": {
         "kind": "linear",
@@ -138,6 +153,9 @@
         "en": "liter",
         "sv": "liter"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q11582"
+      ],
       "abbr": "l",
       "transform": {
         "kind": "linear",
@@ -162,6 +180,9 @@
         "en": "deciliter",
         "sv": "deciliter"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q1826195"
+      ],
       "abbr": "dl",
       "transform": {
         "kind": "linear",
@@ -175,6 +196,9 @@
         "en": "centiliter",
         "sv": "centiliter"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q1815100"
+      ],
       "abbr": "cl",
       "transform": {
         "kind": "linear",
@@ -188,6 +212,9 @@
         "en": "cubic centimeter",
         "sv": "kubikcentimeter"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q1022113"
+      ],
       "abbr": "cm³",
       "transform": {
         "kind": "linear",
@@ -201,6 +228,9 @@
         "en": "milliliter",
         "sv": "milliliter"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q2332346"
+      ],
       "abbr": "ml",
       "transform": {
         "kind": "linear",

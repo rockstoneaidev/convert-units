@@ -27,6 +27,9 @@
         "sv": "kelvin",
         "en": "kelvin"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q11579"
+      ],
       "abbr": "K",
       "transform": {
         "kind": "affine",
@@ -102,6 +105,9 @@
         "sv": "grader Rankine",
         "en": "degree Rankine"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q37732658"
+      ],
       "abbr": "°R",
       "transform": {
         "kind": "affine",
