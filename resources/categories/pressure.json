@@ -48,6 +48,9 @@
         "en": "megapascal",
         "sv": "megapascal"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q21062777"
+      ],
       "abbr": "MPa",
       "transform": {
         "kind": "linear",
@@ -98,6 +101,9 @@
         "en": "kilopascal",
         "sv": "kilopascal"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q21064807"
+      ],
       "abbr": "kPa",
       "transform": {
         "kind": "linear",
@@ -111,6 +117,9 @@
         "en": "hectopascal",
         "sv": "hektopascal"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q5139563"
+      ],
       "abbr": "hPa",
       "transform": {
         "kind": "linear",
@@ -135,6 +144,9 @@
         "en": "millibar",
         "sv": "millibar"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q3495543"
+      ],
       "abbr": "mbar",
       "transform": {
         "kind": "linear",
@@ -161,6 +173,9 @@
         "en": "pascal",
         "sv": "pascal"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q44395"
+      ],
       "abbr": "Pa",
       "transform": {
         "kind": "linear",
@@ -198,6 +213,9 @@
         "en": "pound per square inch",
         "sv": "pound per kvadrattum"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q626299"
+      ],
       "abbr": "psi",
       "transform": {
         "kind": "linear",

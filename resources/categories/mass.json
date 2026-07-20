@@ -55,6 +55,9 @@
         "en": "tonne",
         "sv": "ton"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q191118"
+      ],
       "abbr": "t",
       "transform": {
         "kind": "linear",
@@ -105,6 +108,9 @@
         "en": "kilogram",
         "sv": "kilogram"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q11570"
+      ],
       "abbr": "kg",
       "transform": {
         "kind": "linear",
@@ -129,6 +135,9 @@
         "en": "gram",
         "sv": "gram"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q41803"
+      ],
       "abbr": "g",
       "transform": {
         "kind": "linear",
@@ -153,6 +162,9 @@
         "en": "carat",
         "sv": "karat"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q261247"
+      ],
       "abbr": "ct",
       "transform": {
         "kind": "linear",
@@ -177,6 +189,9 @@
         "en": "centigram",
         "sv": "centigram"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q2691798"
+      ],
       "abbr": "cg",
       "transform": {
         "kind": "linear",
@@ -190,6 +205,9 @@
         "en": "milligram",
         "sv": "milligram"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q3241121"
+      ],
       "abbr": "mg",
       "transform": {
         "kind": "linear",
@@ -203,6 +221,9 @@
         "en": "microgram",
         "sv": "mikrogram"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q1645498"
+      ],
       "abbr": "µg",
       "transform": {
         "kind": "linear",
@@ -216,6 +237,9 @@
         "en": "nanogram",
         "sv": "nanogram"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q2282906"
+      ],
       "abbr": "ng",
       "transform": {
         "kind": "linear",

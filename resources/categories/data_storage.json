@@ -27,6 +27,9 @@
         "en": "bit",
         "sv": "bit"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q8805"
+      ],
       "abbr": "bit",
       "transform": {
         "kind": "linear",
@@ -53,6 +56,9 @@
         "en": "kilobit",
         "sv": "kilobit"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q3194304"
+      ],
       "abbr": "kbit",
       "transform": {
         "kind": "linear",
@@ -66,6 +72,9 @@
         "en": "megabit",
         "sv": "megabit"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q3332814"
+      ],
       "abbr": "Mbit",
       "transform": {
         "kind": "linear",
@@ -79,6 +88,9 @@
         "en": "gigabit",
         "sv": "gigabit"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q3105497"
+      ],
       "abbr": "Gbit",
       "transform": {
         "kind": "linear",
@@ -92,6 +104,9 @@
         "en": "terabit",
         "sv": "terabit"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q1152323"
+      ],
       "abbr": "Tbit",
       "transform": {
         "kind": "linear",
@@ -105,6 +120,9 @@
         "en": "petabit",
         "sv": "petabit"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q1152074"
+      ],
       "abbr": "Pbit",
       "transform": {
         "kind": "linear",
@@ -118,6 +136,9 @@
         "en": "exabit",
         "sv": "exabit"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q1195111"
+      ],
       "abbr": "Ebit",
       "transform": {
         "kind": "linear",

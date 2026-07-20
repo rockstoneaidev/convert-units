@@ -34,6 +34,9 @@
         "en": "terawatt hour",
         "sv": "terawattimme"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q2659078"
+      ],
       "abbr": "TWh",
       "transform": {
         "kind": "linear",
@@ -47,6 +50,9 @@
         "en": "gigawatt hour",
         "sv": "gigawattimme"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q2051195"
+      ],
       "abbr": "GWh",
       "transform": {
         "kind": "linear",
@@ -60,6 +66,9 @@
         "en": "megawatt hour",
         "sv": "megawattimme"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q6009164"
+      ],
       "abbr": "MWh",
       "transform": {
         "kind": "linear",
@@ -73,6 +82,9 @@
         "en": "kilowatt hour",
         "sv": "kilowattimme"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q182098"
+      ],
       "abbr": "kWh",
       "transform": {
         "kind": "linear",
@@ -97,6 +109,9 @@
         "en": "megajoule",
         "sv": "megajoule"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q14786969"
+      ],
       "abbr": "MJ",
       "transform": {
         "kind": "linear",
@@ -110,6 +125,9 @@
         "en": "kilojoule",
         "sv": "kilojoule"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q4989854"
+      ],
       "abbr": "kJ",
       "transform": {
         "kind": "linear",
@@ -123,6 +141,9 @@
         "en": "watt second",
         "sv": "wattsekund"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q7974920"
+      ],
       "abbr": "Ws",
       "transform": {
         "kind": "linear",
@@ -136,6 +157,9 @@
         "en": "joule",
         "sv": "joule"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q25269"
+      ],
       "abbr": "J",
       "transform": {
         "kind": "linear",
@@ -160,6 +184,9 @@
         "en": "electronvolt",
         "sv": "elektronvolt"
       },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q83327"
+      ],
       "abbr": "eV",
       "transform": {
         "kind": "linear",
