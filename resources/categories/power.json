@@ -249,6 +249,10 @@
     },
     {
       "key": "foot_pound_force_per_second",
+      "slugs": {
+        "sv": "fotpundkraft-per-sekund",
+        "en": "foot-pound-force-per-second"
+      },
       "type": "imperial",
       "name": {
         "en": "foot pound-force per second",
