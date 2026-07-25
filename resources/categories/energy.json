@@ -280,6 +280,10 @@
     },
     {
       "key": "foot_pound",
+      "slugs": {
+        "sv": "fotpund",
+        "en": "foot-pound"
+      },
       "type": "imperial",
       "name": {
         "en": "foot-pound",
