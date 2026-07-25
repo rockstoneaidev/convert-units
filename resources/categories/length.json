@@ -166,6 +166,10 @@
     },
     {
       "key": "micrometer",
+      "slugs": {
+        "sv": "mikrometer",
+        "en": "micrometer"
+      },
       "type": "metric",
       "name": {
         "en": "micrometer",
@@ -294,6 +298,10 @@
     },
     {
       "key": "swedish_fot",
+      "slugs": {
+        "sv": "svensk-fot",
+        "en": "swedish-fot"
+      },
       "type": "swedish",
       "name": {
         "en": "Swedish fot",
@@ -572,6 +580,10 @@
     },
     {
       "key": "distance_minute",
+      "slugs": {
+        "sv": "distansminut",
+        "en": "distance-minute"
+      },
       "type": "nautical",
       "name": {
         "en": "distance minute",
@@ -585,6 +597,10 @@
     },
     {
       "key": "nautical_mile",
+      "slugs": {
+        "sv": "sjomil",
+        "en": "nautical-mile"
+      },
       "type": "nautical",
       "name": {
         "en": "nautical mile",
@@ -608,6 +624,10 @@
     },
     {
       "key": "nautical_mile_alt",
+      "slugs": {
+        "sv": "nautisk-mil",
+        "en": "nautical-mile-alt"
+      },
       "type": "nautical",
       "name": {
         "en": "nautical mile (nautisk mil)",
@@ -621,6 +641,10 @@
     },
     {
       "key": "cable_length",
+      "slugs": {
+        "sv": "kabellangd",
+        "en": "cable-length"
+      },
       "type": "nautical",
       "name": {
         "en": "cable length",
@@ -842,6 +866,10 @@
     },
     {
       "key": "parsec",
+      "slugs": {
+        "sv": "parsek",
+        "en": "parsec"
+      },
       "type": "astronomical",
       "name": {
         "en": "parsec",
@@ -890,6 +918,10 @@
     },
     {
       "key": "astronomical_unit",
+      "slugs": {
+        "sv": "astronomisk-enhet",
+        "en": "astronomical-unit"
+      },
       "type": "astronomical",
       "name": {
         "en": "astronomical unit",
@@ -914,6 +946,10 @@
     },
     {
       "key": "light_minute",
+      "slugs": {
+        "sv": "ljusminut",
+        "en": "light-minute"
+      },
       "type": "astronomical",
       "name": {
         "en": "light-minute",
@@ -927,6 +963,10 @@
     },
     {
       "key": "light_second",
+      "slugs": {
+        "sv": "ljussekund",
+        "en": "light-second"
+      },
       "type": "astronomical",
       "name": {
         "en": "light-second",

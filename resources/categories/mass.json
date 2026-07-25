@@ -50,6 +50,10 @@
   "units": [
     {
       "key": "tonne",
+      "slugs": {
+        "sv": "ton",
+        "en": "tonne"
+      },
       "type": "metric",
       "name": {
         "en": "tonne",
@@ -157,6 +161,10 @@
     },
     {
       "key": "carat_metric",
+      "slugs": {
+        "sv": "karat",
+        "en": "carat-metric"
+      },
       "type": "metric",
       "name": {
         "en": "carat",
@@ -216,6 +224,10 @@
     },
     {
       "key": "microgram",
+      "slugs": {
+        "sv": "mikrogram",
+        "en": "microgram"
+      },
       "type": "metric",
       "name": {
         "en": "microgram",

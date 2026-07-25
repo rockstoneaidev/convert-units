@@ -29,6 +29,10 @@
   "units": [
     {
       "key": "kilometer_per_second",
+      "slugs": {
+        "sv": "kilometer-per-sekund",
+        "en": "kilometer-per-second"
+      },
       "type": "metric",
       "name": {
         "en": "kilometer per second",
@@ -45,6 +49,10 @@
     },
     {
       "key": "meter_per_second",
+      "slugs": {
+        "sv": "meter-per-sekund",
+        "en": "meter-per-second"
+      },
       "type": "metric",
       "name": {
         "en": "meter per second",
@@ -72,6 +80,10 @@
     },
     {
       "key": "kilometer_per_hour",
+      "slugs": {
+        "sv": "kilometer-per-timme",
+        "en": "kilometer-per-hour"
+      },
       "type": "metric",
       "name": {
         "en": "kilometer per hour",
@@ -139,6 +151,10 @@
     },
     {
       "key": "foot_per_second",
+      "slugs": {
+        "sv": "fot-per-sekund",
+        "en": "foot-per-second"
+      },
       "type": "imperial",
       "name": {
         "en": "foot per second",
@@ -155,6 +171,10 @@
     },
     {
       "key": "knot",
+      "slugs": {
+        "sv": "knop",
+        "en": "knot"
+      },
       "type": "nautical",
       "name": {
         "en": "knot",
@@ -179,6 +199,10 @@
     },
     {
       "key": "nautical_mile_per_hour",
+      "slugs": {
+        "sv": "sjomil-per-timme",
+        "en": "nautical-mile-per-hour"
+      },
       "type": "nautical",
       "name": {
         "en": "nautical mile per hour",
