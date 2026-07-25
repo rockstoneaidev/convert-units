@@ -281,7 +281,7 @@
       "type": "us_wet",
       "name": {
         "en": "cubic yard",
-        "sv": "cubic yard"
+        "sv": "kubikyard"
       },
       "abbr": "yd³",
       "transform": {
@@ -318,7 +318,7 @@
       "type": "us_wet",
       "name": {
         "en": "cubic foot",
-        "sv": "cubic foot"
+        "sv": "kubikfot"
       },
       "abbr": "ft³",
       "transform": {
@@ -407,7 +407,7 @@
       "type": "us_wet",
       "name": {
         "en": "cubic inch",
-        "sv": "cubic inch"
+        "sv": "kubiktum"
       },
       "abbr": "in³",
       "transform": {

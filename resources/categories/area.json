@@ -255,7 +255,7 @@
       "type": "imperial",
       "name": {
         "en": "square mile",
-        "sv": "square mil"
+        "sv": "kvadratmile"
       },
       "abbr": "mi²",
       "transform": {
@@ -329,7 +329,7 @@
       "type": "imperial",
       "name": {
         "en": "square rod",
-        "sv": "square rod"
+        "sv": "kvadratrod"
       },
       "abbr": "rod²",
       "transform": {
@@ -355,7 +355,7 @@
       "type": "imperial",
       "name": {
         "en": "square yard",
-        "sv": "square yard"
+        "sv": "kvadratyard"
       },
       "abbr": "yd²",
       "transform": {
@@ -368,7 +368,7 @@
       "type": "imperial",
       "name": {
         "en": "square foot",
-        "sv": "square foot"
+        "sv": "kvadratfot"
       },
       "abbr": "ft²",
       "transform": {
@@ -392,7 +392,7 @@
       "type": "imperial",
       "name": {
         "en": "square inch",
-        "sv": "square inch"
+        "sv": "kvadrattum"
       },
       "abbr": "in²",
       "transform": {
