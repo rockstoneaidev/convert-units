@@ -29,6 +29,10 @@
   "units": [
     {
       "key": "terawatt_hour",
+      "slugs": {
+        "sv": "terawattimme",
+        "en": "terawatt-hour"
+      },
       "type": "metric",
       "name": {
         "en": "terawatt hour",
@@ -45,6 +49,10 @@
     },
     {
       "key": "gigawatt_hour",
+      "slugs": {
+        "sv": "gigawattimme",
+        "en": "gigawatt-hour"
+      },
       "type": "metric",
       "name": {
         "en": "gigawatt hour",
@@ -61,6 +69,10 @@
     },
     {
       "key": "megawatt_hour",
+      "slugs": {
+        "sv": "megawattimme",
+        "en": "megawatt-hour"
+      },
       "type": "metric",
       "name": {
         "en": "megawatt hour",
@@ -77,6 +89,10 @@
     },
     {
       "key": "kilowatt_hour",
+      "slugs": {
+        "sv": "kilowattimme",
+        "en": "kilowatt-hour"
+      },
       "type": "metric",
       "name": {
         "en": "kilowatt hour",
@@ -136,6 +152,10 @@
     },
     {
       "key": "watt_second",
+      "slugs": {
+        "sv": "wattsekund",
+        "en": "watt-second"
+      },
       "type": "metric",
       "name": {
         "en": "watt second",
@@ -179,6 +199,10 @@
     },
     {
       "key": "electronvolt",
+      "slugs": {
+        "sv": "elektronvolt",
+        "en": "electronvolt"
+      },
       "type": "metric",
       "name": {
         "en": "electronvolt",
@@ -269,6 +293,10 @@
     },
     {
       "key": "kilocalorie",
+      "slugs": {
+        "sv": "kilokalori",
+        "en": "kilocalorie"
+      },
       "type": "common",
       "name": {
         "en": "kilocalorie",
@@ -293,6 +321,10 @@
     },
     {
       "key": "calorie",
+      "slugs": {
+        "sv": "kalori",
+        "en": "calorie"
+      },
       "type": "common",
       "name": {
         "en": "calorie",

@@ -83,6 +83,10 @@
     },
     {
       "key": "kilogram_per_square_centimeter",
+      "slugs": {
+        "sv": "kilogram-per-kvadratcentimeter",
+        "en": "kilogram-per-square-centimeter"
+      },
       "type": "metric",
       "name": {
         "en": "kilogram per square centimeter",
@@ -112,6 +116,10 @@
     },
     {
       "key": "hectopascal",
+      "slugs": {
+        "sv": "hektopascal",
+        "en": "hectopascal"
+      },
       "type": "metric",
       "name": {
         "en": "hectopascal",
@@ -155,6 +163,10 @@
     },
     {
       "key": "kilogram_per_square_meter",
+      "slugs": {
+        "sv": "kilogram-per-kvadratmeter",
+        "en": "kilogram-per-square-meter"
+      },
       "type": "metric",
       "name": {
         "en": "kilogram per square meter",
@@ -195,6 +207,10 @@
     },
     {
       "key": "kilopound_per_square_inch",
+      "slugs": {
+        "sv": "kilopound-per-kvadrattum",
+        "en": "kilopound-per-square-inch"
+      },
       "type": "avoirdupois",
       "name": {
         "en": "kilopound per square inch",
@@ -248,6 +264,10 @@
     },
     {
       "key": "meter_of_mercury",
+      "slugs": {
+        "sv": "meter-kvicksilver",
+        "en": "meter-of-mercury"
+      },
       "type": "mercury",
       "name": {
         "en": "meter of mercury",
@@ -261,6 +281,10 @@
     },
     {
       "key": "inch_of_mercury",
+      "slugs": {
+        "sv": "tum-kvicksilver",
+        "en": "inch-of-mercury"
+      },
       "type": "mercury",
       "name": {
         "en": "inch of mercury",
@@ -274,6 +298,10 @@
     },
     {
       "key": "centimeter_of_mercury",
+      "slugs": {
+        "sv": "centimeter-kvicksilver",
+        "en": "centimeter-of-mercury"
+      },
       "type": "mercury",
       "name": {
         "en": "centimeter of mercury",
@@ -287,6 +315,10 @@
     },
     {
       "key": "millimeter_of_mercury",
+      "slugs": {
+        "sv": "millimeter-kvicksilver",
+        "en": "millimeter-of-mercury"
+      },
       "type": "mercury",
       "name": {
         "en": "millimeter of mercury",
@@ -300,6 +332,10 @@
     },
     {
       "key": "meter_of_water",
+      "slugs": {
+        "sv": "meter-vatten",
+        "en": "meter-of-water"
+      },
       "type": "water",
       "name": {
         "en": "meter of water",
@@ -313,6 +349,10 @@
     },
     {
       "key": "inch_of_water",
+      "slugs": {
+        "sv": "tum-vatten",
+        "en": "inch-of-water"
+      },
       "type": "water",
       "name": {
         "en": "inch of water",
@@ -326,6 +366,10 @@
     },
     {
       "key": "centimeter_of_water",
+      "slugs": {
+        "sv": "centimeter-vatten",
+        "en": "centimeter-of-water"
+      },
       "type": "water",
       "name": {
         "en": "centimeter of water",

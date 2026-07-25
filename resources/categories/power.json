@@ -163,6 +163,10 @@
     },
     {
       "key": "microwatt",
+      "slugs": {
+        "sv": "mikrowatt",
+        "en": "microwatt"
+      },
       "type": "metric",
       "name": {
         "en": "microwatt",
@@ -271,6 +275,10 @@
     },
     {
       "key": "kilocalorie_per_hour",
+      "slugs": {
+        "sv": "kilokalori-per-timme",
+        "en": "kilocalorie-per-hour"
+      },
       "type": "common",
       "name": {
         "en": "kilocalorie per hour",
@@ -284,6 +292,10 @@
     },
     {
       "key": "calorie_per_hour",
+      "slugs": {
+        "sv": "kalori-per-timme",
+        "en": "calorie-per-hour"
+      },
       "type": "common",
       "name": {
         "en": "calorie per hour",
