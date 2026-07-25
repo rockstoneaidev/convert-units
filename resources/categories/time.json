@@ -41,6 +41,10 @@
     },
     {
       "key": "second",
+      "slugs": {
+        "sv": "sekund",
+        "en": "second"
+      },
       "type": "metric",
       "name": {
         "en": "second",
@@ -68,6 +72,10 @@
     },
     {
       "key": "millisecond",
+      "slugs": {
+        "sv": "millisekund",
+        "en": "millisecond"
+      },
       "type": "metric",
       "name": {
         "en": "millisecond",
@@ -84,6 +92,10 @@
     },
     {
       "key": "microsecond",
+      "slugs": {
+        "sv": "mikrosekund",
+        "en": "microsecond"
+      },
       "type": "metric",
       "name": {
         "en": "microsecond",
@@ -100,6 +112,10 @@
     },
     {
       "key": "nanosecond",
+      "slugs": {
+        "sv": "nanosekund",
+        "en": "nanosecond"
+      },
       "type": "metric",
       "name": {
         "en": "nanosecond",
@@ -168,6 +184,10 @@
     },
     {
       "key": "month_30_days",
+      "slugs": {
+        "sv": "manad-30-dagar",
+        "en": "month-30-days"
+      },
       "type": "common",
       "name": {
         "en": "month (30 days)",
@@ -181,6 +201,10 @@
     },
     {
       "key": "week",
+      "slugs": {
+        "sv": "vecka",
+        "en": "week"
+      },
       "type": "common",
       "name": {
         "en": "week",
@@ -197,6 +221,10 @@
     },
     {
       "key": "day",
+      "slugs": {
+        "sv": "dag",
+        "en": "day"
+      },
       "type": "common",
       "name": {
         "en": "day",
@@ -224,6 +252,10 @@
     },
     {
       "key": "hour",
+      "slugs": {
+        "sv": "timme",
+        "en": "hour"
+      },
       "type": "common",
       "name": {
         "en": "hour",
@@ -248,6 +280,10 @@
     },
     {
       "key": "minute",
+      "slugs": {
+        "sv": "minut",
+        "en": "minute"
+      },
       "type": "common",
       "name": {
         "en": "minute",

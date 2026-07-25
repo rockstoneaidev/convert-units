@@ -36,6 +36,10 @@
   "units": [
     {
       "key": "square_kilometer",
+      "slugs": {
+        "sv": "kvadratkilometer",
+        "en": "square-kilometer"
+      },
       "type": "metric",
       "name": {
         "en": "square kilometer",
@@ -63,6 +67,10 @@
     },
     {
       "key": "square_hectometer",
+      "slugs": {
+        "sv": "kvadrathektometer",
+        "en": "square-hectometer"
+      },
       "type": "metric",
       "name": {
         "en": "square hectometer",
@@ -79,6 +87,10 @@
     },
     {
       "key": "hectare",
+      "slugs": {
+        "sv": "hektar",
+        "en": "hectare"
+      },
       "type": "metric",
       "name": {
         "en": "hectare",
@@ -106,6 +118,10 @@
     },
     {
       "key": "square_dekameter",
+      "slugs": {
+        "sv": "kvadratdekameter",
+        "en": "square-dekameter"
+      },
       "type": "metric",
       "name": {
         "en": "square dekameter",
@@ -122,6 +138,10 @@
     },
     {
       "key": "square_meter",
+      "slugs": {
+        "sv": "kvadratmeter",
+        "en": "square-meter"
+      },
       "type": "metric",
       "name": {
         "en": "square meter",
@@ -149,6 +169,10 @@
     },
     {
       "key": "square_decimeter",
+      "slugs": {
+        "sv": "kvadratdecimeter",
+        "en": "square-decimeter"
+      },
       "type": "metric",
       "name": {
         "en": "square decimeter",
@@ -165,6 +189,10 @@
     },
     {
       "key": "square_millimeter",
+      "slugs": {
+        "sv": "kvadratmillimeter",
+        "en": "square-millimeter"
+      },
       "type": "metric",
       "name": {
         "en": "square millimeter",
@@ -181,6 +209,10 @@
     },
     {
       "key": "square_micrometer",
+      "slugs": {
+        "sv": "kvadratmikrometer",
+        "en": "square-micrometer"
+      },
       "type": "metric",
       "name": {
         "en": "square micrometer",
@@ -197,6 +229,10 @@
     },
     {
       "key": "square_nanometer",
+      "slugs": {
+        "sv": "kvadratnanometer",
+        "en": "square-nanometer"
+      },
       "type": "metric",
       "name": {
         "en": "square nanometer",
@@ -252,6 +288,10 @@
     },
     {
       "key": "square_mile",
+      "slugs": {
+        "sv": "kvadratmile",
+        "en": "square-mile"
+      },
       "type": "imperial",
       "name": {
         "en": "square mile",
@@ -326,6 +366,10 @@
     },
     {
       "key": "square_rod",
+      "slugs": {
+        "sv": "kvadratrod",
+        "en": "square-rod"
+      },
       "type": "imperial",
       "name": {
         "en": "square rod",
@@ -352,6 +396,10 @@
     },
     {
       "key": "square_yard",
+      "slugs": {
+        "sv": "kvadratyard",
+        "en": "square-yard"
+      },
       "type": "imperial",
       "name": {
         "en": "square yard",
@@ -365,6 +413,10 @@
     },
     {
       "key": "square_foot",
+      "slugs": {
+        "sv": "kvadratfot",
+        "en": "square-foot"
+      },
       "type": "imperial",
       "name": {
         "en": "square foot",
@@ -389,6 +441,10 @@
     },
     {
       "key": "square_inch",
+      "slugs": {
+        "sv": "kvadrattum",
+        "en": "square-inch"
+      },
       "type": "imperial",
       "name": {
         "en": "square inch",

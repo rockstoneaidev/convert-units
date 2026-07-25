@@ -57,6 +57,10 @@
   "units": [
     {
       "key": "cubic_kilometer",
+      "slugs": {
+        "sv": "kubikkilometer",
+        "en": "cubic-kilometer"
+      },
       "type": "metric",
       "name": {
         "en": "cubic kilometer",
@@ -73,6 +77,10 @@
     },
     {
       "key": "cubic_meter",
+      "slugs": {
+        "sv": "kubikmeter",
+        "en": "cubic-meter"
+      },
       "type": "metric",
       "name": {
         "en": "cubic meter",
@@ -100,6 +108,10 @@
     },
     {
       "key": "hectoliter",
+      "slugs": {
+        "sv": "hektoliter",
+        "en": "hectoliter"
+      },
       "type": "metric",
       "name": {
         "en": "hectoliter",
@@ -132,6 +144,10 @@
     },
     {
       "key": "cubic_decimeter",
+      "slugs": {
+        "sv": "kubikdecimeter",
+        "en": "cubic-decimeter"
+      },
       "type": "metric",
       "name": {
         "en": "cubic decimeter",
@@ -207,6 +223,10 @@
     },
     {
       "key": "cubic_centimeter",
+      "slugs": {
+        "sv": "kubikcentimeter",
+        "en": "cubic-centimeter"
+      },
       "type": "metric",
       "name": {
         "en": "cubic centimeter",
@@ -239,6 +259,10 @@
     },
     {
       "key": "cubic_millimeter",
+      "slugs": {
+        "sv": "kubikmillimeter",
+        "en": "cubic-millimeter"
+      },
       "type": "metric",
       "name": {
         "en": "cubic millimeter",
@@ -252,6 +276,10 @@
     },
     {
       "key": "microliter",
+      "slugs": {
+        "sv": "mikroliter",
+        "en": "microliter"
+      },
       "type": "metric",
       "name": {
         "en": "microliter",
@@ -278,6 +306,10 @@
     },
     {
       "key": "cubic_yard",
+      "slugs": {
+        "sv": "kubikyard",
+        "en": "cubic-yard"
+      },
       "type": "us_wet",
       "name": {
         "en": "cubic yard",
@@ -315,6 +347,10 @@
     },
     {
       "key": "cubic_foot",
+      "slugs": {
+        "sv": "kubikfot",
+        "en": "cubic-foot"
+      },
       "type": "us_wet",
       "name": {
         "en": "cubic foot",
@@ -404,6 +440,10 @@
     },
     {
       "key": "cubic_inch",
+      "slugs": {
+        "sv": "kubiktum",
+        "en": "cubic-inch"
+      },
       "type": "us_wet",
       "name": {
         "en": "cubic inch",
@@ -688,6 +728,10 @@
     },
     {
       "key": "tablespoon_se",
+      "slugs": {
+        "sv": "matsked",
+        "en": "tablespoon-se"
+      },
       "type": "cooking_se",
       "name": {
         "en": "Swedish tablespoon",
@@ -701,6 +745,10 @@
     },
     {
       "key": "teaspoon_se",
+      "slugs": {
+        "sv": "tesked",
+        "en": "teaspoon-se"
+      },
       "type": "cooking_se",
       "name": {
         "en": "Swedish teaspoon",
@@ -714,6 +762,10 @@
     },
     {
       "key": "spice_measure",
+      "slugs": {
+        "sv": "kryddmatt",
+        "en": "spice-measure"
+      },
       "type": "cooking_se",
       "name": {
         "en": "spice measure",
