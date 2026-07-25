@@ -22,6 +22,10 @@
   "units": [
     {
       "key": "gigabyte_per_second",
+      "slugs": {
+        "sv": "gigabyte-per-sekund",
+        "en": "gigabyte-per-second"
+      },
       "type": "decimal",
       "name": {
         "en": "gigabyte per second",
@@ -35,6 +39,10 @@
     },
     {
       "key": "gigabit_per_second",
+      "slugs": {
+        "sv": "gigabit-per-sekund",
+        "en": "gigabit-per-second"
+      },
       "type": "decimal",
       "name": {
         "en": "gigabit per second",
@@ -51,6 +59,10 @@
     },
     {
       "key": "megabyte_per_second",
+      "slugs": {
+        "sv": "megabyte-per-sekund",
+        "en": "megabyte-per-second"
+      },
       "type": "decimal",
       "name": {
         "en": "megabyte per second",
@@ -75,6 +87,10 @@
     },
     {
       "key": "megabit_per_second",
+      "slugs": {
+        "sv": "megabit-per-sekund",
+        "en": "megabit-per-second"
+      },
       "type": "decimal",
       "name": {
         "en": "megabit per second",
@@ -102,6 +118,10 @@
     },
     {
       "key": "kilobyte_per_second",
+      "slugs": {
+        "sv": "kilobyte-per-sekund",
+        "en": "kilobyte-per-second"
+      },
       "type": "decimal",
       "name": {
         "en": "kilobyte per second",
@@ -115,6 +135,10 @@
     },
     {
       "key": "kilobit_per_second",
+      "slugs": {
+        "sv": "kilobit-per-sekund",
+        "en": "kilobit-per-second"
+      },
       "type": "decimal",
       "name": {
         "en": "kilobit per second",
@@ -131,6 +155,10 @@
     },
     {
       "key": "byte_per_second",
+      "slugs": {
+        "sv": "byte-per-sekund",
+        "en": "byte-per-second"
+      },
       "type": "decimal",
       "name": {
         "en": "byte per second",
@@ -155,6 +183,10 @@
     },
     {
       "key": "bit_per_second",
+      "slugs": {
+        "sv": "bit-per-sekund",
+        "en": "bit-per-second"
+      },
       "type": "decimal",
       "name": {
         "en": "bit per second",
@@ -182,6 +214,10 @@
     },
     {
       "key": "gibibit_per_second",
+      "slugs": {
+        "sv": "gibibit-per-sekund",
+        "en": "gibibit-per-second"
+      },
       "type": "binary",
       "name": {
         "en": "gibibit per second",
@@ -206,6 +242,10 @@
     },
     {
       "key": "mebibit_per_second",
+      "slugs": {
+        "sv": "mebibit-per-sekund",
+        "en": "mebibit-per-second"
+      },
       "type": "binary",
       "name": {
         "en": "mebibit per second",
@@ -219,6 +259,10 @@
     },
     {
       "key": "kibibit_per_second",
+      "slugs": {
+        "sv": "kibibit-per-sekund",
+        "en": "kibibit-per-second"
+      },
       "type": "binary",
       "name": {
         "en": "kibibit per second",
