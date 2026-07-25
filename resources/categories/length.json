@@ -297,7 +297,7 @@
       "type": "swedish",
       "name": {
         "en": "Swedish fot",
-        "sv": "fot"
+        "sv": "svensk fot"
       },
       "abbr": "fot",
       "transform": {
@@ -484,7 +484,7 @@
       },
       "name": {
         "en": "foot",
-        "sv": "foot"
+        "sv": "fot"
       },
       "abbr": "ft",
       "transform": {
@@ -538,7 +538,7 @@
       },
       "name": {
         "en": "inch",
-        "sv": "inch"
+        "sv": "tum"
       },
       "abbr": "in",
       "transform": {
@@ -588,7 +588,7 @@
       "type": "nautical",
       "name": {
         "en": "nautical mile",
-        "sv": "sjomil"
+        "sv": "sjömil"
       },
       "transform": {
         "kind": "linear",
