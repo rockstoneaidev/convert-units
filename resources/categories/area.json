@@ -188,6 +188,23 @@
       }
     },
     {
+      "key": "square_centimeter",
+      "slugs": {
+        "sv": "kvadratcentimeter",
+        "en": "square-centimeter"
+      },
+      "type": "metric",
+      "name": {
+        "en": "square centimeter",
+        "sv": "kvadratcentimeter"
+      },
+      "abbr": "cm²",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0001000000000000
+      }
+    },
+    {
       "key": "square_millimeter",
       "slugs": {
         "sv": "kvadratmillimeter",
