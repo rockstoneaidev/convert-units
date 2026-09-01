@@ -281,6 +281,17 @@
       "transform": {
         "kind": "linear",
         "factor": 0.900000000000000
+      },
+      "definition": {
+        "summary": {
+          "en": "A historical Swedish unit of length: half a famn, about 0.89 metres.",
+          "sv": "Historisk svensk längdenhet: en halv famn, ungefär 0,89 meter."
+        },
+        "body": {
+          "en": "The steg ('step') is an old Swedish unit of length equal to 3 Swedish feet, or half a famn, about 0.891 metres. It belongs to the pre-metric Swedish system of measures. It should not be confused with an everyday walking step: a typical walking stride is about 0.70 to 0.80 metres, so 10,000 walking steps is closer to 7 or 8 kilometres than to 8.9.",
+          "sv": "Steg är en gammal svensk längdenhet som motsvarar 3 svenska fot, alltså en halv famn, ungefär 0,891 meter. Enheten hör till det svenska måttsystemet före metersystemet. Den ska inte förväxlas med ett vanligt gångsteg: en normal steglängd vid promenad är ungefär 0,70 till 0,80 meter, så 10 000 vardagssteg motsvarar snarare 7 till 8 kilometer än 8,9."
+        },
+        "source": null
       }
     },
     {
