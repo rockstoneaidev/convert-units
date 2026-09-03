@@ -322,6 +322,17 @@
       "transform": {
         "kind": "linear",
         "factor": 0.296901000000000
+      },
+      "definition": {
+        "summary": {
+          "en": "A historical Swedish unit of length equal to 0.296901 metres, about 2.6 per cent shorter than the international foot.",
+          "sv": "Historisk svensk längdenhet på 0,296901 meter, ungefär 2,6 procent kortare än den internationella foten."
+        },
+        "body": {
+          "en": "The Swedish fot is the pre-metric Swedish unit of length: 1 aln is 2 fot, 1 fot is 12 verktum, and 6 fot make a famn. It was fixed at 0.296901 metres. It is not the international foot, which has been exactly 0.3048 metres since 1959 — the Swedish fot is about 2.6 per cent shorter, so 16 svensk fot is 4.75 m where 16 international feet is 4.88 m. Both are called “fot” in Swedish, and in this data set the historical unit carries the bare abbreviation “fot” while the international foot uses “ft”.",
+          "sv": "Svensk fot är den svenska längdenheten från tiden före metersystemet: 1 aln är 2 fot, 1 fot är 12 verktum och 6 fot går på en famn. Enheten fastställdes till 0,296901 meter. Den ska inte förväxlas med den internationella foten (feet), som sedan 1959 är exakt 0,3048 meter — svensk fot är alltså cirka 2,6 procent kortare: 16 svensk fot är 4,75 m medan 16 internationella fot är 4,88 m. Båda heter ”fot” på svenska, och i den här datamängden bär den historiska enheten den korta förkortningen ”fot” medan den internationella foten använder ”ft”."
+        },
+        "source": null
       }
     },
     {
