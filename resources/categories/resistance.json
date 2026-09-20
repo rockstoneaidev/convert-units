@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "key": "resistance",
+  "family": "electricity",
+  "base_unit": "ohm",
+  "types": [
+    {
+      "key": "metric",
+      "name": {
+        "en": "Metric",
+        "sv": "Metrisk"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "gigaohm",
+      "type": "metric",
+      "name": {
+        "en": "gigaohm",
+        "sv": "gigaohm"
+      },
+      "abbr": "GΩ",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000000000
+      }
+    },
+    {
+      "key": "megaohm",
+      "type": "metric",
+      "name": {
+        "en": "megaohm",
+        "sv": "megaohm"
+      },
+      "abbr": "MΩ",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000000
+      }
+    },
+    {
+      "key": "kiloohm",
+      "type": "metric",
+      "name": {
+        "en": "kiloohm",
+        "sv": "kiloohm"
+      },
+      "abbr": "kΩ",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000
+      }
+    },
+    {
+      "key": "ohm",
+      "type": "metric",
+      "name": {
+        "en": "ohm",
+        "sv": "ohm"
+      },
+      "abbr": "Ω",
+      "transform": {
+        "kind": "linear",
+        "factor": 1
+      },
+      "definition": {
+        "summary": {
+          "en": "SI derived unit of electrical resistance. One volt per ampere.",
+          "sv": "SI-härledd enhet för elektrisk resistans. En volt per ampere."
+        },
+        "body": {
+          "en": "The ohm (Ω) is the SI unit of electrical resistance, defined as one volt per ampere. It is named after Georg Ohm. Component markings often write kilohms as k and megohms as M, so 4k7 means 4.7 kiloohm.",
+          "sv": "Ohm (Ω) är SI-enheten för elektrisk resistans och definieras som en volt per ampere. Enheten är uppkallad efter Georg Ohm. Komponentmärkning skriver ofta kiloohm som k och megaohm som M, så 4k7 betyder 4,7 kiloohm."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
+      }
+    },
+    {
+      "key": "milliohm",
+      "type": "metric",
+      "name": {
+        "en": "milliohm",
+        "sv": "milliohm"
+      },
+      "abbr": "mΩ",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.001
+      }
+    },
+    {
+      "key": "microohm",
+      "slugs": {
+        "sv": "mikroohm",
+        "en": "microohm"
+      },
+      "type": "metric",
+      "name": {
+        "en": "microohm",
+        "sv": "mikroohm"
+      },
+      "abbr": "µΩ",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-06
+      }
+    }
+  ],
+  "slugs": {
+    "en": "resistance",
+    "sv": "resistans"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "key": "capacitance",
+  "family": "electricity",
+  "base_unit": "farad",
+  "types": [
+    {
+      "key": "metric",
+      "name": {
+        "en": "Metric",
+        "sv": "Metrisk"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "farad",
+      "type": "metric",
+      "name": {
+        "en": "farad",
+        "sv": "farad"
+      },
+      "abbr": "F",
+      "transform": {
+        "kind": "linear",
+        "factor": 1
+      },
+      "definition": {
+        "summary": {
+          "en": "SI derived unit of capacitance. One coulomb per volt.",
+          "sv": "SI-härledd enhet för kapacitans. En coulomb per volt."
+        },
+        "body": {
+          "en": "The farad (F) is the SI unit of capacitance, defined as one coulomb per volt. It is named after Michael Faraday. One farad is a very large capacitance, so real components are labelled in microfarad, nanofarad and picofarad.",
+          "sv": "Farad (F) är SI-enheten för kapacitans och definieras som en coulomb per volt. Enheten är uppkallad efter Michael Faraday. En farad är en mycket stor kapacitans, så verkliga komponenter märks i mikrofarad, nanofarad och pikofarad."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
+      }
+    },
+    {
+      "key": "millifarad",
+      "type": "metric",
+      "name": {
+        "en": "millifarad",
+        "sv": "millifarad"
+      },
+      "abbr": "mF",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.001
+      }
+    },
+    {
+      "key": "microfarad",
+      "slugs": {
+        "sv": "mikrofarad",
+        "en": "microfarad"
+      },
+      "type": "metric",
+      "name": {
+        "en": "microfarad",
+        "sv": "mikrofarad"
+      },
+      "abbr": "µF",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-06
+      }
+    },
+    {
+      "key": "nanofarad",
+      "type": "metric",
+      "name": {
+        "en": "nanofarad",
+        "sv": "nanofarad"
+      },
+      "abbr": "nF",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-09
+      }
+    },
+    {
+      "key": "picofarad",
+      "slugs": {
+        "sv": "pikofarad",
+        "en": "picofarad"
+      },
+      "type": "metric",
+      "name": {
+        "en": "picofarad",
+        "sv": "pikofarad"
+      },
+      "abbr": "pF",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-12
+      }
+    },
+    {
+      "key": "femtofarad",
+      "type": "metric",
+      "name": {
+        "en": "femtofarad",
+        "sv": "femtofarad"
+      },
+      "abbr": "fF",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-15
+      }
+    }
+  ],
+  "slugs": {
+    "en": "capacitance",
+    "sv": "kapacitans"
+  }
+}
