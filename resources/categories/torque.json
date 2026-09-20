@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "key": "torque",
+  "family": "mechanics",
+  "base_unit": "newton_meter",
+  "types": [
+    {
+      "key": "metric",
+      "name": {
+        "en": "Metric",
+        "sv": "Metrisk"
+      }
+    },
+    {
+      "key": "imperial",
+      "name": {
+        "en": "British / American",
+        "sv": "Brittisk / Amerikansk"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "kilonewton_meter",
+      "slugs": {
+        "sv": "kilonewtonmeter",
+        "en": "kilonewton-meter"
+      },
+      "type": "metric",
+      "name": {
+        "en": "kilonewton meter",
+        "sv": "kilonewtonmeter"
+      },
+      "abbr": "kNm",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000
+      }
+    },
+    {
+      "key": "kilopond_meter",
+      "slugs": {
+        "sv": "kilopondmeter",
+        "en": "kilopond-meter"
+      },
+      "type": "metric",
+      "name": {
+        "en": "kilopond meter",
+        "sv": "kilopondmeter"
+      },
+      "abbr": "kp·m",
+      "transform": {
+        "kind": "linear",
+        "factor": 9.80665
+      },
+      "definition": {
+        "summary": {
+          "en": "Torque of one kilopond acting at one meter, exactly 9.80665 newton meters.",
+          "sv": "Vridmoment av ett kilopond på en meters arm, exakt 9,80665 newtonmeter."
+        },
+        "body": {
+          "en": "The kilopond meter (kp·m), also written kgf·m, is the torque produced by a force of one kilopond acting one meter from the axis. It is exactly 9.80665 newton meters and was the usual torque unit on older European machinery.",
+          "sv": "Kilopondmeter (kp·m), även skrivet kgf·m, är vridmomentet från en kraft på ett kilopond en meter från axeln. Det är exakt 9,80665 newtonmeter och var den vanliga momentenheten på äldre europeiska maskiner."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
+      }
+    },
+    {
+      "key": "newton_meter",
+      "slugs": {
+        "sv": "newtonmeter",
+        "en": "newton-meter"
+      },
+      "type": "metric",
+      "name": {
+        "en": "newton meter",
+        "sv": "newtonmeter"
+      },
+      "abbr": "Nm",
+      "transform": {
+        "kind": "linear",
+        "factor": 1
+      },
+      "definition": {
+        "summary": {
+          "en": "SI derived unit of torque. One newton acting one meter from the axis.",
+          "sv": "SI-härledd enhet för vridmoment. En newton en meter från axeln."
+        },
+        "body": {
+          "en": "The newton meter (N·m) is the SI unit of torque: a force of one newton applied at right angles one meter from the axis. It has the same dimensions as the joule but is never written as one, because torque and energy are different quantities.",
+          "sv": "Newtonmeter (N·m) är SI-enheten för vridmoment: en kraft på en newton vinkelrätt en meter från axeln. Enheten har samma dimension som joule men skrivs aldrig som joule, eftersom vridmoment och energi är olika storheter."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
+      }
+    },
+    {
+      "key": "newton_centimeter",
+      "slugs": {
+        "sv": "newtoncentimeter",
+        "en": "newton-centimeter"
+      },
+      "type": "metric",
+      "name": {
+        "en": "newton centimeter",
+        "sv": "newtoncentimeter"
+      },
+      "abbr": "Ncm",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.01
+      }
+    },
+    {
+      "key": "millinewton_meter",
+      "slugs": {
+        "sv": "millinewtonmeter",
+        "en": "millinewton-meter"
+      },
+      "type": "metric",
+      "name": {
+        "en": "millinewton meter",
+        "sv": "millinewtonmeter"
+      },
+      "abbr": "mNm",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.001
+      }
+    },
+    {
+      "key": "pound_foot",
+      "slugs": {
+        "sv": "pund-fot",
+        "en": "pound-foot"
+      },
+      "type": "imperial",
+      "name": {
+        "en": "pound-foot",
+        "sv": "pund-fot"
+      },
+      "abbr": "lbf·ft",
+      "transform": {
+        "kind": "linear",
+        "factor": 1.3558179483314
+      },
+      "definition": {
+        "summary": {
+          "en": "Torque of one pound-force acting one foot from the axis, about 1.3558 newton meters.",
+          "sv": "Vridmoment av en pundkraft en fot från axeln, ca 1,3558 newtonmeter."
+        },
+        "body": {
+          "en": "The pound-foot (lbf·ft) is the torque produced by one pound-force acting one foot from the axis, exactly 1.3558179483314 newton meters. The foot-pound (ft·lbf) is the same size but names an amount of WORK, not torque. This category converts torque.",
+          "sv": "Pund-fot (lbf·ft) är vridmomentet från en pundkraft en fot från axeln, exakt 1,3558179483314 newtonmeter. Fotpund (ft·lbf) är lika stort men betecknar ARBETE, inte vridmoment. Den här kategorin räknar vridmoment."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
+      }
+    },
+    {
+      "key": "pound_inch",
+      "slugs": {
+        "sv": "pund-tum",
+        "en": "pound-inch"
+      },
+      "type": "imperial",
+      "name": {
+        "en": "pound-inch",
+        "sv": "pund-tum"
+      },
+      "abbr": "lbf·in",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.112984829027617
+      }
+    },
+    {
+      "key": "ounce_inch",
+      "slugs": {
+        "sv": "uns-tum",
+        "en": "ounce-inch"
+      },
+      "type": "imperial",
+      "name": {
+        "en": "ounce-inch",
+        "sv": "uns-tum"
+      },
+      "abbr": "ozf·in",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.00706155181422
+      }
+    }
+  ],
+  "slugs": {
+    "en": "torque",
+    "sv": "vridmoment"
+  }
+}

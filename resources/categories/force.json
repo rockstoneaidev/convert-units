@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "key": "force",
+  "family": "mechanics",
+  "base_unit": "newton",
+  "types": [
+    {
+      "key": "metric",
+      "name": {
+        "en": "Metric",
+        "sv": "Metrisk"
+      }
+    },
+    {
+      "key": "imperial",
+      "name": {
+        "en": "British / American",
+        "sv": "Brittisk / Amerikansk"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "meganewton",
+      "type": "metric",
+      "name": {
+        "en": "meganewton",
+        "sv": "meganewton"
+      },
+      "abbr": "MN",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000000
+      }
+    },
+    {
+      "key": "tonne_force",
+      "slugs": {
+        "sv": "tonkraft",
+        "en": "tonne-force"
+      },
+      "type": "metric",
+      "name": {
+        "en": "tonne-force",
+        "sv": "tonkraft"
+      },
+      "abbr": "tf",
+      "transform": {
+        "kind": "linear",
+        "factor": 9806.65
+      },
+      "definition": {
+        "summary": {
+          "en": "Force exerted by one tonne under standard gravity, 9806.65 newtons.",
+          "sv": "Kraften från ett ton vid normal tyngdacceleration, 9806,65 newton."
+        },
+        "body": {
+          "en": "The tonne-force (tf) is the force one metric tonne exerts under standard gravity, 1000 kg times 9.80665 m/s2, which is exactly 9806.65 newtons. Lifting equipment rated in tonnes is rated in tonne-force, not in mass.",
+          "sv": "Tonkraft (tf) är den kraft ett ton utövar vid normal tyngdacceleration: 1000 kg gånger 9,80665 m/s2, alltså exakt 9806,65 newton. Lyftutrustning som anges i ton anges i tonkraft, inte i massa."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
+      }
+    },
+    {
+      "key": "kilonewton",
+      "type": "metric",
+      "name": {
+        "en": "kilonewton",
+        "sv": "kilonewton"
+      },
+      "abbr": "kN",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000
+      }
+    },
+    {
+      "key": "kilopond",
+      "slugs": {
+        "sv": "kilopond",
+        "en": "kilogram-force"
+      },
+      "type": "metric",
+      "name": {
+        "en": "kilogram-force",
+        "sv": "kilopond"
+      },
+      "abbr": "kp",
+      "transform": {
+        "kind": "linear",
+        "factor": 9.80665
+      },
+      "definition": {
+        "summary": {
+          "en": "Force exerted by one kilogram under standard gravity, exactly 9.80665 newtons.",
+          "sv": "Kraften från ett kilogram vid normal tyngdacceleration, exakt 9,80665 newton."
+        },
+        "body": {
+          "en": "The kilopond (kp), also called kilogram-force (kgf), is the force one kilogram exerts under standard gravity. It is exactly 9.80665 newtons. A kilogram is a mass and a kilopond is a force: they are not the same quantity, which is why a bathroom scale reading in kilograms is reporting mass, not force.",
+          "sv": "Kilopond (kp), även kallat kilogramkraft (kgf), är den kraft ett kilogram utövar vid normal tyngdacceleration. Den är exakt 9,80665 newton. Kilogram är massa och kilopond är kraft: det är inte samma storhet, och det är därför en badrumsvåg som visar kilogram anger massa och inte kraft."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
+      }
+    },
+    {
+      "key": "newton",
+      "type": "metric",
+      "name": {
+        "en": "newton",
+        "sv": "newton"
+      },
+      "abbr": "N",
+      "transform": {
+        "kind": "linear",
+        "factor": 1
+      },
+      "definition": {
+        "summary": {
+          "en": "SI derived unit of force. 1 kilogram meter per second squared.",
+          "sv": "SI-härledd enhet för kraft. 1 kilogram meter per sekundkvadrat."
+        },
+        "body": {
+          "en": "The newton (N) is the SI unit of force, defined as the force that gives a mass of one kilogram an acceleration of one meter per second squared. It is named after Isaac Newton.",
+          "sv": "Newton (N) är SI-enheten för kraft och definieras som den kraft som ger massan ett kilogram accelerationen en meter per sekundkvadrat. Enheten är uppkallad efter Isaac Newton."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
+      }
+    },
+    {
+      "key": "millinewton",
+      "type": "metric",
+      "name": {
+        "en": "millinewton",
+        "sv": "millinewton"
+      },
+      "abbr": "mN",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.001
+      }
+    },
+    {
+      "key": "dyne",
+      "type": "metric",
+      "name": {
+        "en": "dyne",
+        "sv": "dyn"
+      },
+      "abbr": "dyn",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.00001
+      }
+    },
+    {
+      "key": "pound_force",
+      "slugs": {
+        "sv": "pundkraft",
+        "en": "pound-force"
+      },
+      "type": "imperial",
+      "name": {
+        "en": "pound-force",
+        "sv": "pundkraft"
+      },
+      "abbr": "lbf",
+      "transform": {
+        "kind": "linear",
+        "factor": 4.4482216152605
+      },
+      "definition": {
+        "summary": {
+          "en": "Force exerted by one pound of mass under standard gravity, about 4.448 newtons.",
+          "sv": "Kraften från ett pund massa vid normal tyngdacceleration, ca 4,448 newton."
+        },
+        "body": {
+          "en": "The pound-force (lbf) is the force one avoirdupois pound exerts under standard gravity, exactly 4.4482216152605 newtons. It is a force and must not be confused with the pound (lb), which is a mass.",
+          "sv": "Pundkraft (lbf) är den kraft ett pund utövar vid normal tyngdacceleration, exakt 4,4482216152605 newton. Det är en kraft och ska inte förväxlas med pund (lb), som är en massa."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
+      }
+    },
+    {
+      "key": "poundal",
+      "type": "imperial",
+      "name": {
+        "en": "poundal",
+        "sv": "poundal"
+      },
+      "abbr": "pdl",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.138254954376
+      }
+    }
+  ],
+  "slugs": {
+    "en": "force",
+    "sv": "kraft"
+  }
+}

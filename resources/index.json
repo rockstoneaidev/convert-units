@@ -52,7 +52,13 @@
     {
       "key": "area",
       "family": "dimension"
-    }
+    },
+    { "key": "force", "family": "mechanics" },
+    { "key": "torque", "family": "mechanics" },
+    { "key": "frequency", "family": "motion" },
+    { "key": "voltage", "family": "electricity" },
+    { "key": "resistance", "family": "electricity" },
+    { "key": "capacitance", "family": "electricity" }
   ],
   "families": [
     {

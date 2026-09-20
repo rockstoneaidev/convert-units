@@ -80,19 +80,6 @@
       }
     },
     {
-      "key": "kilonewton",
-      "type": "metric",
-      "name": {
-        "en": "kilonewton",
-        "sv": "kilonewton"
-      },
-      "abbr": "kN",
-      "transform": {
-        "kind": "linear",
-        "factor": 101.97162129779282
-      }
-    },
-    {
       "key": "centner",
       "type": "metric",
       "name": {

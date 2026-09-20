@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "key": "voltage",
+  "family": "electricity",
+  "base_unit": "volt",
+  "types": [
+    {
+      "key": "metric",
+      "name": {
+        "en": "Metric",
+        "sv": "Metrisk"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "megavolt",
+      "type": "metric",
+      "name": {
+        "en": "megavolt",
+        "sv": "megavolt"
+      },
+      "abbr": "MV",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000000
+      }
+    },
+    {
+      "key": "kilovolt",
+      "type": "metric",
+      "name": {
+        "en": "kilovolt",
+        "sv": "kilovolt"
+      },
+      "abbr": "kV",
+      "transform": {
+        "kind": "linear",
+        "factor": 1000
+      }
+    },
+    {
+      "key": "volt",
+      "type": "metric",
+      "name": {
+        "en": "volt",
+        "sv": "volt"
+      },
+      "abbr": "V",
+      "transform": {
+        "kind": "linear",
+        "factor": 1
+      },
+      "definition": {
+        "summary": {
+          "en": "SI derived unit of electric potential. One watt per ampere.",
+          "sv": "SI-härledd enhet för elektrisk potential. En watt per ampere."
+        },
+        "body": {
+          "en": "The volt (V) is the SI unit of electric potential difference, defined as one watt per ampere. It is named after Alessandro Volta. Ohm's law ties it to current and resistance: volts equal amperes times ohms.",
+          "sv": "Volt (V) är SI-enheten för elektrisk potentialskillnad och definieras som en watt per ampere. Enheten är uppkallad efter Alessandro Volta. Ohms lag binder den till ström och resistans: volt är ampere gånger ohm."
+        },
+        "source": "https://www.bipm.org/en/measurement-units/"
+      }
+    },
+    {
+      "key": "millivolt",
+      "type": "metric",
+      "name": {
+        "en": "millivolt",
+        "sv": "millivolt"
+      },
+      "abbr": "mV",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.001
+      }
+    },
+    {
+      "key": "microvolt",
+      "slugs": {
+        "sv": "mikrovolt",
+        "en": "microvolt"
+      },
+      "type": "metric",
+      "name": {
+        "en": "microvolt",
+        "sv": "mikrovolt"
+      },
+      "abbr": "µV",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-06
+      }
+    },
+    {
+      "key": "nanovolt",
+      "type": "metric",
+      "name": {
+        "en": "nanovolt",
+        "sv": "nanovolt"
+      },
+      "abbr": "nV",
+      "transform": {
+        "kind": "linear",
+        "factor": 1e-09
+      }
+    }
+  ],
+  "slugs": {
+    "en": "voltage",
+    "sv": "spanning"
+  }
+}
