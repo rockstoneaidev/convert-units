@@ -209,7 +209,7 @@
           "en": "Bit per second (bps) is the primary unit of data transfer rate. While 'bps' is common in informal contexts, 'bit/s' is the formal abbreviation. It should not be confused with B/s (byte per second), where 1 B/s = 8 bps. It is also distinct from 'baud', which refers to symbol rate.",
           "sv": "Bitar per sekund (bit/s eller bps) är den grundläggande enheten för datahastighet. I informella sammanhang används ofta bps eller b/s, men den formella förkortningen är bit/s. Det är viktigt att inte blanda ihop b/s med B/s (byte per sekund), då 1 B/s = 8 bit/s. Enheten blandas ibland även ihop med 'baud', som istället avser moduleringshastigheten."
         },
-        "source": "https://physics.nist.gov/cuu/Units/binary.html"
+        "source": "https://en.wikipedia.org/wiki/Data-rate_units"
       }
     },
     {
