@@ -62,7 +62,7 @@
           "en": "The kilopond meter (kp·m), also written kgf·m, is the torque produced by a force of one kilopond acting one meter from the axis. It is exactly 9.80665 newton meters and was the usual torque unit on older European machinery.",
           "sv": "Kilopondmeter (kp·m), även skrivet kgf·m, är vridmomentet från en kraft på ett kilopond en meter från axeln. Det är exakt 9,80665 newtonmeter och var den vanliga momentenheten på äldre europeiska maskiner."
         },
-        "source": "https://www.bipm.org/en/measurement-units/"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8#K"
       }
     },
     {
@@ -90,7 +90,7 @@
           "en": "The newton meter (N·m) is the SI unit of torque: a force of one newton applied at right angles one meter from the axis. It has the same dimensions as the joule but is never written as one, because torque and energy are different quantities.",
           "sv": "Newtonmeter (N·m) är SI-enheten för vridmoment: en kraft på en newton vinkelrätt en meter från axeln. Enheten har samma dimension som joule men skrivs aldrig som joule, eftersom vridmoment och energi är olika storheter."
         },
-        "source": "https://www.bipm.org/en/measurement-units/"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes#table4"
       }
     },
     {
@@ -152,7 +152,7 @@
           "en": "The pound-foot (lbf·ft) is the torque produced by one pound-force acting one foot from the axis, exactly 1.3558179483314 newton meters. The foot-pound (ft·lbf) is the same size but names an amount of WORK, not torque. This category converts torque.",
           "sv": "Pund-fot (lbf·ft) är vridmomentet från en pundkraft en fot från axeln, exakt 1,3558179483314 newtonmeter. Fotpund (ft·lbf) är lika stort men betecknar ARBETE, inte vridmoment. Den här kategorin räknar vridmoment."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8#P"
       }
     },
     {

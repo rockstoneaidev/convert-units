@@ -142,7 +142,7 @@
           "en": "The watt (W) is the unit of power in the International System of Units (SI). It is defined as a derived unit of 1 joule per second. It is used to quantify the rate of energy transfer.",
           "sv": "Watt (W) är SI-enheten för effekt. En watt definieras som en joule per sekund. Enheten är uppkallad efter den skotske uppfinnaren James Watt."
         },
-        "source": "https://www.bipm.org/en/measurement-units/"
+        "source": "https://si-digital-framework.org/SI/units/watt"
       }
     },
     {
@@ -231,7 +231,7 @@
           "en": "Mechanical horsepower (hp), also known as imperial horsepower, is defined as approximately 745.7 watts. It is based on lifting 550 pounds by 1 foot in 1 second.",
           "sv": "Mekanisk hästkraft (hp), även kallad imperial horsepower, är den definition som används i USA och Storbritannien. Den motsvarar ca 745,7 watt, vilket är något mer än den metriska hästkraften."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8#H"
       }
     },
     {

@@ -34,7 +34,7 @@
           "en": "The farad (F) is the SI unit of capacitance, defined as one coulomb per volt. It is named after Michael Faraday. One farad is a very large capacitance, so real components are labelled in microfarad, nanofarad and picofarad.",
           "sv": "Farad (F) är SI-enheten för kapacitans och definieras som en coulomb per volt. Enheten är uppkallad efter Michael Faraday. En farad är en mycket stor kapacitans, så verkliga komponenter märks i mikrofarad, nanofarad och pikofarad."
         },
-        "source": "https://www.bipm.org/en/measurement-units/"
+        "source": "https://si-digital-framework.org/SI/units/farad"
       }
     },
     {

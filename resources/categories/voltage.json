@@ -60,7 +60,7 @@
           "en": "The volt (V) is the SI unit of electric potential difference, defined as one watt per ampere. It is named after Alessandro Volta. Ohm's law ties it to current and resistance: volts equal amperes times ohms.",
           "sv": "Volt (V) är SI-enheten för elektrisk potentialskillnad och definieras som en watt per ampere. Enheten är uppkallad efter Alessandro Volta. Ohms lag binder den till ström och resistans: volt är ampere gånger ohm."
         },
-        "source": "https://www.bipm.org/en/measurement-units/"
+        "source": "https://si-digital-framework.org/SI/units/volt"
       }
     },
     {

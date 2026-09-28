@@ -93,7 +93,7 @@
           "en": "The hertz (Hz) is the SI unit of frequency, defined as one cycle per second. It is named after Heinrich Hertz. Swedish mains power runs at 50 Hz, which is 50 cycles every second.",
           "sv": "Hertz (Hz) är SI-enheten för frekvens och definieras som en cykel per sekund. Enheten är uppkallad efter Heinrich Hertz. Det svenska elnätet har 50 Hz, alltså 50 cykler varje sekund."
         },
-        "source": "https://www.bipm.org/en/measurement-units/"
+        "source": "https://si-digital-framework.org/SI/units/hertz"
       }
     },
     {
@@ -134,7 +134,7 @@
           "en": "A revolution per second (rps) is one full turn every second. One revolution per second equals exactly 1 hertz, so the number never changes between the two units, only the name of what is being counted.",
           "sv": "Ett varv per sekund (rps) är ett helt varv varje sekund. Ett varv per sekund är exakt 1 hertz, så talet ändras aldrig mellan enheterna, bara namnet på det som räknas."
         },
-        "source": "https://www.bipm.org/en/measurement-units/"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-8"
       }
     },
     {
@@ -162,7 +162,7 @@
           "en": "A revolution per minute (rpm) is one full turn every minute, which is exactly one sixtieth of a hertz. To convert rpm to hertz, divide by 60: an engine at 3000 rpm turns at 50 Hz.",
           "sv": "Ett varv per minut (rpm) är ett helt varv varje minut, alltså exakt en sextiondels hertz. Dela med 60 för att gå från varv per minut till hertz: en motor på 3000 varv per minut går på 50 Hz."
         },
-        "source": "https://www.bipm.org/en/measurement-units/"
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-8"
       }
     }
   ],
