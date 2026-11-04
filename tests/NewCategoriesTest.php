@@ -48,7 +48,7 @@ final class NewCategoriesTest extends TestCase
         $areaAt = array_search('area', $keys, true);
         self::assertIsInt($areaAt, 'area must still be in the index');
 
-        $tail = array_slice($keys, $areaAt + 1);
+        $tail = array_slice($keys, $areaAt + 1, count(self::NEW_CATEGORIES));
         self::assertSame(array_keys(self::NEW_CATEGORIES), $tail, 'the six new categories follow area, in build order');
     }
 

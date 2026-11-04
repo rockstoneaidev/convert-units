@@ -58,7 +58,8 @@
     { "key": "frequency", "family": "motion" },
     { "key": "voltage", "family": "electricity" },
     { "key": "resistance", "family": "electricity" },
-    { "key": "capacitance", "family": "electricity" }
+    { "key": "capacitance", "family": "electricity" },
+    { "key": "angle", "family": "dimension" }
   ],
   "families": [
     {
