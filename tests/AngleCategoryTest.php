@@ -56,6 +56,29 @@ final class AngleCategoryTest extends TestCase
         }
     }
 
+    /**
+     * The site reads the category-level "slugs" map straight from the JSON and falls back to
+     * the key when it is missing. Without it the sv category URLs became /sv/omvandla/angle/
+     * and every sv unit and pair page 404'd.
+     */
+    public function testCategorySlugsArePinned(): void
+    {
+        $data = json_decode((string) file_get_contents(dirname(__DIR__) . '/resources/categories/angle.json'), true);
+
+        self::assertSame(['en' => 'angle', 'sv' => 'vinkel'], $data['slugs'] ?? null);
+    }
+
+    public function testEveryCategoryFileCarriesSvAndEnSlugs(): void
+    {
+        foreach (glob(dirname(__DIR__) . '/resources/categories/*.json') ?: [] as $path) {
+            $data = json_decode((string) file_get_contents($path), true);
+            $name = basename($path);
+            self::assertIsArray($data['slugs'] ?? null, "{$name} needs a category slugs map");
+            self::assertNotEmpty($data['slugs']['sv'] ?? null, "{$name} sv slug");
+            self::assertNotEmpty($data['slugs']['en'] ?? null, "{$name} en slug");
+        }
+    }
+
     public function testNoSlugContainsAnUnderscore(): void
     {
         foreach ($this->repo()->getCategory('angle')->units() as $unit) {

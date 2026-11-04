@@ -209,5 +209,9 @@
         "source": "https://en.wikipedia.org/wiki/Angular_mil"
       }
     }
-  ]
+  ],
+  "slugs": {
+    "en": "angle",
+    "sv": "vinkel"
+  }
 }
