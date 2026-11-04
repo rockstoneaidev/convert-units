@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "key": "angle",
+  "family": "dimension",
+  "base_unit": "degree",
+  "types": [
+    {
+      "key": "common",
+      "name": {
+        "en": "Common units",
+        "sv": "Vanliga enheter"
+      }
+    }
+  ],
+  "units": [
+    {
+      "key": "turn",
+      "slugs": {
+        "sv": "varv",
+        "en": "turn"
+      },
+      "type": "common",
+      "name": {
+        "en": "turn",
+        "sv": "varv"
+      },
+      "abbr": "tr",
+      "transform": {
+        "kind": "linear",
+        "factor": 360
+      },
+      "definition": {
+        "summary": {
+          "en": "One full revolution, 360 degrees.",
+          "sv": "Ett helt varv, 360 grader."
+        },
+        "body": {
+          "en": "A turn is one full revolution around a point: 360 degrees, 400 gradians or 2π radians. It is the natural unit for rotation and the base of the mil and the gradian, which both divide it into a fixed number of equal parts.",
+          "sv": "Ett varv är en hel rotation runt en punkt: 360 grader, 400 gon eller 2π radianer. Det är den naturliga enheten för rotation, och både streck och gon delar varvet i ett fast antal lika delar."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8#R"
+      }
+    },
+    {
+      "key": "degree",
+      "slugs": {
+        "sv": "grad",
+        "en": "degree"
+      },
+      "type": "common",
+      "name": {
+        "en": "degree",
+        "sv": "grad"
+      },
+      "abbr": "°",
+      "transform": {
+        "kind": "linear",
+        "factor": 1
+      },
+      "definition": {
+        "summary": {
+          "en": "One 360th of a full turn.",
+          "sv": "En 360-del av ett helt varv."
+        },
+        "body": {
+          "en": "The degree (°) is one 360th of a full turn, so a right angle is 90°. It is divided into 60 arcminutes, and each arcminute into 60 arcseconds. To convert degrees to radians, multiply by π/180.",
+          "sv": "Grad (°) är en 360-del av ett helt varv, så en rät vinkel är 90°. Graden delas i 60 bågminuter och varje bågminut i 60 bågsekunder. För att räkna om grader till radianer multiplicerar du med π/180."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8#D"
+      }
+    },
+    {
+      "key": "gradian",
+      "slugs": {
+        "sv": "gon",
+        "en": "gradian"
+      },
+      "type": "common",
+      "name": {
+        "en": "gradian",
+        "sv": "gon"
+      },
+      "abbr": "gon",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.9
+      },
+      "definition": {
+        "summary": {
+          "en": "One 400th of a full turn, so a right angle is 100 gon.",
+          "sv": "En 400-del av ett helt varv, så en rät vinkel är 100 gon."
+        },
+        "body": {
+          "en": "The gradian, called gon in Swedish and German, divides a full turn into 400 parts. A right angle is exactly 100 gon, which makes right-angle arithmetic decimal. It is used in surveying and geodesy. One gon is 0.9 degrees.",
+          "sv": "Gon delar ett helt varv i 400 delar. En rät vinkel är exakt 100 gon, vilket gör räkningen med räta vinklar decimal. Enheten används i lantmäteri och geodesi. Ett gon är 0,9 grader."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8#G"
+      }
+    },
+    {
+      "key": "radian",
+      "slugs": {
+        "sv": "radian",
+        "en": "radian"
+      },
+      "type": "common",
+      "name": {
+        "en": "radian",
+        "sv": "radian"
+      },
+      "abbr": "rad",
+      "transform": {
+        "kind": "linear",
+        "factor": 57.29577951308232
+      },
+      "definition": {
+        "summary": {
+          "en": "The SI unit of plane angle: the angle where the arc length equals the radius.",
+          "sv": "SI-enheten för plan vinkel: vinkeln där bågen är lika lång som radien."
+        },
+        "body": {
+          "en": "The radian (rad) is the coherent SI derived unit of plane angle. One radian is the angle at the centre of a circle where the arc is as long as the radius, about 57.2958 degrees. Half a turn is π rad, so π rad = 180°. To convert degrees to radians, multiply by π/180.",
+          "sv": "Radian (rad) är den koherenta SI-enheten för plan vinkel. En radian är den vinkel i en cirkels medelpunkt där bågen är lika lång som radien, ungefär 57,2958 grader. Ett halvt varv är π rad, alltså π rad = 180°. För att räkna om grader till radianer multiplicerar du med π/180."
+        },
+        "source": "https://www.bipm.org/en/publications/si-brochure"
+      }
+    },
+    {
+      "key": "arcminute",
+      "slugs": {
+        "sv": "bagminut",
+        "en": "arcminute"
+      },
+      "type": "common",
+      "name": {
+        "en": "arcminute",
+        "sv": "bågminut"
+      },
+      "abbr": "′",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.016666666666666666
+      },
+      "definition": {
+        "summary": {
+          "en": "One 60th of a degree.",
+          "sv": "En 60-del av en grad."
+        },
+        "body": {
+          "en": "The arcminute (′) is one 60th of a degree, so a full turn is 21,600 arcminutes. It is the unit behind MOA (minute of angle) in rifle shooting: one MOA is one arcminute, about 2.91 cm at 100 m.",
+          "sv": "Bågminut (′) är en 60-del av en grad, så ett helt varv är 21 600 bågminuter. Det är enheten bakom MOA (minute of angle) inom skytte: en MOA är en bågminut, ungefär 2,91 cm på 100 m."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8#M"
+      }
+    },
+    {
+      "key": "arcsecond",
+      "slugs": {
+        "sv": "bagsekund",
+        "en": "arcsecond"
+      },
+      "type": "common",
+      "name": {
+        "en": "arcsecond",
+        "sv": "bågsekund"
+      },
+      "abbr": "″",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.0002777777777777778
+      },
+      "definition": {
+        "summary": {
+          "en": "One 60th of an arcminute, or 1/3,600 of a degree.",
+          "sv": "En 60-del av en bågminut, eller 1/3 600 av en grad."
+        },
+        "body": {
+          "en": "The arcsecond (″) is one 60th of an arcminute, which is 1/3,600 of a degree. It is the usual unit for very small angles in astronomy, such as the apparent size of planets and the positions of stars.",
+          "sv": "Bågsekund (″) är en 60-del av en bågminut, alltså 1/3 600 av en grad. Det är den vanliga enheten för mycket små vinklar inom astronomi, till exempel planeters skenbara storlek och stjärnors lägen."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8#S"
+      }
+    },
+    {
+      "key": "mil",
+      "slugs": {
+        "sv": "streck",
+        "en": "mil"
+      },
+      "type": "common",
+      "name": {
+        "en": "mil (NATO)",
+        "sv": "streck (NATO)"
+      },
+      "abbr": "mil",
+      "transform": {
+        "kind": "linear",
+        "factor": 0.05625
+      },
+      "definition": {
+        "summary": {
+          "en": "The NATO angular mil: one 6,400th of a full turn.",
+          "sv": "NATO-sträck: en 6 400-del av ett helt varv."
+        },
+        "body": {
+          "en": "The angular mil used by NATO divides a full turn into 6,400 parts, so one mil is 0.05625 degrees. The old Swedish streck was 6,300 per turn, and other armies use 6,000, so check which system a figure refers to. It is not the thousandth of an inch, which is also called a mil.",
+          "sv": "Streck enligt NATO delar ett helt varv i 6 400 delar, så ett streck är 0,05625 grader. Det gamla svenska strecket var 6 300 per varv och andra arméer använder 6 000, så kontrollera vilket system ett värde avser. Det är inte tusendels tum, som på engelska också kallas mil."
+        },
+        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8#M"
+      }
+    }
+  ]
+}
