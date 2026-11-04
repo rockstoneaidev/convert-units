@@ -200,13 +200,13 @@
       "definition": {
         "summary": {
           "en": "The NATO angular mil: one 6,400th of a full turn.",
-          "sv": "NATO-sträck: en 6 400-del av ett helt varv."
+          "sv": "NATO-streck: en 6 400-del av ett helt varv."
         },
         "body": {
           "en": "The angular mil used by NATO divides a full turn into 6,400 parts, so one mil is 0.05625 degrees. The old Swedish streck was 6,300 per turn, and other armies use 6,000, so check which system a figure refers to. It is not the thousandth of an inch, which is also called a mil.",
           "sv": "Streck enligt NATO delar ett helt varv i 6 400 delar, så ett streck är 0,05625 grader. Det gamla svenska strecket var 6 300 per varv och andra arméer använder 6 000, så kontrollera vilket system ett värde avser. Det är inte tusendels tum, som på engelska också kallas mil."
         },
-        "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8#M"
+        "source": "https://en.wikipedia.org/wiki/Angular_mil"
       }
     }
   ]
